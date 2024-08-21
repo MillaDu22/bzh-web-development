@@ -1,0 +1,79 @@
+.container-footer {
+    width:100%;
+    height:100px;
+    margin:0 auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background:#333335;
+    border-top:1px solid black;
+}
+
+.txt-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:45%;
+    padding-left:5%;
+    text-align: left;
+}
+
+.adress, .copyright {
+    width:100%;
+    position: relative;
+    margin-top:0;
+    margin-bottom: 0;
+    line-height: 26px;
+    font-size:20px;
+    color:white;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-align: left;
+}
+
+.container-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width:45%;
+    padding-right:5%;
+    text-align: right;
+}
+
+.facebook, .linkedin, .mail, .insta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height: 30px;
+    margin:5px ;
+    border-radius: 50%;
+    border:2px solid white;
+    text-decoration: none;
+    text-align: right;
+}
+
+.facebook{
+    font-size: 20px;
+    color:blue;
+}
+
+.linkedin {
+    font-size: 20px;
+    color:dodgerblue;
+}
+
+.mail {
+    font-size: 20px;
+    color:white;
+}
+
+.insta {
+    font-size: 20px;
+    color:rgb(255, 0, 255);
+}

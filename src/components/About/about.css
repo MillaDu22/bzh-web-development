@@ -3,14 +3,197 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:100%;
-    max-height: 800px;
-    border-top:1px solid black;
-    border-bottom:1px solid black;
+    width: 100%;
+    min-height: 800px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: relative;
+    overflow: hidden;
 }
 
 .back-about {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.content-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    z-index: 1;
+    text-align: center;
+}
+
+.title-about {
+    font-size: 36px;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-bottom: 20px;
+}
+
+.subtitle-about {
+    font-size: 24px;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+.box-about {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.txt-about {
+    width: 44%;
+    padding: 5%;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 44%;
+    padding: 5%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.li {
+    margin: 10px 0;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.box-specifications {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    padding: 5%;
+    margin-top: 40px;
+}
+
+.one-specification {
+    width: 45%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.specification {
+    width: 100%;
+    padding: 2%;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.txt-specification {
+    width: 100%;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Icônes de la liste */
+.li i {
+    margin-right: 10px;
+    color: #FF6F61; /* Un rouge doux pour attirer l'attention */
+}
+
+/* Icônes des spécifications */
+.specification i {
+    margin-right: 10px;
+    color: #4A90E2; /* Un bleu vif pour évoquer la confiance et la fiabilité */
+}
+
+/* Si vous souhaitez utiliser des couleurs différentes pour chaque spécification */
+.specification:nth-child(1) i { /* PERSONNALISATION PUISSANTE */
+    color: #4A90E2; /* Bleu pour la personnalisation */
+}
+
+.specification:nth-child(2) i { /* DESIGN CRÉATIF */
+    color: #F5A623; /* Orange pour la créativité */
+}
+
+.specification:nth-child(3) i { /* SOLUTIONS EFFICACES */
+    color: #7ED321; /* Vert pour l'efficacité */
+}
+
+.specification:nth-child(4) i { /* CODE PROPRE */
+    color: #9B9B9B; /* Gris pour la propreté et la simplicité du code */
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .box-about {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:0;
+        margin: 0 auto;
+    }
+
+
+    .list {
+        width: 100%;
+        padding: 10%;
+        text-align: center;
+    }
+    .txt-about {
+        width:100%;
+
+        margin: 0 auto;
+    }
+
+    .box-specifications {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one-specification {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .specification {
+        font-size: 20px;
+    }
+
+    .txt-specification {
+        font-size: 16px;
+    }
 }

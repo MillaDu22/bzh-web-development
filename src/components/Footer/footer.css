@@ -1,15 +1,21 @@
 .container-footer {
+    width: 100%;
+    height: auto; /* Ajuste la hauteur automatiquement selon le contenu */
+    padding: 20px 5%; /* Ajouter un peu de padding autour du contenu */
+    display: flex;
+    flex-direction: column; /* Changer en colonne pour mieux s'adapter aux écrans plus petits */
+    justify-content: center;
+    align-items: center;
+    background: #333335;
+    border-top: 1px solid black;
+    box-sizing: border-box; /* Assurer que padding est inclus dans la largeur totale */
+}
+.box-links-footer {
     width:100%;
-    height:100px;
-    margin:0 auto;
-    padding-top:10px;
-    padding-bottom: 10px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background:#333335;
-    border-top:1px solid black;
 }
 
 .txt-footer {
@@ -17,63 +23,97 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:45%;
-    padding-left:5%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; /* Ajout d'un espace sous les informations de contact */
 }
 
 .adress, .copyright {
-    width:100%;
-    position: relative;
-    margin-top:0;
-    margin-bottom: 0;
+    margin: 5px 0; /* Ajouter un petit espace vertical entre les lignes */
     line-height: 26px;
-    font-size:20px;
-    color:white;
+    font-size: 16px; /* Réduit la taille pour les petits écrans */
+    color: white;
     font-family: 'Ysabeau SC', sans-serif;
-    text-align: left;
 }
 
 .container-social {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    width:45%;
-    padding-right:5%;
-    text-align: right;
+    width: 100%;
+    margin-bottom: 20px; /* Ajouter un espace sous les icônes de réseaux sociaux */
+    text-align: center;
 }
 
 .facebook, .linkedin, .mail, .insta {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:30px;
-    height: 30px;
-    margin:5px ;
+    width: 40px; /* Augmenter la taille des icônes pour une meilleure visibilité */
+    height: 40px;
+    margin: 5px;
     border-radius: 50%;
-    border:2px solid white;
+    border: 2px solid white;
     text-decoration: none;
-    text-align: right;
+    font-size: 24px; /* Augmenter la taille des icônes pour correspondre à la nouvelle taille */
+    color: white;
 }
 
-.facebook{
-    font-size: 20px;
-    color:blue;
+.facebook {
+    color: #1877F2; /* Couleur bleue de Facebook */
 }
 
 .linkedin {
-    font-size: 20px;
-    color:dodgerblue;
+    color: #0077B5; /* Couleur bleue de LinkedIn */
 }
 
 .mail {
-    font-size: 20px;
-    color:white;
+    color: #D14836; /* Couleur de l'icône de l'email */
 }
 
 .insta {
-    font-size: 20px;
-    color:rgb(255, 0, 255);
+    color: #C13584; /* Couleur de l'icône Instagram */
+}
+
+.legal-notice {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+}
+
+.legal-notice a {
+    color: #007bff; /* Couleur bleue des liens */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.legal-notice a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .container-footer {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .box-links-footer {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .txt-footer, .container-social {
+        width: 100%;
+    }
+
+    .legal-notice {
+        font-size: 12px;
+    }
 }

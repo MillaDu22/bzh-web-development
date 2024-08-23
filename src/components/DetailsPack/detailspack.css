@@ -1,0 +1,21 @@
+.details-pack {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 20px;
+    background-color: aqua;
+    margin-top: 10px;
+    color:black;
+}
+
+.details-pack.open {
+    max-height: 200px; 
+    padding: 20px;
+    color: black;
+}
+
+.details-pack.open p {
+    color: black;
+}
+
+

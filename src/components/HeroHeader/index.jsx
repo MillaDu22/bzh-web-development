@@ -1,22 +1,22 @@
 import Header from '../Header/index.jsx';
-import BackgroundHero from '../../assets/images/backgroundHero.jpg';
+import Screens from '../../assets/images/screens.png';
 import './heroHeader.css';
 
-
-function HeroHeader () {
-    return(
-        <div className ="container-hero">
+function HeroHeader() {
+    return (
+        <div className="container-hero">
             <Header />
-            <div className="container-back-txt">
-                <div className="background-hero">
-                    <img className="tof-back" src={BackgroundHero} alt=" datas" />
+            <div className="box-hero">
+                <div className="container-txt">
+                    <p className="we-are">Je suis développeur web</p>
+                    <h2 className="title-hero">ET J' <i>ADORE</i> MON METIER</h2>
                 </div>
-                <div className ="container-txt">
-                    <p className ="we-are">I'm web-developer</p>
-                    <h2 className= "title-hero">AND I <i> LOVE </i>  MY JOB</h2>
+                <div className="container-screens">
+                    <img className="asset-hero" src={Screens} alt="preview responsive websites" />
                 </div>
             </div>
         </div>
-    )
+    );
 }
+
 export default HeroHeader;

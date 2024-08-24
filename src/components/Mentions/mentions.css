@@ -9,12 +9,15 @@
     margin: 20px 0;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid white;
 }
 
 .legal-notice-section h2, .privacy-policy-section h2, .terms-of-service-section h2 {
     font-size: 24px;
     color: white;
+    text-decoration: underline;
     margin-bottom: 15px;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .legal-notice-section p, .privacy-policy-section p, .terms-of-service-section p {
@@ -22,11 +25,13 @@
     line-height: 1.6;
     color: white;
     margin-bottom: 10px;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .legal-notice-section a, .privacy-policy-section a, .terms-of-service-section a {
-    color: #007bff;
+    color: aqua;
     text-decoration: none;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .legal-notice-section a:hover, .privacy-policy-section a:hover, .terms-of-service-section a:hover {

@@ -85,9 +85,10 @@
 }
 
 .legal-notice a {
-    color: #007bff; /* Couleur bleue des liens */
+    color: aqua; 
     text-decoration: none;
     margin: 0 10px;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .legal-notice a:hover {

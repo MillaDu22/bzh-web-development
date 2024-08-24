@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bzh-web-development/static/css/main.698be825.css",
-    "main.js": "/bzh-web-development/static/js/main.833412d4.js",
+    "main.js": "/bzh-web-development/static/js/main.f5f96889.js",
     "static/js/453.20f6591e.chunk.js": "/bzh-web-development/static/js/453.20f6591e.chunk.js",
     "static/media/backgroundAbout.jpg": "/bzh-web-development/static/media/backgroundAbout.a8da746cd3d48e453c8f.jpg",
     "static/media/screens.png": "/bzh-web-development/static/media/screens.8a340c6a1dc344afe2ba.png",
@@ -10,11 +10,11 @@
     "static/media/britain-logo.webp": "/bzh-web-development/static/media/britain-logo.fcb245e4236a9c1de19e.webp",
     "index.html": "/bzh-web-development/index.html",
     "main.698be825.css.map": "/bzh-web-development/static/css/main.698be825.css.map",
-    "main.833412d4.js.map": "/bzh-web-development/static/js/main.833412d4.js.map",
+    "main.f5f96889.js.map": "/bzh-web-development/static/js/main.f5f96889.js.map",
     "453.20f6591e.chunk.js.map": "/bzh-web-development/static/js/453.20f6591e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.698be825.css",
-    "static/js/main.833412d4.js"
+    "static/js/main.f5f96889.js"
   ]
 }

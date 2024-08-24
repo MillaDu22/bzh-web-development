@@ -8,8 +8,8 @@ function HeroHeader() {
             <Header />
             <div className="box-hero">
                 <div className="container-txt">
-                    <p className="we-are">Je suis développeur web</p>
-                    <h2 className="title-hero">ET J' <i>ADORE</i> MON METIER</h2>
+                    <h3 className="we-are">Je suis développeur web</h3>
+                    <h4 className="title-hero">ET J' <i>ADORE</i> MON METIER</h4>
                 </div>
                 <div className="container-screens">
                     <img className="asset-hero" src={Screens} alt="preview responsive websites" />

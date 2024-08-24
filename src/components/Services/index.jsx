@@ -8,7 +8,6 @@ function Services() {
     const handleToggle = (pack) => {
         setOpenPack(openPack === pack ? null : pack);
     };
-
     return (
         <div id="services" className="container-services">
             <h2 className="services-title">Mes Offres</h2>

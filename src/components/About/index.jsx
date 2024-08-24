@@ -6,8 +6,8 @@ function About() {
         <div id="about" className="container-about">
             <img className="back-about" src={BackAbout} alt="Acrylic decoration background" />
             <div className="content-about">
-                <h3 className="subtitle-about">À propos de West Web Development</h3>
-                <h2 className="title-about">Bienvenue chez West Web Development</h2>
+                <h3 className="subtitle-about">À propos de BWS</h3>
+                <h2 className="title-about">Bienvenue chez Bretagne Web Solutions</h2>
                 <div className="box-about">
                     <p className="txt-about">
                         Chez West Web Development, nous croyons que chaque projet est unique et mérite une attention particulière. 

@@ -19,10 +19,10 @@ function Footer() {
                     <p className="copyright">©Ludmilla-Marti-2024</p>
                 </div>
                 <div className="container-social">
-                    <a className="facebook" href="/" target="_blank"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a className="linkedin" href="/" target="blank"><i className="fa-brands fa-linkedin-in"></i></a>
+                    <a className="facebook" href="https://milladu22.github.io/ldla-mti-web-developer/" target="blank"><i className="fa-brands fa-facebook-f"></i></a>
+                    <a className="linkedin" href="https://milladu22.github.io/ldla-mti-web-developer/" target="blank"><i className="fa-brands fa-linkedin-in"></i></a>
                     <a className="mail" href="mailto:marti.ludmilla@orange.fr" target="blank"><i className="fa-solid fa-envelope"></i></a>
-                    <a className="insta" href="/" target="blank"><i className="fa-brands fa-instagram"></i></a>
+                    <a className="insta" href="https://milladu22.github.io/ldla-mti-web-developer/" target="blank"><i className="fa-brands fa-instagram"></i></a>
                 </div>
                 <div className="legal-notice">
                     <p><a href="#privacy-policy" onClick={() => handleLinkClick('policy')}>Politique de confidentialité</a></p>

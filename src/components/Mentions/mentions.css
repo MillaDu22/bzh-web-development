@@ -9,7 +9,8 @@
     margin: 20px 0;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid white;
+    border:1px solid white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.293);
 }
 
 .legal-notice-section h2, .privacy-policy-section h2, .terms-of-service-section h2 {

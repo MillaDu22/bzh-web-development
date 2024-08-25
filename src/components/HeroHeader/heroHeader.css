@@ -25,36 +25,29 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width:100%;
-    /*height:750px;
-    background: url('../../assets/images/backgroundHero.jpg') no-repeat center center;*/
-    background-size: cover;
+    width:90%;
+    padding:5%;
 }
 
 
 .container-txt {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width:40%;
-    padding: 5%;
+    justify-content: center;
+    align-items: center;
+    width:50%;
     height:90%;
 }
 
 .we-are {
-    position: relative;
     bottom:0;
     font-size: 30px;
     line-height: 30px;
-    text-align: center;
     color:white;
     font-family: 'Ysabeau SC', sans-serif;
 }
 
 .title-hero {
-    position: relative;
-    top:0;
     text-transform: uppercase;
     font-size: 32px;
     line-height: 40px;
@@ -65,29 +58,19 @@
 }
 
 .container-screens {
-    width:40%;
-    padding: 5%;
+    width:50%;
     height:90%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
-.container-tof {
-    margin: 0 auto;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100%;
-    width:100%;
-}
 
 .asset-hero {
     width:100%;
-    height:200px;
-    object-fit: contain;
+    height:100%;
+    object-fit: cover;
 }
 
 @media screen and (max-width:1007px) {  

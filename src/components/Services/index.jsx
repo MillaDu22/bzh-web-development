@@ -10,7 +10,7 @@ function Services() {
     };
     return (
         <div id="services" className="container-services">
-            <h2 className="services-title">Mes Offres</h2>
+            <h2 className="services-title">Les Offres</h2>
             <div className="services-grid">
             <div className={`service-card ${openPack === 'basic' ? 'expanded' : ''}`}>
                     <h3>Pack Basic</h3>

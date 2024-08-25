@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    max-width: 1200px;
+    max-width: 1800px;
     z-index: 1;
     text-align: center;
 }
@@ -140,7 +140,6 @@
     color: #4A90E2; /* Un bleu vif pour évoquer la confiance et la fiabilité */
 }
 
-/* Si vous souhaitez utiliser des couleurs différentes pour chaque spécification */
 .specification:nth-child(1) i { /* PERSONNALISATION PUISSANTE */
     color: #4A90E2; /* Bleu pour la personnalisation */
 }

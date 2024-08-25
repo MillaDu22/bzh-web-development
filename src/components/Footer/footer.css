@@ -1,14 +1,14 @@
 .container-footer {
     width: 100%;
-    height: auto; /* Ajuste la hauteur automatiquement selon le contenu */
-    padding: 20px 5%; /* Ajouter un peu de padding autour du contenu */
+    height: auto; 
+    padding: 20px 5%; 
     display: flex;
-    flex-direction: column; /* Changer en colonne pour mieux s'adapter aux écrans plus petits */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
     background: #333335;
     border-top: 1px solid black;
-    box-sizing: border-box; /* Assurer que padding est inclus dans la largeur totale */
+    box-sizing: border-box; 
 }
 .box-links-footer {
     width:100%;
@@ -25,13 +25,13 @@
     align-items: center;
     width: 100%;
     text-align: center;
-    margin-bottom: 20px; /* Ajout d'un espace sous les informations de contact */
+    margin-bottom: 20px; 
 }
 
 .adress, .copyright {
-    margin: 5px 0; /* Ajouter un petit espace vertical entre les lignes */
+    margin: 5px 0; 
     line-height: 26px;
-    font-size: 16px; /* Réduit la taille pour les petits écrans */
+    font-size: 16px; 
     color: white;
     font-family: 'Ysabeau SC', sans-serif;
 }
@@ -42,7 +42,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 20px; /* Ajouter un espace sous les icônes de réseaux sociaux */
+    margin-bottom: 20px; 
     text-align: center;
 }
 
@@ -50,30 +50,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px; /* Augmenter la taille des icônes pour une meilleure visibilité */
+    width: 40px; 
     height: 40px;
     margin: 5px;
     border-radius: 50%;
     border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.174);
     text-decoration: none;
-    font-size: 24px; /* Augmenter la taille des icônes pour correspondre à la nouvelle taille */
+    font-size: 24px; 
     color: white;
 }
 
 .facebook {
-    color: #1877F2; /* Couleur bleue de Facebook */
+    color: #1877F2; 
 }
 
 .linkedin {
-    color: #0077B5; /* Couleur bleue de LinkedIn */
+    color: #0077B5; 
 }
 
 .mail {
-    color: #D14836; /* Couleur de l'icône de l'email */
+    color: #D14836; 
 }
 
 .insta {
-    color: #C13584; /* Couleur de l'icône Instagram */
+    color: #C13584; 
 }
 
 .legal-notice {
@@ -95,7 +96,7 @@
     text-decoration: underline;
 }
 
-/* Responsive adjustments */
+
 @media screen and (max-width: 768px) {
     .container-footer {
         flex-direction: column;

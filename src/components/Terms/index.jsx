@@ -8,7 +8,7 @@ function Terms() {
             <p><strong>Propriété Intellectuelle :</strong> Tous les contenus présents sur ce site sont protégés par les droits d'auteur. Vous ne pouvez pas reproduire, distribuer ou utiliser ces contenus sans notre autorisation.</p>
             <p><strong>Responsabilité :</strong> Nous ne pouvons être tenus responsables des dommages indirects, spéciaux ou consécutifs liés à l'utilisation de notre site.</p>
             <p><strong>Modifications :</strong> Nous nous réservons le droit de modifier ces conditions à tout moment. Les changements seront publiés sur cette page.</p>
-            <p><strong>Contact :</strong> Pour toute question concernant les conditions d'utilisation, veuillez nous contacter à <a href="mailto:marti.ludmilla@orange.fr">marti.ludmilla@orange.fr</a>.</p>
+            <p><strong>Contact :</strong> Pour toute question concernant les conditions d'utilisation, veuillez nous contacter à <a href="mailto:millamti22@gmail.com">millamti22@gmail.com</a>.</p>
         </section>
     )
 }

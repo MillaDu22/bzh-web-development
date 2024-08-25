@@ -9,7 +9,7 @@ function Navbar() {
                     <p className="nav_item_text1">Accueil</p>
                 </a>
                 <a className="nav_item2" href="#about">
-                    <p className="nav_item_text2">BWS</p>
+                    <p className="nav_item_text2">AWC</p>
                 </a>
                 <a className="nav_item3" href="#services">
                     <p className="nav_item_text3">Packs</p>

@@ -7,7 +7,7 @@ function Mentions() {
             <p><strong>Éditeur du Site :</strong> Ludmilla Marti</p>
             <p><strong>Adresse :</strong> 22 200 Guingamp - Bretagne - FRANCE</p>
             <p><strong>Téléphone :</strong> +33 6 58 06 28 00</p>
-            <p><strong>Email :</strong> <a href="mailto:marti.ludmilla@orange.fr">marti.ludmilla@orange.fr</a></p>
+            <p><strong>Email :</strong> <a href="mailto:millamti22@gmail.com">millamti22@gmail.com</a></p>
             <p><strong>Directeur de la publication :</strong> Ludmilla Marti</p>
             <p><strong>Hébergement :</strong> [Nom de l'hébergeur], [Adresse de l'hébergeur]</p>
             <p><strong>Numéro d'immatriculation :</strong> [Numéro SIRET ou autre numéro d'immatriculation]</p>

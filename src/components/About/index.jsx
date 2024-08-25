@@ -6,11 +6,11 @@ function About() {
         <div id="about" className="container-about">
             <img className="back-about" src={BackAbout} alt="Acrylic decoration background" />
             <div className="content-about">
-                <h3 className="subtitle-about">À propos de BWS</h3>
-                <h2 className="title-about">Bienvenue chez Bretagne Web Solutions</h2>
+                <h3 className="subtitle-about">À propos de AWC</h3>
+                <h2 className="title-about">Bienvenue chez Armor Web Créations</h2>
                 <div className="box-about">
                     <p className="txt-about">
-                        Chez West Web Development, nous croyons que chaque projet est unique et mérite une attention particulière. 
+                        Chez Armor Web Créations, chaque projet est unique et mérite une attention particulière. 
                         En tant que développeur web freelance, j'apporte une expertise polyvalente et des solutions sur mesure pour donner vie à vos idées. 
                         Mon approche est centrée sur la créativité, l'efficacité et une personnalisation poussée, pour que votre site web ne soit pas seulement fonctionnel, 
                         mais qu'il se démarque véritablement.

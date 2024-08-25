@@ -8,10 +8,11 @@
 }
 
 .services-title {
+    margin: 0 auto 40px;
+    max-width: 1800px;
     font-family: 'Ysabeau SC', sans-serif;
     color: #fff;
     font-size: 36px;
-    margin-bottom: 40px;
 }
 
 .services-grid {
@@ -19,6 +20,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 1800px;
+    margin: 0 auto;
 }
 
 .service-card {
@@ -26,7 +29,7 @@
     border-radius: 8px;
     padding: 20px;
     width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.2);
     transition: transform 0.3s ease;
 }
 
@@ -79,6 +82,7 @@
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(174, 174, 174, 0.223);
 }
 
 .btn:hover {

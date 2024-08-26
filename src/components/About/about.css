@@ -5,7 +5,7 @@
     align-items: center;
     width: 100%;
     min-height: 800px;
-    padding: 50px 0;
+
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
@@ -19,17 +19,16 @@
 }
 
 .content-about {
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    max-width: 1200px;
+    width: 88%;
+    padding: 6%;
     z-index: 1;
     text-align: center;
-    padding: 40px;
     background: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 

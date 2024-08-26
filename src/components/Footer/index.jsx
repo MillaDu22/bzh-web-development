@@ -13,6 +13,9 @@ function Footer() {
 
     return (
         <div className="container-footer">
+            {visibleComponent === 'mentions' && <Mentions />}
+            {visibleComponent === 'policy' && <Policy />}
+            {visibleComponent === 'terms' && <Terms />}
             <div className="box-links-footer">
                 <div className="txt-footer">
                     <p className="adress">22 200 Guingamp - Bretagne - FRANCE</p>
@@ -30,9 +33,6 @@ function Footer() {
                     <p><a href="#legal-notice" onClick={() => handleLinkClick('mentions')}>Mentions légales</a></p>
                 </div>
             </div>
-            {visibleComponent === 'mentions' && <Mentions />}
-            {visibleComponent === 'policy' && <Policy />}
-            {visibleComponent === 'terms' && <Terms />}
         </div>
     );
 }

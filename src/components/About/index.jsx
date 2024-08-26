@@ -2,7 +2,7 @@ import './about.css';
 import BackAbout from '../../assets/images/backgroundAbout.jpg';
 
 function About() {
-    return(
+    return (
         <div id="about" className="container-about">
             <img className="back-about" src={BackAbout} alt="Acrylic decoration background" />
             <div className="content-about">
@@ -26,25 +26,25 @@ function About() {
                 </div>
                 <div className="box-specifications">
                     <span className="one-specification">
-                        <h3 className="specification"><i className="fas fa-cogs"></i> PERSONNALISATION PUISSANTE</h3>
+                        <h3 className="specification"><i className="fas fa-cogs"></i> Personnalisation Puissante</h3>
                         <p className="txt-specification">
                             Chaque projet est adapté à vos besoins spécifiques. Grâce à une flexibilité maximale, votre site reflétera parfaitement votre identité.
                         </p>
                     </span>
                     <span className="one-specification">
-                        <h3 className="specification"><i className="fas fa-lightbulb"></i> DESIGN CRÉATIF</h3>
+                        <h3 className="specification"><i className="fas fa-lightbulb"></i> Design Créatif</h3>
                         <p className="txt-specification">
                             Mêlant esthétique et fonctionnalité, je conçois des interfaces modernes et intuitives qui captivent vos utilisateurs dès le premier regard.
                         </p>
                     </span>
                     <span className="one-specification">
-                        <h3 className="specification"><i className="fas fa-tools"></i> SOLUTIONS EFFICACES</h3>
+                        <h3 className="specification"><i className="fas fa-tools"></i> Solutions Efficaces</h3>
                         <p className="txt-specification">
                             J'optimise chaque aspect technique pour garantir un site rapide, sécurisé et évolutif, prêt à relever les défis de demain.
                         </p>
                     </span>
                     <span className="one-specification">
-                        <h3 className="specification"><i className="fas fa-code"></i> CODE PROPRE</h3>
+                        <h3 className="specification"><i className="fas fa-code"></i> Code Propre</h3>
                         <p className="txt-specification">
                             Un code bien structuré et maintenable est essentiel pour la pérennité de votre site. Je m'assure que chaque ligne de code est claire, optimisée et prête pour l'avenir.
                         </p>
@@ -52,7 +52,7 @@ function About() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default About;

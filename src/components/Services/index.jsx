@@ -21,7 +21,7 @@ function Services() {
                         <li>Optimisation SEO de base</li>
                         <li>1 mois de support</li>
                     </ul>
-                    <div className="price">999€</div>
+                    <div className="price">1198,80€-TTC</div>
                     <button className="btn" onClick={() => handleToggle('basic')}>
                         {openPack === 'basic' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>
@@ -39,7 +39,7 @@ function Services() {
                         <li>Optimisation SEO avancée</li>
                         <li>3 mois de support</li>
                     </ul>
-                    <div className="price">1599€</div>
+                    <div className="price">1918,80€-TTC</div>
                     <button className="btn" onClick={() => handleToggle('standard')}>
                         {openPack === 'standard' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>
@@ -57,7 +57,7 @@ function Services() {
                         <li>Optimisation SEO complète</li>
                         <li>6 mois de support</li>
                     </ul>
-                    <div className="price">2999€</div>
+                    <div className="price">3598,80€-TTC</div>
                     <button className="btn" onClick={() => handleToggle('premium')}>
                         {openPack === 'premium' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>

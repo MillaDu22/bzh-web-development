@@ -5,21 +5,17 @@
     align-items: center;
     width: 100%;
     min-height: 800px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    padding: 50px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: relative;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)), url('../../assets/images/backgroundAbout.jpg') no-repeat center/cover;
+    color: #ffffff;
     overflow: hidden;
 }
 
 .back-about {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    filter: brightness(50%);
+    display: none;
 }
 
 .content-about {
@@ -28,25 +24,31 @@
     justify-content: center;
     align-items: center;
     width: 90%;
-    max-width: 1800px;
+    max-width: 1200px;
     z-index: 1;
     text-align: center;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .title-about {
-    font-size: 36px;
-    color: white;
+    font-size: 42px;
     font-family: 'Ysabeau SC', sans-serif;
     margin-bottom: 20px;
+    color: #ffffff;
+    animation: fadeInDown 1s ease-in-out;
 }
 
 .subtitle-about {
-    font-size: 24px;
-    color: white;
+    font-size: 28px;
     font-family: 'Ysabeau SC', sans-serif;
     margin-bottom: 10px;
+    /*color: #FF6F61; */
+    color:aqua;
+    animation: fadeInDown 1.2s ease-in-out;
 }
-
 
 .box-about {
     width: 100%;
@@ -59,35 +61,45 @@
 }
 
 .txt-about {
-    width: 44%;
-    padding: 5%;
-    color: white;
+    width: 45%;
+    padding: 2%;
+    color: #e0e0e0;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.8;
     text-align: left;
     box-sizing: border-box;
     margin: 0;
+    /*border-left: 3px solid #FF6F61;*/
+    border-left: 3px solid aqua;
+    padding-left: 20px;
+    animation: fadeInUp 1.4s ease-in-out;
 }
 
 .list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    width: 44%;
-    padding: 5%;
+    width: 45%;
+    padding: 2%;
     text-align: left;
     box-sizing: border-box;
+    animation: fadeInUp 1.6s ease-in-out;
 }
 
 .li {
-    margin: 10px 0;
-    color: white;
+    margin: 15px 0;
+    color: #ffffff;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 18px;
     line-height: 1.5;
     text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.li i {
+    margin-right: 10px;
+    /*color: #FF6F61; */
+    color:aqua;
+    font-size: 22px;
 }
 
 .box-specifications {
@@ -96,64 +108,44 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    width: 90%;
-    padding: 5%;
-    margin-top: 40px;
+    width: 100%;
+    padding: 40px 0;
+    animation: fadeInUp 1.8s ease-in-out;
 }
 
 .one-specification {
-    width: 45%;
-    margin-bottom: 20px;
+    width: 42%;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .specification {
-    width: 100%;
-    padding: 2%;
-    color: white;
-    font-family: 'Ysabeau SC', sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
+    /*color: #FF6F61;*/
+    color:aqua;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .txt-specification {
-    width: 100%;
-    color: white;
-    font-family: 'Ysabeau SC', sans-serif;
     font-size: 18px;
-    line-height: 1.5;
+    color: #e0e0e0;
+    line-height: 1.6;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
-/* Icônes de la liste */
-.li i {
-    margin-right: 10px;
-    color: #FF6F61; /* Un rouge doux pour attirer l'attention */
-}
-
-/* Icônes des spécifications */
+/* Icon Styling for Specifications */
 .specification i {
     margin-right: 10px;
-    color: #4A90E2; /* Un bleu vif pour évoquer la confiance et la fiabilité */
-}
-
-.specification:nth-child(1) i { /* PERSONNALISATION PUISSANTE */
-    color: #4A90E2; /* Bleu pour la personnalisation */
-}
-
-.specification:nth-child(2) i { /* DESIGN CRÉATIF */
-    color: #F5A623; /* Orange pour la créativité */
-}
-
-.specification:nth-child(3) i { /* SOLUTIONS EFFICACES */
-    color: #7ED321; /* Vert pour l'efficacité */
-}
-
-.specification:nth-child(4) i { /* CODE PROPRE */
-    color: #9B9B9B; /* Gris pour la propreté et la simplicité du code */
+    font-size: 26px;
 }
 
 /* Media Queries for Mobile */
@@ -162,37 +154,53 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding:0;
-        margin: 0 auto;
+        padding: 0;
     }
-
 
     .list {
-        width: 100%;
-        padding: 10%;
+        width: 94%;
+        padding: 3%;
         text-align: center;
     }
-    .txt-about {
-        width:100%;
 
+    .txt-about {
+        width: 100%;
         margin: 0 auto;
+        padding: 20px;
     }
 
     .box-specifications {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        width: 94%;
+        padding: 3%;
+        margin: 0 auto;
     }
 
     .one-specification {
-        width: 100%;
-        margin-bottom: 30px;
+        width: 96%;
+        margin: 0 auto 30px;
+        padding:2%;
     }
 
     .specification {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .txt-specification {
         font-size: 16px;
     }
 }
+
+/* Animations */
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+

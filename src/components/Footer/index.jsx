@@ -22,15 +22,15 @@ function Footer() {
                     <p className="copyright">©Ludmilla-Marti-2024, tous droits réservés</p>
                 </div>
                 <div className="container-social">
-                    <a className="facebook" href="https://milladu22.github.io/ldla-mti-web-developer/" target="blank"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a className="linkedin" href="https://milladu22.github.io/ldla-mti-web-developer/" target="blank"><i className="fa-brands fa-linkedin-in"></i></a>
-                    <a className="mail" href="mailto:millamti22@gmail.com" target="blank"><i className="fa-solid fa-envelope"></i></a>
-                    <a className="insta" href="https://milladu22.github.io/ldla-mti-web-developer/" target="blank"><i className="fa-brands fa-instagram"></i></a>
+                    <a className="facebook" href="https://milladu22.github.io/facebook/" target="blank" aria-label="facebook"><i className="fa-brands fa-facebook-f"></i></a>
+                    <a className="linkedin" href="https://www.linkedin.com/in/ludmilla-marti-345313255/" target="blank" aria-label="linkedin"><i className="fa-brands fa-linkedin-in"></i></a>
+                    <a className="mail" href="mailto:millamti22@gmail.com" target="blank" aria-label="gmail"><i className="fa-solid fa-envelope"></i></a>
+                    <a className="insta" href="https://milladu22.github.io/insta/" target="blank" aria-label="insta"><i className="fa-brands fa-instagram"></i></a>
                 </div>
-                <div className="legal-notice">
-                    <p><a href="#privacy-policy" onClick={() => handleLinkClick('policy')}>Politique de confidentialité</a></p>
-                    <p><a href="#terms-of-service" onClick={() => handleLinkClick('terms')}>Conditions d'utilisation</a></p>
-                    <p><a href="#legal-notice" onClick={() => handleLinkClick('mentions')}>Mentions légales</a></p>
+                <div className="legal-notice" aria-label="Mentions légales">
+                    <p className="buttons-mentions" onClick={() => handleLinkClick('policy')} aria-label="Voir la politique de confidentialité">Politique de confidentialité</p>
+                    <p className="buttons-mentions" onClick={() => handleLinkClick('terms')} aria-label="Voir les conditions d'utilisation">Conditions d'utilisation</p>
+                    <p className="buttons-mentions" onClick={() => handleLinkClick('mentions')} aria-label="Voir les mentions légales">Mentions légales</p>
                 </div>
             </div>
         </div>

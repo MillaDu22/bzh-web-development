@@ -1,10 +1,8 @@
 import './about.css';
-import BackAbout from '../../assets/images/backgroundAbout.jpg';
 
 function About() {
     return (
         <div id="about" className="container-about">
-            <img className="back-about" src={BackAbout} alt="Acrylic decoration background" />
             <div className="content-about">
                 <h3 className="subtitle-about">À propos de AWC</h3>
                 <h2 className="title-about">Bienvenue chez Armor Web Créations</h2>

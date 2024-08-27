@@ -6,8 +6,7 @@
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    background: #333335;
-    border-top: 1px solid black;
+    background: linear-gradient(135deg, #0d0d0d, #292929);
     box-sizing: border-box; 
 }
 .box-links-footer {
@@ -22,9 +21,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
+    align-items: flex-start;
     margin-bottom: 20px; 
 }
 
@@ -41,7 +38,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
     margin-bottom: 20px; 
     text-align: center;
 }
@@ -50,17 +46,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px; 
-    height: 40px;
-    margin: 5px;
+    width: 50px;  
+    height: 50px;
+    margin: 10px; 
     border-radius: 50%;
-    border: 2px solid white;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.174);
+    border: 2px solid transparent;
+    background-color: white; 
     text-decoration: none;
     font-size: 24px; 
     color: white;
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
 }
 
+/* Couleur des icônes */
 .facebook {
     color: #1877F2; 
 }
@@ -77,22 +76,33 @@
     color: #C13584; 
 }
 
+/* Effet au survol */
+.facebook:hover, .linkedin:hover, .mail:hover, .insta:hover {
+    transform: scale(1.1); /* Légère augmentation de la taille */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Ombre plus intense */
+    border-color: currentColor; /* Border prend la couleur de l'icône */
+}
+
+
 .legal-notice {
-    width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
     font-size: 14px;
     color: white;
     margin-top: 20px;
 }
 
-.legal-notice a {
+.legal-notice .buttons-mentions{
     color: aqua; 
     text-decoration: none;
     margin: 0 10px;
     font-family: 'Ysabeau SC', sans-serif;
+    cursor: pointer;
 }
 
-.legal-notice a:hover {
+.legal-notice .buttons-mentions:hover {
     text-decoration: underline;
 }
 
@@ -113,9 +123,12 @@
 
     .txt-footer, .container-social {
         width: 100%;
+        align-items: center;
+        text-align: left;
     }
 
     .legal-notice {
         font-size: 12px;
+        align-items: center;
     }
 }

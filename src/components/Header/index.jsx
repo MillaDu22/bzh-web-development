@@ -5,10 +5,10 @@ import Navbar from '../Navbar/index';
 
 function Header() {
     return(
-        <div className = "container-header">
+        <div id="home" className = "container-header">
             <a className = "container-containers" href="./">
                 <div className="container-title-france">
-                    <h1 id="home" className="title-app">ARMOR WEB CREATIONS</h1>
+                    <h1 className="title-app">ARMOR WEB CREATIONS</h1>
                     <div className="bleu-blanc-rouge">
                         <span className="bleu"></span>
                         <span className="blanc"></span>

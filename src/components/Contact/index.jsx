@@ -53,7 +53,7 @@ function Contact() {
             return;
         }
 
-        emailjs.send('service_05po6ft', 'template_fb2hhhm', formData, 'E1APwjhejGF75B6m3')
+        emailjs.send('service_ni2kr4g', 'template_f82j7sl', formData, 'MMCldRgvGL2OmMHp_')
             .then((result) => {
                 setModalInfo({
                     show: true,

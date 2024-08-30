@@ -22,7 +22,6 @@ function Services() {
                         <li>1 mois de support</li>
                     </ul>
                     <div className="price">1800€-TTC</div>
-                    <div className="time">Soit 300€/J-HT (1 sem.)</div>
                     <button className="btn" onClick={() => handleToggle('basic')}>
                         {openPack === 'basic' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>
@@ -41,7 +40,6 @@ function Services() {
                         <li>3 mois de support</li>
                     </ul>
                     <div className="price">5400€-TTC</div>
-                    <div className="time">Soit 300€/J-HT(3 sem.)</div>
                     <button className="btn" onClick={() => handleToggle('standard')}>
                         {openPack === 'standard' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>
@@ -60,7 +58,6 @@ function Services() {
                         <li>6 mois de support</li>
                     </ul>
                     <div className="price">21600€-TTC</div>
-                    <div className="time">Soit 300€/J-HT(12 sem.)</div>
                     <button className="btn" onClick={() => handleToggle('premium')}>
                         {openPack === 'premium' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>
@@ -69,6 +66,10 @@ function Services() {
                         details="Le Pack Premium offre un site entièrement sur mesure avec des fonctionnalités avancées selon vos besoins spécifiques. Il inclut également un design haut de gamme et une optimisation SEO complète. Domaine et hébergement OVH. Vous bénéficierez de 6 mois de support technique pour toute assistance."
                     />
                 </div>
+            </div>
+            <div className="time">
+                <h4 className= "title-ss-traitance">Sous-traitance pour entreprises</h4>
+                <span className ="mention-ss-traitance">Armor Web Creations propose également des services de sous-traitance pour les entreprises souhaitant externaliser des projets de développement. Le tarif journalier pour ces prestations est de 300€ HT par jour. N'hésitez pas à nous contacter pour discuter de vos besoins spécifiques et obtenir un devis personnalisé.</span>
             </div>
         </div>
     );

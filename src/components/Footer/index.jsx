@@ -19,13 +19,13 @@ function Footer() {
             <div className="box-links-footer">
                 <div className="txt-footer">
                     <p className="adress">22 200 Guingamp - Bretagne - FRANCE</p>
-                    <p className="copyright">©Ludmilla-Marti-2024, tous droits réservés</p>
+                    <p className="copyright">©Armor-Web-Creations-2024, tous droits réservés</p>
                 </div>
                 <div className="container-social">
-                    <a className="facebook" href="https://milladu22.github.io/facebook/" target="blank" aria-label="facebook"><i className="fa-brands fa-facebook-f"></i></a>
+                    <a className="facebook" href="https://www.facebook.com/profile.php?id=61565375723366" target="blank" aria-label="facebook"><i className="fa-brands fa-facebook-f"></i></a>
                     <a className="linkedin" href="https://www.linkedin.com/in/ludmilla-marti-345313255/" target="blank" aria-label="linkedin"><i className="fa-brands fa-linkedin-in"></i></a>
-                    <a className="mail" href="mailto:millamti22@gmail.com" target="blank" aria-label="gmail"><i className="fa-solid fa-envelope"></i></a>
-                    <a className="insta" href="https://milladu22.github.io/insta/" target="blank" aria-label="insta"><i className="fa-brands fa-instagram"></i></a>
+                    <a className="mail" href="mailto:armorwebcreations@gmail.com" target="blank" aria-label="gmail"><i className="fa-solid fa-envelope"></i></a>
+                    <a className="insta" href="https://www.instagram.com/armor_web_creations/" target="blank" aria-label="insta"><i className="fa-brands fa-instagram"></i></a>
                 </div>
                 <div className="legal-notice" aria-label="Mentions légales">
                     <p className="buttons-mentions" onClick={() => handleLinkClick('policy')} aria-label="Voir la politique de confidentialité">Politique de confidentialité</p>

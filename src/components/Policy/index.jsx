@@ -8,7 +8,7 @@ function Policy() {
             <p><strong>Utilisation des Données :</strong> Les informations collectées sont utilisées pour améliorer notre site et vous fournir un meilleur service. Nous ne partageons pas vos informations avec des tiers sans votre consentement.</p>
             <p><strong>Sécurité :</strong> Nous prenons des mesures raisonnables pour protéger vos données personnelles contre la perte, l'abus, et l'accès non autorisé.</p>
             <p><strong>Cookies :</strong> Nous utilisons des cookies pour analyser les tendances, administrer le site, suivre les mouvements des utilisateurs et collecter des informations démographiques.</p>
-            <p><strong>Vos Droits :</strong> Vous avez le droit d'accéder, de rectifier, et de supprimer vos informations personnelles. Pour toute demande, veuillez nous contacter à <a href="mailto:millamti22@gmail.com">millamti22@gmail.com</a>.</p>
+            <p><strong>Vos Droits :</strong> Vous avez le droit d'accéder, de rectifier, et de supprimer vos informations personnelles. Pour toute demande, veuillez nous contacter à <a href="mailto:armorwebcreations@gmail.com">armorwebcreations@gmail.com</a>.</p>
         </section>
     )
 }

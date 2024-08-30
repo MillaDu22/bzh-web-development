@@ -66,11 +66,32 @@
     text-align: left;
 }
 
-.price, .time {
+.price {
     font-family: 'Ysabeau SC', sans-serif;
     color: #fff;
     font-size: 24px;
     margin-bottom: 20px;
+}
+
+.time {
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-ss-traitance {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.mention-ss-traitance {
+    color: #ccc;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .btn {

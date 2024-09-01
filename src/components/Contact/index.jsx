@@ -86,6 +86,7 @@ function Contact() {
     return (
         <div id="contact" className="container-contact">
             <h2 className="title-contact">Contactez-moi</h2>
+            <p className = "subtitle-contact">Prêt à donner vie à votre projet de site web ? Nous allons le concrétiser. Parlons-en dès aujourd'hui !</p>
             <form onSubmit={handleSubmit} className="contact-form">
                 <div className="form-group">
                     <label htmlFor="nom">Votre nom</label>

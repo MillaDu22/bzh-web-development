@@ -4,6 +4,7 @@ import HeroHeader from '../src/components/HeroHeader/index.jsx';
 import About from '../src/components/About/index.jsx';
 import Services from '../src/components/Services/index.jsx';
 import Promo from '../src/components/Promo/index.jsx';
+import Timeline from '../src/components/Timeline/index.jsx';
 import Contact from '../src/components/Contact/index.jsx';
 import Footer from '../src/components/Footer/index.jsx';
 import './App.css';
@@ -27,6 +28,7 @@ function App() {
         <About />
         <Services />
         <Promo />
+        <Timeline />
         <Contact />
         <Footer />
       </div>

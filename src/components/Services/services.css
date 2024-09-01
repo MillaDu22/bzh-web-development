@@ -28,10 +28,12 @@
 .service-card {
     background: #333;
     border-radius: 8px;
-    padding: 20px;
     width: 300px;
     transition: transform 0.3s ease;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
+    inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #33333330, 0 0 0 5px #33333330,
+    0 0 0 5.5px #33333330;
+    padding:15px;
 }
 
 .service-card:hover {
@@ -95,16 +97,18 @@
 }
 
 .btn {
-    font-family: 'Ysabeau SC', sans-serif;
+    transition: background-color 0.3s ease;
+    padding: 10px 20px;
     background-color: aqua;
     color: black;
-    padding: 10px 20px;
+    font-family: 'Ysabeau SC', sans-serif;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(174, 174, 174, 0.223);
+    box-shadow: 0 3px 4px #343434, inset 0 -2px 5px #343434,
+    inset 0 4px 5px rgba(255, 255, 255, 0.245), 0 0 0 2px #343434, 0 0 0 5px #343434,
+    0 0 0 1.5px #343434;
 }
 
 .btn:hover {

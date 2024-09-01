@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Armor Web Creations
 
-## Available Scripts
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Site de l'entreprise Armor Web Creations. Entreprise de créations de sites web sur mesure.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Author
 
-### `npm test`
+Ludmilla MARTI 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Commands
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ -`npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ -`npm test`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ -`npm run build`
 
-### `npm run eject`
+ -`npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dependencies
+    - @testing-library/jest-dom: "^5.17.0",
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - @testing-library/react: "^13.4.0",
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    - @testing-library/user-event: "^13.5.0",
 
-## Learn More
+    - emailjs-com: "^3.2.0",
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    - react: "^18.3.1",
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    - react-dom: "^18.3.1",
 
-### Code Splitting
+    - react-helmet: "^6.1.0",
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    - react-helmet-async: "^2.0.5",
 
-### Analyzing the Bundle Size
+    - react-icons: "^5.3.0",
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    - react-scripts: "5.0.1",
 
-### Making a Progressive Web App
+    - web-vitals: "^2.1.4"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+    - vercel
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+

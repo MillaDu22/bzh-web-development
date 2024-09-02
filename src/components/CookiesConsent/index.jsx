@@ -27,13 +27,13 @@ const CookieConsent = () => {
     }, []);
 
     const handleAccept = () => {
-        setCookie('cookieConsent', 'accepted', 365); // Définir le cookie pour 1 an
-        setShowBanner(false); // Masquer la bannière après acceptation
+        setCookie('cookieConsent', 'accepted', 365); // Défini le cookie pour 1 an
+        setShowBanner(false); // Masque la bannière après acceptation
     };
 
     const handleDecline = () => {
-        setCookie('cookieConsent', 'declined', 365); // Définir le cookie pour 1 an
-        setShowBanner(false); // Masquer la bannière après refus
+        setCookie('cookieConsent', 'declined', 365); // Défini le cookie pour 1 an
+        setShowBanner(false); // Masque la bannière après refus
     };
 
     // Ne pas rendre le composant si la bannière ne doit pas être affichée

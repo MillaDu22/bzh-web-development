@@ -13,7 +13,25 @@ function Services() {
             <i className="fa-solid fa-cubes"></i>
             <h2 className="services-title">Les offres</h2>
             <div className="services-grid">
-            <div className={`service-card ${openPack === 'basic' ? 'expanded' : ''}`}>
+            <div className={`service-card ${openPack === 'simple' ? 'expanded' : ''}`}>
+                <h3>Pack Simple</h3>
+                <p>Parfait pour les projets simples avec un budget limité.</p>
+                <ul>
+                    <li>Site statique de 1 à 3 pages</li>
+                    <li>HTML et CSS uniquement</li>
+                    <li>Design responsive</li>
+                    <li>1 mois de support</li>
+                </ul>
+                <div className="price">960€-TTC</div>
+                <button className="btn" onClick={() => handleToggle('simple')}>
+                    {openPack === 'simple' ? 'Masquer les détails' : 'Choisir ce pack'}
+                </button>
+                <DetailsPack 
+                    isOpen={openPack === 'simple'}
+                    details="Ce Pack Simple inclut la création d'un site statique de 1 à 3 pages avec du HTML et CSS. Ce site est parfait pour les projets simples qui ne nécessitent pas de fonctionnalités dynamiques. Le design est responsive pour assurer la compatibilité avec les appareils mobiles. Domaine et hébergement OVH. Ce pack inclut un mois de support pour toute assistance technique."
+                />
+                </div>
+                <div className={`service-card ${openPack === 'basic' ? 'expanded' : ''}`}>
                     <h3>Pack Basic</h3>
                     <p>Idéal pour les petites entreprises ou les projets personnels.</p>
                     <ul>
@@ -28,7 +46,7 @@ function Services() {
                     </button>
                     <DetailsPack 
                         isOpen={openPack === 'basic'}
-                        details="Ce pack inclut un site vitrine de 3 pages avec un design responsive. Nous nous occupons également de l'optimisation SEO de base pour que votre site soit bien référencé. Domaine et hébergement OVH. De plus, vous bénéficiez d'un mois de support pour toute assistance technique."
+                        details="Ce pack Basic inclut un site vitrine de 3 pages avec un design responsive. Nous nous occupons également de l'optimisation SEO de base pour que votre site soit bien référencé. Domaine et hébergement OVH. De plus, vous bénéficiez d'un mois de support pour toute assistance technique."
                     />
                 </div>
                 <div className={`service-card ${openPack === 'standard' ? 'expanded' : ''}`}>
@@ -67,6 +85,10 @@ function Services() {
                         details="Le Pack Premium offre un site entièrement sur mesure avec des fonctionnalités avancées selon vos besoins spécifiques. Il inclut également un design haut de gamme et une optimisation SEO complète. Domaine et hébergement OVH. Vous bénéficierez de 6 mois de support technique pour toute assistance."
                     />
                 </div>
+            </div>
+            <div className="payment">
+                <h4 className= "title-payment">Modalités de paiement</h4>
+                <span className ="mention-payment">Un acompte de 30% est requis à la commande. À l'achèvement de l'implémentation, un second paiement de 40% est dû. Le solde de 30% restant est à régler à la livraison finale.</span>
             </div>
             <div className="time">
                 <h4 className= "title-ss-traitance">Sous-traitance pour entreprises</h4>

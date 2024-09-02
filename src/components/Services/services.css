@@ -28,18 +28,20 @@
     flex-wrap: wrap;
     gap: 20px;
     max-width: 1800px;
+    width:80%;
     margin: 0 auto;
 }
 
 .service-card {
     background: #333;
     border-radius: 8px;
-    width: 300px;
+    width: 400px;
     transition: transform 0.3s ease;
     box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
     inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #33333330, 0 0 0 5px #33333330,
     0 0 0 5.5px #33333330;
     padding:15px;
+    margin-bottom: 10px;
 }
 
 .service-card:hover {
@@ -81,7 +83,7 @@
     margin-bottom: 20px;
 }
 
-.time {
+.time, .payment {
     margin: 0 auto;
     width: 60%;
     display: flex;
@@ -90,14 +92,14 @@
     align-items: center;
 }
 
-.title-ss-traitance {
+.title-ss-traitance, .title-payment {
     font-family: 'Ysabeau SC', sans-serif;
     color: #fff;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.mention-ss-traitance {
+.mention-ss-traitance, .mention-payment {
     color: #ccc;
     font-family: 'Ysabeau SC', sans-serif;
 }
@@ -128,11 +130,33 @@
     .services-grid {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     .service-card {
-        width: 80%;
+        margin: 0 auto;
+        width: 96%;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-services {
+        padding: 50px 20px 110px;
+    }
+    .services-grid {
+        width:96%;
+        padding:2%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service-card {
+        margin: 0 ;
+        width: 90%;
+        margin-bottom: 20px;
+        padding: 5%;
     }
 }
 

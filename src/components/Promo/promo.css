@@ -43,7 +43,7 @@
 }
 
 .promo-prices {
-    width:100%;
+    width:97%;
     margin: 4% auto 4%;
     display: flex;
     justify-content: space-around;
@@ -58,8 +58,9 @@
 
 .promo-pack {
     background: #111111;
+    margin-bottom: 40px;
     border-radius: 8px;
-    width: 250px;
+    width: 38%;
     box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
     inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
     0 0 0 5.5px #080808;
@@ -98,7 +99,7 @@
     background-color: white;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
     .promo-prices {
         flex-direction: column;
         align-items: center;

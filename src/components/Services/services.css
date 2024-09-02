@@ -8,8 +8,14 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
 }
 
+.container-services .fa-cubes {
+    color:aqua;
+    font-size: 32px;
+    margin-top: 60px;
+}
+
 .services-title {
-    margin: 60px auto 40px;
+    margin: 30px auto 40px;
     max-width: 1800px;
     font-family: 'Ysabeau SC', sans-serif;
     color: aqua;

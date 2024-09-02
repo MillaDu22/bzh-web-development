@@ -4,6 +4,7 @@ function About() {
     return (
         <div id="about" className="container-about">
             <div className="content-about">
+                <i className="fa-regular fa-address-card"></i>
                 <h3 className="subtitle-about">À propos de AWC</h3>
                 <h2 className="title-about">Bienvenue chez Armor Web Créations</h2>
                 <div className="box-about">

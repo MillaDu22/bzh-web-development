@@ -21,6 +21,7 @@ function Promo() {
 
     return (
         <div className="container-promo">
+            <i className="fa-solid fa-percent"></i>
             <h2>Promotion Spéciale</h2>
             <p>Profitez de 5% de réduction sur tous les packs du {promoStartDate} au {promoEndDate} !</p>
             <div className="promo-prices">

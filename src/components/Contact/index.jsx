@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import Cookies from 'js-cookie';
 import Modal from '../Modal/index.jsx';
 import './contact.css';
 
-function Contact() {
+function Contact({ cookiesAccepted }) {
     const [formData, setFormData] = useState({
-        nom: '',
-        prenom: '',
-        email: '',
-        mobile: '',
-        objet: '',
-        message: ''
+        nom: cookiesAccepted ? Cookies.get('nom') || '' : '',
+        prenom: cookiesAccepted ? Cookies.get('prenom') || '' : '',
+        email: cookiesAccepted ? Cookies.get('email') || '' : '',
+        mobile: cookiesAccepted ? Cookies.get('mobile') || '' : '',
+        objet: cookiesAccepted ? Cookies.get('objet') || '' : '',
+        message: cookiesAccepted ? Cookies.get('message') || '' : ''
     });
 
     const [errors, setErrors] = useState({});
@@ -22,6 +23,11 @@ function Contact() {
             ...prevState,
             [name]: value
         }));
+
+        // Stocke dans les cookies seulement si le consentement est donné
+        if (cookiesAccepted) {
+            Cookies.set(name, value, { expires: 7 });
+        }
     };
 
     const validateEmail = (email) => {
@@ -32,10 +38,10 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // Reset errors //
+        // Reset errors
         setErrors({});
 
-        // Check for errors //
+        // Check for errors
         let formErrors = {};
         if (!formData.nom) formErrors.nom = 'Le nom est requis';
         if (!formData.prenom) formErrors.prenom = 'Le prénom est requis';
@@ -60,6 +66,11 @@ function Contact() {
                     title: 'Succès',
                     message: 'Message envoyé avec succès !'
                 });
+
+                if (cookiesAccepted) {
+                    console.log('Suppression des cookies');
+                    Object.keys(formData).forEach(field => Cookies.remove(field));
+                }
             }, (error) => {
                 setModalInfo({
                     show: true,
@@ -67,7 +78,6 @@ function Contact() {
                     message: 'Une erreur est survenue, veuillez réessayer.'
                 });
             });
-
 
         setFormData({
             nom: '',
@@ -85,8 +95,9 @@ function Contact() {
 
     return (
         <div id="contact" className="container-contact">
+            <i className="fa-solid fa-envelope" aria-hidden="true"></i>
             <h2 className="title-contact">Contactez-moi</h2>
-            <p className = "subtitle-contact">Prêt à donner vie à votre projet de site web ? Nous allons le concrétiser. Parlons-en dès aujourd'hui !</p>
+            <p className="subtitle-contact">Prêt à donner vie à votre projet de site web ? Nous allons le concrétiser. Parlons-en dès aujourd'hui !</p>
             <form onSubmit={handleSubmit} className="contact-form">
                 <div className="form-group">
                     <label htmlFor="nom">Votre nom</label>
@@ -173,3 +184,5 @@ function Contact() {
 }
 
 export default Contact;
+
+

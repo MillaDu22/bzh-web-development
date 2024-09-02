@@ -26,6 +26,7 @@ const Timeline = () => {
     }, []);
     return (
         <section id="timeline" className="timeline">
+            <i className="fa-solid fa-timeline"></i>
             <h2>Étapes du Projet</h2>
             <ul>
                 <li>
@@ -34,7 +35,7 @@ const Timeline = () => {
                         <div className="shadow-card-timeline">
                             <h3 className="title-time">Étape 1: Consultation Initiale</h3>
                             <p className="card-info">
-                                Première rencontre pour discuter des besoins du client. Identification des objectifs du projet et des contraintes techniques.
+                                Première rencontre pour discuter de vos besoins. Identification des objectifs du projet et des contraintes techniques.
                             </p>
                         </div>
                     </div>
@@ -56,7 +57,7 @@ const Timeline = () => {
                         <div className="shadow-card-timeline">
                             <h3 className="title-time">Étape 3: Conception et Design</h3>
                             <p className="card-info">
-                                Création des maquettes et prototypes. Validation des choix de design avec le client avant de passer au développement.
+                                Création des maquettes et prototypes. Validation des choix de design avant de passer au développement.
                             </p>
                         </div>
                     </div>
@@ -100,7 +101,7 @@ const Timeline = () => {
                         <div className="shadow-card-timeline">
                             <h3 className="title-time">Étape 7: Support et Maintenance</h3>
                             <p className="card-info">
-                                Assistance continue pour la maintenance du site, mises à jour et amélioration des fonctionnalités en fonction des besoins futurs.
+                                Assistance selon l'offre pour la maintenance du site, mises à jour et amélioration des fonctionnalités.
                             </p>
                         </div>
                     </div>

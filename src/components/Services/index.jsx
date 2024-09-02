@@ -10,6 +10,7 @@ function Services() {
     };
     return (
         <div id="services" className="container-services">
+            <i className="fa-solid fa-cubes"></i>
             <h2 className="services-title">Les offres</h2>
             <div className="services-grid">
             <div className={`service-card ${openPack === 'basic' ? 'expanded' : ''}`}>
@@ -69,7 +70,7 @@ function Services() {
             </div>
             <div className="time">
                 <h4 className= "title-ss-traitance">Sous-traitance pour entreprises</h4>
-                <span className ="mention-ss-traitance">Armor Web Creations propose également des services de sous-traitance pour les entreprises souhaitant externaliser des projets de développement. Le tarif journalier pour ces prestations est de 300€ HT par jour. N'hésitez pas à nous contacter pour discuter de vos besoins spécifiques et obtenir un devis personnalisé.</span>
+                <span className ="mention-ss-traitance">Armor Web Creations propose également des services de sous-traitance pour les entreprises souhaitant externaliser des projets de développement. Le tarif journalier pour ces prestations est de 300€ HT par jour. N'hésitez pas à prendre contact pour discuter de vos besoins spécifiques et obtenir un devis personnalisé.</span>
             </div>
         </div>
     );

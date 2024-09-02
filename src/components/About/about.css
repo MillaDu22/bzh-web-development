@@ -26,6 +26,12 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
+.content-about .fa-address-card {
+    color:aqua;
+    font-size: 32px;
+    margin-top: 120px;
+}
+
 .title-about {
     font-size: 42px;
     font-family: 'Ysabeau SC', sans-serif;
@@ -35,7 +41,7 @@
 }
 
 .subtitle-about {
-    margin-top:120px;
+    margin-top:20px;
     font-size: 36px;
     font-family: 'Ysabeau SC', sans-serif;
     margin-bottom: 10px;

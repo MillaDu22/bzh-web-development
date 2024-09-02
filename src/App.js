@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import CookiesConsent from '../src/components/CookiesConsent/index.jsx';
 import HeroHeader from '../src/components/HeroHeader/index.jsx';
 import About from '../src/components/About/index.jsx';
 import Services from '../src/components/Services/index.jsx';
@@ -10,6 +11,31 @@ import Footer from '../src/components/Footer/index.jsx';
 import './App.css';
 
 function App() {
+  const [cookiesAccepted, setCookiesAccepted] = useState(false);
+
+  useEffect(() => {
+    const consent = document.cookie
+      .split('; ')
+      .find(row => row.startsWith('cookieConsent='))
+      ?.split('=')[1];
+
+    if (consent === 'accepted') {
+      setCookiesAccepted(true);
+      // Chargement de Google Analytics ou d'autres scripts ici //
+      const script = document.createElement('script');
+      script.src = `https://www.googletagmanager.com/gtag/js?id=GTM-K2D59TZV`;
+      script.async = true;
+      document.body.appendChild(script);
+
+      script.onload = () => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GTM-K2D59TZV');
+      };
+    }
+  }, []);
+
   return (
     <HelmetProvider>
       <div className="App">
@@ -25,11 +51,12 @@ function App() {
           <meta property="og:site_name" content="Armor Web Créations" />
         </Helmet>
         <HeroHeader />
+        <CookiesConsent setCookiesAccepted={setCookiesAccepted} />
         <About />
         <Services />
         <Promo />
         <Timeline />
-        <Contact />
+        <Contact cookiesAccepted={cookiesAccepted} />
         <Footer />
       </div>
     </HelmetProvider>

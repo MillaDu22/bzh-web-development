@@ -10,7 +10,7 @@ function Mentions() {
             <p><strong>Email :</strong> <a href="mailto:armorwebcreations@gmail.com">armorwebcreations@gmail.com</a></p>
             <p><strong>Directeur de la publication :</strong> Ludmilla Marti</p>
             <p><strong>Hébergement :</strong> Vercel, https://vercel.com </p>
-            <p><strong>Numéro d'immatriculation :</strong> [Numéro SIRET ou autre numéro d'immatriculation]</p>
+            <p><strong>Numéro de siret: </strong>93256032900017</p>
         </section>
     )
 }

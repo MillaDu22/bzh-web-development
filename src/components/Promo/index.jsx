@@ -29,23 +29,23 @@ function Promo() {
             <div className="promo-prices">
                 <div className="promo-pack">
                     <h3>Pack Simple</h3>
-                    <p className="original-price">Prix original : {originalPrices.simple}€-TTC</p>
-                    <p className="promotionnel-price">Prix promotionnel : {discountedPrices.simple}€-TTC</p>
+                    <p className="original-price">Prix original : A partir de {originalPrices.simple}€</p>
+                    <p className="promotionnel-price">Prix promotionnel : A partir de {discountedPrices.simple}€</p>
                 </div>
                 <div className="promo-pack">
                     <h3>Pack Basic</h3>
-                    <p className="original-price">Prix original : {originalPrices.basic}€-TTC</p>
-                    <p className="promotionnel-price">Prix promotionnel : {discountedPrices.basic}€-TTC</p>
+                    <p className="original-price">Prix original : A partir de {originalPrices.basic}€</p>
+                    <p className="promotionnel-price">Prix promotionnel : A partir de {discountedPrices.basic}€</p>
                 </div>
                 <div className="promo-pack">
                     <h3>Pack Standard</h3>
-                    <p className="original-price">Prix original : {originalPrices.standard}€-TTC</p>
-                    <p className="promotionnel-price">Prix promotionnel : {discountedPrices.standard}€-TTC</p>
+                    <p className="original-price">Prix original : A partir de {originalPrices.standard}€</p>
+                    <p className="promotionnel-price">Prix promotionnel : A partir de {discountedPrices.standard}€</p>
                 </div>
                 <div className="promo-pack">
                     <h3>Pack Premium</h3>
-                    <p className="original-price">Prix original : {originalPrices.premium}€-TTC</p>
-                    <p className="promotionnel-price">Prix promotionnel : {discountedPrices.premium}€-TTC</p>
+                    <p className="original-price">Prix original : A partir de {originalPrices.premium}€</p>
+                    <p className="promotionnel-price">Prix promotionnel : A partir de {discountedPrices.premium}€</p>
                 </div>
             </div>
         </div>

@@ -83,7 +83,7 @@
     margin-bottom: 20px;
 }
 
-.time, .payment {
+.time, .payment, .evolution {
     margin: 0 auto;
     width: 60%;
     display: flex;
@@ -92,14 +92,14 @@
     align-items: center;
 }
 
-.title-ss-traitance, .title-payment {
+.title-ss-traitance, .title-payment, .title-evolution {
     font-family: 'Ysabeau SC', sans-serif;
     color: #fff;
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.mention-ss-traitance, .mention-payment {
+.mention-ss-traitance, .mention-payment, .price-disclaimer {
     color: #ccc;
     font-family: 'Ysabeau SC', sans-serif;
 }

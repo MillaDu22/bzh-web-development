@@ -27,7 +27,7 @@ const Timeline = () => {
     return (
         <section id="timeline" className="timeline">
             <i className="fa-solid fa-timeline"></i>
-            <h2>Étapes du Projet</h2>
+            <h2>Étapes de Projet</h2>
             <ul>
                 <li>
                     <i className="fa-solid fa-handshake"></i>

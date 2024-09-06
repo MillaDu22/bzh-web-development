@@ -40,15 +40,27 @@ function App() {
     <HelmetProvider>
       <div className="App">
         <Helmet>
-          <title>Armor Web Créations - Création de Sites Web sur Mesure en Bretagne</title>
-          <meta name="description" content="Armor Web Créations est une entreprise de développement web basée en Bretagne. Nous créons des sites web performants sur mesure pour tous vos besoins personnels ou professionnels. Découvrez nos offres et promotions." />
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link rel="canonical" href="https://armor-web-creations.vercel.app" />
+
+          <title>Armor Web Creations</title>
+          <meta name="description" content="Armor Web Creations est une entreprise de développement web basée en Bretagne. Nous créons des sites web performants sur mesure pour tous vos besoins personnels ou professionnels. Découvrez nos offres et promotions." />
           <meta name="keywords" content="développement web, création de sites web, Bretagne, offres de création de site, promotions, sites web sur mesure, projets personnels, projets professionnels" />
-          <meta property="og:title" content="Armor Web Créations - Création de Sites Web sur Mesure en Bretagne" />
+
+          {/* Open Graph tags for Social Media sharing */}
+          <meta property="og:title" content="Armor Web Creations" />
           <meta property="og:description" content="Découvrez Armor Web Créations, votre expert en création de sites web en Bretagne. Nous offrons des solutions sur mesure pour vos projets personnels et professionnels, avec des offres et promotions attractives." />
           <meta property="og:image" content="https://armor-web-creations.vercel.app/assets/images/Homepage.png" />
           <meta property="og:url" content="https://armor-web-creations.vercel.app" />
           <meta property="og:type" content="website" />
-          <meta property="og:site_name" content="Armor Web Créations" />
+          <meta property="og:site_name" content="Armor Web Creations" />
+          
+          {/* Twitter Card tags for sharing on Twitter */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Armor Web Creations" />
+          <meta name="twitter:description" content="Découvrez Armor Web Créations, votre expert en création de sites web en Bretagne. Nous offrons des solutions sur mesure pour vos projets personnels et professionnels." />
+          <meta name="twitter:image" content="https://armor-web-creations.vercel.app/assets/images/Homepage.png" />
         </Helmet>
         <HeroHeader />
         <CookiesConsent setCookiesAccepted={setCookiesAccepted} />

@@ -5,12 +5,20 @@
     text-align: center;
     box-sizing: border-box;
     border-bottom: 1px solid black;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.container-promo.fadeInUp {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .container-promo .fa-percent {
     font-size: 32px;
     color: aqua;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .container-promo h2 {

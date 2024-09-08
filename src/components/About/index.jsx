@@ -1,6 +1,26 @@
+import React, { useEffect } from 'react';
 import './about.css';
 
 function About() {
+
+    useEffect(() => {
+        const section = document.querySelector('.container-about');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fadeInUp');
+                }
+            });
+        }, {
+            threshold: 0.2 // Animation déclenchée quand 20% de la section est visible //
+        });
+
+        observer.observe(section);
+
+        return () => observer.unobserve(section);
+    }, []);
+
     return (
         <div id="about" className="container-about">
             <div className="content-about">

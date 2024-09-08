@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './services.css';
 import DetailsPack from '../DetailsPack/index.jsx';
 
@@ -8,6 +8,25 @@ function Services() {
     const handleToggle = (pack) => {
         setOpenPack(openPack === pack ? null : pack);
     };
+
+    useEffect(() => {
+        const section = document.querySelector('.container-services');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fadeInUp');
+                }
+            });
+        }, {
+            threshold: 0.2 // Animation déclenchée quand 20% de la section est visible //
+        });
+
+        observer.observe(section);
+
+        return () => observer.unobserve(section);
+    }, []);
+
     return (
         <div id="services" className="container-services">
             <i className="fa-solid fa-cubes"></i>
@@ -22,7 +41,7 @@ function Services() {
                     <li>Design responsive</li>
                     <li>1 mois de support</li>
                 </ul>
-                <div className="price">A partir de 960€</div>
+                <div className="price">A partir de 800€</div>
                 <button className="btn" onClick={() => handleToggle('simple')}>
                     {openPack === 'simple' ? 'Masquer les détails' : 'Choisir ce pack'}
                 </button>
@@ -41,7 +60,7 @@ function Services() {
                         <li>Optimisation SEO de base</li>
                         <li>1 mois de support</li>
                     </ul>
-                    <div className="price">A partir de 1800€</div>
+                    <div className="price">A partir de 1500€</div>
                     <button className="btn" onClick={() => handleToggle('basic')}>
                         {openPack === 'basic' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>
@@ -60,7 +79,7 @@ function Services() {
                         <li>Optimisation SEO avancée</li>
                         <li>3 mois de support</li>
                     </ul>
-                    <div className="price">A partir de 5400€</div>
+                    <div className="price">A partir de 4500€</div>
                     <button className="btn" onClick={() => handleToggle('standard')}>
                         {openPack === 'standard' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>
@@ -78,7 +97,7 @@ function Services() {
                         <li>Optimisation SEO complète</li>
                         <li>6 mois de support</li>
                     </ul>
-                    <div className="price">A partir de 21600€</div>
+                    <div className="price">A partir de 18000€</div>
                     <button className="btn" onClick={() => handleToggle('premium')}>
                         {openPack === 'premium' ? 'Masquer les détails' : 'Choisir ce pack'}
                     </button>

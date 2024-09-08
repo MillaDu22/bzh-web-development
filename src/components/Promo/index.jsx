@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './promo.css';
 
 function Promo() {
     const originalPrices = {
-        simple: 960,
-        basic: 1800,
-        standard: 5400,
-        premium: 21600
+        simple: 800,
+        basic: 1500,
+        standard: 4500,
+        premium: 18000
     };
 
     const discountRate = 0.05; // 5% discount
@@ -20,6 +20,25 @@ function Promo() {
 
     const promoStartDate = "01/10/2024";
     const promoEndDate = "31/11/2024";
+
+    useEffect(() => {
+        const section = document.querySelector('.container-promo');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fadeInUp');
+                }
+            });
+        }, {
+            threshold: 0.2 // Animation déclenchée quand 20% de la section est visible //
+        });
+
+        observer.observe(section);
+
+        return () => observer.unobserve(section);
+    }, []);
+
 
     return (
         <div className="container-promo">

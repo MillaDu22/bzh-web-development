@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import Cookies from 'js-cookie';
 import Modal from '../Modal/index.jsx';
@@ -92,6 +92,24 @@ function Contact({ cookiesAccepted }) {
     const closeModal = () => {
         setModalInfo({ show: false, title: '', message: '' });
     };
+
+    useEffect(() => {
+        const section = document.querySelector('.container-contact');
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fadeInUp');
+                }
+            });
+        }, {
+            threshold: 0.2 // Animation déclenchée quand 20% de la section est visible //
+        });
+
+        observer.observe(section);
+
+        return () => observer.unobserve(section);
+    }, []);
 
     return (
         <div id="contact" className="container-contact">

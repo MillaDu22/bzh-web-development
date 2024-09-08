@@ -50,7 +50,7 @@ function App() {
 
           {/* Open Graph tags for Social Media sharing */}
           <meta property="og:title" content="Armor Web Creations" />
-          <meta property="og:description" content="Découvrez Armor Web Créations, votre expert en création de sites web en Bretagne. Nous offrons des solutions sur mesure pour vos projets personnels et professionnels, avec des offres et promotions attractives." />
+          <meta property="og:description" content="Armor Web Créations, votre expert en création ou refonte de sites web en Bretagne. Nous offrons des solutions sur mesure pour vos projets personnels et professionnels, avec des offres et promotions attractives." />
           <meta property="og:image" content="https://armor-web-creations.vercel.app/assets/images/Homepage.png" />
           <meta property="og:url" content="https://armor-web-creations.vercel.app" />
           <meta property="og:type" content="website" />
@@ -59,7 +59,7 @@ function App() {
           {/* Twitter Card tags for sharing on Twitter */}
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="Armor Web Creations" />
-          <meta name="twitter:description" content="Découvrez Armor Web Créations, votre expert en création de sites web en Bretagne. Nous offrons des solutions sur mesure pour vos projets personnels et professionnels." />
+          <meta name="twitter:description" content="Armor Web Créations, votre expert en création ou refonte de sites web en Bretagne. Nous offrons des solutions sur mesure pour vos projets personnels et professionnels." />
           <meta name="twitter:image" content="https://armor-web-creations.vercel.app/assets/images/Homepage.png" />
         </Helmet>
         <HeroHeader />

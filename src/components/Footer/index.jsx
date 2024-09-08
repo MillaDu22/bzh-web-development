@@ -22,10 +22,10 @@ function Footer() {
                     <p className="copyright">©Armor-Web-Creations-2024, tous droits réservés</p>
                 </div>
                 <div className="container-social">
-                    <a className="facebook" href="https://www.facebook.com/profile.php?id=61565375723366" target="blank" aria-label="facebook"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a className="linkedin" href="https://www.linkedin.com/in/ludmilla-marti-345313255/" target="blank" aria-label="linkedin"><i className="fa-brands fa-linkedin-in"></i></a>
-                    <a className="mail" href="mailto:armorwebcreations@gmail.com" target="blank" aria-label="gmail"><i className="fa-solid fa-envelope"></i></a>
-                    <a className="insta" href="https://www.instagram.com/armor_web_creations/" target="blank" aria-label="insta"><i className="fa-brands fa-instagram"></i></a>
+                    <a className="facebook" href="https://www.facebook.com/armorwebcreations" target="blank" aria-label="facebook" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
+                    <a className="linkedin" href="https://www.linkedin.com/in/ludmilla-marti-345313255/" target="blank" aria-label="linkedin" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
+                    <a className="mail" href="mailto:armorwebcreations@gmail.com" target="blank" aria-label="gmail" rel="noopener noreferrer"><i className="fa-solid fa-envelope"></i></a>
+                    <a className="insta" href="https://www.instagram.com/armor_web_creations/" target="blank" aria-label="insta" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a>
                 </div>
                 <div className="legal-notice" aria-label="Mentions légales">
                     <p className="buttons-mentions" onClick={() => handleLinkClick('policy')} aria-label="Voir la politique de confidentialité">Politique de confidentialité</p>

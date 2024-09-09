@@ -57,7 +57,7 @@ const Timeline = () => {
                         <div className="shadow-card-timeline">
                             <h3 className="title-time">Étape 3: Conception et Design</h3>
                             <p className="card-info">
-                                Création des maquettes et prototypes. Validation des choix de design avant de passer au développement.
+                                Création des maquettes et prototypes si non fournies. Validation des choix de design avant de passer au développement.
                             </p>
                         </div>
                     </div>

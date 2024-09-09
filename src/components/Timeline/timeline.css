@@ -9,13 +9,25 @@
     color:aqua;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 28px;
-    animation: wave 4s infinite;
+    position: relative;
+    animation-name: text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes wave {
-    0% { transform: translateX(0px); }
-    50% { transform: translateX(-10px); }
-    100% { transform: translateX(0px); }
+@keyframes text {
+    0% {
+        color: linear-gradient(135deg, #0d0d0d, #292929);
+    }
+    30% {
+        letter-spacing: 16px;
+    }
+    85% {
+        letter-spacing: 6px;
+    }
+    100% {
+        letter-spacing: 6px;
+    }
 }
 
 .title-time {
@@ -32,8 +44,6 @@
     height:10%;
     text-align: center;
 }
-
-
 
 .year {
     background-color: black;
@@ -235,6 +245,23 @@
 }
 
 @media (max-width: 768px) {
+    #timeline h2 {
+        font-size: 20px;
+    }
+    @keyframes text {
+        0% {
+            color: linear-gradient(135deg, #0d0d0d, #292929);
+        }
+        30% {
+            letter-spacing: 8px;
+        }
+        85% {
+            letter-spacing: 2px;
+        }
+        100% {
+            letter-spacing: 2px;
+        }
+    }
     #timeline ul {
         overflow: hidden;
         width:330px;
@@ -263,5 +290,8 @@
 
     .year {
         font-size: 0.6rem;
+    }
+    .card-info {
+        text-align: left;
     }
 }

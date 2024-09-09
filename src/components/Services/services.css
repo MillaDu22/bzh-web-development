@@ -19,22 +19,35 @@
 .container-services .fa-cubes {
     color:aqua;
     font-size: 32px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .services-title {
-    margin: 30px auto 40px;
+    margin: 30px auto 60px auto;
     max-width: 1800px;
     font-family: 'Ysabeau SC', sans-serif;
     color: aqua;
-    font-size: 36px;
-    animation: wave 4s infinite;
-}
+    font-size: 28px;
+    background: #202020;
+    position: relative;
+    animation-name: text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    }
 
-@keyframes wave {
-    0% { transform: translateX(0px); }
-    50% { transform: translateX(-10px); }
-    100% { transform: translateX(0px); }
+@keyframes text {
+    0% {
+        color: #202020;
+    }
+    30% {
+        letter-spacing: 16px;
+    }
+    85% {
+        letter-spacing: 6px;
+    }
+    100% {
+        letter-spacing: 6px;
+    }
 }
 
 .services-grid {
@@ -160,6 +173,24 @@
         padding: 50px 20px 60px;
         opacity: 1;
     }
+
+    .services-title {
+        font-size: 20px;
+    }
+    @keyframes text {
+        0% {
+            color: linear-gradient(135deg, #0d0d0d, #292929);
+        }
+        30% {
+            letter-spacing: 8px;
+        }
+        85% {
+            letter-spacing: 2px;
+        }
+        100% {
+            letter-spacing: 2px;
+        }
+    }
     .services-grid {
         width:96%;
         padding:2%;
@@ -173,6 +204,21 @@
         width: 90%;
         margin-bottom: 20px;
         padding: 5%;
+    }
+
+    .time, .payment, .evolution {
+        align-items: flex-start;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .title-ss-traitance, .title-payment, .title-evolution {
+        text-align: left;
+    }
+    
+    .mention-ss-traitance, .mention-payment, .price-disclaimer {
+        color: #ccc;
+        font-family: 'Ysabeau SC', sans-serif;
+        text-align: left;
     }
 }
 

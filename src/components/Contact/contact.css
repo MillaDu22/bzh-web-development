@@ -20,21 +20,34 @@
 }
 
 .container-contact .fa-envelope {
-color: aqua;
-font-size: 32px;
-margin-top: 90px;
+    color: aqua;
+    font-size: 32px;
+    margin-top: 60px;
 }
+
 .title-contact {
     font-family: 'Ysabeau SC', sans-serif;
     color:aqua;
-    font-size: 36px;
-    animation: wave 4s infinite;
+    font-size: 28px;
+    position: relative;
+    animation-name: text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes wave {
-    0% { transform: translateX(0px); }
-    50% { transform: translateX(-10px); }
-    100% { transform: translateX(0px); }
+@keyframes text {
+    0% {
+        color: linear-gradient(135deg, #0d0d0d, #292929);
+    }
+    30% {
+        letter-spacing: 16px;
+    }
+    85% {
+        letter-spacing: 6px;
+    }
+    100% {
+        letter-spacing: 6px;
+    }
 }
 
 .subtitle-contact {
@@ -100,14 +113,35 @@ margin-top: 90px;
 }
 
 @media (max-width: 768px) {
+    .title-contact {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    @keyframes text {
+        0% {
+            color: linear-gradient(135deg, #0d0d0d, #292929);
+        }
+        30% {
+            letter-spacing: 8px;
+        }
+        85% {
+            letter-spacing: 2px;
+        }
+        100% {
+            letter-spacing: 2px;
+        }
+    }
+
     .subtitle-contact {
         width:90%;
         font-family: 'Ysabeau SC', sans-serif;
         color: #ccc;
-        font-size: 22px;
+        font-size: 20px;
         margin-top: 10px;
         margin-bottom: 40px;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
     }
 
     .contact-form{

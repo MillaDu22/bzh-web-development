@@ -18,7 +18,7 @@ function Footer() {
             {visibleComponent === 'terms' && <Terms />}
             <div className="box-links-footer">
                 <div className="txt-footer">
-                    <p className="adress">22 200 Guingamp - Bretagne - FRANCE</p>
+                    <p className="adress">22 720 Plésidy - Bretagne - FRANCE</p>
                     <p className="copyright">©Armor-Web-Creations-2024, tous droits réservés</p>
                 </div>
                 <div className="container-social">

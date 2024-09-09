@@ -57,7 +57,7 @@
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: typing1 2s steps(20, end);
+    animation: typing1 2s steps(23, end);
 }
 
 @keyframes typing1 {
@@ -107,7 +107,7 @@
     overflow: hidden;
     display: inline-block;
     opacity: 0;
-    animation: typing3 2s steps(20, end)4s forwards;
+    animation: typing3 2s steps(33, end)4s forwards;
 }
 
 @keyframes typing3 {

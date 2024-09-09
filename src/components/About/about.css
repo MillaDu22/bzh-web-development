@@ -50,19 +50,33 @@
 
 .subtitle-about {
     margin-top:20px;
-    font-size: 36px;
+    font-size: 28px;
     font-family: 'Ysabeau SC', sans-serif;
     margin-bottom: 10px;
     color:aqua;
-    display: inline-block;
-    animation: wave 4s infinite;
+    margin-bottom: 20px;
+    background: black;
+    position: relative;
+    animation-name: text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes wave {
-    0% { transform: translateX(0px); }
-    50% { transform: translateX(-10px); }
-    100% { transform: translateX(0px); }
+@keyframes text {
+    0% {
+        color: black;
+    }
+    30% {
+        letter-spacing: 16px;
+    }
+    85% {
+        letter-spacing: 6px;
+    }
+    100% {
+        letter-spacing: 6px;
+    }
 }
+
 
 .box-about {
     width: 100%;
@@ -176,6 +190,23 @@
 }
 
 @media (max-width: 768px) {
+    .subtitle-about {
+        font-size: 20px;
+    }
+    @keyframes text {
+        0% {
+            color: linear-gradient(135deg, #0d0d0d, #292929);
+        }
+        30% {
+            letter-spacing: 8px;
+        }
+        85% {
+            letter-spacing: 2px;
+        }
+        100% {
+            letter-spacing: 2px;
+        }
+    }
 
     .content-about {
         padding-bottom: 20px;

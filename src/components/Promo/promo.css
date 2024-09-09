@@ -117,4 +117,9 @@
         width: 80%;
         margin-bottom: 20px;
     }
+    .container-promo p {
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }

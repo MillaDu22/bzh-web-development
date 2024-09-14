@@ -13,7 +13,6 @@
     border-bottom: 1px solid black;
 }
 
-
 .container-navbar .nav-header {
     display: flex;
     justify-content: space-between;
@@ -84,6 +83,7 @@
 @media screen and (max-width: 768px) {
     .container-navbar .nav-header {
         width: 100%;
+        justify-content: center;
     }
 
     .container-navbar .nav-header .nav-item {

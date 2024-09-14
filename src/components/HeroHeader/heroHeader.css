@@ -151,6 +151,17 @@
     animation: rotateBg 20s linear infinite;
 }
 
+@media screen and (max-width: 1306px) { 
+    .title-hero{
+        font-size:34px;
+    }
+    .asset-hero {
+        width:320px;
+        height:auto;
+        padding: 2%;
+    }
+}
+
 @media screen and (max-width: 1037px) {  
     .we-are {
         font-size: 28px;
@@ -164,6 +175,12 @@
         width:320px;
         height:auto;
         padding: 2%;
+    }
+}
+
+@media screen and (max-width: 918px) { 
+    .title-hero{
+        font-size:27px;
     }
 }
 
@@ -185,12 +202,18 @@
 
     .we-are {
         font-size: 22px;
+        text-align: center;
     }
     
     .title-hero {
         text-align: center;
-        font-size: 24px;
+        font-size: 22px;
     }
+
+    .subtitle-hero {
+        font-size: 16px;
+    }
+
     .asset-hero {
         width:100%;
         height:auto;

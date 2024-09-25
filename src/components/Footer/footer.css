@@ -15,6 +15,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 40px;
 }
 
 .txt-footer {
@@ -31,6 +32,21 @@
     font-size: 16px; 
     color: white;
     font-family: 'Ysabeau SC', sans-serif;
+}
+
+.container-reseaux {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title-reseaux, .title-mentions {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: aqua;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 10px;
 }
 
 .container-social {
@@ -108,6 +124,90 @@
     text-decoration: underline;
 }
 
+.print-button {
+    box-shadow: 0 3px 4px #0d0d0d, inset 0 -2px 5px #0d0d0d,
+    inset -4px 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #0d0d0d, 0 0 0 2px #0d0d0d,
+    0 0 0 -1.5px #0d0d0d;
+    border:2px solid black;
+    padding:10px;
+    border-radius: 15px;
+    background: #0d0d0d;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: aqua; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    position: relative;
+    overflow: hidden;
+    margin-top:20px;
+}
+    
+.print-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00FFFF; 
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+    z-index: 0;
+}
+
+.print-button:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.print-button:hover {
+    background-color: #00FFFF; 
+    transform: scale(1.05); 
+    color:black;
+    box-shadow: 2 2px 5px rgba(0, 255, 255, 0.87), inset -5 -5px 10px rgba(0, 255, 255, 0.791),
+    inset 0 4px 15px aqua, 0 0 0 2px aqua, 0 0 0 5px aqua,
+    0 0 0 5.5px rgba(0, 255, 255, 0.791);
+}
+
+.print-button span {
+    position: relative;
+    z-index: 1; 
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .container-footer {
+        flex-direction: column;
+        padding: 20px 10px;
+    }
+
+    .box-links-footer {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .txt-footer, .container-social {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .legal-notice {
+        font-size: 12px;
+        align-items: center;
+    }
+
+    .container-reseaux {
+        align-items: center;
+    }
+}
+
+
 
 @media screen and (max-width: 768px) {
     .container-footer {
@@ -131,6 +231,10 @@
 
     .legal-notice {
         font-size: 12px;
+        align-items: center;
+    }
+
+    .container-reseaux {
         align-items: center;
     }
 }

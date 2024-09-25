@@ -9,3 +9,70 @@
   align-items: center;
   background: black;
 }
+
+@media print {
+  .page-break {
+    page-break-after:always; /* Force un saut de page après chaque section */
+    page-break-inside:avoid; /* Évite de couper une section au milieu */
+  }
+
+  html, body{
+      background-color: black!important;
+      z-index: -1;
+  }
+
+  .container-about, .content-about {
+    background-color: transparent;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition:none !important;
+  }
+
+  .txt-about {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition:none !important;
+  }
+
+  .subtitle-about {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition:none !important;
+  }
+
+  .box-specifications {
+    margin-top: 300px;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition:none !important;
+  }
+
+  .container-services {
+    padding-top: 0px;
+    padding-bottom:400px;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition:none !important;
+  }
+
+  .services-title {
+    margin-bottom:20px;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition:none !important;
+  }
+
+  .title-evolution {
+    margin-top: 495px;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition:none !important;
+  }
+}

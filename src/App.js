@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, useRef} from 'react';
+import { useReactToPrint } from 'react-to-print'; 
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import CookiesConsent from '../src/components/CookiesConsent/index.jsx';
 import HeroHeader from '../src/components/HeroHeader/index.jsx';
@@ -7,11 +8,18 @@ import Services from '../src/components/Services/index.jsx';
 import Promo from '../src/components/Promo/index.jsx';
 import Timeline from '../src/components/Timeline/index.jsx';
 import Contact from '../src/components/Contact/index.jsx';
+import Slider from '../src/components/Slider/index.jsx';
 import Footer from '../src/components/Footer/index.jsx';
 import './App.css';
 
 function App() {
   const [cookiesAccepted, setCookiesAccepted] = useState(false);
+  const pageRef = useRef(); // Crée une référence pour la section à imprimer
+
+  const handlePrint = useReactToPrint({
+    content: () => pageRef.current,
+    documentTitle: 'Site - version imprimable', // Titre du document PDF
+  });
 
   useEffect(() => {
     const consent = document.cookie
@@ -64,12 +72,19 @@ function App() {
         </Helmet>
         <HeroHeader />
         <CookiesConsent setCookiesAccepted={setCookiesAccepted} />
-        <About />
-        <Services />
+        <div className="ref" ref={pageRef}>
+          <div className="page-break">
+            <About />
+          </div>
+          <div className="page-break">
+            <Services />
+          </div>
+        </div>
         <Promo />
         <Timeline />
         <Contact cookiesAccepted={cookiesAccepted} />
-        <Footer />
+        <Slider />
+        <Footer handlePrint={handlePrint} />
       </div>
     </HelmetProvider>
   );

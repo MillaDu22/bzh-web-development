@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import Cookies from 'js-cookie';
 import Modal from '../Modal/index.jsx';
+import ReCAPTCHA from 'react-google-recaptcha';
+
 import './contact.css';
 
 function Contact({ cookiesAccepted }) {
@@ -16,6 +18,7 @@ function Contact({ cookiesAccepted }) {
 
     const [errors, setErrors] = useState({});
     const [modalInfo, setModalInfo] = useState({ show: false, title: '', message: '' });
+    const [captchaValue, setCaptchaValue] = useState(null); 
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -33,6 +36,10 @@ function Contact({ cookiesAccepted }) {
     const validateEmail = (email) => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);
+    };
+
+    const handleCaptchaChange = (value) => {
+        setCaptchaValue(value);
     };
 
     const handleSubmit = (e) => {
@@ -53,6 +60,7 @@ function Contact({ cookiesAccepted }) {
         if (!formData.mobile) formErrors.mobile = 'Le numéro de mobile est requis';
         if (!formData.objet) formErrors.objet = 'L\'objet est requis';
         if (!formData.message) formErrors.message = 'Le message est requis';
+        if (!captchaValue) formErrors.captcha = 'Veuillez valider le Captcha';
 
         if (Object.keys(formErrors).length > 0) {
             setErrors(formErrors);
@@ -87,6 +95,7 @@ function Contact({ cookiesAccepted }) {
             objet: '',
             message: ''
         });
+        setCaptchaValue(null);
     };
 
     const closeModal = () => {
@@ -189,6 +198,16 @@ function Contact({ cookiesAccepted }) {
                     ></textarea>
                     {errors.message && <p className="error-message">{errors.message}</p>}
                 </div>
+
+                <div className="form-group">
+                    <ReCAPTCHA
+                        sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" // clé de site reCAPTCHA //
+                        onChange={handleCaptchaChange}
+                        data-theme="dark light"
+                    />
+                    {errors.captcha && <p className="error-message">{errors.captcha}</p>}
+                </div>
+
                 <button type="submit" className="submit-button">Envoyer</button>
             </form>
             <Modal

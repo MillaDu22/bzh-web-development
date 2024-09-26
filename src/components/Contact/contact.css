@@ -113,35 +113,22 @@
 }
 
 /* Captcha */
-/* Captcha - Conteneur global */
-.g-recaptcha {
-    margin-top: 20px; /* Ajoute de l'espace au-dessus */
-    transform: scale(0.9); /* Redimensionne légèrement le reCAPTCHA */
-    transform-origin: 0 0; /* Ancre l'origine du reCAPTCHA */
-    display: flex; /* Centre le reCAPTCHA */
-    justify-content: center; /* Centré horizontalement */
-    background: #f1f1f1; /* Couleur de fond */
-    border: 2px solid #d1d1d1; /* Bordure autour */
-    border-radius: 10px; /* Coins arrondis */
-    padding: 10px; /* Espacement interne */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Légère ombre */
-}
 
 /* Conteneur iframe */
-.contact-form .g-recaptcha iframe {
-    border: 2px solid #d1d1d1;
-    border-radius: 8px;
+.recaptcha-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.recaptcha-container iframe {
+    max-width:100%;
+    border-radius: 5px;
 }
 
-/* Captcha sombre */
-body.dark-mode .g-recaptcha {
-    background: #333; /* Fond sombre */
-    border: 2px solid #555;
-}
 
-body.dark-mode .contact-form .g-recaptcha iframe {
-    border: 2px solid #555; /* Bordure sombre */
-}
+
 
 /* Style responsive */
 @media screen and (max-width: 600px) {

@@ -200,11 +200,13 @@ function Contact({ cookiesAccepted }) {
                 </div>
 
                 <div className="form-group">
-                    <ReCAPTCHA
-                        sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" // clé de site reCAPTCHA //
-                        onChange={handleCaptchaChange}
-                        data-theme="dark light"
-                    />
+                    <div className="recaptcha-container">
+                        <ReCAPTCHA
+                            sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" // clé de site reCAPTCHA //
+                            onChange={handleCaptchaChange}
+                            data-theme="dark light"
+                        />
+                    </div>
                     {errors.captcha && <p className="error-message">{errors.captcha}</p>}
                 </div>
 

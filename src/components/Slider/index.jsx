@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
+import ReCAPTCHA from 'react-google-recaptcha';
 import './slider.css';
 
 const Slider = () => {
@@ -16,19 +17,24 @@ const Slider = () => {
     const [showForm, setShowForm] = useState(false);
     const [newReview, setNewReview] = useState({ name: '', rating: 0, comment: '' });
     const [currentSlide, setCurrentSlide] = useState(0);
+    const [captchaValue, setCaptchaValue] = useState(null);
+    const [captchaVerified, setCaptchaVerified] = useState(false);
+
 
     // Slider automatique
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide + 1) % reviews.length);
-        }, 5000); // Change de slide toutes les 3 secondes
+        }, 5000); // Change de slide toutes les 3 secondes //
 
         return () => clearInterval(interval);
     }, [reviews.length]);
 
     const handleAddReview = () => {
-        if (newReview.name && newReview.comment && newReview.rating) {
-            sendEmail(); // Appel de la fonction pour envoyer l'avis par email
+        if (newReview.name && newReview.comment && newReview.rating && captchaVerified) {
+            sendEmail(); // Appel de la fonction pour envoyer l'avis par email //
+        } else {
+            alert("Veuillez remplir tous les champs et valider le reCAPTCHA.");
         }
     };
 
@@ -41,16 +47,24 @@ const Slider = () => {
                 rating: newReview.rating,
                 comment: newReview.comment,
             },
-            'MMCldRgvGL2OmMHp_' // Remplacer par votre User ID
+            'MMCldRgvGL2OmMHp_' 
         ).then((result) => {
             console.log(result.text);
             alert("Votre avis a été envoyé avec succès !");
             setNewReview({ name: '', rating: 0, comment: '' });
             setShowForm(false);
+            setCaptchaValue(null);
+            setCaptchaVerified(false);
         }, (error) => {
             console.log(error.text);
             alert("Une erreur s'est produite lors de l'envoi de votre avis.");
         });
+    };
+
+    // Gestion de la validation reCAPTCHA //
+    const handleCaptchaChange = (value) => {
+        setCaptchaValue(value);
+        setCaptchaVerified(!!value); // Convertit en booléen (true si valeur présente) //
     };
 
     return (
@@ -119,6 +133,14 @@ const Slider = () => {
                                 required
                             />
                         </div>
+
+                        <div className="form-group">
+                            <ReCAPTCHA
+                                sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" 
+                                onChange={handleCaptchaChange}
+                            />
+                        </div>
+
                         <button type="submit"><span>Ajouter</span></button>
                     </form>
                 </div>

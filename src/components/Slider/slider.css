@@ -222,12 +222,13 @@
     }
 
     .form-avis {
+        width:90%;
         padding-bottom: 0px ;
         margin-bottom: 0px;
     }
 
     .avis {
-        width:90%
+        width:90%;
     }
 
     .review-form{
@@ -240,6 +241,7 @@
 
     .review-form .form-group{
         width:100%;
+        padding:0;
     }
 
 
@@ -247,6 +249,7 @@
     .review-form .form-group select,
     .review-form .form-group textarea {
         width: 100%;
+        margin: 0%;
         padding: 3%;
         border: 1px solid #ccc;
         border-radius: 4px;

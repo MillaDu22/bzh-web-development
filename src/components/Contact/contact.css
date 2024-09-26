@@ -130,22 +130,6 @@
 
 
 
-/* Style responsive */
-@media screen and (max-width: 600px) {
-    .g-recaptcha {
-        transform: scale(0.8); /* Réduit encore la taille */
-        transform-origin: 0 0;
-        margin-top: 10px;
-    }
-}
-
-/* Survol */
-.g-recaptcha:hover {
-    transform: scale(0.92); /* Agrandit légèrement */
-    transition: transform 0.3s ease; /* Transition douce */
-}
-
-
 @media (max-width: 768px) {
     .title-contact {
         font-size: 20px;
@@ -189,24 +173,5 @@
         padding: 3%;
         border: 1px solid #ccc;
         border-radius: 4px;
-    }
-
-    /* Captcha */
-    .g-recaptcha {
-        width:90%;
-        margin-top: 20px; /* Ajoute de l'espace au-dessus */
-        transform: scale(0.9); /* Redimensionne légèrement le reCAPTCHA */
-        transform-origin: 0 0; /* Ancre l'origine du reCAPTCHA */
-    }
-
-    .contact-form .g-recaptcha iframe {
-        border: 2px solid #d1d1d1; /* Ajoute une bordure autour du reCAPTCHA */
-        border-radius: 5px; /* Coins arrondis */
-    }
-
-    .g-recaptcha {
-        display: flex;
-        justify-content: center; /* Centre le reCAPTCHA */
-        padding: 10px;
     }
 }

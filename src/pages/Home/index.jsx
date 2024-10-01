@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Header from '../../components/Header/index.jsx';
+import Intro from '../../components/Intro/index.jsx';
 import Timeline from '../../components/Timeline/index.jsx';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
 import CookiesConsent from '../../components/CookiesConsent/index.jsx';
@@ -15,27 +16,34 @@ function Home() {
         .split('; ')
         .find(row => row.startsWith('cookieConsent='))
         ?.split('=')[1];
-
+    
     if (consent === 'accepted') {
         setCookiesAccepted(true);
-        // Chargement de Google Analytics ou d'autres scripts ici //
+    
+        // Vérifiez si le script GTM est déjà chargé
+        if (!window.dataLayer) {
+        // Création et insertion du script Google Tag Manager
         const script = document.createElement('script');
         script.src = `https://www.googletagmanager.com/gtag/js?id=GTM-K2D59TZV`;
         script.async = true;
         document.body.appendChild(script);
-
+    
         script.onload = () => {
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){window.dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'GTM-K2D59TZV');
+            // Initialisation de Google Analytics
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'GTM-K2D59TZV');
         };
+        }
     }
     }, []);
+    
     return(
         <div className="container-home">
             <HelmetProvider>
                 <div className="home" ref={pageRef}>
+                <React.Fragment>
                     <Helmet>
                         <meta charset="UTF-8" />
                         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -59,10 +67,12 @@ function Home() {
                         <meta name="twitter:description" content="Armor Web Créations, votre expert en création ou refonte de sites web en Bretagne. Nous offrons des solutions sur mesure pour vos projets personnels et professionnels." />
                         <meta name="twitter:image" content="https://armor-web-creations.vercel.app/assets/images/Homepage.png" />
                     </Helmet>
+                    </React.Fragment>
                 </div>
                 {/* Consentement aux cookies */}
                 <CookiesConsent setCookiesAccepted={setCookiesAccepted} />
                 <Header />
+                <Intro />
                 <Timeline />
             </HelmetProvider>
         </div>

@@ -273,6 +273,10 @@
         background: black !important;
     }
 
+    .logo-centered {
+        display:flex !important;
+    }
+
     .container-navbar {
         display:none;
     }
@@ -299,7 +303,27 @@
         display:none;
     }
 
+    .intro-container h1 {
+        animation:none !important;
+        opacity:1 !important;
+        transform: none !important;
+        transition:none !important;
+        margin-top:150px !important;
+        padding-top:80px !important;
+    }
+
+    .intro-container h1, .intro-container h2, .intro-container p, .intro-container li {
+        animation:none !important;
+        opacity:1 !important;
+        transform: none !important;
+        transition:none !important;
+    }
+
     #timeline {
+        animation:none !important;
+        opacity:1 !important;
+        transform: none !important;
+        transition:none !important;
         padding-top:140px !important;
         padding-bottom: 10px !important;
     }

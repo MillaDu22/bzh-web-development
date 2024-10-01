@@ -1,0 +1,131 @@
+/* Style principal pour le composant Intro */
+.intro-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #000; /* Fond noir */
+    color: #fff; /* Texte blanc */
+    padding: 40px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    animation: fadeIn 1.5s ease-in-out;
+    text-align: center;
+}
+
+/* Apparition en fondu */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation d'apparition des titres */
+.intro-container h1,
+.intro-container h2 {
+    font-family: 'Ysabeau SC', sans-serif;
+    color:aqua;
+    text-align: center;
+    animation: slideIn 1.5s ease-in-out;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Effet de survol pour les titres */
+.intro-container h1:hover, .intro-container h2:hover {
+    color: #fff; /* Change la couleur du texte */
+    text-shadow: 0 0 15px #00ffff, 0 0 20px #00ffff; /* Ajoute un effet de brillance */
+    transform: scale(1.05); /* Légère mise en avant */
+}
+
+/* Animation de slide pour les titres */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Style des paragraphes */
+.intro-container p {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    animation: slideInList 1.5s ease-out forwards;
+}
+
+/* Mise en valeur des mots clés */
+    .intro-container p strong {
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #00ffff; /* Aqua */
+}
+
+/* Liste de services */
+.intro-container ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.intro-container li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 30px;
+    font-family: 'Ysabeau SC', sans-serif;
+    line-height: 1.5;
+    opacity: 0;
+    animation: fadeInUp 1.2s ease-in-out;
+    transition: color 0.3s ease, transform 0.3s ease;
+    animation: slideInList 1.5s ease-out forwards;
+}
+
+.intro-container li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #00ffff;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1.2em;
+}
+
+/* Apparition des éléments de liste */
+@keyframes slideInList {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Effet de hover pour les titres et paragraphes */
+.intro-container h1:hover,
+.intro-container h2:hover {
+    color: #00ffff; /* Change le texte en Aqua au survol */
+    cursor: pointer;
+}
+
+/* Style des transitions */
+.intro-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8);
+}

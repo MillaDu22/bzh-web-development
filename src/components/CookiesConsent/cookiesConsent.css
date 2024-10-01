@@ -6,6 +6,7 @@
     right: 0;
     width: 100%; /* Largeur totale */
     background: rgba(0, 0, 0, 0.85); /* Arrière-plan noir légèrement transparent */
+    font-family: 'Ysabeau SC', sans-serif;
     color: white; /* Texte en blanc */
     padding: 15px 30px; /* Espacement interne */
     z-index: 1000; /* S'assure que le bandeau est au-dessus du contenu */

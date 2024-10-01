@@ -11,8 +11,8 @@ function Modal({ show, onClose, title, message }) {
             <div className="modal">
                 <h2 className="modal-title">{title}</h2>
                 <p className="modal-message">{message}</p>
+                <button className="modal-close-button" onClick={onClose}>Fermer</button>
             </div>
-            <button className="modal-close-button" onClick={onClose}>Fermer</button>
         </div>
     );
 }

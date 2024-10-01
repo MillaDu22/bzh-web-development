@@ -5,9 +5,10 @@
     justify-content: space-between;
     background-color: #000; /* Fond noir */
     color: #fff; /* Texte blanc */
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 15px;
-    margin: 20px auto;
+    margin: 0px auto;
     max-width: 800px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
     animation: fadeIn 1.5s ease-in-out;

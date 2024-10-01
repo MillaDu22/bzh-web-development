@@ -180,5 +180,6 @@
     .logo-centered {
         position: static;
         transform: none;
+        margin-right: 20px;;
     }
 }

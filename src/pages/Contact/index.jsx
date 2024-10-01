@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import Cookies from 'js-cookie';
-import Modal from '../Modal/index.jsx';
+import Modal from '../../components/Modal/index.jsx';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 import './contact.css';
@@ -223,5 +223,3 @@ function Contact({ cookiesAccepted }) {
 }
 
 export default Contact;
-
-

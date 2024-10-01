@@ -6,6 +6,7 @@ html {
   margin: 0 auto;
   padding:0;
   width:100%;
+  background:black;
 }
 
 #root {
@@ -17,6 +18,7 @@ html {
   align-items: center;
   margin: 0 auto;
   padding:0;
+  background:black;
 }
 
 body {
@@ -28,5 +30,5 @@ body {
   align-items: center;
   margin: 0 auto;
   padding:0;
+  background:black;
 }
-

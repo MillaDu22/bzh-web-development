@@ -1,27 +1,21 @@
-import React from 'react';
+import Screens from '../../assets/images/screens.webp';
 import './header.css';
-import Britain from '../../assets/images/britain-logo.webp';
-import Navbar from '../Navbar/index';
 
 function Header() {
-    return(
-        <div id="home" className = "container-header">
-            <a className = "container-containers" href="./">
-                <div className="container-title-france">
-                    <h1 className="title-app">ARMOR WEB CREATIONS</h1>
-                    <div className="bleu-blanc-rouge">
-                        <span className="bleu"></span>
-                        <span className="blanc"></span>
-                        <span className="rouge"></span>
-                    </div>
+    return (
+        <div className="container-hero">
+            <div className="box-hero">
+                <div className="container-txt">
+                    <h3 className="we-are">Je suis développeur web</h3>
+                    <h4 className="title-hero">ET J' AIME MON METIER</h4>
+                    <p className="subtitle-hero">Créer des expériences web uniques</p>
                 </div>
-                <div className="container-logo-subtitle">
-                    <img className ="britain" src = {Britain} alt="Britain-logo"/>
-                    <h2 className = "subtitle-app">Ludmilla Marti</h2>
+                <div className="container-screens">
+                    <img className="asset-hero" src={Screens} alt="preview responsive websites" />
                 </div>
-            </a>
-            <Navbar />
+            </div>
         </div>
-    )
+    );
 }
+
 export default Header;

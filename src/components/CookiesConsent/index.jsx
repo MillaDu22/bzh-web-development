@@ -22,28 +22,28 @@ const CookieConsent = () => {
     useEffect(() => {
         const consent = getCookie('cookieConsent');
         if (!consent) {
-            setShowBanner(true); // Afficher la bannière si le consentement n'a pas encore été donné
+            setShowBanner(true); // Afficher le bandeau si le consentement n'a pas encore été donné
         }
     }, []);
 
     const handleAccept = () => {
         setCookie('cookieConsent', 'accepted', 365); // Défini le cookie pour 1 an
-        setShowBanner(false); // Masque la bannière après acceptation
+        setShowBanner(false); // Masque le bandeau après acceptation
     };
 
     const handleDecline = () => {
         setCookie('cookieConsent', 'declined', 365); // Défini le cookie pour 1 an
-        setShowBanner(false); // Masque la bannière après refus
+        setShowBanner(false); // Masque le bandeau après refus
     };
 
-    // Ne pas rendre le composant si la bannière ne doit pas être affichée
+    // Ne pas rendre le composant si le bandeau ne doit pas être affiché
     if (!showBanner) return null;
 
     return (
-        <div className="modal-cookies">
-            <div className="modal-content-cookies">
+        <div className="cookies-banner">
+            <div className="cookies-banner-content">
                 <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. Acceptez-vous l'utilisation des cookies ?</p>
-                <div className="modal-buttons-cookies">
+                <div className="cookies-banner-buttons">
                     <button onClick={handleAccept}>Accepter</button>
                     <button onClick={handleDecline}>Refuser</button>
                 </div>

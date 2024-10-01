@@ -1,9 +1,10 @@
 .slider-container {
-    background: linear-gradient(135deg, #0d0d0d, #292929);
+    background:black;
     width: 100%;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
+    padding-top:105px;
     padding-bottom:40px;
     border-bottom:1px solid black;
 }
@@ -255,4 +256,3 @@
         border-radius: 4px;
     }
 }
-

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import ReCAPTCHA from 'react-google-recaptcha';
-import './slider.css';
+import './avis.css';
 
-const Slider = () => {
+const Avis = () => {
     /* eslint-disable no-unused-vars */
     const [reviews, setReviews] = useState([
         { id: 1, name: 'Erwan Tibo', rating: 4, comment: 'Satisfait du travail réalisé. Quelques détails à peaufiner, mais l\'essentiel est là. Le rendu final est excellent. Merci à vous pour votre professionnalisme. '},
@@ -149,4 +149,4 @@ const Slider = () => {
     );
 };
 
-export default Slider;
+export default Avis;

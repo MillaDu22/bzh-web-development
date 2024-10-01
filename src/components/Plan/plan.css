@@ -23,7 +23,7 @@
     font-family: 'Ysabeau SC', sans-serif;
 }
 
-.site-map-section p, .legal-notice-section p, .privacy-policy-section p, .terms-of-service-section p {
+.site-map-section .p-plan{
     font-size: 16px;
     line-height: 1.6;
     color: aqua;
@@ -31,12 +31,38 @@
     font-family: 'Ysabeau SC', sans-serif;
 }
 
-.site-map-section a, .legal-notice-section a, .privacy-policy-section a, .terms-of-service-section a {
-    color: aqua;
+.site-map-section .link-plan {
+    color: white; 
     text-decoration: none;
+    margin: 0 10px;
     font-family: 'Ysabeau SC', sans-serif;
+    cursor: pointer;
 }
 
-.site-map-section a:hover, .legal-notice-section a:hover, .privacy-policy-section a:hover, .terms-of-service-section a:hover {
-    text-decoration: underline;
+.site-map-section .p-plan{
+    color: white; 
+    margin: 0 10px;
+    font-family: 'Ysabeau SC', sans-serif;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.site-map-section .p-plan::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: aqua; 
+    transition: width 0.3s ease, left 0.3s ease; 
+}
+
+.site-map-section .p-plan:hover{
+    color: aqua;
+    transform: translateY(-2px); 
+}
+
+.site-map-section .p-plan:hover::after {
+    width: 100%;
+    left: 0;
 }

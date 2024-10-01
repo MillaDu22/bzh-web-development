@@ -1,6 +1,8 @@
 .container-promo {
-    width: 100%;
-    background:linear-gradient(135deg, #0d0d0d, #292929);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background:black;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
     text-align: center;
     box-sizing: border-box;
@@ -65,7 +67,7 @@
 }
 
 .promo-pack {
-    background: #111111;
+    background: black;
     margin-bottom: 40px;
     border-radius: 8px;
     width: 38%;
@@ -108,13 +110,17 @@
 }
 
 @media (max-width: 768px) {
+    .container-promo {
+        width: 100%;
+    }
+
     .promo-prices {
         flex-direction: column;
         align-items: center;
     }
 
     .promo-pack {
-        width: 80%;
+        width: 90%;
         margin-bottom: 20px;
     }
     .container-promo p {

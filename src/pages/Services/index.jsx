@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './services.css';
-import DetailsPack from '../DetailsPack/index.jsx';
+import DetailsPack from '../../components/DetailsPack/index.jsx';
+import Promo from '../../components/Promo/index.jsx';
 
 function Services() {
     const [openPack, setOpenPack] = useState(null);
@@ -107,6 +108,7 @@ function Services() {
                     />
                 </div>
             </div>
+            <Promo />
             <div className="evolution">
                 <h4 className= "title-evolution">Evolution des tarifs</h4>
                 <span className ="price-disclaimer">Les tarifs sont indicatifs et peuvent évoluer en fonction des contraintes techniques et des fonctionnalités souhaitées.</span>
@@ -124,4 +126,3 @@ function Services() {
 }
 
 export default Services;
-

@@ -129,17 +129,21 @@
     .nav-items {
         display: none;
         position: absolute;
-        top: 95px;
-        left: 45px;
-        width: 120px;
+        top: 94px;
+        left: 41px;
+        width: 130px;
         background-color: rgba(0, 0, 0, 0.9);
         flex-direction: column;
         align-items: flex-start;
         z-index: 998;
+        border-radius: 0px 8px 8px 8px;
+        border: 2px solid white;
+        box-shadow: 0 1px 4px 1px rgba(255, 255, 255, 0.506);
     }
 
     .nav-items.active {
         display: flex;
+        width:130px;
     }
 
     .nav-left, .nav-right {
@@ -148,9 +152,11 @@
         justify-content: center;
         align-items: flex-start;
         padding: 0px 20px;
+        width:40%;
     }
 
     .nav-item {
+        width:100%;
         padding: 0px 0;
         text-align: left;
     }
@@ -172,7 +178,7 @@
 
     .nav-item-text {
         font-size: 16px;
-        text-align: left;
+        text-align: center;
         width:100%;
     }
 

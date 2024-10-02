@@ -33,7 +33,7 @@ function Navbar() {
                         <Link className="nav-item" to="/about" onClick={toggleMobileMenu}>
                             <p className="nav-item-text">AWC</p>
                         </Link>
-                        <a className="nav-item" href="https://milladu22.github.io/ldla-mti-web-developer/" target="_blank" rel="noreferrer" onClick={toggleMobileMenu}>
+                        <a className="nav-item" href="https://ldla-mti-web-developer.vercel.app" target="_blank" rel="noreferrer" onClick={toggleMobileMenu}>
                             <p className="nav-item-text">Projets</p>
                         </a>
                     </div>

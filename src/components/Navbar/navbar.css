@@ -193,6 +193,10 @@
     .nav-header {
         justify-content: space-between;
     }
+
+    .nav-item {
+        width:55%;
+    }
     .nav-item::after {
         bottom: -2px; 
     }

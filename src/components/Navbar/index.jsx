@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../Logo/index.jsx';
+import Logo2 from '../Logo2/index.jsx';
 import './navbar.css';
 
 function Navbar() {
@@ -20,7 +20,7 @@ function Navbar() {
 
                 {/* Logo centré */}
                 <div className="logo-centered">
-                    <Logo />
+                    <Logo2 />
                 </div>
 
                 {/* Conteneur complet du menu (sections gauche et droite) */}

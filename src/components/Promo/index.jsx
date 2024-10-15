@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import './promo.css';
 
 function Promo() {
-    const originalPrices = {
+    /*const originalPrices = {
         simple: 800,
         basic: 1500,
         standard: 4500,
@@ -16,7 +16,7 @@ function Promo() {
         basic: (originalPrices.basic * (1 - discountRate)).toFixed(2),
         standard: (originalPrices.standard * (1 - discountRate)).toFixed(2),
         premium: (originalPrices.premium * (1 - discountRate)).toFixed(2)
-    };
+    };*/
 
     const promoStartDate = "01/10/2024";
     const promoEndDate = "31/11/2024";
@@ -42,10 +42,22 @@ function Promo() {
 
     return (
         <div className="container-promo">
-            <i className="fa-solid fa-percent"></i>
-            <h2>Promotion Spéciale</h2>
-            <p>Profitez de 5% de réduction sur tous les packs du {promoStartDate} au {promoEndDate} !</p>
-            <div className="promo-prices">
+            <div className ="box-promo1">
+                <i className="fa-solid fa-percent"></i>
+                <h2>Promotion Spéciale</h2>
+                <p>Profitez de 5% de réduction sur tous les packs du {promoStartDate} au {promoEndDate} !</p>
+            </div>
+            <div className ="box-promo2">
+                <i className="fa-solid fa-percent"></i>
+                <h2>Promotion Permanente</h2>
+                <h3>Offre spéciale jeunes entreprises:</h3>
+                <p>Profitez de 10% de réduction sur tous les packs. 
+                    Offrez à votre entreprise une vitrine en ligne 
+                    et attirez vos premiers clients dès aujourd'hui. 
+                    Une opportunité idéale pour renforcer votre présence digitale à moindre coût !
+                </p>
+            </div>
+            {/*<div className="promo-prices">
                 <div className="promo-pack">
                     <h3>Pack Simple</h3>
                     <p className="original-price">Prix original : A partir de {originalPrices.simple}€</p>
@@ -66,7 +78,7 @@ function Promo() {
                     <p className="original-price">Prix original : A partir de {originalPrices.premium}€</p>
                     <p className="promotionnel-price">Prix promotionnel : A partir de {discountedPrices.premium}€</p>
                 </div>
-            </div>
+            </div>*/}
         </div>
     );
 }

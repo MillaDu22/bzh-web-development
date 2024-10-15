@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './services.css';
 import DetailsPack from '../../components/DetailsPack/index.jsx';
 import Promo from '../../components/Promo/index.jsx';
@@ -42,10 +43,13 @@ function Services() {
                     <li>Design responsive</li>
                     <li>1 mois de support</li>
                 </ul>
-                <div className="price">A partir de 800€</div>
-                <button className="btn" onClick={() => handleToggle('simple')}>
-                    {openPack === 'simple' ? 'Masquer les détails' : 'Choisir ce pack'}
-                </button>
+                <div className="container-buttons">
+                    <Link className ="link-devis" to="/contact">Obtenir un devis</Link>
+                    {/*<div className="price">A partir de 800€</div>*/}
+                    <button className="btn" onClick={() => handleToggle('simple')}>
+                        {openPack === 'simple' ? 'Masquer les détails' : 'Voir ce pack'}
+                    </button>
+                </div>
                 <DetailsPack 
                     isOpen={openPack === 'simple'}
                     details="Ce Pack Simple inclut la création d'un site statique de 1 à 3 pages avec du HTML et CSS. Ce site est parfait pour les projets simples qui ne nécessitent pas de fonctionnalités dynamiques. Le design est responsive pour assurer la compatibilité avec les appareils mobiles. Domaine et hébergement OVH. Ce pack inclut un mois de support pour toute assistance technique."
@@ -61,10 +65,13 @@ function Services() {
                         <li>Optimisation SEO de base</li>
                         <li>1 mois de support</li>
                     </ul>
-                    <div className="price">A partir de 1500€</div>
-                    <button className="btn" onClick={() => handleToggle('basic')}>
-                        {openPack === 'basic' ? 'Masquer les détails' : 'Choisir ce pack'}
-                    </button>
+                    <div className="container-buttons">
+                        <Link className ="link-devis" to="/contact">Obtenir un devis</Link>
+                        {/*<div className="price">A partir de 1500€</div>*/}
+                        <button className="btn" onClick={() => handleToggle('basic')}>
+                            {openPack === 'basic' ? 'Masquer les détails' : 'Voir ce pack'}
+                        </button>
+                    </div>
                     <DetailsPack 
                         isOpen={openPack === 'basic'}
                         details="Ce pack Basic inclut un site vitrine dynamique de 3 pages avec un design responsive. Nous nous occupons également de l'optimisation SEO de base pour que votre site soit bien référencé. Domaine et hébergement OVH. De plus, vous bénéficiez d'un mois de support pour toute assistance technique."
@@ -80,10 +87,13 @@ function Services() {
                         <li>Optimisation SEO avancée</li>
                         <li>3 mois de support</li>
                     </ul>
-                    <div className="price">A partir de 4500€</div>
-                    <button className="btn" onClick={() => handleToggle('standard')}>
-                        {openPack === 'standard' ? 'Masquer les détails' : 'Choisir ce pack'}
-                    </button>
+                    <div className="container-buttons">
+                        <Link className ="link-devis" to="/contact">Obtenir un devis</Link>
+                        {/*<div className="price">A partir de 4500€</div>*/}
+                        <button className="btn" onClick={() => handleToggle('standard')}>
+                            {openPack === 'standard' ? 'Masquer les détails' : 'Voir ce pack'}
+                        </button>
+                    </div>
                     <DetailsPack 
                         isOpen={openPack === 'standard'}
                         details="Le Pack Standard comprend un site dynamique de 5 à 7 pages avec un design personnalisé selon vos besoins. Ce pack inclut également une optimisation SEO avancée pour améliorer la visibilité de votre site. Domaine et hébergement OVH. Vous bénéficiez de 3 mois de support technique."
@@ -98,10 +108,13 @@ function Services() {
                         <li>Optimisation SEO complète</li>
                         <li>6 mois de support</li>
                     </ul>
-                    <div className="price">A partir de 18000€</div>
-                    <button className="btn" onClick={() => handleToggle('premium')}>
-                        {openPack === 'premium' ? 'Masquer les détails' : 'Choisir ce pack'}
-                    </button>
+                    <div className="container-buttons">
+                        <Link className ="link-devis" to="/contact">Obtenir un devis</Link>
+                        {/*<div className="price">A partir de 18000€</div>*/}
+                        <button className="btn" onClick={() => handleToggle('premium')}>
+                            {openPack === 'premium' ? 'Masquer les détails' : 'Voir ce pack'}
+                        </button>
+                    </div>
                     <DetailsPack 
                         isOpen={openPack === 'premium'}
                         details="Le Pack Premium offre un site entièrement sur mesure avec des fonctionnalités avancées selon vos besoins spécifiques. Il inclut également un design haut de gamme et une optimisation SEO complète. Domaine et hébergement OVH. Vous bénéficierez de 6 mois de support technique pour toute assistance."
@@ -111,7 +124,7 @@ function Services() {
             <Promo />
             <div className="evolution">
                 <h4 className= "title-evolution">Evolution des tarifs</h4>
-                <span className ="price-disclaimer">Les tarifs sont indicatifs et peuvent évoluer en fonction des contraintes techniques et des fonctionnalités souhaitées.</span>
+                <span className ="price-disclaimer">Les tarifs évoluent en fonction des contraintes techniques et des fonctionnalités souhaitées.</span>
             </div>
             <div className="payment">
                 <h4 className= "title-payment">Modalités de paiement</h4>
@@ -119,7 +132,7 @@ function Services() {
             </div>
             <div className="time">
                 <h4 className= "title-ss-traitance">Sous-traitance pour entreprises</h4>
-                <span className ="mention-ss-traitance">Armor Web Creations propose également des services de sous-traitance pour les entreprises souhaitant externaliser des projets de développement. Le tarif journalier pour ces prestations est de 300€ par jour. N'hésitez pas à prendre contact pour discuter de vos besoins spécifiques et obtenir un devis personnalisé.</span>
+                <span className ="mention-ss-traitance">Armor Web Creations propose également des services de sous-traitance pour les entreprises souhaitant externaliser des projets de développement. N'hésitez pas à prendre contact pour discuter de vos besoins spécifiques et obtenir un devis personnalisé.</span>
             </div>
         </div>
     );

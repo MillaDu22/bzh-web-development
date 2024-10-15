@@ -9,7 +9,6 @@
     margin: 0 auto;
     padding: 0;
     background: black;
-    color: #ffffff;
     overflow: hidden;
     position: relative;
     padding-top:155px;
@@ -25,7 +24,10 @@
     align-items: center;
     width: 85%;
     max-width: 1200px;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     position: relative;
     z-index: 2;
 }
@@ -38,16 +40,32 @@
     width: 50%;
 }
 
+
 .we-are {
-    font-size: 36px;
-    line-height: 42px;
-    font-family: 'Ysabeau SC', sans-serif;
-    color: #e0e0e0;
-    margin-bottom: 15px;
+    position: relative;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.505);
+    font-size: 28px;
+    line-height: 28px;
+    font-family: 'Cinzel';
+    margin-bottom: 0px;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: typing1 2s steps(23, end);
+    animation: typing1 2s steps(23, end), animate1 2s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
 }
 
 @keyframes typing1 {
@@ -60,20 +78,25 @@
 }
 
 
+
 .title-hero {
-    text-transform: uppercase;
-    font-size: 30px;
-    line-height: 42px;
+    position: relative;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.505);
+    font-size: 28px;
+    line-height: 28px;
     text-align: left;
-    color: aqua;
-    font-weight: 700;
-    font-family: 'Cinzel';
-    margin-bottom: 10px;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-bottom: 0px;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
     opacity: 0;
-    animation: typing2 2s steps(20, end)2s forwards;
+    animation: typing2 2s steps(20, end)2s forwards, animate2 2s linear infinite;
 }
 
 @keyframes typing2 {
@@ -87,17 +110,32 @@
     }
 }
 
+@keyframes animate2 {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
 
 .subtitle-hero {
-    font-size: 20px;
+    position: relative;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: rgba(201, 201, 201, 0.505);
+    font-size: 22px;
     line-height: 28px;
-    color: #b0b0b0;
     font-family: 'Ysabeau SC', sans-serif;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
     opacity: 0;
-    animation: typing3 2s steps(33, end)4s forwards;
+    animation: typing3 2s steps(33, end)4s forwards, animate3 2s linear infinite;
 }
 
 @keyframes typing3 {
@@ -111,10 +149,21 @@
     }
 }
 
+@keyframes animate3 {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
+
+
 .container-screens {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     animation: zoomIn 2.5s ease-in-out;
 }
@@ -170,6 +219,9 @@
 }
 
 @media screen and (max-width: 918px) { 
+    .box-hero {
+        width: 90%;
+    }
     .title-hero{
         font-size:27px;
     }
@@ -211,6 +263,7 @@
         padding: 2%;
     }
 }
+
 
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(-20px); }

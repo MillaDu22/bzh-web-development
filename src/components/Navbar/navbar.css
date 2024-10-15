@@ -114,14 +114,17 @@
         width:100%;
     }
     .nav-left{
-        width:35%;
+        width: 35%;
     }
     .nav-right {
         width:35%;
     }
     .nav-item {
-        width:30%;
+        width:33.3%;
         padding:0px ;
+    }
+    .nav-item-text {
+        font-size: 15px;
     }
 }
 

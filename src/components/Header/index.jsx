@@ -12,11 +12,11 @@ function Header() {
                     </h3>
                     <h4 className="title-hero">
                     <i className="fas fa-code" aria-hidden="true" style={{ marginRight: '10px', color: '#B0B0B0' }}></i>
-                        Et développeur logiciel
+                        Développeur logiciel
                     </h4>
                     <p className="subtitle-hero">
                     <i className="fas fa-lightbulb" aria-hidden="true" style={{ marginRight: '10px', color: '#FFD700' }}></i>
-                        Solutions innovantes du digital
+                        Solutions du digital
                     </p>
                 </div>
                 <div className="container-screens">

@@ -38,6 +38,7 @@
     justify-content: center;
     align-items: flex-start;
     width: 50%;
+    padding:0;
 }
 
 
@@ -49,10 +50,12 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.505);
-    font-size: 28px;
-    line-height: 28px;
-    font-family: 'Cinzel';
-    margin-bottom: 0px;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
@@ -87,11 +90,13 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0.505);
-    font-size: 28px;
-    line-height: 28px;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
     text-align: left;
     font-family: 'Ysabeau SC', sans-serif;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
@@ -119,7 +124,6 @@
     }
 }
 
-
 .subtitle-hero {
     position: relative;
     background: linear-gradient(90deg, #000, #fff, #000);
@@ -128,9 +132,12 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: rgba(201, 201, 201, 0.505);
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 700;
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
@@ -192,8 +199,19 @@
 }
 
 @media screen and (max-width: 1306px) { 
-    .title-hero{
-        font-size:30px;
+    .box-hero {
+        width:70%;
+    }
+    .we-are {
+        font-size: 30px;
+    }
+    
+    .title-hero {
+        font-size: 30px;
+    }
+
+    .subtitle-hero {
+        font-size: 30px;
     }
     .asset-hero {
         width:320px;
@@ -203,11 +221,19 @@
 }
 
 @media screen and (max-width: 1037px) {  
+    .box-hero {
+        width:75%;
+    }
+
     .we-are {
-        font-size: 28px;
+        font-size: 30px;
     }
     
     .title-hero {
+        font-size: 30px;
+    }
+
+    .subtitle-hero {
         font-size: 30px;
     }
 
@@ -221,9 +247,18 @@
 @media screen and (max-width: 918px) { 
     .box-hero {
         width: 90%;
+        padding:3%;
     }
-    .title-hero{
-        font-size:27px;
+    .we-are {
+        font-size: 30px;
+    }
+    
+    .title-hero {
+        font-size: 30px;
+    }
+
+    .subtitle-hero {
+        font-size: 30px;
     }
 }
 
@@ -241,20 +276,22 @@
     .container-screens {
         width:90%;
         margin-top: 30px;
+        justify-content: center;
     }
 
     .we-are {
-        font-size: 22px;
+        font-size: 25px;
         text-align: center;
     }
     
     .title-hero {
         text-align: center;
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .subtitle-hero {
-        font-size: 16px;
+        font-size: 25px;
+        text-align:center;
     }
 
     .asset-hero {

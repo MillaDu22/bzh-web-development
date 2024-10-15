@@ -278,17 +278,52 @@
     }
 
     .container-navbar {
-        display:none;
+        display:flex !important;
+        animation:none !important;
+        opacity:1 !important;
+        transform: none !important;
+        transition:none !important;
+    }
+
+    .container-hero {
+        display:flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin:130px auto !important;
+        padding:0 ! important;
     }
     .box-hero {
         flex-direction: column-reverse !important;
         justify-content: center !important;
         align-items: center !important;
+        padding:0 0 0 0!important;
+        margin:20px auto ! important;
+        animation:none !important;
+        opacity:1 !important;
+        transform: none !important;
+        transition:none !important;
     }
     .container-txt {
+        display:flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items:center !important;
         width: 90% !important;
-        padding:0 5% 120px!important;
-
+        padding:0 auto 120px auto!important;
+        animation:none !important;
+        opacity:1 !important;
+        transform: none !important;
+        transition:none !important;
+    }
+    .container-screens {
+        margin-top:40px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        animation:none !important;
+        opacity:1 !important;
+        transform: none !important;
+        transition:none !important;
     }
     .we-are, .title-hero, .subtitle-hero {
         animation:none !important;
@@ -308,7 +343,7 @@
         opacity:1 !important;
         transform: none !important;
         transition:none !important;
-        margin-top:150px !important;
+        margin-top:250px !important;
         padding-top:80px !important;
     }
 
@@ -319,12 +354,21 @@
         transition:none !important;
     }
 
+    .txt-welcome {
+        margin-bottom:450px !important;
+    }
+
+    .action-title {
+        margin-top: 400px !important;
+    }
+
     #timeline {
+        display:none !important;
         animation:none !important;
         opacity:1 !important;
         transform: none !important;
         transition:none !important;
-        padding-top:140px !important;
+        padding-top:110px !important;
         padding-bottom: 10px !important;
     }
 

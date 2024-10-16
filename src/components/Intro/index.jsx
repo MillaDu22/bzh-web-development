@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './intro.css';
 
 const Intro = () => {
@@ -41,6 +42,13 @@ const Intro = () => {
             <h2 className="action-title">Prêt(e) à passer à l'action ?</h2>
             <p className="explore-txt">
                 Explorez le site pour en savoir plus et découvrez comment je transforme vos idées en <strong>réalisations concrètes</strong>. Avec <strong>Armor Web Creations</strong>, je vous accompagne à chaque étape, de la <strong>conception</strong> à la <strong>mise en ligne</strong>, en passant par la <strong>personnalisation</strong>, le <strong>design</strong> et l'<strong>optimisation SEO</strong> pour garantir une <strong>expérience utilisateur exceptionnelle</strong>.
+            </p>
+
+            {/* Ajout de la section blog */}
+            <h2 className="action-title" id="blog-title">Le blog d'Armor Web Creations</h2>
+            <p className="blog-description">
+                Retrouvez des articles sur les dernières tendances en développement web, des conseils pratiques et des études de cas inspirantes. 
+                <Link to="/blog" className="blog-link">  Accédez au blog</Link>
             </p>
         </div>
     );

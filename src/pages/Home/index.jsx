@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Header from '../../components/Header/index.jsx';
 import Intro from '../../components/Intro/index.jsx';
 import Timeline from '../../components/Timeline/index.jsx';
@@ -39,13 +40,26 @@ function Home() {
     }, []);
     
     return(
-        <div className="container-home">
-                {/* Consentement aux cookies */}
-                <CookiesConsent setCookiesAccepted={setCookiesAccepted} />
-                <Header />
-                <Intro />
-                <Timeline />
-        </div>
+        <>
+            <Helmet>
+                <title>Armor Web Creations | Création de sites web sur mesure en Bretagne</title>
+                <meta 
+                    name="description" 
+                    content="Armor Web Creations vous accompagne dans la création de sites web sur mesure en Bretagne. Découvrez nos services pour entreprises, associations, et projets personnels." 
+                />
+                <meta 
+                    name="keywords" 
+                    content="création de sites web, développement web, sites vitrines, sites e-commerce, optimisation SEO, Bretagne, Guingamp" 
+                />
+            </Helmet>
+            <div className="container-home">
+                    {/* Consentement aux cookies */}
+                    <CookiesConsent setCookiesAccepted={setCookiesAccepted} />
+                    <Header />
+                    <Intro />
+                    <Timeline />
+            </div>
+        </>    
     )
 }
 export default Home;

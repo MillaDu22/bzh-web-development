@@ -57,6 +57,19 @@
     transform: scale(1.05); /* Légère mise en avant */
 }
 
+.blog-link {
+    position: relative;
+    font-family: 'Ysabeau SC', sans-serif;
+    color:#61DAFB;
+    margin-left: 10px ;
+
+}
+
+.blog-link:hover {
+    color:white;
+    
+}
+
 /* Animation de slide pour les titres */
 @keyframes slideIn {
     0% {
@@ -162,10 +175,10 @@
 
 @media screen and (max-width:768px) {
 
-    .txt-welcome, .p-print, .explore-txt {
+    .txt-welcome, .p-print, .explore-txt, .blog-description {
         text-align: left;
     }
-    
+
     .intro-container li {
         padding-left: 0px;
     }

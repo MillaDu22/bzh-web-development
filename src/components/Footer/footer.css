@@ -362,6 +362,10 @@
         margin-top: 400px !important;
     }
 
+    #blog-title {
+        margin-top: 600px !important;
+    }
+
     #timeline {
         display:none !important;
         animation:none !important;

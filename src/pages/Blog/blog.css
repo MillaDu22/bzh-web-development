@@ -1,0 +1,79 @@
+/* Styles généraux pour la page de blog */
+.blog-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    padding:  200px 5%;
+    background-color: black; /* Fond noir */
+    color: white; /* Texte en blanc par défaut */
+    margin: auto; /* Centrer la page */
+}
+
+.blog-title {
+    text-align: center;
+    font-size: 2.5em; /* Augmente la taille du titre principal */
+    margin-bottom: 20px;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB; 
+}
+
+.blog-article {
+    border: 1px solid #444; /* Bordure grise foncé */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px; /* Coins arrondis */
+    max-width: 800px;
+    box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
+    inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
+    0 0 0 5.5px #080808;
+    padding:35px;
+    background:black;
+}
+
+.article-title {
+    font-size: 1.8em; /* Titre de l'article plus grand */
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB; 
+}
+
+.article-date {
+    font-size: 0.9em;
+    color: #bbb; /* Couleur grise pour la date */
+    margin-bottom: 10px; /* Espace entre la date et le contenu */
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.article-intro {
+    font-size: 1.5em; /* Taille de police pour le contenu */
+    color: #eee; /* Contenu en gris clair */
+    line-height: 1.5em; /* Espacement entre les lignes */
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 700;
+}
+
+.article-content {
+    font-size: 1.1em; /* Taille de police pour le contenu */
+    color: #eee; /* Contenu en gris clair */
+    line-height: 1.6; /* Espacement entre les lignes */
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+/* Ajout d'une classe pour les erreurs et les messages d'état */
+.error-message {
+    color: red; /* Rouge pour les messages d'erreur */
+}
+
+/* Responsivité */
+@media (max-width: 600px) {
+    .blog-title {
+        font-size: 2em; /* Ajuste la taille du titre sur petits écrans */
+    }
+    .article-title {
+        font-size: 1.5em; /* Ajuste la taille des titres d'articles */
+    }
+    .article-content {
+        font-size: 1em; /* Ajuste la taille du contenu sur petits écrans */
+    }
+}

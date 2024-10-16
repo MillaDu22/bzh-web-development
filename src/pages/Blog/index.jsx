@@ -38,6 +38,7 @@ function Blog() {
                             {article.content.map((paragraph, index) => (
                                 <p key={index} className="article-content">{paragraph}</p>
                             ))}
+                            <p className="article-sign">{article.sign}</p>
                         </article>
                     ))
                 )}

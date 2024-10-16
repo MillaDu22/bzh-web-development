@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import ReCAPTCHA from 'react-google-recaptcha';
+import { Helmet } from 'react-helmet-async';
 import './avis.css';
 
 const Avis = () => {
@@ -19,22 +20,25 @@ const Avis = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [captchaValue, setCaptchaValue] = useState(null);
     const [captchaVerified, setCaptchaVerified] = useState(false);
+    const [formError, setFormError] = useState('');
 
 
     // Slider automatique
     useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentSlide((prevSlide) => (prevSlide + 1) % reviews.length);
-        }, 5000); // Change de slide toutes les 3 secondes //
+        if (reviews.length > 0) {
+            const interval = setInterval(() => {
+                setCurrentSlide((prevSlide) => (prevSlide + 1) % reviews.length);
+            }, 5000); 
 
-        return () => clearInterval(interval);
+            return () => clearInterval(interval);
+        }
     }, [reviews.length]);
 
     const handleAddReview = () => {
         if (newReview.name && newReview.comment && newReview.rating && captchaVerified) {
             sendEmail(); // Appel de la fonction pour envoyer l'avis par email //
         } else {
-            alert("Veuillez remplir tous les champs et valider le reCAPTCHA.");
+            setFormError("Veuillez remplir tous les champs et valider le reCAPTCHA.");
         }
     };
 
@@ -55,9 +59,10 @@ const Avis = () => {
             setShowForm(false);
             setCaptchaValue(null);
             setCaptchaVerified(false);
-        }, (error) => {
+            setFormError('');
+        }).catch((error) => {
             console.log(error.text);
-            alert("Une erreur s'est produite lors de l'envoi de votre avis.");
+            setFormError("Une erreur s'est produite lors de l'envoi de votre avis.");
         });
     };
 
@@ -68,84 +73,94 @@ const Avis = () => {
     };
 
     return (
-        <div className="slider-container">
-            <i className="fa-solid fa-edit"></i>
-            <h2 className="title-avis">Avis vérifiés </h2>
-            <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
-                {reviews.map((review) => (
-                    <div key={review.id} className="slide">
-                        <div className="avis">
-                            <h3>{review.name}</h3>
-                            <div className="stars">
-                                {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)}
+        <>
+            {/* SEO avec Helmet */}
+            <Helmet>
+                <title>Avis clients | Armor Web Creations</title>
+                <meta name="description" content="Découvrez les avis de nos clients sur Armor Web Creations. Des témoignages authentiques sur nos services de création de sites web en Bretagne." />
+                <meta name="keywords" content="avis clients, témoignages, Armor Web Creations, création de sites web, développeur freelance, Guingamp, Bretagne" />
+            </Helmet>
+            <div className="slider-container">
+                <i className="fa-solid fa-edit"></i>
+                <h2 className="title-avis">Avis vérifiés </h2>
+                <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
+                    {reviews.map((review) => (
+                        <div key={review.id} className="slide">
+                            <div className="avis">
+                                <h3>{review.name}</h3>
+                                <div className="stars">
+                                    {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)}
+                                </div>
+                                <p>{review.comment}</p>
                             </div>
-                            <p>{review.comment}</p>
                         </div>
-                    </div>
-                ))}
-            </div>
-
-            <div className="add-review">
-                <button className="add-button" onClick={() => setShowForm(!showForm)}>+</button>
-            </div>
-
-            {showForm && (
-                <div className="review-form">
-                    <h3>Ajouter un avis</h3>
-                    <form className="form-avis" onSubmit={(e) => { e.preventDefault(); handleAddReview(); }}>
-                        <div className="form-group">
-                            <label htmlFor="nomprenom">Prénom & Nom </label>
-                            <input
-                                type="text"
-                                id="nomprenom"
-                                name="nomprenom"
-                                placeholder="Votre nom"
-                                value={newReview.name}
-                                onChange={(e) => setNewReview({ ...newReview, name: e.target.value })}
-                                required
-                            />
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="note">Note</label>
-                            <select
-                                id='note'
-                                name="note"
-                                value={newReview.rating}
-                                onChange={(e) => setNewReview({ ...newReview, rating: parseInt(e.target.value) })}
-                                required
-                            >
-                                <option value={0}>Note</option>
-                                {[1, 2, 3, 4, 5].map((num) => (
-                                    <option key={num} value={num}>
-                                        {num} étoile{num > 1 ? 's' : ''}
-                                    </option>
-                                ))}
-                            </select>
-                        </div>
-                        <div className="form-group">
-                            <label htmlFor="avis">Commentaire</label>
-                            <textarea
-                                id="avis"
-                                name="avis"
-                                placeholder="Votre commentaire"
-                                value={newReview.comment}
-                                onChange={(e) => setNewReview({ ...newReview, comment: e.target.value })}
-                                required
-                            />
-                        </div>
-
-                        <div className="form-group">
-                            <ReCAPTCHA
-                                sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" 
-                                onChange={handleCaptchaChange}
-                            />
-                        </div>
-
-                        <button type="submit"><span>Ajouter</span></button>
-                    </form>
+                    ))}
                 </div>
-            )}
-        </div>
+
+                <div className="add-review">
+                    <button className="add-button" onClick={() => setShowForm(!showForm)}>+</button>
+                </div>
+
+                {showForm && (
+                    <div className="review-form">
+                        <h3>Ajouter un avis</h3>
+                        <form className="form-avis" onSubmit={(e) => { e.preventDefault(); handleAddReview(); }}>
+                            <div className="form-group">
+                                <label htmlFor="nomprenom">Prénom & Nom </label>
+                                <input
+                                    type="text"
+                                    id="nomprenom"
+                                    name="nomprenom"
+                                    placeholder="Votre nom"
+                                    value={newReview.name}
+                                    onChange={(e) => setNewReview({ ...newReview, name: e.target.value })}
+                                    required
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="note">Note</label>
+                                <select
+                                    id='note'
+                                    name="note"
+                                    value={newReview.rating}
+                                    onChange={(e) => setNewReview({ ...newReview, rating: parseInt(e.target.value) })}
+                                    required
+                                >
+                                    <option value={0}>Note</option>
+                                    {[1, 2, 3, 4, 5].map((num) => (
+                                        <option key={num} value={num}>
+                                            {num} étoile{num > 1 ? 's' : ''}
+                                        </option>
+                                    ))}
+                                </select>
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="avis">Commentaire</label>
+                                <textarea
+                                    id="avis"
+                                    name="avis"
+                                    placeholder="Votre commentaire"
+                                    value={newReview.comment}
+                                    onChange={(e) => setNewReview({ ...newReview, comment: e.target.value })}
+                                    required
+                                />
+                            </div>
+
+                            <div className="form-group">
+                                <ReCAPTCHA
+                                    sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" 
+                                    onChange={handleCaptchaChange}
+                                />
+                            </div>
+
+                            {formError && <p className="error">{formError}</p>}
+
+                            <button type="submit" disabled={!captchaVerified} aria-label="Soumettre avis"><span>Ajouter</span></button>
+                        </form>
+                    </div>
+                )}
+            </div>
+        </>    
     );
 };
 

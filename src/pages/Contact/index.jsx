@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import Cookies from 'js-cookie';
 import Modal from '../../components/Modal/index.jsx';
+import { Helmet } from 'react-helmet-async';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 import './contact.css';
@@ -121,104 +122,112 @@ function Contact({ cookiesAccepted }) {
     }, []);
 
     return (
-        <div id="contact" className="container-contact">
-            <i className="fa-solid fa-envelope" aria-hidden="true"></i>
-            <h2 className="title-contact">Contactez-moi</h2>
-            <p className="subtitle-contact">Prêt à donner vie à votre projet de site web ? Nous allons le concrétiser. Parlons-en dès aujourd'hui !</p>
-            <form onSubmit={handleSubmit} className="contact-form">
-                <div className="form-group">
-                    <label htmlFor="nom">Votre nom</label>
-                    <input
-                        type="text"
-                        id="nom"
-                        name="nom"
-                        value={formData.nom}
-                        onChange={handleChange}
-                        required
-                    />
-                    {errors.nom && <p className="error-message">{errors.nom}</p>}
-                </div>
-                <div className="form-group">
-                    <label htmlFor="prenom">Votre prénom</label>
-                    <input
-                        type="text"
-                        id="prenom"
-                        name="prenom"
-                        value={formData.prenom}
-                        onChange={handleChange}
-                        required
-                    />
-                    {errors.prenom && <p className="error-message">{errors.prenom}</p>}
-                </div>
-                <div className="form-group">
-                    <label htmlFor="email">Votre email</label>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        value={formData.email}
-                        autoComplete='none'
-                        onChange={handleChange}
-                        required
-                    />
-                    {errors.email && <p className="error-message">{errors.email}</p>}
-                </div>
-                <div className="form-group">
-                    <label htmlFor="mobile">Votre n° de mobile</label>
-                    <input
-                        type="tel"
-                        id="mobile"
-                        name="mobile"
-                        value={formData.mobile}
-                        onChange={handleChange}
-                        required
-                    />
-                    {errors.mobile && <p className="error-message">{errors.mobile}</p>}
-                </div>
-                <div className="form-group">
-                    <label htmlFor="objet">Objet de votre demande</label>
-                    <input
-                        type="text"
-                        id="objet"
-                        name="objet"
-                        value={formData.objet}
-                        onChange={handleChange}
-                        required
-                    />
-                    {errors.objet && <p className="error-message">{errors.objet}</p>}
-                </div>
-                <div className="form-group">
-                    <label htmlFor="message">Votre message</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        value={formData.message}
-                        onChange={handleChange}
-                        required
-                    ></textarea>
-                    {errors.message && <p className="error-message">{errors.message}</p>}
-                </div>
+        <>
+            <Helmet>
+                <title>Formulaire de contact de Armor Web Creations | Contact développeur Web Freelance en Bretagne</title>
+                <meta name="description" content="Contactez Armor Web Creations, concepteur de sites web à Guingamp, Côtes d'Armor. Parlons de votre projet dès aujourd'hui !"/>
+                <meta name="keywords" content="contact, développeur web, concepteur site web, Côtes d'Armor, Guingamp, Bretagne, création de site web, freelance"/>
+            </Helmet>
 
-                <div className="form-group">
-                    <div className="recaptcha-container">
-                        <ReCAPTCHA
-                            sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" // clé de site reCAPTCHA //
-                            onChange={handleCaptchaChange}
-                            data-theme="dark light"
+            <div id="contact" className="container-contact">
+                <i className="fa-solid fa-envelope" aria-hidden="true"></i>
+                <h2 className="title-contact">Contactez-moi</h2>
+                <p className="subtitle-contact">Prêt à donner vie à votre projet de site web ? Nous allons le concrétiser. Parlons-en dès aujourd'hui !</p>
+                <form onSubmit={handleSubmit} className="contact-form">
+                    <div className="form-group">
+                        <label htmlFor="nom">Votre nom</label>
+                        <input
+                            type="text"
+                            id="nom"
+                            name="nom"
+                            value={formData.nom}
+                            onChange={handleChange}
+                            required
                         />
+                        {errors.nom && <p className="error-message">{errors.nom}</p>}
                     </div>
-                    {errors.captcha && <p className="error-message">{errors.captcha}</p>}
-                </div>
+                    <div className="form-group">
+                        <label htmlFor="prenom">Votre prénom</label>
+                        <input
+                            type="text"
+                            id="prenom"
+                            name="prenom"
+                            value={formData.prenom}
+                            onChange={handleChange}
+                            required
+                        />
+                        {errors.prenom && <p className="error-message">{errors.prenom}</p>}
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="email">Votre email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value={formData.email}
+                            autoComplete='none'
+                            onChange={handleChange}
+                            required
+                        />
+                        {errors.email && <p className="error-message">{errors.email}</p>}
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="mobile">Votre n° de mobile</label>
+                        <input
+                            type="tel"
+                            id="mobile"
+                            name="mobile"
+                            value={formData.mobile}
+                            onChange={handleChange}
+                            required
+                        />
+                        {errors.mobile && <p className="error-message">{errors.mobile}</p>}
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="objet">Objet de votre demande</label>
+                        <input
+                            type="text"
+                            id="objet"
+                            name="objet"
+                            value={formData.objet}
+                            onChange={handleChange}
+                            required
+                        />
+                        {errors.objet && <p className="error-message">{errors.objet}</p>}
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="message">Votre message</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            value={formData.message}
+                            onChange={handleChange}
+                            required
+                        ></textarea>
+                        {errors.message && <p className="error-message">{errors.message}</p>}
+                    </div>
 
-                <button type="submit" className="submit-button">Envoyer</button>
-            </form>
-            <Modal
-                show={modalInfo.show}
-                onClose={closeModal}
-                title={modalInfo.title}
-                message={modalInfo.message}
-            />
-        </div>
+                    <div className="form-group">
+                        <div className="recaptcha-container">
+                            <ReCAPTCHA
+                                sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" // clé de site reCAPTCHA //
+                                onChange={handleCaptchaChange}
+                                data-theme="dark light"
+                            />
+                        </div>
+                        {errors.captcha && <p className="error-message">{errors.captcha}</p>}
+                    </div>
+
+                    <button type="submit" className="submit-button">Envoyer</button>
+                </form>
+                <Modal
+                    show={modalInfo.show}
+                    onClose={closeModal}
+                    title={modalInfo.title}
+                    message={modalInfo.message}
+                />
+            </div>
+        </>
     );
 }
 

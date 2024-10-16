@@ -44,7 +44,7 @@
 .intro-container h1,
 .intro-container h2 {
     font-family: 'Ysabeau SC', sans-serif;
-    color:aqua;
+    color:#61DAFB;
     text-align: center;
     animation: slideIn 1.5s ease-in-out;
     transition: transform 0.3s ease, text-shadow 0.3s ease;
@@ -53,7 +53,7 @@
 /* Effet de survol pour les titres */
 .intro-container h1:hover, .intro-container h2:hover {
     color: #fff; /* Change la couleur du texte */
-    text-shadow: 0 0 15px #00ffff, 0 0 20px #00ffff; /* Ajoute un effet de brillance */
+    text-shadow: 0 0 15px #61DAFB, 0 0 20px #61DAFB; /* Ajoute un effet de brillance */
     transform: scale(1.05); /* Légère mise en avant */
 }
 
@@ -82,7 +82,7 @@
 /* Mise en valeur des mots clés */
     .intro-container p strong {
     font-family: 'Ysabeau SC', sans-serif;
-    color: #00ffff; /* Aqua */
+    color: #61DAFB; /* Aqua */
 }
 
 /* Liste de services */
@@ -115,7 +115,7 @@
 .intro-container li::before {
     position: absolute;
     left: 0;
-    color: #00ffff;
+    color: #61DAFB;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 1.2em;
 }
@@ -135,7 +135,7 @@
 /* Effet de hover pour les titres et paragraphes */
 .intro-container h1:hover,
 .intro-container h2:hover {
-    color: #00ffff; /* Change le texte en Aqua au survol */
+    color: #61DAFB; /* Change le texte en Aqua au survol */
     cursor: pointer;
 }
 
@@ -158,6 +158,17 @@
     display: flex;
     align-items: center; /* Aligne les icônes et le texte */
     margin: 15px 0; /* Espace entre les éléments */
+}
+
+@media screen and (max-width:768px) {
+
+    .txt-welcome, .p-print, .explore-txt {
+        text-align: left;
+    }
+    
+    .intro-container li {
+        padding-left: 0px;
+    }
 }
 
 

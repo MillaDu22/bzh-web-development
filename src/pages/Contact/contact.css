@@ -23,14 +23,14 @@
 }
 
 .container-contact .fa-envelope {
-    color: aqua;
+    color: #61DAFB;
     font-size: 32px;
     margin-top: 60px;
 }
 
 .title-contact {
     font-family: 'Ysabeau SC', sans-serif;
-    color:aqua;
+    color:#61DAFB;
     font-size: 28px;
     position: relative;
     animation-name: text;
@@ -98,7 +98,7 @@
 .submit-button {
     transition: background-color 0.3s ease;
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: #61DAFB;
     color: black;
     font-family: 'Ysabeau SC', sans-serif;
     border: none;

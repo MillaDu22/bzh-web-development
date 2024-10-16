@@ -8,7 +8,7 @@
 
 #timeline h2 {
     text-align: center;
-    color:aqua;
+    color:#61DAFB;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 28px;
     position: relative;
@@ -175,7 +175,7 @@
 
 
 #timeline .fa-timeline {
-    color:aqua;
+    color:#61DAFB;
     font-size: 32px;
     margin-top: 60px;
 }

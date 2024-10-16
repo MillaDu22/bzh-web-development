@@ -26,7 +26,7 @@
 .site-map-section .p-plan{
     font-size: 16px;
     line-height: 1.6;
-    color: aqua;
+    color: #61DAFB;
     margin-bottom: 10px;
     font-family: 'Ysabeau SC', sans-serif;
 }
@@ -53,12 +53,12 @@
     bottom: -2px;
     width: 0;
     height: 2px;
-    background-color: aqua; 
+    background-color: #61DAFB; 
     transition: width 0.3s ease, left 0.3s ease; 
 }
 
 .site-map-section .p-plan:hover{
-    color: aqua;
+    color: #61DAFB;
     transform: translateY(-2px); 
 }
 

@@ -17,7 +17,7 @@
 }
 
 .container-services .fa-cubes {
-    color:aqua;
+    color:#61DAFB;
     font-size: 32px;
     margin-top: 70px;
 }
@@ -26,7 +26,7 @@
     margin: 30px auto 60px auto;
     max-width: 1800px;
     font-family: 'Ysabeau SC', sans-serif;
-    color: aqua;
+    color: #61DAFB;
     font-size: 28px;
     background: black;
     position: relative;
@@ -127,7 +127,7 @@
     margin-bottom: 20px;
     transition: background-color 0.3s ease;
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: #61DAFB;
     color: black;
     font-family: 'Ysabeau SC', sans-serif;
     border: none;
@@ -168,7 +168,7 @@
 .btn {
     transition: background-color 0.3s ease;
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: #61DAFB;
     color: black;
     font-family: 'Ysabeau SC', sans-serif;
     border: none;

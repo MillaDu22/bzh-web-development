@@ -29,8 +29,14 @@ function About() {
                 <h2 className="title-about">Bienvenue chez Armor Web Créations</h2>
                 <div className="box-about">
                     <p className="txt-about">
+                        En tant que développeur web freelance basé près de Guingamp dans les Côtes-d'Armor, 
+                        Armor Web Créations est spécialisé dans la création de sites internet sur mesure pour les entreprises, 
+                        associations et clubs locaux en Bretagne. 
+                        Je propose des solutions adaptées aux besoins spécifiques de chaque client, 
+                        qu'il s'agisse de vitrines professionnelles ou de projets personnels, 
+                        en mettant l'accent sur la visibilité locale et la performance.
                         Chez Armor Web Créations, chaque projet est unique et mérite une attention particulière. 
-                        En tant que développeur web freelance, j'apporte une expertise polyvalente et des solutions sur mesure pour donner vie à vos idées. 
+                        J'apporte une expertise polyvalente et des solutions sur mesure pour donner vie à vos idées. 
                         Mon approche est centrée sur la créativité, l'efficacité et une personnalisation poussée, pour que votre site web ne soit pas seulement fonctionnel, 
                         mais qu'il se démarque véritablement.
                     </p>

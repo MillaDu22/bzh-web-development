@@ -78,12 +78,12 @@
     bottom: -5px;
     width: 0;
     height: 2px;
-    background-color: aqua;
+    background-color: #61DAFB;
     transition: width 0.3s ease, left 0.3s ease;
 }
 
 .nav-item:hover .nav-item-text {
-    color: aqua;
+    color: #61DAFB;
     transform: translateY(-2px);
 }
 

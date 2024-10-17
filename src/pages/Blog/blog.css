@@ -1,5 +1,5 @@
 
-.blog-container {
+/*.blog-container {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -7,9 +7,6 @@
     width:90%;
     padding:  200px 5% 40px;
     background-color: black;
-    /*background:url('../../assets/images/774418072505.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;*/
     color: white; 
     margin: auto; 
 }
@@ -75,6 +72,28 @@
     color: red; 
 }
 
+.box-title-id {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-number {
+    display: flex;
+    border: 2px solid #61DAFB;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #61DAFB;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 600px) {
     .blog-title {
         font-size: 2em;
@@ -84,5 +103,195 @@
     }
     .article-content {
         font-size: 1em; 
+    }
+}*/
+
+/* Container du blog */
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 200px 5% 40px;
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+
+/* Titre du blog */
+.blog-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB;
+}
+
+/* Articles du blog */
+.blog-article {
+    border: 1px solid #444;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 3px 4px rgb(0, 0, 0, 1), 
+                inset 0 -2px 5px rgba(0, 0, 0, 1),
+                inset 0 4px 15px rgba(255, 255, 255, 0.245), 
+                0 0 0 2px #000, 0 0 0 5px #000000,
+                0 0 0 5.5px #080808;
+    background: black;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    max-height: 120px; /* Initialement fermé */
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: max-height 0.5s ease; /* Ajout de la transition fluide */
+}
+
+/* Transition pour afficher le contenu de l'article */
+.blog-article.expanded {
+    max-height: 3600px; /* Augmenter la hauteur maximale lors de l'ouverture */
+}
+
+/* Le texte "Lire +++" */
+.read-more {
+    font-size: 1.2em;
+    color: #61DAFB;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+/* Le texte change au clic */
+.blog-article.expanded .read-more {
+    content: "✕"; /* Changer le texte au clic */
+}
+
+/* Contenu de l'article */
+.article-content {
+    opacity: 0; /* Initialement caché */
+    transition: opacity 0.5s ease; /* Animation d'apparition du texte */
+}
+
+.blog-article.expanded .article-content {
+    opacity: 1; /* Le contenu devient visible avec une transition */
+}
+
+/* Titre et intro */
+.article-title {
+    font-size: 1.2em;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB;
+}
+
+
+
+.article-date {
+    font-size: 0.9em;
+    color: #bbb; 
+    margin-bottom: 10px; 
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.article-intro {
+    font-size: 1.2em; 
+    color: #eee; 
+    line-height: 1.5em; 
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: 700;
+}
+
+.article-content {
+    font-size: 1.1em; 
+    color: #eee; 
+    line-height: 1.2em; 
+    font-family: 'Ysabeau SC', sans-serif;
+}
+.box-title-id {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-number {
+    display: flex;
+    border: 3px solid #61DAFB;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #61DAFB;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.article-sign {
+    font-size: 1.1em; 
+    color: #61DAFB;
+    line-height: 1.6; 
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.icon-blog-intro {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #61DAFB;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    border:5px solid #61DAFB;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .blog-title {
+        font-size: 2em;
+    }
+
+    .article-title {
+        font-size: 1.1em;
+    }
+    .article-intro {
+        font-size: 1.1em;
+    }
+
+    .article-content {
+        font-size: 1em;
+    }
+
+    .article-number {
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .article-sign {
+        font-size: 1em;
+    }
+
+    .read-more {
+        font-size: 1em;
+        color: #61DAFB;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
     }
 }

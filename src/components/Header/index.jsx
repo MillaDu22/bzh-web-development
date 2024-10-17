@@ -3,7 +3,7 @@ import './header.css';
 
 function Header() {
     return (
-        <div className="container-hero">
+        <header className="container-hero">
             <div className="box-hero">
                 <div className="container-txt">
                     <h3 className="we-are">
@@ -19,11 +19,12 @@ function Header() {
                         Solutions du digital
                     </p>
                 </div>
+                <i className="fas fa-arrow-right"></i>
                 <div className="container-screens">
                     <img className="asset-hero" src={Screens} alt="preview responsive websites" />
                 </div>
             </div>
-        </div>
+        </header>
     );
 }
 

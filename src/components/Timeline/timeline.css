@@ -6,30 +6,36 @@
     padding-bottom: 10px;
 }
 
+.fa-timeline {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #61DAFB;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    border:5px solid #61DAFB;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
 #timeline h2 {
     text-align: center;
     color:#61DAFB;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 28px;
     position: relative;
-    animation-name: text;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-@keyframes text {
-    0% {
-        color: linear-gradient(135deg, #0d0d0d, #292929);
-    }
-    30% {
-        letter-spacing: 16px;
-    }
-    85% {
-        letter-spacing: 6px;
-    }
-    100% {
-        letter-spacing: 6px;
-    }
+/* Effet de survol pour les titres */
+#timeline h2:hover{
+    color: #61DAFB; /* Change la couleur du texte */
+    text-shadow: 0 0 15px #61DAFB, 0 0 20px #61DAFB; /* Ajoute un effet de brillance */
+    transform: scale(1.05); /* Légère mise en avant */
 }
 
 .title-time {

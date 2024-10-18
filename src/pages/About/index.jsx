@@ -29,6 +29,20 @@ function About() {
             <title>À propos de Armor Web Creations | Développeur Web Freelance en Bretagne</title>
             <meta name="description" content="Découvrez l'histoire d'Armor Web Creations, développeur web freelance en Bretagne spécialisé dans la création de sites internet sur mesure." />
             <meta name="keywords" content="développeur web, Guingamp, création site web, freelance, Côtes d'Armor, Bretagne" />
+            <link rel="canonical" href="https://armor-web-creations.vercel.app/#/about" />
+
+            {/* Open Graph */}
+            <meta property="og:title" content="À propos | Armor Web Creations" />
+            <meta property="og:description" content="Découvrez Armor Web Creations, expert en création de sites web en Bretagne." />
+            <meta property="og:image" content="https://armor-web-creations.vercel.app/about-page.png" />
+            <meta property="og:url" content="https://armor-web-creations.vercel.app/#/about" />
+            <meta property="og:type" content="website" />
+            
+            {/* Twitter Card */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="À propos | Armor Web Creations" />
+            <meta name="twitter:description" content="Découvrez Armor Web Creations, expert en création de sites web en Bretagne." />
+            <meta name="twitter:image" content="https://armor-web-creations.vercel.app/about-page.png" />
         </Helmet>
 
             <section id="about" className="container-about">

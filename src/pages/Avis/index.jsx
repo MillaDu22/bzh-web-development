@@ -79,6 +79,20 @@ const Avis = () => {
                 <title>Avis clients | Armor Web Creations</title>
                 <meta name="description" content="Découvrez les avis de nos clients sur Armor Web Creations. Des témoignages authentiques sur nos services de création de sites web en Bretagne." />
                 <meta name="keywords" content="avis clients, témoignages, Armor Web Creations, création de sites web, développeur freelance, Guingamp, Bretagne" />
+                <link rel="canonical" href="https://armor-web-creations.vercel.app/#/avis" />
+
+                {/* Open Graph */}
+                <meta property="og:title" content="Avis | Armor Web Creations" />
+                <meta property="og:description" content="Découvrez les avis de nos clients sur les services de création de sites web proposés par Armor Web Creations." />
+                <meta property="og:image" content="https://armor-web-creations.vercel.app/avis-page.png" />
+                <meta property="og:url" content="https://armor-web-creations.vercel.app/#/avis" />
+                <meta property="og:type" content="website" />
+
+                {/* Twitter Card */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Avis | Armor Web Creations" />
+                <meta name="twitter:description" content="Découvrez les avis de nos clients sur les services de création de sites web proposés par Armor Web Creations." />
+                <meta name="twitter:image" content="https://armor-web-creations.vercel.app/avis-page.png" />
             </Helmet>
             <div className="slider-container">
                 <i className="fa-solid fa-edit"></i>

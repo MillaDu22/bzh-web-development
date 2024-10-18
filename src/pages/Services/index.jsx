@@ -36,6 +36,19 @@ function Services() {
                 <title>Nos Services | Packs de Création de Sites Web</title>
                 <meta name="description" content="Découvrez les différents packs de création de sites internet sur mesure proposés par Armor Web Creations : Simple, Basic, Standard et Premium, adaptés à vos besoins." />
                 <meta name="keywords" content="création de sites web, pack simple, pack basic, pack standard, pack premium, Guingamp, Côtes-d'Armor, Bretagne, promotions, site vitrine, portfolio, e-commerce, site dynamique, site statique, react, javascript, html, css, sass, frameworks modernes, hébergement, devis gratuit, optimisation SEO, design responsive, design haut de gamme, support technique, multipages, design personnalisé" />
+                <link rel="canonical" href="https://armor-web-creations.vercel.app/#/services" />
+                {/* Open Graph */}
+                <meta property="og:title" content="Services | Armor Web Creations" />
+                <meta property="og:description" content="Découvrez les offres et services de création de sites web sur mesure proposés par Armor Web Creations en Bretagne." />
+                <meta property="og:image" content="https://armor-web-creations.vercel.app/services-page.png" />
+                <meta property="og:url" content="https://armor-web-creations.vercel.app/#/services" />
+                <meta property="og:type" content="website" />
+                
+                {/* Twitter Card */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Services | Armor Web Creations" />
+                <meta name="twitter:description" content="Découvrez les offres et services de création de sites web sur mesure proposés par Armor Web Creations en Bretagne." />
+                <meta name="twitter:image" content="https://armor-web-creations.vercel.app/services-page.png" />
             </Helmet>
             <div id="services" className="container-services">
                 <i className="fa-solid fa-cubes"></i>

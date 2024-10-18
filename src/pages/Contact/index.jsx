@@ -127,6 +127,19 @@ function Contact({ cookiesAccepted }) {
                 <title>Formulaire de contact de Armor Web Creations | Contact développeur Web Freelance en Bretagne</title>
                 <meta name="description" content="Contactez Armor Web Creations, concepteur de sites web à Guingamp, Côtes d'Armor. Parlons de votre projet dès aujourd'hui !"/>
                 <meta name="keywords" content="contact, développeur web, concepteur site web, Côtes d'Armor, Guingamp, Bretagne, création de site web, freelance"/>
+                <link rel="canonical" href="https://armor-web-creations.vercel.app/#contact" />
+                {/* Open Graph */}
+                <meta property="og:title" content="Contact | Armor Web Creations" />
+                <meta property="og:description" content="Contactez Armor Web Creations pour discuter de vos projets de création de sites web sur mesure en Bretagne." />
+                <meta property="og:image" content="https://armor-web-creations.vercel.app/contact-page.png" />
+                <meta property="og:url" content="https://armor-web-creations.vercel.app/#/contact" />
+                <meta property="og:type" content="website" />
+                
+                {/* Twitter Card */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Contact | Armor Web Creations" />
+                <meta name="twitter:description" content="Contactez Armor Web Creations pour discuter de vos projets de création de sites web sur mesure en Bretagne." />
+                <meta name="twitter:image" content="https://armor-web-creations.vercel.app/contact-page.png" />
             </Helmet>
 
             <div id="contact" className="container-contact">

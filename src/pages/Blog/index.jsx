@@ -80,12 +80,25 @@ function Blog() {
                 <title>Blog d'Armor Web Creations | Articles et conseils en développement web</title>
                 <meta 
                     name="description" 
-                    content="Explorez le blog d'Armor Web Creations pour des articles sur le développement web, les tendances actuelles et des conseils pratiques pour améliorer votre présence en ligne." 
+                    content="Explorez le blog d'Armor Web Creations pour des articles sur le développement web, les tendances actuelles et pratiques pour améliorer votre présence en ligne." 
                 />
                 <meta 
                     name="keywords" 
                     content="développement web, création de sites internet, conseils web, tendances web, hébergement web, optimisation SEO, sites vitrines, e-commerce, articles, blog Armor Web Creations" 
                 />
+                <link rel="canonical" href="https://armor-web-creations.vercel.app/#/blog" />
+                {/* Open Graph */}
+                <meta property="og:title" content="Blog | Armor Web Creations" />
+                <meta property="og:description" content="Découvrez les dernières tendances et conseils en création de sites web sur le blog d'Armor Web Creations." />
+                <meta property="og:image" content="https://armor-web-creations.vercel.app/blog-page.png" />
+                <meta property="og:url" content="https://armor-web-creations.vercel.app/#/blog" />
+                <meta property="og:type" content="website" />
+                
+                {/* Twitter Card */}
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Blog | Armor Web Creations" />
+                <meta name="twitter:description" content="Découvrez les dernières tendances et conseils en création de sites web sur le blog d'Armor Web Creations." />
+                <meta name="twitter:image" content="https://armor-web-creations.vercel.app/blog-page.png" />
             </Helmet>
             <section className="blog-container">
             <i className="fas fa-blog icon-blog-intro"></i>

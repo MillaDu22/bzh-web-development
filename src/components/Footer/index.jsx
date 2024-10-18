@@ -18,7 +18,7 @@ function Footer({ handlePrint }) {
     };
 
     return (
-        <div className="container-footer">
+        <footer className="container-footer">
             {visibleComponent === 'plan' && <Plan />}
             {visibleComponent === 'mentions' && <Mentions />}
             {visibleComponent === 'policy' && <Policy />}
@@ -48,7 +48,7 @@ function Footer({ handlePrint }) {
                     <p className="buttons-mentions" onClick={() => handleLinkClick('mentions')} aria-label="Voir les mentions légales">Mentions légales</p>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 }
 

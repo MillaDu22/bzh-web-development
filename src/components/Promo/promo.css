@@ -18,8 +18,18 @@
 }
 
 .container-promo .fa-percent {
-    font-size: 32px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
     color: #61DAFB;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    border:5px solid #61DAFB;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 60px;
 }
 

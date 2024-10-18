@@ -94,20 +94,20 @@ const Avis = () => {
                 <meta name="twitter:description" content="Découvrez les avis de nos clients sur les services de création de sites web proposés par Armor Web Creations." />
                 <meta name="twitter:image" content="https://armor-web-creations.vercel.app/avis-page.png" />
             </Helmet>
-            <div className="slider-container">
+            <section className="slider-container">
                 <i className="fa-solid fa-edit"></i>
-                <h2 className="title-avis">Avis vérifiés </h2>
+                <h1 className="title-avis">Avis vérifiés </h1>
                 <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
                     {reviews.map((review) => (
-                        <div key={review.id} className="slide">
-                            <div className="avis">
-                                <h3>{review.name}</h3>
+                        <article key={review.id} className="slide">
+                            <blockquote className="avis">
+                                <h2>{review.name}</h2>
                                 <div className="stars">
                                     {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)}
                                 </div>
                                 <p>{review.comment}</p>
-                            </div>
-                        </div>
+                            </blockquote>
+                        </article>
                     ))}
                 </div>
 
@@ -125,11 +125,13 @@ const Avis = () => {
                                     type="text"
                                     id="nomprenom"
                                     name="nomprenom"
-                                    placeholder="Votre nom"
+                                    placeholder="Vos prénom et nom"
                                     value={newReview.name}
                                     onChange={(e) => setNewReview({ ...newReview, name: e.target.value })}
                                     required
                                 />
+                                {/* Message d'erreur */}
+                                {formError && <p className="error">Vos Prénom et nom sont requis.</p>}
                             </div>
                             <div className="form-group">
                                 <label htmlFor="note">Note</label>
@@ -158,6 +160,8 @@ const Avis = () => {
                                     onChange={(e) => setNewReview({ ...newReview, comment: e.target.value })}
                                     required
                                 />
+                                {/* Message d'erreur */}
+                                {formError && <p className="error">Votre commentaires est requis.</p>}
                             </div>
 
                             <div className="form-group">
@@ -173,7 +177,7 @@ const Avis = () => {
                         </form>
                     </div>
                 )}
-            </div>
+            </section>
         </>    
     );
 };

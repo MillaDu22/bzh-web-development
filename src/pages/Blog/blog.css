@@ -207,9 +207,12 @@
 }
 
 .article-content {
+    background:black;
     font-size: 1.1em; 
     color: #eee; 
-    line-height: 1.2em; 
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    line-height: 1.1em; 
     font-family: 'Ysabeau SC', sans-serif;
 }
 .box-title-id {

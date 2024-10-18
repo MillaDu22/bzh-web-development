@@ -38,8 +38,18 @@
 }
 
 .content-about .fa-address-card {
-    color:#61DAFB;
-    font-size: 32px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #61DAFB;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    border:5px solid #61DAFB;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 120px;
 }
 
@@ -50,7 +60,7 @@
     color: #ffffff;
 }
 
-.subtitle-about {
+.contentabout .subtitle-about {
     margin-top:20px;
     font-size: 28px;
     font-family: 'Ysabeau SC', sans-serif;
@@ -59,25 +69,16 @@
     margin-bottom: 20px;
     background: black;
     position: relative;
-    animation-name: text;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-@keyframes text {
-    0% {
-        color: black;
-    }
-    30% {
-        letter-spacing: 16px;
-    }
-    85% {
-        letter-spacing: 6px;
-    }
-    100% {
-        letter-spacing: 6px;
-    }
+/* Effet de survol pour les titres */
+.subtitle-about:hover {
+    color: #61DAFB; /* Change la couleur du texte */
+    text-shadow: 0 0 15px #61DAFB, 0 0 20px #61DAFB; /* Ajoute un effet de brillance */
+    transform: scale(1.05); /* Légère mise en avant */
 }
+
 
 
 .box-about {
@@ -195,20 +196,7 @@
     .subtitle-about {
         font-size: 20px;
     }
-    @keyframes text {
-        0% {
-            color: linear-gradient(135deg, #0d0d0d, #292929);
-        }
-        30% {
-            letter-spacing: 8px;
-        }
-        85% {
-            letter-spacing: 2px;
-        }
-        100% {
-            letter-spacing: 2px;
-        }
-    }
+
 
     .content-about {
         padding-bottom: 20px;
@@ -315,26 +303,7 @@
     margin-bottom: 20px;
     background: black;
     position: relative;
-    animation-name: text;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
 }
-
-@keyframes text {
-    0% {
-        color: black;
-    }
-    30% {
-        letter-spacing: 16px;
-    }
-    85% {
-        letter-spacing: 6px;
-    }
-    100% {
-        letter-spacing: 6px;
-    }
-}
-
 
 .box-about {
     width: 100%;
@@ -451,20 +420,7 @@
     .subtitle-about {
         font-size: 20px;
     }
-    @keyframes text {
-        0% {
-            color: linear-gradient(135deg, #0d0d0d, #292929);
-        }
-        30% {
-            letter-spacing: 8px;
-        }
-        85% {
-            letter-spacing: 2px;
-        }
-        100% {
-            letter-spacing: 2px;
-        }
-    }
+
 
     .content-about {
         padding-bottom: 20px;

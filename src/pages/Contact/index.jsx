@@ -144,8 +144,8 @@ function Contact({ cookiesAccepted }) {
 
             <div id="contact" className="container-contact">
                 <i className="fa-solid fa-envelope" aria-hidden="true"></i>
-                <h2 className="title-contact">Contactez-moi</h2>
-                <p className="subtitle-contact">Prêt à donner vie à votre projet de site web ? Nous allons le concrétiser. Parlons-en dès aujourd'hui !</p>
+                <h1 id="title-form-contact" className="title-contact">Contactez-moi</h1>
+                <h2 className="subtitle-contact">Prêt à donner vie à votre projet de site web ? Nous allons le concrétiser. Parlons-en dès aujourd'hui !</h2>
                 <form onSubmit={handleSubmit} className="contact-form">
                     <div className="form-group">
                         <label htmlFor="nom">Votre nom</label>
@@ -156,8 +156,9 @@ function Contact({ cookiesAccepted }) {
                             value={formData.nom}
                             onChange={handleChange}
                             required
+                            aria-describedby="nom-error"
                         />
-                        {errors.nom && <p className="error-message">{errors.nom}</p>}
+                        {errors.nom && <p id="nom-error" className="error-message">{errors.nom}</p>}
                     </div>
                     <div className="form-group">
                         <label htmlFor="prenom">Votre prénom</label>
@@ -168,8 +169,9 @@ function Contact({ cookiesAccepted }) {
                             value={formData.prenom}
                             onChange={handleChange}
                             required
+                            aria-describedby="prenom-error"
                         />
-                        {errors.prenom && <p className="error-message">{errors.prenom}</p>}
+                        {errors.prenom && <p id="prenom-error" className="error-message">{errors.prenom}</p>}
                     </div>
                     <div className="form-group">
                         <label htmlFor="email">Votre email</label>
@@ -181,8 +183,9 @@ function Contact({ cookiesAccepted }) {
                             autoComplete='none'
                             onChange={handleChange}
                             required
+                            aria-describedby="email-error"
                         />
-                        {errors.email && <p className="error-message">{errors.email}</p>}
+                        {errors.email && <p id="email-error" className="error-message">{errors.email}</p>}
                     </div>
                     <div className="form-group">
                         <label htmlFor="mobile">Votre n° de mobile</label>
@@ -193,8 +196,9 @@ function Contact({ cookiesAccepted }) {
                             value={formData.mobile}
                             onChange={handleChange}
                             required
+                            aria-describedby="mobile-error"
                         />
-                        {errors.mobile && <p className="error-message">{errors.mobile}</p>}
+                        {errors.mobile && <p id="mobile-error" className="error-message">{errors.mobile}</p>}
                     </div>
                     <div className="form-group">
                         <label htmlFor="objet">Objet de votre demande</label>
@@ -205,8 +209,9 @@ function Contact({ cookiesAccepted }) {
                             value={formData.objet}
                             onChange={handleChange}
                             required
+                            aria-describedby="object-error"
                         />
-                        {errors.objet && <p className="error-message">{errors.objet}</p>}
+                        {errors.objet && <p id="object-error" className="error-message">{errors.objet}</p>}
                     </div>
                     <div className="form-group">
                         <label htmlFor="message">Votre message</label>
@@ -216,8 +221,9 @@ function Contact({ cookiesAccepted }) {
                             value={formData.message}
                             onChange={handleChange}
                             required
+                            aria-describedby="message-error"
                         ></textarea>
-                        {errors.message && <p className="error-message">{errors.message}</p>}
+                        {errors.message && <p id="message-error" className="error-message">{errors.message}</p>}
                     </div>
 
                     <div className="form-group">
@@ -226,9 +232,10 @@ function Contact({ cookiesAccepted }) {
                                 sitekey="6LfhfU8qAAAAAAffu8fEUdJEklwFTz15WAEXmy-j" // clé de site reCAPTCHA //
                                 onChange={handleCaptchaChange}
                                 data-theme="dark light"
+                                aria-describedby="captcha-error"
                             />
                         </div>
-                        {errors.captcha && <p className="error-message">{errors.captcha}</p>}
+                        {errors.captcha && <p id="captcha-error" className="error-message">{errors.captcha}</p>}
                     </div>
 
                     <button type="submit" className="submit-button">Envoyer</button>

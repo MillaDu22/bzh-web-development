@@ -48,8 +48,8 @@ function About() {
             <section id="about" className="container-about">
                 <article className="content-about">
                     <i className="fa-regular fa-address-card" aria-hidden="true"></i>
-                    <h3 className="subtitle-about">À propos de AWC</h3>
-                    <h2 className="title-about">Bienvenue chez Armor Web Créations</h2>
+                    <h2 className="subtitle-about">À propos de AWC</h2>
+                    <h1 className="title-about">Armor Web Créations</h1>
                     <div className="box-about">
                         <p className="txt-about">
                             En tant que développeur web freelance basé près de Guingamp dans les Côtes-d'Armor, 
@@ -74,25 +74,25 @@ function About() {
                     </div>
                     <div className="box-specifications">
                         <span className="one-specification">
-                            <h3 className="specification"><i className="fas fa-cogs"></i> Personnalisation Puissante</h3>
+                            <h2 className="specification"><i className="fas fa-cogs"></i> Personnalisation Puissante</h2>
                             <p className="txt-specification">
                                 Chaque projet est adapté à vos besoins spécifiques. Grâce à une flexibilité maximale, votre site reflétera parfaitement votre identité.
                             </p>
                         </span>
                         <span className="one-specification">
-                            <h3 className="specification"><i className="fas fa-lightbulb"></i> Design Créatif</h3>
+                            <h2 className="specification"><i className="fas fa-lightbulb"></i> Design Créatif</h2>
                             <p className="txt-specification">
                                 Mêlant esthétique et fonctionnalité, je conçois des interfaces modernes et intuitives qui captivent vos utilisateurs dès le premier regard.
                             </p>
                         </span>
                         <span className="one-specification">
-                            <h3 className="specification"><i className="fas fa-tools"></i> Solutions Efficaces</h3>
+                            <h2 className="specification"><i className="fas fa-tools"></i> Solutions Efficaces</h2>
                             <p className="txt-specification">
                                 J'optimise chaque aspect technique pour garantir un site rapide, sécurisé et évolutif, prêt à relever les défis de demain.
                             </p>
                         </span>
                         <span className="one-specification">
-                            <h3 className="specification"><i className="fas fa-code"></i> Code Propre</h3>
+                            <h2 className="specification"><i className="fas fa-code"></i> Code Propre</h2>
                             <p className="txt-specification">
                                 Un code bien structuré et maintenable est essentiel pour la pérennité de votre site. Je m'assure que chaque ligne de code est claire, optimisée et prête pour l'avenir.
                             </p>

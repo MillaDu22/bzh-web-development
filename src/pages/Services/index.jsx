@@ -52,10 +52,10 @@ function Services() {
             </Helmet>
             <div id="services" className="container-services">
                 <i className="fa-solid fa-cubes"></i>
-                <h2 className="services-title">Les offres</h2>
+                <h1 className="services-title">Les offres</h1>
                 <div className="services-grid">
                 <div className={`service-card ${openPack === 'simple' ? 'expanded' : ''}`}>
-                    <h3>Pack Simple</h3>
+                    <h2>Pack Simple</h2>
                     <p>Parfait pour les projets simples avec un budget limité.</p>
                     <ul>
                         <li>Site statique de 1 à 3 pages</li>
@@ -64,9 +64,13 @@ function Services() {
                         <li>1 mois de support</li>
                     </ul>
                     <div className="container-buttons">
-                        <Link className ="link-devis" to="/contact">Obtenir un devis</Link>
+                        <Link className ="link-devis" to="/contact" aria-label="Obtenir un devis pour le Pack Simple">Obtenir un devis</Link>
                         {/*<div className="price">A partir de 800€</div>*/}
-                        <button className="btn" onClick={() => handleToggle('simple')}>
+                        <button 
+                            className="btn" 
+                            onClick={() => handleToggle('simple')}
+                            aria-expanded={openPack === 'simple'}
+                            aria-label={openPack === 'simple' ? 'Masquer les détails du Pack Simple' : 'Voir les détails du Pack Simple'}>
                             {openPack === 'simple' ? 'Masquer les détails' : 'Voir ce pack'}
                         </button>
                     </div>
@@ -76,7 +80,7 @@ function Services() {
                     />
                     </div>
                     <div className={`service-card ${openPack === 'basic' ? 'expanded' : ''}`}>
-                        <h3>Pack Basic</h3>
+                        <h2>Pack Basic</h2>
                         <p>Idéal pour les petites entreprises ou les projets personnels.</p>
                         <ul>
                             <li>Site vitrine dynamique de 3 pages</li>
@@ -86,9 +90,13 @@ function Services() {
                             <li>1 mois de support</li>
                         </ul>
                         <div className="container-buttons">
-                            <Link className ="link-devis" to="/contact">Obtenir un devis</Link>
+                            <Link className ="link-devis" to="/contact" aria-label="Obtenir un devis pour le Pack Basic">Obtenir un devis</Link>
                             {/*<div className="price">A partir de 1500€</div>*/}
-                            <button className="btn" onClick={() => handleToggle('basic')}>
+                            <button 
+                                className="btn" 
+                                onClick={() => handleToggle('basic')}
+                                aria-expanded={openPack === 'basic'}
+                                aria-label={openPack === 'basic' ? 'Masquer les détails du Pack Basic' : 'Voir les détails du Pack Basic'}>
                                 {openPack === 'basic' ? 'Masquer les détails' : 'Voir ce pack'}
                             </button>
                         </div>
@@ -98,7 +106,7 @@ function Services() {
                         />
                     </div>
                     <div className={`service-card ${openPack === 'standard' ? 'expanded' : ''}`}>
-                        <h3>Pack Standard</h3>
+                        <h2>Pack Standard</h2>
                         <p>Parfait pour les entreprises en croissance.</p>
                         <ul>
                             <li>Site dynamique de 5-7 pages</li>
@@ -108,9 +116,13 @@ function Services() {
                             <li>3 mois de support</li>
                         </ul>
                         <div className="container-buttons">
-                            <Link className ="link-devis" to="/contact">Obtenir un devis</Link>
+                            <Link className ="link-devis" to="/contact" aria-label="Obtenir un devis pour le Pack Standard">Obtenir un devis</Link>
                             {/*<div className="price">A partir de 4500€</div>*/}
-                            <button className="btn" onClick={() => handleToggle('standard')}>
+                            <button 
+                                className="btn" 
+                                onClick={() => handleToggle('standard')}
+                                aria-expanded={openPack === 'standard'}
+                                aria-label={openPack === 'standard' ? 'Masquer les détails du Pack Standard' : 'Voir les détails du Pack Standard'}>
                                 {openPack === 'standard' ? 'Masquer les détails' : 'Voir ce pack'}
                             </button>
                         </div>
@@ -120,7 +132,7 @@ function Services() {
                         />
                     </div>
                     <div className={`service-card ${openPack === 'premium' ? 'expanded' : ''}`}>
-                        <h3>Pack Premium</h3>
+                        <h2>Pack Premium</h2>
                         <p>Pour les entreprises ayant des besoins spécifiques.</p>
                         <ul>
                             <li>Site sur mesure avec fonctionnalités avancées</li>
@@ -129,9 +141,13 @@ function Services() {
                             <li>6 mois de support</li>
                         </ul>
                         <div className="container-buttons">
-                            <Link className ="link-devis" to="/contact">Obtenir un devis</Link>
+                            <Link className ="link-devis" to="/contact" aria-label="Obtenir un devis pour le Pack Premium">Obtenir un devis</Link>
                             {/*<div className="price">A partir de 18000€</div>*/}
-                            <button className="btn" onClick={() => handleToggle('premium')}>
+                            <button 
+                                className="btn" 
+                                onClick={() => handleToggle('premium')}
+                                aria-expanded={openPack === 'premium'}
+                                aria-label={openPack === 'premium' ? 'Masquer les détails du Pack Premium' : 'Voir les détails du Pack Premium'}>
                                 {openPack === 'premium' ? 'Masquer les détails' : 'Voir ce pack'}
                             </button>
                         </div>
@@ -143,14 +159,17 @@ function Services() {
                 </div>
                 <Promo />
                 <div className="evolution">
+                    <i className="fas fa-chart-bar"></i>
                     <h4 className= "title-evolution">Evolution des tarifs</h4>
                     <span className ="price-disclaimer">Les tarifs évoluent en fonction des contraintes techniques et des fonctionnalités souhaitées.</span>
                 </div>
                 <div className="payment">
+                    <i className="fas fa-credit-card"></i>
                     <h4 className= "title-payment">Modalités de paiement</h4>
                     <span className ="mention-payment">Un acompte de 30% est requis à la commande. À l'achèvement de l'implémentation, un second paiement de 40% est dû. Le solde de 30% restant est à régler à la livraison finale.</span>
                 </div>
                 <div className="time">
+                    <i className="fas fa-network-wired"></i>
                     <h4 className= "title-ss-traitance">Sous-traitance pour entreprises</h4>
                     <span className ="mention-ss-traitance">Armor Web Creations propose également des services de sous-traitance pour les entreprises souhaitant externaliser des projets de développement. N'hésitez pas à prendre contact pour discuter de vos besoins spécifiques et obtenir un devis personnalisé.</span>
                 </div>

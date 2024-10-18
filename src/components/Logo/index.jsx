@@ -7,7 +7,7 @@ function Logo() {
         <div id="home" className = "container-header">
             <a className = "container-containers" href="./">
                 <div className="container-title-france">
-                    <h1 className="title-app">ARMOR WEB CREATIONS</h1>
+                    <h2 className="title-app">ARMOR WEB CREATIONS</h2>
                     <div className="bleu-blanc-rouge">
                         <span className="bleu"></span>
                         <span className="blanc"></span>
@@ -16,7 +16,7 @@ function Logo() {
                 </div>
                 <div className="container-logo-subtitle">
                     <img className ="britain" src = {Britain} alt="Britain-logo"/>
-                    <h2 className = "subtitle-app">Ludmilla Marti</h2>
+                    <h3 className = "subtitle-app">Ludmilla Marti</h3>
                 </div>
             </a>
         </div>

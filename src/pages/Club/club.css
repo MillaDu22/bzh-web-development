@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;600&display=swap');
+
+.club-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0 auto;
+}
+
+.club-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.club-container .fa-futbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #61DAFB;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 5px solid #61DAFB;
+    margin: 0 auto;
+}
+
+.club-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #61DAFB;
+}
+
+.club-intro, .club-process, .club-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.club-intro h2, .club-process h2, .club-contact h2 {
+    font-size: 1.6em;
+    color: #61DAFB;
+    margin-top: 10px;
+}
+
+.club-benefits, .process-steps {
+    list-style: none;
+    font-size: 1em;
+    line-height: 1.2em;
+    margin: 10px 0;
+    padding: 0%;
+}
+
+.club-benefits, .process-steps {
+    border-left: 3px solid #61DAFB;
+}
+
+.club-benefits li, .process-steps li {
+    display: flex;
+    align-items: center;
+    line-height: 1.2em;
+    font-size: 1em;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.club-benefits .fa-users, .club-benefits .fa-calendar-alt, .club-benefits .fa-camera, .club-benefits .fa-trophy, 
+.process-steps .fa-comments, .process-steps .fa-paint-brush, .process-steps .fa-tools, .process-steps .fa-check-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #61DAFB;
+    font-size: 1.2em;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.club-intro p, .club-process p, .club-contact p {
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.2em;
+    color:white;
+}
+
+.club-contact-link {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    background: #0d0d0d;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: #61DAFB; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.club-contact-link:hover {
+    background-color: #61DAFB;
+    color: black;
+    transform: scale(1.05);
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeInUp 1s forwards;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.club-intro.fade-in {
+    animation-delay: 0.3s;
+}
+
+.club-process.fade-in {
+    animation-delay: 0.6s;
+}
+
+.club-contact.fade-in {
+    animation-delay: 0.9s;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .club-section {
+        width:96%;
+        padding-top: 190px 20px;
+    }
+
+    .club-title {
+        font-size: 1.8em;
+    }
+
+    .club-contact-link {
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 15px;
+    }
+
+    .club-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}

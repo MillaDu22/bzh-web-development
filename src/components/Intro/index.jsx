@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Dashboard from '../Dashboard/index.jsx';
 import './intro.css';
 
 const Intro = () => {
@@ -11,6 +12,7 @@ const Intro = () => {
             <p className="txt-welcome">
                 Vous souhaitez donner vie à votre projet web ? Que vous soyez entrepreneur, association ou particulier, je vous accompagne de A à Z pour créer un site internet à votre image. Spécialisé dans la <strong>création de sites web sur mesure</strong>, je m'engage à vous fournir une solution parfaitement adaptée à vos besoins, que ce soit pour un <strong>site vitrine</strong>, un <strong>site e-commerce</strong> ou un <strong>portfolio professionnel</strong>.
             </p>
+            <Dashboard />
             <i className="fas fa-desktop"></i>
             <h2 className="services-title">Services et solutions digitales</h2>
             <ul>

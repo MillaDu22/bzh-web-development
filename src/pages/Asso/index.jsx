@@ -44,10 +44,10 @@ function Asso() {
                             Un site internet permet à votre association de partager vos activités, vos missions, et vos événements avec un public plus large. C'est un outil essentiel pour communiquer avec vos membres, recruter de nouveaux bénévoles, et attirer des donateurs.
                         </p>
                         <ul className="association-benefits">
-                            <li><i className="fa fa-globe"></i> <strong>Visibilité accrue pour vos projets</strong></li>
-                            <li><i className="fa fa-users"></i> <strong>Facilite la communication avec les membres et les bénévoles</strong></li>
-                            <li><i className="fa fa-calendar-alt"></i> <strong>Gestion des événements et des inscriptions en ligne</strong></li>
-                            <li><i className="fa fa-hand-holding-heart"></i> <strong>Facilitation des dons et du soutien financier</strong></li>
+                            <li><i className="fa fa-globe"></i>Visibilité accrue pour vos projets</li>
+                            <li><i className="fa fa-users"></i>Facilite la communication avec les membres et les bénévoles</li>
+                            <li><i className="fa fa-calendar-alt"></i>Gestion des événements et des inscriptions en ligne</li>
+                            <li><i className="fa fa-hand-holding-heart"></i>Facilitation des dons et du soutien financier</li>
                         </ul>
                     </div>
 
@@ -56,12 +56,12 @@ function Asso() {
                         <p>
                             Mon approche pour la création de sites web pour les associations est conçue pour répondre à vos besoins spécifiques. Voici les étapes que nous suivrons :
                         </p>
-                        <ol className="process-steps">
-                            <li><i className="fa fa-comments"></i> <strong>Phase de consultation: Comprendre vos objectifs, votre public et vos missions.</strong></li>
-                            <li><i className="fa fa-paint-brush"></i> <strong>Design personnalisé: Création d’un design qui reflète votre identité et vos valeurs.</strong></li>
-                            <li><i className="fa fa-tools"></i> <strong>Développement: Mise en place des fonctionnalités, telles que les formulaires d'adhésion et les systèmes de dons.</strong></li>
-                            <li><i className="fa fa-check-circle"></i> <strong>Lancement et suivi: Mise en ligne du site et maintenance pour assurer son bon fonctionnement.</strong></li>
-                        </ol>
+                        <ul className="process-steps">
+                            <li><i className="fa fa-comments"></i>Phase de consultation: Comprendre vos objectifs, votre public et vos missions.</li>
+                            <li><i className="fa fa-paint-brush"></i>Design personnalisé: Création d’un design qui reflète votre identité et vos valeurs.</li>
+                            <li><i className="fa fa-tools"></i>Développement: Mise en place des fonctionnalités, telles que les formulaires d'adhésion et les systèmes de dons.</li>
+                            <li><i className="fa fa-check-circle"></i>Lancement et suivi: Mise en ligne du site et maintenance pour assurer son bon fonctionnement.</li>
+                        </ul>
                     </div>
 
                     <div className="association-contact fade-in">

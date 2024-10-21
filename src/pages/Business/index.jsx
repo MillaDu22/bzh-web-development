@@ -44,10 +44,10 @@ function Business() {
                             Avoir un site internet est essentiel pour toute entreprise moderne. Il vous permet non seulement de renforcer votre présence en ligne, mais aussi d'atteindre un public plus large, d'améliorer la communication avec vos clients, et de vous démarquer de vos concurrents.
                         </p>
                         <ul className="biz-benefits">
-                            <li><i className="fa fa-chart-line"></i> <strong className="strong">Amélioration de la visibilité en ligne</strong></li>
-                            <li><i className="fa fa-laptop-code"></i> <strong className="strong">Plateforme accessible 24/7</strong></li>
-                            <li><i className="fa fa-rocket"></i> <strong className="strong">Développement de votre clientèle</strong></li>
-                            <li><i className="fa fa-handshake"></i> <strong className="strong">Interaction renforcée avec vos clients</strong></li>
+                            <li><i className="fa fa-chart-line"></i> Amélioration de la visibilité en ligne</li>
+                            <li><i className="fa fa-laptop-code"></i>Plateforme accessible 24/7</li>
+                            <li><i className="fa fa-rocket"></i>Développement de votre clientèle</li>
+                            <li><i className="fa fa-handshake"></i>Interaction renforcée avec vos clients</li>
                         </ul>
                     </div>
 
@@ -56,12 +56,12 @@ function Business() {
                         <p>
                             Chez Armor Web Creations, je vous accompagne tout au long du processus de création de votre site internet, du début à la fin. Voici les étapes clés :
                         </p>
-                        <ol className="process-steps">
-                            <li><i className="fa fa-laptop-code"></i> <strong className="strong">Phase de consultation : Nous discutons de vos objectifs et cibles pour concevoir un site qui vous ressemble.</strong></li>
-                            <li><i className="fa fa-rocket"></i> <strong className="strong">Conception et développement : Travail sur le design, l’interface utilisateur, et le développement technique.</strong></li>
-                            <li><i className="fa fa-handshake"></i> <strong className="strong">Tests et validation : Le site est testé et optimisé avant la mise en ligne.</strong></li>
-                            <li><i className="fa fa-chart-line"></i> <strong className="strong">Lancement et suivi : Votre site est mis en ligne, et je reste disponible pour la maintenance.</strong></li>
-                        </ol>
+                        <ul className="biz-benefits">
+                            <li><i className="fa fa-laptop-code"></i>Phase de consultation : Nous discutons de vos objectifs et cibles pour concevoir un site qui vous ressemble.</li>
+                            <li><i className="fa fa-rocket"></i>Conception et développement : Travail sur le design, l’interface utilisateur, et le développement technique.</li>
+                            <li><i className="fa fa-handshake"></i>Tests et validation : Le site est testé et optimisé avant la mise en ligne.</li>
+                            <li><i className="fa fa-chart-line"></i>Lancement et suivi : Votre site est mis en ligne, et je reste disponible pour la maintenance.</li>
+                        </ul>
                     </div>
 
                     <div className="business-contact fade-in">

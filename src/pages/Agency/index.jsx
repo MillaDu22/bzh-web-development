@@ -41,13 +41,13 @@ function Agency() {
                     <div className="agency-intro fade-in">
                         <h2>Renforçons vos équipes grâce à une collaboration fluide</h2>
                         <p>
-                            En tant qu'agence digitale, vous avez sûrement déjà une équipe talentueuse à vos côtés. Je ne suis pas là pour vous réapprendre le métier, mais pour vous épauler sur des missions spécifiques. Que ce soit pour répondre à une surcharge de travail, ou pour un besoin temporaire de compétences en React ou autres technologies front-end, je me tiens à votre disposition pour enrichir vos projets.
+                            En tant qu'agence digitale, vous avez sûrement déjà une équipe talentueuse à vos côtés. Je peux vous épauler sur des missions spécifiques. Que ce soit pour répondre à une surcharge de travail, ou pour un besoin temporaire de compétences en React ou autres technologies front-end, je me tiens à votre disposition pour enrichir vos projets.
                         </p>
                         <ul className="agency-benefits process-steps">
-                            <li><i className="fa fa-project-diagram"></i> <strong className="strong">Flexibilité: Adaptons-nous aux deadlines de vos clients.</strong></li>
-                            <li><i className="fa fa-code"></i> <strong className="strong">Compétences ciblées: Expertise en JavaScript, React, et développement web moderne.</strong></li>
-                            <li><i className="fa fa-sync-alt"></i> <strong className="strong">Processus fluide: Intégration rapide dans vos workflows existants.</strong></li>
-                            <li><i className="fa fa-users-cog"></i> <strong className="strong">Soutien technique: Renforcez vos capacités sur des missions spécifiques sans vous surcharger.</strong></li>
+                            <li><i className="fa fa-project-diagram"></i>Flexibilité: Adaptons-nous aux deadlines de vos clients.</li>
+                            <li><i className="fa fa-code"></i>Compétences ciblées: Expertise en JavaScript, React, et développement web moderne.</li>
+                            <li><i className="fa fa-sync-alt"></i>Processus fluide: Intégration rapide dans vos workflows existants.</li>
+                            <li><i className="fa fa-users-cog"></i>Soutien technique: Renforcez vos capacités sur des missions spécifiques sans vous surcharger.</li>
                         </ul>
                     </div>
 
@@ -56,12 +56,12 @@ function Agency() {
                         <p>
                             Mon objectif est de m'intégrer dans vos processus de production, pour que vous puissiez compter sur un appui technique.
                         </p>
-                        <ol className="process-steps">
-                            <li><i className="fa fa-briefcase"></i> <strong className="strong">Collaboration à la demande: Sous-traitance sur des projets spécifiques selon vos besoins</strong></li>
-                            <li><i className="fa fa-tasks"></i> <strong className="strong">Adaptabilité: Intégration dans vos workflows (Git, Trello, Slack, etc.), avec un respect de vos méthodes.</strong></li>
-                            <li><i className="fa fa-rocket"></i> <strong className="strong">Développement à haute valeur ajoutée: Spécialisation dans les technologies front-end, en particulier React, pour vous apporter des solutions robustes.</strong></li>
-                            <li><i className="fa fa-chart-line"></i> <strong className="strong">Augmentez vos capacités: Offrez à vos clients des résultats plus rapides, sans compromettre la qualité.</strong></li>
-                        </ol>
+                        <ul className="process-steps">
+                            <li><i className="fa fa-briefcase"></i>Collaboration à la demande: Sous-traitance sur des projets spécifiques selon vos besoins.</li>
+                            <li><i className="fa fa-tasks"></i>Adaptabilité: Intégration dans vos workflows (Git, Trello, Slack, etc.), avec un respect de vos méthodes.</li>
+                            <li><i className="fa fa-rocket"></i>Développement à haute valeur ajoutée: Spécialisation dans les technologies front-end, en particulier React, pour vous apporter des solutions robustes.</li>
+                            <li><i className="fa fa-chart-line"></i>Augmentez vos capacités: Offrez à vos clients des résultats plus rapides, sans compromettre la qualité.</li>
+                        </ul>
                     </div>
 
                     <div className="agency-contact fade-in">

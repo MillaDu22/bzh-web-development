@@ -57,9 +57,9 @@
     margin-top: 10px;
 }
 
-.association-benefits, .process-steps {
+.association-benefits, .association-process {
     list-style: none;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.2em;
     margin: 10px 0;
     padding: 0%;
@@ -73,19 +73,12 @@
     display:flex;
     flex-direction: row;
     align-items: center;
-    line-height: 1.2em;
+    line-height: 1em;
     font-size: 1em;
     margin-bottom: 10px;
 
 }
 
-.association-benefits ul li strong, .process-steps ol li strong {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 1.2em;
-    font-size: 1em;
-    font-weight: normal;
-}
 
 .association-benefits .fa-globe, 
 .association-benefits .fa-users,
@@ -141,7 +134,7 @@
     transition: background-color 0.3s ease, transform 0.3s ease; 
     position: relative;
     overflow: hidden;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 40px auto;
     text-decoration: none;
 }
 
@@ -166,7 +159,7 @@
 
 .association-contact-link:hover {
     background-color: #61DAFB; 
-    transform: scale(1.05); 
+    transform: scale(1); 
     color: black;
     box-shadow: 2px 2px 5px rgba(0, 255, 255, 0.87), inset -5px -5px 10px rgba(0, 255, 255, 0.791),
     inset 0 4px 15px #61DAFB, 0 0 0 2px #61DAFB, 0 0 0 5px #61DAFB,
@@ -217,10 +210,28 @@
         line-height: 1.4em;
     }
 
+    .association-benefits .fa-globe, 
+    .association-benefits .fa-users,
+    .association-benefits .fa-calendar-alt, 
+    .association-benefits .fa-hand-holding-heart, 
+    .process-steps .fa-comments, 
+    .process-steps .fa-paint-brush, 
+    .process-steps .fa-tools, 
+    .process-steps .fa-check-circle {
+        font-size: 15px;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .association-benefits .fa-users {
+        margin-left:10px;
+    }
+
     .association-contact-link {
         padding: 10px;
         font-size: 14px;
         border-radius: 15px;
+        margin-bottom: 40px;
     }
 
     /* Ajuste la taille du conteneur pour les petits écrans */
@@ -234,12 +245,28 @@
         margin-bottom: 20px;
         padding: 0 10px;
     }
+
+    .association-contact p, .association-contact h2 {
+        margin-top: 5px;
+    }
+
+    .association-container .fa-users {
+        font-size: 1em;
+        width: 50px;
+        height: 50px;
+        border-width: 4px;
+    }
+
+    .association-benefits li, .process-steps li {
+        margin: 5px 0;
+        font-size: 15px;
+    }
 }
 
 /* Styles spécifiques pour très petits écrans */
 @media (max-width: 480px) {
     .association-section {
-        width:98%;
+        width: 94%;
         padding-top: 190px;
     }
 
@@ -258,5 +285,17 @@
     .association-contact-link {
         padding: 8px;
         font-size: 12px;
+    }
+
+    .association-benefits .fa-users {
+        margin-left:15px;
+    }
+
+    .association-benefits .fa-globe {
+        margin-left:15px;
+    }
+
+    .association-container li, .process-steps li {
+        font-size: 15px;
     }
 }

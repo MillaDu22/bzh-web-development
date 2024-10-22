@@ -294,6 +294,7 @@
         margin:200px auto !important;
         padding:0 ! important;
     }
+
     .box-hero {
         flex-direction: row !important;
         justify-content: center !important;
@@ -305,6 +306,7 @@
         transform: none !important;
         transition:none !important;
     }
+
     .container-txt {
         display:flex !important;
         flex-direction: column !important;
@@ -316,6 +318,7 @@
         transform: none !important;
         transition:none !important;
     }
+
     .container-screens {
         margin-top:40px !important;
         justify-content: center !important;
@@ -325,6 +328,7 @@
         transform: none !important;
         transition:none !important;
     }
+
     .we-are, .title-hero, .subtitle-hero {
         animation:none !important;
         opacity:1 !important;
@@ -448,11 +452,28 @@
 
     /*servicesPage*/
     .container-services {
-        padding-top: 70px !important;
+        padding-top: 0px !important;
         animation: none !important;
         opacity: 1 !important;
         transform: none !important;
         transition:none !important;
+    }
+
+    .services-grid {
+        flex-direction: row !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        width:100% !important;
+        margin: 0% !important;
+        margin: 0% auto !important;
+        align-items: center !important;
+    }
+
+    .service-card {
+        max-width:20% !important;
+        position:relative !important;
+        margin-top:0px !important;
+        margin:0 !important;
     }
 
     .services-title {
@@ -473,7 +494,24 @@
         transition:none !important;
     }
 
-    .ontainer-promo {
+    .container-promo {
+        padding-top: 200px !important;
+        width:100% !important;
+        display:flex !important;
+        flex-direction: row !important;
+        justify-content:center !important;
+        align-items: center !important;
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+        transition:none !important;
+    }
+
+    .box-promo1, .box-promo2 {
+        width:40% !important;
+    }
+
+    .box-promo1 h2, .box-promo2 h2{
         animation: none !important;
         opacity: 1 !important;
         transform: none !important;
@@ -481,7 +519,7 @@
     }
 
     .evolution {
-        margin-top: 600px !important;
+        margin-top: 200px !important;
         padding-top: 0 !important;
     }
 
@@ -492,8 +530,14 @@
         transition:none !important;
     }
 
+    .time {
+        padding-top:300px !important;
+    }
+
     .container-contact {
+        display: none !important;
         margin-top: 0px !important;
+        margin-bottom: 50px !important;
         padding-top: 0 !important;
         animation: none !important;
         opacity: 1 !important;
@@ -503,5 +547,61 @@
 
     .recaptcha-container {
         display: none !important;
+    }
+
+    /*BlogPage*/
+    .blog-container {
+        margin: 0% auto !important;
+        padding:75px 0 0 0 !important;
+        display:flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-wrap: wrap !important;
+    }
+
+    .blog-container .icon-blog-intro {
+        display:none !important;
+    }
+
+    .blog-container h1 {
+        width:100%!important;
+    }
+
+    .blog-container article {
+        width:24% !important;
+    }
+
+    /*BusinessPage*/
+    .business-section, .association-section, .club-section {
+        padding-top:80px !important;
+    }
+    .agency-section {
+        padding-top:20px !important;
+    }
+    .business-intro p, .association-intro p, .club-intro p, .agency-intro p {
+        padding-bottom: 0px !important;
+    }
+
+    .business-process, .association-process {
+        margin-top:220px !important;
+        padding-bottom:0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .agency-process {
+        margin-top:180px !important;
+        padding-bottom:0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .club-process {
+        margin-top:290px !important;
+        padding-bottom:0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .business-contact-link, .association-contact-link, .club-contact-link, .agency-contact-link {
+        display:none !important;
     }
 }

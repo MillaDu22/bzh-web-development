@@ -39,6 +39,14 @@
     text-align: center;
     margin-bottom: 30px;
     color: #61DAFB;
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Effet de survol pour les titres */
+.club-title:hover {
+    color: #61DAFB; /* Change la couleur du texte */
+    text-shadow: 0 0 15px #61DAFB, 0 0 20px #61DAFB; /* Ajoute un effet de brillance */
+    transform: scale(1.02); /* Légère mise en avant */
 }
 
 .club-intro, .club-process, .club-contact {

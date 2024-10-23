@@ -17,6 +17,16 @@
     transform: translateY(0);
 }
 
+
+.box-promo1, .box-promo2 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding: 0;
+}
+
 .container-promo .fa-percent {
     display:flex;
     flex-direction: column;

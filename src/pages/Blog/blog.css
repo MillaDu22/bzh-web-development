@@ -179,6 +179,10 @@
         font-size: 1.1em;
     }
 
+    .blog-article.expanded {
+        max-height: 5000px;
+    }
+
     .article-content {
         font-size: 1em;
     }

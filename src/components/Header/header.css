@@ -54,6 +54,18 @@
     0 0 0 5.5px #080808;
     padding:15px;
     background:black;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container-txt:hover, .asset-hero:hover {
+    box-shadow: 
+        inset 0 5px 15px rgba(0, 0, 0, 0.8),  /* Ombre principale en haut pour effet enfoncé */
+        inset 0 -5px 20px rgba(255, 255, 255, 0.1),  /* Ombre en bas pour l'effet de lumière */
+        inset 0 0 10px rgba(0, 0, 0, 0.7),  /* Ombre centrale pour plus de profondeur */
+        inset 0 0 25px rgba(0, 0, 0, 0.9),  /* Ombre encore plus au centre */
+        inset 0 0 35px rgba(0, 0, 0, 1),    /* Ombre centrale très sombre pour le creux */
+        0 0 0 1px #000, 0 0 0 5px #000000;
+    transform: scale(0.98);
 }
 
 
@@ -318,6 +330,11 @@
         margin-top: 30px;
         justify-content: center;
         box-shadow: none;
+    }
+
+    .container-txt:hover {
+        box-shadow: none;
+        transform: none;
     }
 
     .container-screens {

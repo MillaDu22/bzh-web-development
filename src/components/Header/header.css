@@ -33,15 +33,7 @@
 }
 
 .container-txt {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left;
-    width: 380px;
-    height:380px;
-    padding:0;*/
-    width: 50%;
+    width: 42%;
     height:375px;
     display: flex;
     flex-direction: row;

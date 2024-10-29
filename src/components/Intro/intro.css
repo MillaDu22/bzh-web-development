@@ -57,7 +57,7 @@
     transform: scale(1.05); /* Légère mise en avant */
 }
 
-.icon-blog-intro, .fa-hand-pointer, .fa-desktop, .fa-handshake {
+.icon-blog-intro, .fa-hand-pointer, .fa-desktop, .fa-handshake, .fa-palette {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -195,7 +195,7 @@
 
 @media screen and (max-width:768px) {
 
-    .txt-welcome, .p-print, .explore-txt, .blog-description {
+    .txt-welcome, .p-print, .explore-txt, .blog-description, .logo-description {
         text-align: left;
     }
 

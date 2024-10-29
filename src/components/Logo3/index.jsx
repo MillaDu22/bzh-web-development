@@ -1,6 +1,6 @@
 import React from 'react';
 import './logo3.css';
-import logo3Video from '../../assets/videos/Logo3.mp4'; 
+import logo3Video from '../../assets/videos/LogoHero.mp4'; 
 
 const Logo3 = () => {
     return (

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Dashboard from '../Dashboard/index.jsx';
+import SliderLogo from '../SliderLogo/index.jsx';
 import './intro.css';
 
 const Intro = () => {
@@ -57,6 +58,16 @@ const Intro = () => {
                 Retrouvez des articles sur les dernières tendances en développement web, des conseils pratiques et des études de cas inspirantes. 
                 <Link to="/blog" className="blog-link">  Accédez au blog <i className="fas fa-feather-alt"></i></Link>
             </p>
+            <i className="fas fa-palette icon-logo-intro"></i>
+            <h2 className="action-title" id="logo-title">L'importance des logos pour votre site web</h2>
+            <p className="logo-description">
+                Un logo bien conçu peut renforcer l'identité de votre marque en ligne, 
+                améliorer la reconnaissance de votre entreprise, 
+                et transmettre vos valeurs en un coup d'œil.
+                Armor Web Creations vous aide à créer un logo unique qui reflète votre identité.
+            </p>
+
+            <SliderLogo />
         </div>
     );
 };

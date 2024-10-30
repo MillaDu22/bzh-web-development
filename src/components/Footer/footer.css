@@ -317,6 +317,7 @@
         opacity:1 !important;
         transform: none !important;
         transition:none !important;
+        box-shadow: none !important;
     }
 
     .container-screens {
@@ -359,7 +360,7 @@
     }
 
     .txt-welcome {
-        margin-bottom:450px !important;
+        margin-bottom:400px !important;
     }
 
     .action-title {
@@ -367,11 +368,19 @@
     }
 
     .dashboard-list {
-        margin-bottom:150px !important;
+        margin-bottom:121px !important;
     }
 
     #blog-title {
         margin-top: 50px !important;
+    }
+
+    .fa-palette {
+        margin-top: 200px !important;
+    }
+
+    .slider-logo-container {
+        display:none !important;
     }
 
     #timeline {

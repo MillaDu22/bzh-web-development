@@ -40,6 +40,7 @@
     justify-content: center;
     align-items: center;
     animation: zoomIn 2.5s ease-in-out;
+    border: 1px solid rgba(169, 169, 169, 0.215);
     border-radius: 8px;
     box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
     inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
@@ -197,6 +198,7 @@
     width: 500px;
     height: 375px;
     border-radius: 8px;
+    border: 1px solid rgba(169, 169, 169, 0.215);
     box-shadow: 0 3px 4px rgb(0, 0, 0, 1), inset 0 -2px 5px rgba(0, 0, 0, 1),
     inset 0 4px 15px rgba(255, 255, 255, 0.245), 0 0 0 2px #000, 0 0 0 5px #000000,
     0 0 0 5.5px #080808;
@@ -322,11 +324,13 @@
         margin-top: 30px;
         justify-content: center;
         box-shadow: none;
+        border:none;
     }
 
     .container-txt:hover {
         box-shadow: none;
         transform: none;
+        border:none;
     }
 
     .container-screens {

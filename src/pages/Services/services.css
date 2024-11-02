@@ -70,6 +70,7 @@
     0 0 0 5.5px #080808;
     padding:15px;
     margin-bottom: 10px;
+    border: 1px solid rgba(169, 169, 169, 0.215);
 }
 
 .service-card:hover {

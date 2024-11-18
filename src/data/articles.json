@@ -1052,5 +1052,52 @@
             "Les bases de données sont au cœur des sites modernes, permettant de gérer des informations de manière efficace et sécurisée, ce qui est essentiel pour un site professionnel."
         ],
         "sign" : "Ludmilla Marti"
-    }
+    },
+    {
+        "id": 28,
+        "title": "Comment un Site Mobile-First Peut Booster Votre Visibilité",
+        "date": "2024-11-18",
+        "intro": "Avec l'augmentation des utilisateurs naviguant sur mobile, adopter une stratégie mobile-first est devenu incontournable. Cet article explique comment un site mobile-first peut améliorer votre visibilité et fidéliser vos visiteurs.",
+        "content": [
+            "1. Qu'est-ce qu'un Site Mobile-First ?",
+            "Un site mobile-first est conçu avant tout pour les appareils mobiles, avec un design responsive qui s'adapte parfaitement aux écrans plus petits, puis étendu aux ordinateurs de bureau.",
+            
+            "2. Pourquoi le Mobile-First est Important ?",
+            "   - La majorité des recherches en ligne se font depuis des smartphones. Un site optimisé pour mobile améliore l'expérience utilisateur.",
+            "   - Google privilégie les sites mobile-friendly dans son classement des résultats de recherche.",
+            
+            "3. Comment Créer un Site Mobile-First ?",
+            "   - Prioriser les performances : optimiser les temps de chargement en compressant les images et en minimisant les scripts.",
+            "   - Simplifier le design : utiliser une navigation claire et des boutons adaptés aux écrans tactiles.",
+            "   - Tester régulièrement : vérifier l'expérience sur différents appareils et résolutions.",
+            
+            "Conclusion",
+            "Adopter une stratégie mobile-first est essentiel pour booster la visibilité de votre site et répondre aux attentes des utilisateurs modernes, en particulier dans un contexte de forte croissance des usages mobiles."
+        ],
+        "sign" : "Ludmilla Marti"
+    },
+    {
+        "id": 29,
+        "title": "Quels Contenus Publier sur Votre Site pour Attirer et Fidéliser les Visiteurs ?",
+        "date": "2024-11-19",
+        "intro": "Le contenu de votre site est crucial pour captiver vos visiteurs et les inciter à revenir. Cet article vous guide dans le choix des contenus à publier pour maximiser votre impact.",
+        "content": [
+            "1. L'Importance d'un Contenu de Qualité",
+            "Le contenu est la clé pour établir la crédibilité de votre site. Il doit être informatif, engageant et régulièrement mis à jour pour répondre aux attentes des visiteurs.",
+            
+            "2. Types de Contenus à Publier",
+            "   - Articles de blog : partagez des astuces, des guides et des actualités pertinentes pour vos visiteurs.",
+            "   - Études de cas : montrez comment vous avez aidé des clients à résoudre leurs problèmes.",
+            "   - Témoignages et avis : renforcez la confiance en partageant les retours positifs de vos clients.",
+            "   - Vidéos et infographies : rendez le contenu plus dynamique et facile à comprendre.",
+            
+            "3. Astuces pour Fidéliser les Visiteurs",
+            "   - Intégrez un appel à l'action : encouragez vos visiteurs à s'abonner à votre newsletter ou à vous suivre sur les réseaux sociaux.",
+            "   - Proposez un contenu exclusif : offrez des ressources téléchargeables ou des promotions aux visiteurs réguliers.",
+            
+            "Conclusion",
+            "Publier un contenu pertinent et varié est essentiel pour attirer des visiteurs et les fidéliser. En investissant dans des contenus de qualité, vous assurez la croissance et la crédibilité de votre site."
+        ],       
+        "sign" : "Ludmilla Marti"
+    } 
 ]

@@ -1149,5 +1149,30 @@
             "Les sites web one-page offrent une solution élégante et moderne pour des besoins spécifiques. Ils allient simplicité et efficacité, tout en restant tendance."
         ],
         "sign" : "Ludmilla Marti"
+    },
+    {
+        "id": 32,
+        "title": "Les Tendances en Typographie Web : Créez une Identité Visuelle Forte",
+        "date": "2024-11-22",
+        "intro": "La typographie est bien plus qu'une simple question de polices. Elle joue un rôle clé dans l'esthétique et la lisibilité de votre site. Découvrez les tendances en typographie web et comment les utiliser pour vous démarquer.",
+        "content": [
+            "1. Pourquoi la Typographie est Importante ?",
+            "La typographie influence la lisibilité, l'émotion et l'expérience utilisateur. Une typographie bien choisie renforce votre identité visuelle et guide l'utilisateur.",
+            
+            "2. Les Tendances Actuelles",
+            "   - Polices serif modernes : Idéales pour un look élégant et professionnel.",
+            "   - Combinaisons audacieuses : Associer des polices contrastées pour un effet visuel unique.",
+            "   - Typographies animées : Ajouter une touche interactive avec des animations de texte.",
+            "   - Polices variables : Permettent des ajustements fluides entre différentes tailles et styles.",
+            
+            "3. Comment Bien Utiliser la Typographie ?",
+            "   - Priorisez la lisibilité : Assurez-vous que vos textes restent faciles à lire sur tous les appareils.",
+            "   - Limitez le nombre de polices : Deux ou trois polices suffisent pour un design harmonieux.",
+            "   - Utilisez des hiérarchies claires : Jouez avec les tailles et les styles pour guider le regard de l'utilisateur.",
+            
+            "Conclusion",
+            "La typographie est un outil puissant pour donner du caractère à votre site. En suivant les tendances tout en respectant vos objectifs, vous pouvez créer une identité visuelle forte et mémorable."
+        ],
+        "sign" : "Ludmilla Marti"
     }
 ]

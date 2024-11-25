@@ -1,29 +1,4 @@
-{
-    "id": 34,
-    "title": "Comment Créer un Site Web Accessible et Inclusif pour Tous les Utilisateurs",
-    "date": "2024-11-26",
-    "intro": "Rendre un site web accessible, c'est garantir que tous les utilisateurs, y compris ceux en situation de handicap, puissent interagir avec votre contenu. Découvrez comment créer un site inclusif et respecter les normes.",
-    "content": [
-        "1. Qu'est-ce que l'Accessibilité Web ?",
-        "L'accessibilité consiste à concevoir des sites que tout le monde peut utiliser, quelles que soient leurs capacités physiques, visuelles, auditives ou cognitives.",
-        
-        "2. Les Avantages d'un Site Accessible",
-        "   - Élargir votre audience : Vous rendez votre contenu accessible à davantage d'utilisateurs.",
-        "   - Améliorer le SEO : Les bonnes pratiques d'accessibilité améliorent aussi votre référencement.",
-        "   - Respecter les normes : Certains pays exigent des sites accessibles pour des raisons légales.",
-        
-        "3. Bonnes Pratiques pour un Site Inclusif",
-        "   - Utilisez des descriptions alternatives (alt) pour les images.",
-        "   - Assurez une navigation clavier fluide pour les personnes utilisant des aides techniques.",
-        "   - Contraste suffisant : Choisissez des couleurs avec un contraste élevé pour faciliter la lecture.",
-        "   - Structurez correctement le contenu : Utilisez des balises HTML sémantiques comme `<header>` et `<main>`.",
-        "   - Ajoutez des sous-titres ou transcriptions pour les vidéos.",
-        
-        "Conclusion",
-        "Créer un site accessible n'est pas qu'une obligation, c'est aussi une marque d'inclusivité et d'engagement. Avec ces pratiques, vous pouvez offrir une expérience utilisateur exceptionnelle à tous vos visiteurs."
-    ],
-    "sign" : "Ludmilla Marti"
-},
+
 {
     "id": 35,
     "title": "Top 5 des Outils Gratuits pour Gérer Votre Site Web Comme un Pro",

@@ -1,31 +1,5 @@
 
 {
-    "id": 35,
-    "title": "Top 5 des Outils Gratuits pour Gérer Votre Site Web Comme un Pro",
-    "date": "2024-11-27",
-    "intro": "Gérer un site web peut être complexe, mais il existe de nombreux outils gratuits pour vous faciliter la tâche. Découvrez les indispensables pour optimiser votre site sans dépenser un centime.",
-    "content": [
-        "1. Google Analytics",
-        "Suivez les performances de votre site avec cet outil puissant et gratuit. Analysez le trafic, les comportements des utilisateurs et identifiez les pages populaires.",
-        
-        "2. Yoast SEO (ou alternatives gratuites)",
-        "Un plugin pratique pour optimiser votre référencement et améliorer votre visibilité en ligne.",
-        
-        "3. Canva",
-        "Créez des visuels attrayants pour vos articles de blog ou vos réseaux sociaux avec cet outil simple à utiliser.",
-        
-        "4. GTmetrix",
-        "Évaluez la vitesse de chargement de votre site et obtenez des recommandations pour l'améliorer.",
-        
-        "5. Trello",
-        "Organisez vos tâches de gestion de contenu ou vos projets web grâce à cet outil de gestion de projets collaboratif.",
-        
-        "Conclusion",
-        "Avec ces outils gratuits, vous pouvez facilement améliorer et gérer votre site web comme un pro. Ils offrent des fonctionnalités puissantes sans peser sur votre budget."
-    ],
-    "sign" : "Ludmilla Marti"
-},
-{
     "id": 36,
     "title": "5 Erreurs à Éviter Lors de la Création d'un Site Web Professionnel",
     "date": "2024-11-28",

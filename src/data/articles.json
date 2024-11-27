@@ -1252,5 +1252,31 @@
             "Avec ces outils gratuits, vous pouvez facilement améliorer et gérer votre site web comme un pro. Ils offrent des fonctionnalités puissantes sans peser sur votre budget."
         ],
         "sign" : "Ludmilla Marti"
+    },
+    {
+        "id": 36,
+        "title": "5 Erreurs à Éviter Lors de la Création d'un Site Web Professionnel",
+        "date": "2024-11-28",
+        "intro": "Créer un site web professionnel nécessite une planification minutieuse. Découvrez les erreurs fréquentes et apprenez comment les éviter pour garantir le succès de votre projet.",
+        "content": [
+            "1. Négliger le Responsive Design",
+            "Un site non adapté aux mobiles peut rebuter une grande partie des utilisateurs et nuire à votre référencement.",
+            
+            "2. Oublier l'Optimisation SEO",
+            "Sans SEO, votre site risque de rester invisible sur les moteurs de recherche.",
+            
+            "3. Charger le Site de Trop d'Éléments",
+            "Des pages surchargées ralentissent le site et frustrent les utilisateurs. Gardez un design clair et efficace.",
+            
+            "4. Ne Pas Tester le Site",
+            "L'absence de tests entraîne souvent des bugs, des liens cassés ou des performances médiocres.",
+            
+            "5. Ignorer les Appels à l'Action (CTA)",
+            "Sans CTA clair, les utilisateurs ne savent pas quoi faire : s'inscrire, acheter, ou contacter. Guidez-les avec des instructions claires.",
+            
+            "Conclusion",
+            "Éviter ces erreurs peut transformer un site web en outil performant pour votre entreprise ou association. Planifiez soigneusement chaque étape et testez régulièrement votre site."
+        ],
+        "sign" : "Ludmilla Marti"
     }
 ]

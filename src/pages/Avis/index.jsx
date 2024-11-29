@@ -13,6 +13,10 @@ const Avis = () => {
         { id: 4, name: 'Mélanie Lutino', rating: 5, comment: 'Un travail de grande qualité, tant sur le plan technique que sur le design. Mon site est fluide, esthétique et optimisé. Merci pour ce service au top !' },
         { id: 5, name: 'Vince Delatre', rating: 5, comment: 'Très satisfait du résultat final. Exécution parfaite et dans les délais. Une professionnelle à l\'écoute et qui comprend parfaitement les besoins. Je ferai de nouveau appel à elle sans hésiter.'},
         { id: 6, name: 'Yvon Dufour', rating: 5, comment: 'Un excellent travail. Très bonne communication tout au long du projet. Je suis très content du résultat et du suivi. Je recommande à 100%' },
+        { id: 7, name: 'Sophie Marin', rating: 5, comment: 'Je suis ravie de mon site web ! Une personne très à l\'écoute qui a su transformer mes idées en un projet concret. Merci infiniment.' },
+        { id: 8, name: 'Lucas Borel', rating: 5, comment: 'Service exceptionnel, très réactif et professionnel. Mon site est au-delà de mes espérances. Je suis très heureux du résultat !' },
+        { id: 9, name: 'Chloé Leblanc', rating: 4, comment: 'Le projet a été bien mené. Quelques ajustements mineurs ont été nécessaires, mais l\'approche était très professionnelle et efficace. Merci beaucoup.' },
+        { id: 10, name: 'Antoine Girard', rating: 5, comment: 'Je ne pouvais pas espérer mieux. Un service rapide et efficace, et un rendu final qui a dépassé toutes mes attentes. Merci !' }
     ]);
 
     const [showForm, setShowForm] = useState(false);

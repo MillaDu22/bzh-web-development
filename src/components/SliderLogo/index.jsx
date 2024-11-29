@@ -13,10 +13,13 @@ import Deco from '../../assets/videos/Deco.mp4';
 import Zen from '../../assets/videos/Zen.mp4';
 import Pet from '../../assets/videos/Pet.mp4';
 import Gite from '../../assets/videos/Gite.mp4'
+import Giteherault from '../../assets/videos/Giteherault.mp4';
+import Pain from '../../assets/videos/Pain.mp4';
+import Fashioncouture from '../../assets/videos/Fashioncouture.mp4';
 import './sliderlogo.css';
 
 const SliderLogo = () => {
-    const videos = [Photography, Astro, Book, Food, Bike, Writer, Hood, Green, Couture, Deco, Flora, Zen, Pet, Gite];
+    const videos = [Photography, Astro, Book, Food, Bike, Writer, Hood, Green, Couture, Deco, Flora, Zen, Pet, Gite, Giteherault, Pain, Fashioncouture];
     
     const [currentIndex, setCurrentIndex] = useState(0);
 

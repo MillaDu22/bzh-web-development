@@ -1,28 +1,5 @@
 
     {
-        "id": 38,
-        "title": "SASS vs CSS : Pourquoi Adopter SASS pour vos Projets de Sites Web sur Mesure",
-        "date": "2024-12-02",
-        "intro": "Découvrez les avantages de SASS par rapport au CSS classique et pourquoi il est un outil indispensable pour les développeurs travaillant sur des projets de sites web sur mesure.",
-        "content": [
-            "1. Qu'est-ce que SASS ?",
-            "SASS (Syntactically Awesome Stylesheets) est un préprocesseur CSS qui permet d'écrire des styles plus efficacement grâce à des fonctionnalités comme les variables, mixins, et fonctions.",
-            
-            "2. Les Avantages de SASS",
-            "- Réutilisation de code avec les variables et mixins.\n- Simplification des styles imbriqués.\n- Gestion simplifiée des couleurs et polices à travers tout le projet.\n- Compatibilité avec CSS standard.",
-            
-            "3. Comparaison avec le CSS Classique",
-            "- CSS est linéaire et peut devenir complexe pour les projets volumineux.\n- SASS améliore la lisibilité et l'organisation grâce à sa structure modulaire.",
-            
-            "4. Pourquoi Utiliser SASS dans des Projets Sur Mesure ?",
-            "Pour gagner du temps, faciliter la maintenance et assurer une meilleure évolutivité du code.",
-            
-            "Conclusion",
-            "Adopter SASS dans vos projets peut transformer votre workflow et offrir une meilleure organisation, surtout pour les sites sur mesure où la personnalisation est essentielle."
-        ],
-        "sign" : "Ludmilla Marti"
-    },
-    {
         "id": 39,
         "title": "Top 5 des Bibliothèques JavaScript Essentielles pour vos Projets de Sites Web",
         "date": "2024-12-03",

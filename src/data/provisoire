@@ -1,31 +1,4 @@
-
-    {
-        "id": 41,
-        "title": "Comment Planifier un Site Web sur Mesure pour Répondre à Vos Besoins Exactes",
-        "date": "2024-12-05",
-        "intro": "Créer un site web sur mesure demande une planification rigoureuse. Voici les étapes clés pour garantir un projet réussi.",
-        "content": [
-            "1. Définir vos Objectifs",
-            "Quels sont vos objectifs principaux : augmenter les ventes, générer des leads, améliorer votre image de marque ?",
-            
-            "2. Identifier votre Public Cible",
-            "Comprendre votre audience pour adapter le design, le contenu, et les fonctionnalités.",
-            
-            "3. Créer un Wireframe",
-            "Un wireframe permet de visualiser la structure de votre site avant d'entrer dans la phase de développement.",
-            
-            "4. Choisir les Bonnes Technologies",
-            "Sélectionnez les outils et frameworks qui conviennent à vos besoins, par exemple React.js pour les sites dynamiques ou SASS pour une gestion CSS avancée.",
-            
-            "5. Tester et Optimiser",
-            "Assurez-vous que votre site est responsive, rapide et optimisé pour le SEO avant son lancement.",
-            
-            "Conclusion",
-            "Un site sur mesure bien planifié peut transformer votre présence en ligne et répondre exactement à vos besoins professionnels."
-        ],
-        "sign" : "Ludmilla Marti"
-    },
-    {
+   {
         "id": 42,
         "title": "Pourquoi et Comment Tester un Site Web sur Mesure Avant son Lancement",
         "date": "2024-12-06",

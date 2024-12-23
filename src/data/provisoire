@@ -1,56 +1,5 @@
 
-    {
-        "id": 52,
-        "title": "Les Avantages des Polices Écologiques dans le Design Web",
-        "date": "2024-12-20",
-        "intro": "Saviez-vous que le choix d’une police de caractères peut influencer la consommation énergétique d’un site web ? Voici pourquoi et comment opter pour des polices écologiques.",
-        "content": [
-            "1. Qu’est-ce qu’une Police Écologique ?",
-            "Les polices écologiques consomment moins de données grâce à une conception optimisée pour le web.",
 
-            "2. Les Polices Recommandées",
-            "Optez pour des polices comme Ryman Eco ou Century Gothic, qui consomment moins d’encre et de ressources.",
-
-            "3. Optimisez l’Intégration",
-            "Hébergez localement vos polices ou utilisez les systèmes natifs pour éviter les requêtes inutiles vers des serveurs externes.",
-
-            "4. Impact Positif sur les Performances",
-            "Les polices légères réduisent le temps de chargement et l’énergie nécessaire à l’affichage d’un site.",
-
-            "5. Sensibilisation des Designers",
-            "Encouragez les équipes de conception à intégrer ces bonnes pratiques pour allier esthétique et écologie.",
-
-            "Conclusion",
-            "Choisir une police écologique est une action simple mais impactante pour un design web durable et performant.",
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
-        "id": 53,
-        "title": "Réduire l’Impact Environnemental des Conférences Virtuelles",
-        "date": "2024-12-23",
-        "intro": "Avec la généralisation des réunions en ligne, il est essentiel de réduire leur empreinte écologique. Voici des astuces pour y parvenir.",
-        "content": [
-            "1. Optimisez la Durée des Réunions",
-            "Privilégiez des réunions courtes et bien préparées pour réduire le temps de connexion nécessaire.",
-
-            "2. Limitez l’Usage de la Vidéo",
-            "Utilisez uniquement l’audio si la vidéo n’est pas indispensable, cela réduit considérablement la bande passante.",
-
-            "3. Utilisez des Plateformes Éco-Responsables",
-            "Privilégiez des services qui optimisent leur consommation énergétique ou s’engagent pour l’environnement.",
-
-            "4. Planifiez Intelligemment",
-            "Regroupez les discussions importantes dans une seule réunion plutôt que de multiplier les sessions.",
-
-            "5. Sensibilisez les Participants",
-            "Expliquez l’impact écologique des conférences et encouragez les.",
-
-            "Conclusion",
-            "Adopter ces gestes simples permet de réduire l’empreinte environnementale des réunions virtuelles, tout en maintenant leur efficacité et leur praticité.",
-        ],
-        "sign": "Ludmilla Marti"
-    },
     {
         "id": 54,
         "title": "L’Éco-Conception dans les Applications Mobiles",

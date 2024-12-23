@@ -1716,5 +1716,31 @@
             "Choisir une police écologique est une action simple mais impactante pour un design web durable et performant."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 53,
+        "title": "Réduire l’Impact Environnemental des Conférences Virtuelles",
+        "date": "2024-12-23",
+        "intro": "Avec la généralisation des réunions en ligne, il est essentiel de réduire leur empreinte écologique. Voici des astuces pour y parvenir.",
+        "content": [
+            "1. Optimisez la Durée des Réunions",
+            "Privilégiez des réunions courtes et bien préparées pour réduire le temps de connexion nécessaire.",
+
+            "2. Limitez l’Usage de la Vidéo",
+            "Utilisez uniquement l’audio si la vidéo n’est pas indispensable, cela réduit considérablement la bande passante.",
+
+            "3. Utilisez des Plateformes Éco-Responsables",
+            "Privilégiez des services qui optimisent leur consommation énergétique ou s’engagent pour l’environnement.",
+
+            "4. Planifiez Intelligemment",
+            "Regroupez les discussions importantes dans une seule réunion plutôt que de multiplier les sessions.",
+
+            "5. Sensibilisez les Participants",
+            "Expliquez l’impact écologique des conférences et encouragez les.",
+
+            "Conclusion",
+            "Adopter ces gestes simples permet de réduire l’empreinte environnementale des réunions virtuelles, tout en maintenant leur efficacité et leur praticité."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

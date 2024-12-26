@@ -1742,5 +1742,57 @@
             "Adopter ces gestes simples permet de réduire l’empreinte environnementale des réunions virtuelles, tout en maintenant leur efficacité et leur praticité."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 54,
+        "title": "L’Éco-Conception dans les Applications Mobiles",
+        "date": "2024-12-24",
+        "intro": "Créer des applications mobiles respectueuses de l’environnement est une démarche qui allie innovation et durabilité. Voici comment intégrer l’éco-conception.",
+        "content": [
+            "1. Optimisez le Poids de l’Application",
+            "Réduisez la taille des fichiers et utilisez des ressources légères pour limiter les besoins de stockage et de téléchargement.",
+
+            "2. Réduisez la Consommation Énergétique",
+            "Concevez des interfaces et des processus qui sollicitent moins le processeur et la batterie des appareils.",
+
+            "3. Favorisez l’Accessibilité Hors-Ligne",
+            "Intégrez des fonctionnalités permettant une utilisation sans connexion pour limiter la sollicitation des réseaux.",
+
+            "4. Minimisez les Requêtes Réseau",
+            "Regroupez les données et évitez les échanges inutiles avec les serveurs pour réduire la consommation énergétique.",
+
+            "5. Sensibilisez les Utilisateurs",
+            "Expliquez vos démarches écologiques et encouragez un usage responsable de l’application.",
+
+            "Conclusion",
+            "L’éco-conception d’applications mobiles est une opportunité pour allier innovation, durabilité et performance. Adoptez ces pratiques dès aujourd’hui."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 55,
+        "title": "Les Data Centers Vertueux : Une Révolution en Cours",
+        "date": "2024-12-26",
+        "intro": "Les data centers, au cœur de l’infrastructure numérique, peuvent aussi devenir des piliers de la transition écologique. Découvrez comment.",
+        "content": [
+            "1. L’Importance des Data Centers Éco-Responsables",
+            "Réduire la consommation énergétique de ces infrastructures est essentiel pour limiter leur empreinte carbone.",
+
+            "2. Les Innovations en Matière de Refroidissement",
+            "Adoptez des solutions comme le refroidissement liquide ou l’utilisation d’énergies renouvelables.",
+
+            "3. La Récupération de Chaleur",
+            "Transformez la chaleur dégagée par les data centers en énergie utilisable pour d’autres infrastructures.",
+
+            "4. L’Optimisation du Stockage",
+            "Implémentez des systèmes de gestion efficaces pour réduire l’espace et les ressources nécessaires au stockage des données.",
+
+            "5. Encouragez la Transparence",
+            "Choisissez des fournisseurs affichant clairement leurs efforts pour une démarche durable.",
+
+            "Conclusion",
+            "Les data centers écologiques représentent un avenir prometteur pour un numérique plus vert. Investir dans ces technologies est un pas essentiel pour la planète."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

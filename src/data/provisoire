@@ -1,31 +1,3 @@
-
-    {
-        "id": 57,
-        "title": "Adopter une Navigation Internet Responsable",
-        "date": "2024-12-30",
-        "intro": "Naviguer sur Internet peut être plus respectueux de l’environnement grâce à quelques pratiques simples mais efficaces.",
-        "content": [
-            "1. Utilisez des Moteurs de Recherche Écologiques",
-            "Optez pour des moteurs comme Ecosia qui plantent des arbres grâce à vos recherches.",
-
-            "2. Limitez les Onglets Ouverts",
-            "Chaque onglet consomme des ressources, fermez ceux qui ne sont pas nécessaires.",
-
-            "3. Préférez des Sites Optimisés",
-            "Utilisez des plateformes légères et bien conçues pour réduire l’utilisation de bande passante.",
-
-            "4. Téléchargez au Lieu de Streamer",
-            "Le téléchargement consomme moins d’énergie que le streaming en continu, privilégiez-le lorsque possible.",
-
-            "5. Apprenez à Vos Enfants les Bonnes Pratiques",
-            "Initiez les jeunes générations à adopter des habitudes responsables en ligne.",
-
-            "Conclusion",
-            "Avec une navigation Internet responsable, chacun peut contribuer à réduire l’impact environnemental du numérique.",
-        ],
-        "sign": "Ludmilla Marti"
-    },
-
     {
         "id": 58,
         "title": "Réduire l’Empreinte Carbone de Vos Emails Professionnels",

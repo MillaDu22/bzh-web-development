@@ -18,8 +18,8 @@ function Promo() {
         premium: (originalPrices.premium * (1 - discountRate)).toFixed(2)
     };*/
 
-    const promoStartDate = "01/12/2024";
-    const promoEndDate = "31/12/2024";
+    const promoStartDate = "01/01/2025";
+    const promoEndDate = "31/01/2025";
 
     useEffect(() => {
         const section = document.querySelector('.container-promo');

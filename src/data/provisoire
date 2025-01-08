@@ -1,40 +1,5 @@
 
 {
-    "id": 62,
-    "title": "CSS : Le Style au Service du Web",
-    "date": "2025-01-07",
-    "intro": "CSS (Cascading Style Sheets) est ce qui donne vie et style aux pages HTML. Découvrez ses atouts et ses limites pour le développement web.",
-    "content": [
-        "1. Les Avantages de CSS",
-        "1.1. Contrôle Total de la Mise en Page",
-        "CSS permet une personnalisation avancée des couleurs, polices, marges, espacements, et bien plus.",
-        
-        "1.2. Séparation du Style et de la Structure",
-        "Avec CSS, le style est séparé du contenu, rendant le code HTML plus lisible et facile à maintenir.",
-        
-        "1.3. Réutilisabilité et Efficacité",
-        "Les feuilles de styles permettent de réutiliser le même design sur plusieurs pages, ce qui réduit le temps de développement.",
-        
-        "1.4. Responsiveness",
-        "CSS prend en charge des techniques comme les media queries pour rendre les sites adaptables sur tous les écrans.",
-        
-        "2. Les Inconvénients de CSS",
-        "2.1. Courbe d'Apprentissage pour les Techniques Avancées",
-        "Des concepts comme Flexbox, Grid ou les animations CSS peuvent être difficiles à maîtriser pour les débutants.",
-        
-        "2.2. Compatibilité Variable",
-        "Certains styles CSS avancés ne sont pas pris en charge par tous les navigateurs, nécessitant des ajustements ou des polyfills.",
-        
-        "2.3. Gestion Complexe sur Grands Projets",
-        "Sur de grands projets, les fichiers CSS peuvent devenir difficiles à organiser et maintenir sans méthodologies comme BEM ou des préprocesseurs comme SASS.",
-        
-        "3. Conclusion",
-        "CSS reste indispensable pour la création de sites web modernes, mais il demande de la rigueur pour bien organiser et optimiser son code."
-    ],
-    "sign": "Ludmilla Marti"
-},
-
-{
     "id": 63,
     "title": "SASS : Booster la Puissance de votre CSS",
     "date": "2025-01-08",

@@ -1,38 +1,4 @@
 
-{
-    "id": 66,
-    "title": "Chrome : Le Leader des Navigateurs Web",
-    "date": "2025-01-13",
-    "intro": "Google Chrome domine le marché des navigateurs grâce à sa rapidité et son écosystème riche. Mais est-ce le choix parfait pour tout le monde ?",
-    "content": [
-        "1. Les Avantages de Chrome",
-        "1.1. Rapidité et Performances",
-        "Grâce à son moteur V8, Chrome offre une navigation rapide, idéale pour des applications complexes.",
-        
-        "1.2. Écosystème Intégré",
-        "Avec des services Google comme Gmail, Drive et Docs, Chrome s'intègre parfaitement à l'environnement Google.",
-        
-        "1.3. Extensions et Personnalisation",
-        "Chrome Web Store propose des milliers d'extensions pour personnaliser l'expérience utilisateur.",
-        
-        "1.4. Compatibilité avec les Standards Web",
-        "Chrome est toujours à jour avec les dernières innovations des standards web, garantissant une expérience moderne.",
-        
-        "2. Les Inconvénients de Chrome",
-        "2.1. Consommation de Ressources",
-        "Chrome est connu pour consommer beaucoup de mémoire vive, ce qui peut ralentir les ordinateurs avec peu de RAM.",
-        
-        "2.2. Préoccupations en Matière de Vie Privée",
-        "En tant que produit Google, Chrome collecte des données sur les utilisateurs, ce qui inquiète ceux soucieux de leur vie privée.",
-        
-        "2.3. Manque de Diversité",
-        "Sa domination pousse de nombreux sites web à optimiser exclusivement pour Chrome, au détriment d'autres navigateurs.",
-        
-        "3. Conclusion",
-        "Chrome est un choix puissant et rapide, mais les utilisateurs soucieux de leur vie privée pourraient préférer des alternatives comme Firefox ou Brave."
-    ],
-    "sign": "Ludmilla Marti"
-},
 
 {
     "id": 67,

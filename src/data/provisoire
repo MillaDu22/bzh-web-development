@@ -1,33 +1,4 @@
 {
-    "id": 68,
-    "title": "Safari : L'Expérience Optimisée pour les Produits Apple",
-    "date": "2025-01-15",
-    "intro": "Safari est le navigateur par défaut pour les appareils Apple. Découvrez pourquoi il excelle sur cet écosystème, mais présente aussi des limites.",
-    "content": [
-        "1. Les Avantages de Safari",
-        "1.1. Optimisation pour Apple",
-        "Safari est conçu pour tirer pleinement parti du matériel Apple, offrant des performances fluides et économes en énergie.",
-        
-        "1.2. Respect de la Vie Privée",
-        "Apple met l'accent sur la protection des données, avec des fonctionnalités comme le blocage intelligent des traqueurs.",
-        
-        "1.3. Intégration avec l'Écosystème Apple",
-        "Safari fonctionne de manière fluide avec iCloud, Handoff et d'autres services Apple.",
-        
-        "2. Les Inconvénients de Safari",
-        "2.1. Compatibilité Limitée",
-        "Certaines fonctionnalités web avancées peuvent ne pas être prises en charge par Safari aussi rapidement que par d'autres navigateurs.",
-        
-        "2.2. Exclusivité Apple",
-        "Safari est limité aux appareils Apple, ce qui peut être un inconvénient pour les utilisateurs multi-plateformes.",
-        
-        "3. Conclusion",
-        "Safari est un choix idéal pour les utilisateurs Apple grâce à ses performances et son respect de la vie privée, mais reste limité à cet écosystème."
-    ],
-    "sign": "Ludmilla Marti"
-},
-
-{
     "id": 69,
     "title": "Opera : L'Innovateur Discret des Navigateurs",
     "date": "2025-01-16",

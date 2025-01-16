@@ -2229,5 +2229,30 @@
             "Opera est idéal pour les utilisateurs cherchant des fonctionnalités intégrées innovantes, mais il reste une option de niche face à des géants comme Chrome."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 70,
+        "title": "Yahoo : Le Passé et Présent d'un Navigateur Méconnu",
+        "date": "2025-01-17",
+        "intro": "Le navigateur Yahoo, bien que peu utilisé, cherche à se démarquer. Quelles sont ses forces et faiblesses ?",
+        "content": [
+            "1. Les Avantages de Yahoo",
+            "1.1. Simplicité d'Utilisation",
+            "Le navigateur Yahoo mise sur une interface intuitive et facile à prendre en main, adaptée aux utilisateurs non techniques.",
+            
+            "1.2. Intégration avec les Services Yahoo",
+            "Les utilisateurs de Yahoo Mail ou Finance bénéficieront d'une intégration fluide.",
+            
+            "2. Les Inconvénients de Yahoo",
+            "2.1. Performances Moyennes",
+            "Le navigateur Yahoo est souvent critiqué pour sa lenteur comparée à Chrome ou Edge.",
+            
+            "2.2. Fonctionnalités Limitées",
+            "Yahoo manque de fonctionnalités modernes comme le VPN intégré ou les extensions.",
+            
+            "3. Conclusion",
+            "Le navigateur Yahoo est une option simple mais dépassée face aux standards actuels. Il convient surtout aux utilisateurs de longue date des services Yahoo."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

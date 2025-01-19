@@ -2254,5 +2254,30 @@
             "Le navigateur Yahoo est une option simple mais dépassée face aux standards actuels. Il convient surtout aux utilisateurs de longue date des services Yahoo."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 71,
+        "title": "HTML : Introduction à la Sémantique",
+        "date": "2025-01-20",
+        "intro": "Comprenez pourquoi la sémantique en HTML est essentielle pour un code structuré et accessible.",
+        "content": [
+            "1. Qu'est-ce que la sémantique HTML ?",
+            "1.1. Une Structure Significative",
+            "Les balises sémantiques décrivent clairement leur contenu, améliorant ainsi la lisibilité et l'accessibilité.",
+            
+            "1.2. Importance pour le Référencement",
+            "Les moteurs de recherche utilisent la sémantique pour mieux comprendre le contenu d'une page.",
+            
+            "2. Les Bases de la Sémantique",
+            "2.1. Différence entre <div> et <section>",
+            "Contrairement aux <div>, les balises comme <section> apportent une signification contextuelle au contenu.",
+            
+            "2.2. Accessibilité Améliorée",
+            "Les lecteurs d'écran bénéficient d'une navigation plus fluide grâce à la sémantique.",
+            
+            "3. Conclusion",
+            "La sémantique HTML est un pilier de tout site bien structuré, facilitant son usage et son référencement."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

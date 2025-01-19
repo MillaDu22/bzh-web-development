@@ -1,4 +1,546 @@
 
+    {
+        "id": 72,
+        "title": "La Balise <header> : Présentation et Usage",
+        "date": "2025-01-21",
+        "intro": "Découvrez comment utiliser la balise <header> pour structurer l’en-tête de vos pages.",
+        "content": [
+            "1. Définition de <header>",
+            "1.1. Fonction Principale",
+            "La balise <header> représente l’en-tête d’un document ou d’une section.",
+            
+            "1.2. Contenu Typique",
+            "Elle contient souvent le titre principal, les menus de navigation ou les logos.",
+            
+            "2. Bonnes Pratiques",
+            "2.1. Une Utilisation Cohérente",
+            "Évitez de l’utiliser pour des contenus non liés à l’en-tête.",
+            
+            "2.2. Multiples <header> dans une Page",
+            "Chaque section ou article peut avoir son propre <header> pour une meilleure organisation.",
+            
+            "3. Conclusion",
+            "La balise <header> contribue à une structure claire et intuitive pour vos pages web."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 73,
+        "title": "Pourquoi et Comment Utiliser <main> ?",
+        "date": "2025-01-22",
+        "intro": "La balise <main> est essentielle pour structurer le contenu principal d'une page. Voici comment la maîtriser.",
+        "content": [
+            "1. Définition de <main>",
+            "1.1. Rôle Central",
+            "La balise <main> englobe le contenu principal d'une page, unique et pertinent.",
+            
+            "1.2. Balise Obligatoire ?",
+            "Bien qu'optionnelle, elle améliore grandement l'accessibilité et le SEO.",
+            
+            "2. Erreurs Courantes",
+            "2.1. Utiliser <main> Plusieurs Fois",
+            "Il ne doit y avoir qu’un seul <main> par page.",
+            
+            "2.2. Inclusion Incorrecte",
+            "Ne placez pas des éléments comme <header> ou <footer> dans le <main>.",
+            
+            "3. Conclusion",
+            "Adoptez la balise <main> pour une meilleure hiérarchisation de vos contenus."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 74,
+        "title": "Sémantique HTML : Le Duo <section> et <article>",
+        "date": "2025-01-23",
+        "intro": "Apprenez à différencier et à utiliser efficacement <section> et <article>.",
+        "content": [
+            "1. Différence entre <section> et <article>",
+            "1.1. Rôle de <section>",
+            "Elle organise le contenu en sections logiques.",
+            
+            "1.2. Rôle de <article>",
+            "Elle représente un contenu autonome comme un article de blog ou une actualité.",
+            
+            "2. Exemples Pratiques",
+            "2.1. Cas d'Utilisation de <section>",
+            "Idéal pour diviser un rapport ou une page en parties distinctes.",
+            
+            "2.2. Cas d'Utilisation de <article>",
+            "Utile pour afficher des articles ou des commentaires indépendants.",
+            
+            "3. Conclusion",
+            "Utilisez <section> pour structurer et <article> pour des contenus autonomes."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 75,
+        "title": "Sémantique HTML : Balise <footer> et Son Importance",
+        "date": "2025-01-24",
+        "intro": "Découvrez comment la balise <footer> améliore l'organisation de vos pages.",
+        "content": [
+            "1. Qu'est-ce que <footer> ?",
+            "1.1. Rôle Principal",
+            "Elle représente le pied de page, souvent utilisé pour des informations légales ou des liens.",
+            
+            "1.2. Multiples <footer>",
+            "Chaque section ou <article> peut avoir son propre <footer>.",
+            
+            "2. Bonnes Pratiques",
+            "2.1. Contenu Typique",
+            "Ajoutez des mentions légales, des crédits ou des liens utiles.",
+            
+            "2.2. Structure Hiérarchique",
+            "Ne mélangez pas <footer> avec des contenus non pertinents.",
+            
+            "3. Conclusion",
+            "La balise <footer> est essentielle pour un site bien structuré et professionnel."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 76,
+        "title": "Quand Utiliser <nav> pour Vos Menus de Navigation",
+        "date": "2025-01-27",
+        "intro": "La balise <nav> est cruciale pour créer des menus clairs et navigables.",
+        "content": [
+            "1. Rôle de la Balise <nav>",
+            "1.1. Définition",
+            "Elle regroupe les liens principaux d'une page ou d'une section.",
+            
+            "1.2. Importance pour l'Accessibilité",
+            "Elle permet une navigation plus simple pour les utilisateurs et moteurs de recherche.",
+            
+            "2. Erreurs à Éviter",
+            "2.1. Trop de <nav>",
+            "N'utilisez pas plusieurs <nav> sans raison.",
+            
+            "2.2. Mauvais Positionnement",
+            "Placez <nav> dans <header> ou à un endroit logique.",
+            
+            "3. Conclusion",
+            "Utilisez <nav> pour guider efficacement vos visiteurs dans vos pages."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 77,
+        "title": "HTML5 : Focus sur la Balise <aside>",
+        "date": "2025-01-28",
+        "intro": "La balise <aside> est parfaite pour le contenu annexe. Voici comment l'utiliser.",
+        "content": [
+            "1. Définition de <aside>",
+            "1.1. Contenu Associé",
+            "Elle contient des informations liées au contenu principal, comme des pubs ou des notes.",
+            
+            "1.2. Emplacement",
+            "Elle peut être placée à gauche ou à droite du contenu principal.",
+            
+            "2. Exemples Concrets",
+            "2.1. Utilisation Commune",
+            "Utilisez-la pour des barres latérales ou des encarts de publicité.",
+            
+            "2.2. Mauvaises Pratiques",
+            "Ne l'utilisez pas pour des éléments essentiels au contenu principal.",
+            
+            "3. Conclusion",
+            "La balise <aside> enrichit vos pages tout en restant discrète."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 78,
+        "title": "La Balise <figure> et Son Élément <figcaption>",
+        "date": "2025-01-29",
+        "intro": "Découvrez comment combiner <figure> et <figcaption> pour une meilleure présentation des médias.",
+        "content": [
+            "1. Utilisation de <figure>",
+            "1.1. Présentation des Médias",
+            "La balise <figure> englobe des images, vidéos ou graphiques.",
+            
+            "1.2. Accessibilité",
+            "Ajoutez une description claire avec <figcaption> pour les utilisateurs.",
+            
+            "2. Cas d'Utilisation",
+            "2.1. Exemple Pratique",
+            "Un graphique avec une légende expliquant son contenu.",
+            
+            "2.2. Bonnes Pratiques",
+            "Ne pas mélanger <figure> avec d'autres types de balises.",
+            
+            "3. Conclusion",
+            "Utilisez <figure> pour des contenus visuels bien présentés et descriptifs."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 79,
+        "title": "La Balise <time> : Données Temporelles en HTML",
+        "date": "2025-01-30",
+        "intro": "Utilisez <time> pour marquer les dates et heures de manière sémantique.",
+        "content": [
+            "1. Qu'est-ce que <time> ?",
+            "1.1. Définition",
+            "Elle représente une date, une heure ou une durée.",
+            
+            "1.2. Avantages",
+            "Les moteurs de recherche comprennent mieux les données temporelles.",
+            
+            "2. Exemples d'Usage",
+            "2.1. Date de Publication",
+            "Utilisez <time> pour indiquer une date d'article.",
+            
+            "2.2. Durée",
+            "Ajoutez une durée en utilisant l’attribut `datetime`.",
+            
+            "3. Conclusion",
+            "La balise <time> enrichit vos données temporelles pour les rendre plus utiles."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 80,
+        "title": "Les Listes en HTML : Organisez Vos Contenus Facilement",
+        "date": "2025-01-31",
+        "intro": "Les listes en HTML permettent de structurer vos contenus de manière claire et hiérarchisée. Découvrez les différents types de listes et leur utilité.",
+        "content": [
+            "1. Les Différents Types de Listes",
+            "1.1. Liste Ordonnée (<ol>)",
+            "Utilisez <ol> pour des étapes ou des éléments à hiérarchiser dans un ordre précis.",
+            
+            "1.2. Liste Non Ordonnée (<ul>)",
+            "Adoptez <ul> pour des éléments sans ordre particulier.",
+            
+            "1.3. Liste de Définition (<dl>, <dt>, <dd>)",
+            "Idéal pour afficher des termes et leurs définitions de façon structurée.",
+            
+            "2. Exemples de Code",
+            "2.1. Liste Ordonnée",
+            "<ol>\n  <li>Étape 1</li>\n  <li>Étape 2</li>\n</ol>",
+            
+            "2.2. Liste Non Ordonnée",
+            "<ul>\n  <li>Option 1</li>\n  <li>Option 2</li>\n</ul>",
+            
+            "2.3. Liste de Définition",
+            "<dl>\n  <dt>HTML</dt>\n  <dd>Langage de balisage pour le web.</dd>\n</dl>",
+            
+            "3. Importance des Listes pour le SEO",
+            "Les listes rendent vos contenus plus lisibles et permettent aux moteurs de recherche de mieux comprendre la structure de vos pages.",
+            
+            "4. Conclusion",
+            "Les listes sont des outils essentiels pour structurer efficacement vos contenus en HTML. Choisissez le bon type selon le contexte et les besoins de vos utilisateurs."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 81,
+        "title": "Les Titres en HTML : Structurez Vos Pages pour une Meilleure Lisibilité",
+        "date": "2025-02-03",
+        "intro": "Les titres en HTML jouent un rôle fondamental dans l'organisation de vos contenus et leur compréhension par les moteurs de recherche.",
+        "content": [
+            "1. Qu'est-ce qu'un Titre en HTML ?",
+            "1.1. Définition",
+            "Les balises <h1> à <h6> permettent de structurer un document en fonction de l'importance de chaque section.",
+            
+            "1.2. Hiérarchie des Titres",
+            "<h1> est utilisé pour le titre principal, tandis que <h2> à <h6> définissent les sous-sections.",
+            
+            "2. Bonne Pratique pour les Titres",
+            "2.1. Un Seul <h1> par Page",
+            "Respectez cette règle pour une structure logique et cohérente.",
+            
+            "2.2. Ordre des Titres",
+            "Ne sautez pas les niveaux : un <h3> doit suivre un <h2>.",
+            
+            "3. Impact des Titres sur le SEO",
+            "Les moteurs de recherche utilisent les titres pour comprendre le sujet principal de votre page et son organisation.",
+            
+            "4. Exemples de Titres",
+            "<h1>Bienvenue sur mon site</h1>\n" +
+            "<h2>À propos</h2>\n" +
+            "<h3>Mon parcours</h3>",
+            
+            "5. Conclusion",
+            "Une structure de titres claire est essentielle pour une bonne expérience utilisateur et un SEO efficace. Utilisez les titres pour guider vos lecteurs à travers vos contenus."
+        ],
+        "sign": "Ludmilla Marti"
+    }, 
+    {
+        "id": 82,
+        "title": "La Balise <head> : Métadonnées et Structure Invisible",
+        "date": "2025-02-04",
+        "intro": "La balise <head> joue un rôle clé dans chaque page web en contenant des métadonnées et des ressources essentielles.",
+        "content": [
+            "1. Rôle de la balise <head>",
+            "1.1. Contenir les métadonnées",
+            "La balise <head> regroupe les informations sur la page web, comme le titre, les descriptions, et les mots-clés.",
+            
+            "1.2. Charger les ressources externes",
+            "Elle est utilisée pour intégrer des fichiers CSS, des polices et des scripts nécessaires au fonctionnement de la page.",
+            
+            "2. Éléments communs dans <head>",
+            "2.1. <title>",
+            "Indique le titre affiché dans l'onglet du navigateur.",
+            
+            "2.2. <meta>",
+            "Ajoute des métadonnées comme les descriptions pour le SEO et les encodages de caractères.",
+            
+            "2.3. <link>",
+            "Relie des ressources externes comme les feuilles de styles.",
+            
+            "3. Conclusion",
+            "La balise <head> est invisible à l'utilisateur, mais essentielle pour le bon fonctionnement et le référencement d'un site."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 83,
+        "title": "La Balise <p> : Structurer le Texte avec des Paragraphes",
+        "date": "2025-02-05",
+        "intro": "La balise <p> est l'élément de base pour organiser du texte en paragraphes clairs et lisibles.",
+        "content": [
+            "1. Rôle de la balise <p>",
+            "1.1. Structurer le contenu",
+            "La balise <p> permet de créer des paragraphes distincts pour organiser le texte de manière claire.",
+            
+            "1.2. Accessibilité",
+            "Les paragraphes balisés aident les lecteurs d'écran à interpréter correctement le contenu.",
+            
+            "2. Bonnes pratiques",
+            "2.1. Utiliser des paragraphes courts",
+            "Pour améliorer la lisibilité, divisez le texte en blocs de 2 à 4 lignes maximum.",
+            
+            "2.2. Éviter d'utiliser <br> pour les retours à la ligne",
+            "Préférez <p> pour des paragraphes, car <br> ne crée pas de structure logique.",
+            
+            "3. Conclusion",
+            "La balise <p> est simple mais indispensable pour un texte bien structuré et accessible."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 84,
+        "title": "La Balise <span> : Styliser du Texte en Ligne",
+        "date": "2025-02-06",
+        "intro": "La balise <span> est idéale pour appliquer un style ou une action à une partie spécifique d'une ligne de texte.",
+        "content": [
+            "1. Rôle de la balise <span>",
+            "1.1. Stylisation ciblée",
+            "Utilisez <span> pour appliquer des styles spécifiques à une partie du texte via CSS.",
+            
+            "1.2. Composant en ligne",
+            "Contrairement à <div>, <span> est un conteneur en ligne, parfait pour le texte.",
+            
+            "2. Exemple d'utilisation",
+            "2.1. Mise en forme",
+            "Ajoutez une couleur ou une taille de police à un mot spécifique avec CSS.",
+            
+            "3. Conclusion",
+            "La balise <span> est un outil puissant pour la stylisation précise sans perturber la mise en page."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 85,
+        "title": "La Balise <strong> : Souligner l'Importance d'un Texte",
+        "date": "2025-02-07",
+        "intro": "La balise <strong> met en évidence des mots ou phrases importantes pour l'utilisateur et les moteurs de recherche.",
+        "content": [
+            "1. Rôle de la balise <strong>",
+            "1.1. Mettre l'accent sur un contenu",
+            "La balise <strong> est utilisée pour souligner l'importance d'un texte, généralement affiché en gras.",
+            
+            "1.2. Impact SEO",
+            "Elle indique aux moteurs de recherche que le texte balisé a une signification particulière.",
+            
+            "2. Différence avec <b>",
+            "Contrairement à <b>, <strong> a une importance sémantique.",
+            
+            "3. Conclusion",
+            "Utilisez <strong> pour attirer l'attention sur des éléments clés, en conservant un impact visuel et sémantique."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 86,
+        "title": "La Balise <em> : Ajouter de l'Emphase à vos Textes",
+        "date": "2025-02-10",
+        "intro": "La balise <em> est utilisée pour insister sur certains mots ou phrases, généralement affichés en italique.",
+        "content": [
+            "1. Rôle de la balise <em>",
+            "1.1. Ajout d'emphase",
+            "Elle permet de mettre en évidence des mots-clés, des citations ou des phrases importantes.",
+            
+            "1.2. Utilité sémantique",
+            "Les moteurs de recherche interprètent le texte balisé comme ayant un poids particulier.",
+            
+            "2. Exemple",
+            "Inclure <em> pour insister sur un point crucial dans un article ou un e-mail.",
+            
+            "3. Conclusion",
+            "La balise <em> est un outil simple pour ajouter du sens et de la clarté au contenu textuel."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 87,
+        "title": "La Balise <br> : Créer des Retours à la Ligne Simples",
+        "date": "2025-02-11",
+        "intro": "La balise <br> permet d'insérer un retour à la ligne dans du texte sans créer de nouveaux paragraphes.",
+        "content": [
+            "1. Utilisation principale",
+            "1.1. Retour à la ligne",
+            "Utilisez <br> pour des mises en page où un saut de ligne rapide est nécessaire.",
+            
+            "1.2. Exemples",
+            "Elle est souvent utilisée dans les adresses, les poèmes ou les signatures.",
+            
+            "2. Bonnes pratiques",
+            "2.1. Ne pas abuser",
+            "Préférez des balises structurelles comme <p> pour un contenu textuel organisé.",
+            
+            "3. Conclusion",
+            "La balise <br> est pratique mais doit être utilisée avec parcimonie pour éviter des problèmes de lisibilité."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id":88,
+        "title": "La Balise <blockquote> : Mettre en Avant des Citations Longues",
+        "date": "2025-02-12",
+        "intro": "La balise <blockquote> permet de présenter des citations longues en les séparant visuellement du reste du contenu.",
+        "content": [
+            "1. Rôle de la balise <blockquote>",
+            "1.1. Structurer les citations",
+            "Elle est utilisée pour afficher une citation, souvent avec un retrait ou un style spécifique.",
+            
+            "1.2. Attribution de la source",
+            "Associez la source de la citation via l’attribut 'cite' pour plus de clarté.",
+            
+            "2. Exemple d'utilisation",
+            "Utilisez <blockquote> pour des citations de plusieurs lignes, comme des extraits d’articles ou de livres.",
+            
+            "3. Différence avec <q>",
+            "Contrairement à <q>, qui est utilisé pour des citations courtes et en ligne, <blockquote> est destiné aux citations longues.",
+            
+            "4. Conclusion",
+            "La balise <blockquote> donne une structure professionnelle et lisible aux citations importantes."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 89,
+        "title": "La Balise <pre> : Afficher du Texte Préformaté",
+        "date": "2025-02-13",
+        "intro": "La balise <pre> conserve la mise en forme d'origine du texte, y compris les espaces et les retours à la ligne.",
+        "content": [
+            "1. Rôle de la balise <pre>",
+            "1.1. Préserver la mise en forme",
+            "Contrairement aux paragraphes classiques, <pre> affiche les espaces et retours à la ligne tels qu’ils sont écrits dans le code.",
+            
+            "1.2. Idéal pour le code",
+            "Elle est utilisée pour afficher du texte technique comme du code ou des tableaux ASCII.",
+            
+            "2. Bonnes pratiques",
+            "2.1. Évitez pour de longs textes",
+            "Réservez <pre> pour des éléments spécifiques, car elle ne s'adapte pas bien sur mobile.",
+            
+            "2.2. Combinez avec <code>",
+            "Pour afficher du code source, utilisez <pre> en combinaison avec la balise <code> pour une meilleure sémantique.",
+            
+            "3. Conclusion",
+            "La balise <pre> est parfaite pour afficher du contenu technique ou du texte avec une mise en forme spécifique."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 90,
+        "title": "La Balise <code> : Présenter du Code Source",
+        "date": "2025-02-14",
+        "intro": "La balise <code> est utilisée pour afficher du code source ou des commandes dans un style distinctif.",
+        "content": [
+            "1. Rôle de la balise <code>",
+            "1.1. Affichage du code",
+            "Elle met en forme du texte comme du code source, souvent avec une police monospace par défaut.",
+            
+            "1.2. Lisibilité technique",
+            "Cette balise aide les développeurs à identifier rapidement les éléments de code.",
+            
+            "2. Bonnes pratiques",
+            "2.1. Utilisez <code> pour les extraits courts",
+            "Pour les longues sections, combinez <code> avec <pre>.",
+            
+            "2.2. Syntaxe en surbrillance",
+            "Ajoutez des styles ou des bibliothèques comme Prism.js pour mettre en évidence la syntaxe.",
+            
+            "3. Conclusion",
+            "La balise <code> est indispensable pour afficher du code clair et lisible sur les sites techniques et éducatifs."
+        ],
+        "sign": "Ludmilla Marti"
+    }, 
+    {
+        "id": 91,
+        "title": "La Balise <a> : Créer des Liens Hypertextes",
+        "date": "2025-02-17",
+        "intro": "La balise <a> permet de créer des liens hypertextes pour naviguer vers d'autres pages ou ressources en ligne.",
+        "content": [
+            "1. Rôle de la balise <a>",
+            "1.1. Navigation sur le web",
+            "La balise <a> relie des pages entre elles, rendant la navigation intuitive.",
+            
+            "1.2. Liens internes et externes",
+            "Elle peut pointer vers des pages internes au site ou des ressources externes.",
+            
+            "2. Attributs importants",
+            "2.1. href",
+            "Indique la destination du lien, comme une URL ou un chemin relatif.",
+            
+            "2.2. target",
+            "Utilisez '_blank' pour ouvrir le lien dans un nouvel onglet.",
+            
+            "2.3. rel",
+            "Ajoutez 'noopener noreferrer' pour des raisons de sécurité, surtout avec target='_blank'.",
+            
+            "3. Bonnes pratiques",
+            "3.1. Texte descriptif",
+            "Utilisez un texte de lien clair et informatif pour améliorer l'accessibilité et le SEO.",
+            
+            "3.2. Pas d'excès de liens",
+            "Trop de liens sur une page peuvent nuire à l'expérience utilisateur.",
+            
+            "4. Conclusion",
+            "La balise <a> est essentielle pour connecter le contenu et rendre le web interactif."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 92,
+        "title": "Balises HTML Sémantiques : Pourquoi et Comment les Adopter",
+        "date": "2025-02-18",
+        "intro": "Une vue d'ensemble sur les balises HTML sémantiques essentielles.",
+        "content": [
+            "1. Importance des Balises Sémantiques",
+            "1.1. Amélioration de la Structure",
+            "Elles rendent votre site plus compréhensible pour tous.",
+            
+            "1.2. Impact sur le SEO",
+            "Les moteurs de recherche privilégient les sites bien structurés.",
+            
+            "2. Liste des Balises Essentielles",
+            "2.1. Balises Structurelles",
+            "<header>, <main>, <footer>.",
+            
+            "2.2. Balises de Contenu",
+            "<article>, <section>, <aside>.",
+            
+            "3. Conclusion",
+            "Adoptez une approche sémantique pour des sites performants et accessibles."
+        ],
+        "sign": "Ludmilla Marti"
+    }
+]
+
 
 
 

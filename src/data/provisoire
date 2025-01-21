@@ -1,30 +1,5 @@
 
     {
-        "id": 72,
-        "title": "La Balise <header> : Présentation et Usage",
-        "date": "2025-01-21",
-        "intro": "Découvrez comment utiliser la balise <header> pour structurer l’en-tête de vos pages.",
-        "content": [
-            "1. Définition de <header>",
-            "1.1. Fonction Principale",
-            "La balise <header> représente l’en-tête d’un document ou d’une section.",
-            
-            "1.2. Contenu Typique",
-            "Elle contient souvent le titre principal, les menus de navigation ou les logos.",
-            
-            "2. Bonnes Pratiques",
-            "2.1. Une Utilisation Cohérente",
-            "Évitez de l’utiliser pour des contenus non liés à l’en-tête.",
-            
-            "2.2. Multiples <header> dans une Page",
-            "Chaque section ou article peut avoir son propre <header> pour une meilleure organisation.",
-            
-            "3. Conclusion",
-            "La balise <header> contribue à une structure claire et intuitive pour vos pages web."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 73,
         "title": "Pourquoi et Comment Utiliser <main> ?",
         "date": "2025-01-22",

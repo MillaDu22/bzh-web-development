@@ -1,30 +1,5 @@
 
     {
-        "id": 73,
-        "title": "Pourquoi et Comment Utiliser <main> ?",
-        "date": "2025-01-22",
-        "intro": "La balise <main> est essentielle pour structurer le contenu principal d'une page. Voici comment la maîtriser.",
-        "content": [
-            "1. Définition de <main>",
-            "1.1. Rôle Central",
-            "La balise <main> englobe le contenu principal d'une page, unique et pertinent.",
-            
-            "1.2. Balise Obligatoire ?",
-            "Bien qu'optionnelle, elle améliore grandement l'accessibilité et le SEO.",
-            
-            "2. Erreurs Courantes",
-            "2.1. Utiliser <main> Plusieurs Fois",
-            "Il ne doit y avoir qu’un seul <main> par page.",
-            
-            "2.2. Inclusion Incorrecte",
-            "Ne placez pas des éléments comme <header> ou <footer> dans le <main>.",
-            
-            "3. Conclusion",
-            "Adoptez la balise <main> pour une meilleure hiérarchisation de vos contenus."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 74,
         "title": "Sémantique HTML : Le Duo <section> et <article>",
         "date": "2025-01-23",

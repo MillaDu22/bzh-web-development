@@ -1,30 +1,5 @@
 
     {
-        "id": 74,
-        "title": "Sémantique HTML : Le Duo <section> et <article>",
-        "date": "2025-01-23",
-        "intro": "Apprenez à différencier et à utiliser efficacement <section> et <article>.",
-        "content": [
-            "1. Différence entre <section> et <article>",
-            "1.1. Rôle de <section>",
-            "Elle organise le contenu en sections logiques.",
-            
-            "1.2. Rôle de <article>",
-            "Elle représente un contenu autonome comme un article de blog ou une actualité.",
-            
-            "2. Exemples Pratiques",
-            "2.1. Cas d'Utilisation de <section>",
-            "Idéal pour diviser un rapport ou une page en parties distinctes.",
-            
-            "2.2. Cas d'Utilisation de <article>",
-            "Utile pour afficher des articles ou des commentaires indépendants.",
-            
-            "3. Conclusion",
-            "Utilisez <section> pour structurer et <article> pour des contenus autonomes."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 75,
         "title": "Sémantique HTML : Balise <footer> et Son Importance",
         "date": "2025-01-24",

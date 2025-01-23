@@ -2330,5 +2330,45 @@
             "Adoptez la balise <main> pour une meilleure hiérarchisation de vos contenus."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 74,
+        "title": "Sémantique HTML : Le Duo <section> et <article>",
+        "date": "2025-01-23",
+        "intro": "Apprenez à différencier et à utiliser efficacement <section> et <article>. Ces balises jouent un rôle clé dans la structuration des pages web et contribuent à l'amélioration de l'accessibilité et du référencement.",
+        "content": [
+            "1. Différence entre <section> et <article>",
+            "1.1. Rôle de <section>",
+            "La balise <section> est utilisée pour structurer le contenu en groupes logiques. Chaque section devrait idéalement être introduite par un titre (<h1> à <h6>). Elle est utile pour organiser une page en parties distinctes, telles que les en-têtes, les sections principales et les zones de pied de page.",
+            "1.2. Rôle de <article>",
+            "La balise <article> représente un contenu autonome et indépendant qui peut être partagé ou réutilisé ailleurs. Elle est idéale pour les articles de blog, les actualités ou tout autre contenu qui a du sens même en dehors de son contexte d'origine.",
+            
+            "2. Exemples Pratiques",
+            "2.1. Cas d'Utilisation de <section>",
+            "Imaginez une page \"À propos\" avec différentes parties : Historique, Valeurs et Équipe. Chaque partie peut être une <section> distincte, ce qui facilite la lecture et l'organisation.",
+            "Exemple :",
+            "<section id='about'>",
+            "  <h2>À propos</h2>",
+            "  <p>Nous sommes une entreprise spécialisée dans le développement web.</p>",
+            "</section>",
+            "2.2. Cas d'Utilisation de <article>",
+            "Sur une page de blog, chaque billet peut être encapsulé dans une balise <article>. Cela permet aux lecteurs et aux moteurs de recherche d'identifier facilement les articles comme des contenus indépendants.",
+            "Exemple :",
+            "<article>",
+            "    <h2>Les avantages de HTML sémantique</h2>",
+            "    <p>Publié le 23 janvier 2025</p>",
+            "  <p>La sémantique HTML améliore la structure et l'accessibilité de vos pages.</p>",
+            "</article>",
+            
+            "3. Pourquoi utiliser ces balises ?",
+            "Ces balises améliorent l'accessibilité pour les lecteurs d'écran, permettent une meilleure indexation par les moteurs de recherche et facilitent la maintenance du code.",
+            
+            "4. Bonnes pratiques",
+            "Structurez vos pages avec une hiérarchie claire, utilisez des titres descriptifs et évitez de surcharger vos pages avec trop de sections ou d'articles inutiles.",
+            
+            "5. Conclusion",
+            "En combinant <section> pour structurer vos pages et <article> pour des contenus autonomes, vous obtenez un HTML mieux organisé, plus accessible et plus performant pour le SEO."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

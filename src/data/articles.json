@@ -2370,5 +2370,77 @@
             "En combinant <section> pour structurer vos pages et <article> pour des contenus autonomes, vous obtenez un HTML mieux organisé, plus accessible et plus performant pour le SEO."
         ],
         "sign": "Ludmilla Marti"
-    }
+    },
+    {
+        "id": 75,
+        "title": "Sémantique HTML : La Balise <footer> et Son Importance",
+        "date": "2025-01-24",
+        "intro": "Découvrez comment la balise <footer> améliore l'organisation, l'accessibilité et la structure de vos pages web.",
+        "content": [
+            "1. Qu'est-ce que <footer> ?",
+            "1.1. Définition et Rôle Principal",
+            "La balise <footer> est une balise sémantique HTML qui représente généralement le pied de page d'une page ou d'une section spécifique. Elle est utilisée pour regrouper des informations liées à son contexte, telles que des mentions légales, des liens vers des sections importantes ou des crédits.",
+            
+            "1.2. Où l'Utiliser ?",
+            "La balise <footer> peut être utilisée à deux niveaux :",
+            "- Au niveau de la page entière, pour afficher des informations générales comme les copyrights, les mentions légales, et les liens de réseaux sociaux.",
+            "- Au niveau d'une section ou d'un <article>, pour inclure des éléments liés à cette section, comme un lien vers une source ou un auteur.",
+            
+            "2. Pourquoi Utiliser la Balise <footer> ?",
+            "2.1. Amélioration de la Sémantique",
+            "L'utilisation de <footer> améliore la structure sémantique de votre page, rendant le contenu plus compréhensible pour les moteurs de recherche et les lecteurs d'écran.",
+            
+            "2.2. Accessibilité",
+            "Pour les utilisateurs avec des limitations visuelles ou utilisant des outils comme des lecteurs d'écran, <footer> aide à naviguer efficacement dans la page.",
+            
+            "2.3. Meilleure Organisation",
+            "En regroupant les informations pertinentes dans <footer>, vous rendez votre code plus propre et votre contenu plus facile à gérer.",
+            
+            "3. Bonnes Pratiques",
+            "3.1. Contenu Typique",
+            "Voici les éléments que l'on retrouve fréquemment dans un <footer> :",
+            "- Mentions légales.",
+            "- Liens vers les politiques de confidentialité ou les conditions d'utilisation.",
+            "- Informations de contact (email, téléphone, adresse).",
+            "- Liens de navigation secondaires (plan du site, réseaux sociaux).",
+            "- Crédits et copyrights.",
+            
+            "3.2. Organisation et Hiérarchisation",
+            "- Évitez de surcharger <footer> avec des éléments non pertinents.",
+            "- Si vous utilisez plusieurs <footer> dans une page, assurez-vous qu'ils restent contextuellement significatifs.",
+            
+            "3.3. Utilisation des Balises Associées",
+            "Intégrez <footer> avec d'autres balises sémantiques comme <header> et <main> pour une structure complète et lisible.",
+            
+            "4. Cas d'Usage et Exemples",
+            "4.1. Exemple de Footer Global",
+            "```html",
+            "<footer>",
+            "    <p>&copy; 2025 MonSiteWeb. Tous droits réservés.</p>",
+            "    <nav>",
+            "        <ul>",
+            "            <li><a href='/mentions-legales'>Mentions légales</a></li>",
+            "            <li><a href='/contact'>Contact</a></li>",
+            "            <li><a href='/plan-du-site'>Plan du site</a></li>",
+            "        </ul>",
+            "    </nav>",
+            "</footer>",
+            "```",
+            
+            "4.2. Exemple de Footer au Niveau d'un Article",
+            "```html",
+            "<article>",
+            "    <h2>Les Tendances Web de 2025</h2>",
+            "    <p>Le contenu de l'article...</p>",
+            "    <footer>",
+            "        <p>Écrit par Ludmilla Marti. Source : <a href='https://example.com'>Example.com</a></p>",
+            "    </footer>",
+            "</article>",
+            "```",
+            
+            "5. Conclusion",
+            "La balise <footer> est un outil puissant pour organiser et structurer votre site web de manière professionnelle. Elle améliore à la fois la lisibilité de votre code, l'expérience utilisateur et votre référencement naturel. En suivant les bonnes pratiques, vous pourrez maximiser son utilité et créer des sites plus accessibles et efficaces."
+        ],
+        "sign": "Ludmilla Marti"
+    }    
 ]

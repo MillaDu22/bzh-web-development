@@ -1,55 +1,5 @@
 
     {
-        "id": 75,
-        "title": "Sémantique HTML : Balise <footer> et Son Importance",
-        "date": "2025-01-24",
-        "intro": "Découvrez comment la balise <footer> améliore l'organisation de vos pages.",
-        "content": [
-            "1. Qu'est-ce que <footer> ?",
-            "1.1. Rôle Principal",
-            "Elle représente le pied de page, souvent utilisé pour des informations légales ou des liens.",
-            
-            "1.2. Multiples <footer>",
-            "Chaque section ou <article> peut avoir son propre <footer>.",
-            
-            "2. Bonnes Pratiques",
-            "2.1. Contenu Typique",
-            "Ajoutez des mentions légales, des crédits ou des liens utiles.",
-            
-            "2.2. Structure Hiérarchique",
-            "Ne mélangez pas <footer> avec des contenus non pertinents.",
-            
-            "3. Conclusion",
-            "La balise <footer> est essentielle pour un site bien structuré et professionnel."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
-        "id": 76,
-        "title": "Quand Utiliser <nav> pour Vos Menus de Navigation",
-        "date": "2025-01-27",
-        "intro": "La balise <nav> est cruciale pour créer des menus clairs et navigables.",
-        "content": [
-            "1. Rôle de la Balise <nav>",
-            "1.1. Définition",
-            "Elle regroupe les liens principaux d'une page ou d'une section.",
-            
-            "1.2. Importance pour l'Accessibilité",
-            "Elle permet une navigation plus simple pour les utilisateurs et moteurs de recherche.",
-            
-            "2. Erreurs à Éviter",
-            "2.1. Trop de <nav>",
-            "N'utilisez pas plusieurs <nav> sans raison.",
-            
-            "2.2. Mauvais Positionnement",
-            "Placez <nav> dans <header> ou à un endroit logique.",
-            
-            "3. Conclusion",
-            "Utilisez <nav> pour guider efficacement vos visiteurs dans vos pages."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 77,
         "title": "HTML5 : Focus sur la Balise <aside>",
         "date": "2025-01-28",

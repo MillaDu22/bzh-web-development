@@ -1,30 +1,5 @@
 
     {
-        "id": 77,
-        "title": "HTML5 : Focus sur la Balise <aside>",
-        "date": "2025-01-28",
-        "intro": "La balise <aside> est parfaite pour le contenu annexe. Voici comment l'utiliser.",
-        "content": [
-            "1. Définition de <aside>",
-            "1.1. Contenu Associé",
-            "Elle contient des informations liées au contenu principal, comme des pubs ou des notes.",
-            
-            "1.2. Emplacement",
-            "Elle peut être placée à gauche ou à droite du contenu principal.",
-            
-            "2. Exemples Concrets",
-            "2.1. Utilisation Commune",
-            "Utilisez-la pour des barres latérales ou des encarts de publicité.",
-            
-            "2.2. Mauvaises Pratiques",
-            "Ne l'utilisez pas pour des éléments essentiels au contenu principal.",
-            
-            "3. Conclusion",
-            "La balise <aside> enrichit vos pages tout en restant discrète."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 78,
         "title": "La Balise <figure> et Son Élément <figcaption>",
         "date": "2025-01-29",

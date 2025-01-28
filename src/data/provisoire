@@ -1,30 +1,5 @@
 
     {
-        "id": 78,
-        "title": "La Balise <figure> et Son Élément <figcaption>",
-        "date": "2025-01-29",
-        "intro": "Découvrez comment combiner <figure> et <figcaption> pour une meilleure présentation des médias.",
-        "content": [
-            "1. Utilisation de <figure>",
-            "1.1. Présentation des Médias",
-            "La balise <figure> englobe des images, vidéos ou graphiques.",
-            
-            "1.2. Accessibilité",
-            "Ajoutez une description claire avec <figcaption> pour les utilisateurs.",
-            
-            "2. Cas d'Utilisation",
-            "2.1. Exemple Pratique",
-            "Un graphique avec une légende expliquant son contenu.",
-            
-            "2.2. Bonnes Pratiques",
-            "Ne pas mélanger <figure> avec d'autres types de balises.",
-            
-            "3. Conclusion",
-            "Utilisez <figure> pour des contenus visuels bien présentés et descriptifs."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 79,
         "title": "La Balise <time> : Données Temporelles en HTML",
         "date": "2025-01-30",

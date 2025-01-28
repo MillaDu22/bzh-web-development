@@ -2572,5 +2572,44 @@
             "La balise <aside> est un excellent outil pour enrichir vos pages web tout en les gardant organisées et accessibles. En l'utilisant correctement, vous améliorez à la fois l'expérience utilisateur et la visibilité de votre site. N'hésitez pas à expérimenter avec cette balise dans vos prochains projets pour ajouter du contenu pertinent et engageant."
         ],
         "sign": "Ludmilla Marti"
-    }
+    },
+    {
+        "id": 78,
+        "title": "La Balise <figure> et Son Élément <figcaption>",
+        "date": "2025-01-29",
+        "intro": "Découvrez comment utiliser les balises <figure> et <figcaption> pour structurer et améliorer l'accessibilité de vos contenus multimédias dans vos projets web.",
+        "content": [
+            "1. Introduction à la balise <figure>",
+            "1.1. Qu'est-ce que la balise <figure> ?",
+            "La balise <figure> est utilisée pour regrouper du contenu multimédia (images, vidéos, graphiques, etc.) avec une légende qui en décrit le contexte ou le contenu.",
+            
+            "1.2. Rôle de <figure> dans le HTML sémantique",
+            "Elle permet d'organiser les médias dans une structure logique, facilitant leur compréhension, aussi bien pour les utilisateurs que pour les moteurs de recherche.",
+            
+            "2. Le rôle essentiel de <figcaption>",
+            "2.1. Pourquoi ajouter une légende avec <figcaption> ?",
+            "L'élément <figcaption> est utilisé pour fournir une description ou un contexte à l'intérieur d'une balise <figure>. Cela améliore la lisibilité et rend le contenu accessible aux utilisateurs ayant des limitations visuelles.",
+            
+            "2.2. Positionnement de <figcaption>",
+            "La légende peut être placée avant ou après le contenu dans <figure>, selon vos besoins en design.",
+            
+            "3. Cas d'utilisation",
+            "3.1. Exemple pratique d'une image avec <figure> et <figcaption>",
+            "Voici un exemple simple : \n\n```html\n<figure>\n  <img src=\"chemin-de-l-image.jpg\" alt=\"Description de l'image\">\n  <figcaption>Une légende décrivant l'image en détail.</figcaption>\n</figure>\n```\nCe format garantit que l'image est accompagnée d'une description utile.",
+            
+            "3.2. Bonnes pratiques pour l'utilisation de <figure>",
+            "- Ne pas utiliser <figure> pour du contenu purement décoratif.\n- Toujours ajouter un texte alternatif (attribut `alt`) pour les images.\n- Utiliser <figcaption> pour expliquer la signification ou le contexte du média.",
+            
+            "4. Avantages d'utiliser <figure> et <figcaption>",
+            "4.1. Accessibilité renforcée",
+            "Ces balises rendent votre site plus compréhensible pour les lecteurs utilisant des technologies d'assistance, comme les lecteurs d'écran.",
+            
+            "4.2. SEO et structuration du contenu",
+            "En utilisant des balises sémantiques comme <figure>, vous aidez les moteurs de recherche à mieux indexer et comprendre vos pages.",
+            
+            "5. Conclusion",
+            "En intégrant <figure> et <figcaption> dans vos projets web, vous créez des contenus visuellement attrayants, bien structurés, accessibles et optimisés pour le SEO. Ces balises sémantiques sont indispensables pour des médias qui nécessitent des explications claires."
+        ],
+        "sign": "Ludmilla Marti"
+    }    
 ]

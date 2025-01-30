@@ -2611,5 +2611,47 @@
             "En intégrant <figure> et <figcaption> dans vos projets web, vous créez des contenus visuellement attrayants, bien structurés, accessibles et optimisés pour le SEO. Ces balises sémantiques sont indispensables pour des médias qui nécessitent des explications claires."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 79,
+        "title": "La Balise <time> : Données Temporelles en HTML",
+        "date": "2025-01-30",
+        "intro": "La balise <time> en HTML permet de marquer les dates, heures et durées de manière sémantique, améliorant ainsi l'accessibilité et le référencement.",
+        "content": [
+            "1. Qu'est-ce que <time> ?",
+            "1.1. Définition",
+            "La balise <time> est une balise HTML utilisée pour représenter une date, une heure ou une durée spécifique. Elle est utile pour les moteurs de recherche, les lecteurs d'écran et les applications exploitant les données structurées.",
+            
+            "1.2. Avantages",
+            "- Améliore le référencement naturel en permettant aux moteurs de recherche de mieux comprendre les dates et événements sur une page.",
+            "- Aide les navigateurs et les applications à traiter automatiquement les dates (affichage dynamique, notifications, etc.).",
+            "- Améliore l'accessibilité pour les utilisateurs utilisant des technologies d'assistance.",
+            
+            "2. Exemples d'Usage",
+            "2.1. Date de Publication",
+            "Utiliser la balise <time> pour indiquer une date de publication d'un article permet aux moteurs de recherche d'interpréter correctement l'information temporelle :",
+            "Exemple : <time datetime=\"2025-01-30\">30 janvier 2025</time>",
+            
+            "2.2. Heure",
+            "L'élément <time> peut également être utilisé pour marquer une heure précise :",
+            "Exemple : <time datetime=\"14:30\">14h30</time>",
+            
+            "2.3. Date et Heure combinées",
+            "Il est possible de combiner date et heure dans l'attribut datetime :",
+            "Exemple : <time datetime=\"2025-01-30T14:30\">30 janvier 2025 à 14h30</time>",
+            
+            "2.4. Durée",
+            "L'attribut datetime prend également en charge les durées sous le format ISO 8601 :",
+            "Exemple : <time datetime=\"PT2H30M\">2 heures et 30 minutes</time>",
+            
+            "3. Compatibilité et Bonnes Pratiques",
+            "- La balise <time> est compatible avec tous les navigateurs modernes.",
+            "- Toujours inclure l'attribut datetime pour permettre aux moteurs de recherche et applications de mieux interpréter les données temporelles.",
+            "- Utiliser <time> en complément des données structurées (Schema.org) pour améliorer la visibilité des événements dans les résultats de recherche.",
+            
+            "4. Conclusion",
+            "L'utilisation de la balise <time> en HTML est un excellent moyen d'améliorer la sémantique de vos pages et d'optimiser l'affichage des informations temporelles pour les moteurs de recherche et les utilisateurs."
+        ],
+        "sign": "Ludmilla Marti"
     }    
 ]

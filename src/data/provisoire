@@ -1,30 +1,5 @@
 
     {
-        "id": 79,
-        "title": "La Balise <time> : Données Temporelles en HTML",
-        "date": "2025-01-30",
-        "intro": "Utilisez <time> pour marquer les dates et heures de manière sémantique.",
-        "content": [
-            "1. Qu'est-ce que <time> ?",
-            "1.1. Définition",
-            "Elle représente une date, une heure ou une durée.",
-            
-            "1.2. Avantages",
-            "Les moteurs de recherche comprennent mieux les données temporelles.",
-            
-            "2. Exemples d'Usage",
-            "2.1. Date de Publication",
-            "Utilisez <time> pour indiquer une date d'article.",
-            
-            "2.2. Durée",
-            "Ajoutez une durée en utilisant l’attribut `datetime`.",
-            
-            "3. Conclusion",
-            "La balise <time> enrichit vos données temporelles pour les rendre plus utiles."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 80,
         "title": "Les Listes en HTML : Organisez Vos Contenus Facilement",
         "date": "2025-01-31",

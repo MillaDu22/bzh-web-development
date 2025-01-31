@@ -2653,5 +2653,54 @@
             "L'utilisation de la balise <time> en HTML est un excellent moyen d'améliorer la sémantique de vos pages et d'optimiser l'affichage des informations temporelles pour les moteurs de recherche et les utilisateurs."
         ],
         "sign": "Ludmilla Marti"
-    }    
+    },
+    {
+        "id": 80,
+        "title": "Les Listes en HTML : Organisez Vos Contenus Facilement",
+        "date": "2025-01-31",
+        "intro": "Les listes en HTML permettent de structurer vos contenus de manière claire et hiérarchisée. Elles sont essentielles pour organiser des informations, améliorer la lisibilité et optimiser le référencement (SEO). Découvrez les différents types de listes et comment les utiliser efficacement.",
+        "content": [
+            "1. Les Différents Types de Listes",
+            "1.1. Liste Ordonnée (<ol>)",
+            "Une liste ordonnée (<ol>) est utilisée lorsque l'ordre des éléments a une importance. Chaque élément est numéroté automatiquement.",
+            "Exemple d'utilisation : une recette, un classement ou une suite logique d'instructions.",
+            
+            "1.2. Liste Non Ordonnée (<ul>)",
+            "Une liste non ordonnée (<ul>) est idéale pour des éléments qui n'ont pas de hiérarchie spécifique. Les éléments sont précédés de puces.",
+            "Exemple d'utilisation : une liste de courses, des caractéristiques d'un produit ou des avantages d'un service.",
+            
+            "1.3. Liste de Définition (<dl>, <dt>, <dd>)",
+            "Les listes de définition (<dl>) sont utilisées pour associer un terme (<dt>) à une définition (<dd>), parfaites pour des glossaires ou des fiches techniques.",
+            
+            "2. Exemples de Code",
+            "2.1. Liste Ordonnée",
+            "<ol>\n  <li>Préparer les ingrédients</li>\n  <li>Mélanger les ingrédients</li>\n  <li>Cuire au four</li>\n</ol>",
+            
+            "2.2. Liste Non Ordonnée",
+            "<ul>\n  <li>Pain</li>\n  <li>Beurre</li>\n  <li>Lait</li>\n</ul>",
+            
+            "2.3. Liste de Définition",
+            "<dl>\n  <dt>HTML</dt>\n  <dd>Langage de balisage utilisé pour structurer une page web.</dd>\n  <dt>CSS</dt>\n  <dd>Langage permettant de styliser une page web.</dd>\n</dl>",
+            
+            "3. Bonnes Pratiques d'Utilisation",
+            "3.1. Utiliser les Listes pour Améliorer la Lisibilité",
+            "Les listes permettent de structurer l'information et de rendre le contenu plus digeste pour l'utilisateur.",
+            
+            "3.2. Éviter les Listes Trop Longues",
+            "Il est préférable de limiter le nombre d'éléments pour ne pas surcharger la lecture. Utilisez plusieurs listes si nécessaire.",
+            
+            "3.3. Styliser les Listes avec CSS",
+            "Vous pouvez personnaliser l'affichage des listes avec CSS : changer les puces, modifier l'alignement ou la couleur.",
+            "Exemple de personnalisation :",
+            "ul { list-style-type: square; color: blue; }",
+            
+            "4. Importance des Listes pour le SEO",
+            "Les moteurs de recherche apprécient les listes car elles rendent le contenu structuré et facilement scannable. Cela améliore le positionnement dans les résultats de recherche.",
+            "Conseil : Utiliser des listes pour structurer des FAQ, des guides ou des comparatifs afin d'optimiser le référencement.",
+            
+            "5. Conclusion",
+            "Les listes sont des éléments incontournables en HTML pour organiser vos contenus de manière efficace et claire. Elles améliorent la lisibilité, l'expérience utilisateur et le référencement. Apprenez à bien les utiliser pour optimiser vos pages web !"
+        ],
+        "sign": "Ludmilla Marti"
+    }        
 ]

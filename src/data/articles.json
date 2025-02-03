@@ -2754,5 +2754,49 @@
             "Une structure de titres bien pensée améliore la lisibilité, le référencement et l'accessibilité de votre site. Suivez les bonnes pratiques pour optimiser l'expérience utilisateur et le classement dans les moteurs de recherche."
         ],
         "sign": "Ludmilla Marti"
-    }          
+    },
+    {
+        "id": 82,
+        "title": "La Balise <head> : Métadonnées et Structure Invisible",
+        "date": "2025-02-04",
+        "intro": "La balise <head> joue un rôle clé dans chaque page web en contenant des métadonnées et des ressources essentielles. Elle influence le référencement, l'affichage et l'accessibilité du site web.",
+        "content": [
+            "1. Rôle de la balise <head>",
+            "1.1. Contenir les métadonnées",
+            "La balise <head> regroupe les informations sur la page web, comme le titre, les descriptions et les mots-clés. Ces éléments sont utilisés par les moteurs de recherche pour mieux comprendre et classer votre contenu.",
+            
+            "1.2. Charger les ressources externes",
+            "Elle est utilisée pour intégrer des fichiers CSS, des polices et des scripts nécessaires au fonctionnement de la page. Ces éléments sont chargés avant l'affichage du contenu visible dans <body>, garantissant une meilleure performance et expérience utilisateur.",
+            
+            "2. Éléments communs dans <head>",
+            "2.1. <title>",
+            "Indique le titre affiché dans l'onglet du navigateur et joue un rôle crucial dans le référencement. Un titre optimisé contient des mots-clés pertinents et reste concis (environ 60 caractères).",
+            
+            "2.2. <meta>",
+            "Ajoute des métadonnées comme les descriptions pour le SEO et les encodages de caractères.\n<meta name='description' content='Description de la page pour le référencement'/>\n<meta charset='UTF-8'> permet d'assurer la bonne interprétation des caractères spéciaux.",
+            
+            "2.3. <link>",
+            "Relie des ressources externes comme les feuilles de styles.\n<link rel='stylesheet' href='styles.css'> permet d'intégrer une feuille de styles CSS externe et d'améliorer l'organisation du code.",
+            
+            "2.4. <script>",
+            "Permet de lier des scripts JavaScript externes ou internes.\n<script src='script.js' defer></script> garantit que le script est chargé après le rendu du HTML, optimisant ainsi la vitesse de chargement.",
+            
+            "2.5. <meta viewport>",
+            "Optimise l'affichage sur mobile.\n<meta name='viewport' content='width=device-width, initial-scale=1.0'> garantit une mise en page adaptée aux écrans de toutes tailles.",
+            
+            "3. Bonnes pratiques d'utilisation",
+            "3.1. Organiser les balises",
+            "Placez les balises essentielles en premier : <meta charset>, <title>, <meta description> et <meta viewport>.",
+            
+            "3.2. Minifier les ressources externes",
+            "Utiliser des versions compressées de CSS et JavaScript réduit le temps de chargement et améliore les performances de la page.",
+            
+            "3.3. Utiliser des préchargements",
+            "<link rel='preload' href='styles.css' as='style'> permet d'améliorer le chargement des ressources critiques.",
+            
+            "4. Conclusion",
+            "La balise <head> est invisible à l'utilisateur, mais essentielle pour le bon fonctionnement, la rapidité et le référencement d'un site. Une configuration soignée améliore l'expérience utilisateur et l'accessibilité de votre site web."
+        ],
+        "sign": "Ludmilla Marti"
+    }            
 ]

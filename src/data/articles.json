@@ -2852,5 +2852,43 @@
             "La balise <p> est un outil simple mais puissant pour structurer le texte et améliorer la lisibilité et l'accessibilité d'une page web. Une utilisation réfléchie et accompagnée de bonnes pratiques garantit une meilleure expérience utilisateur et un SEO optimisé. Prenez le temps de soigner vos paragraphes pour un contenu clair, engageant et professionnel."
         ],
         "sign": "Ludmilla Marti"
-    }              
+    },
+    {
+        "id": 84,
+        "title": "La Balise <span> : Styliser du Texte en Ligne",
+        "date": "2025-02-06",
+        "intro": "La balise <span> est idéale pour appliquer un style ou une action à une partie spécifique d'une ligne de texte. Bien qu'elle n'ait pas de signification sémantique propre, elle est très utile pour des personnalisations précises.",
+        "content": [
+            "1. Rôle de la balise <span>",
+            "1.1. Stylisation ciblée",
+            "La balise <span> sert principalement de conteneur générique pour appliquer des styles CSS ou des scripts JavaScript à des portions spécifiques de texte. Elle permet d'ajouter des couleurs, des polices ou d'autres styles sans affecter l'ensemble du contenu.",
+            
+            "1.2. Composant en ligne",
+            "Contrairement à <div>, qui est un conteneur de type bloc, <span> est un élément en ligne. Cela signifie qu'il s'intègre dans le flux normal du texte sans créer de rupture visuelle.",
+            
+            "1.3. Utilisation avec JavaScript",
+            "La balise <span> est également utile pour identifier ou manipuler des parties spécifiques de texte avec JavaScript, grâce à des attributs comme 'id' ou 'class'.",
+            
+            "2. Bonnes pratiques",
+            "2.1. Ajouter des classes ou des identifiants",
+            "Associez des classes ou des identifiants pour cibler la balise <span> avec précision dans vos styles CSS ou vos scripts. Par exemple : <span class=\"highlight\">Texte mis en valeur</span>.",
+            
+            "2.2. Ne pas abuser de <span>",
+            "Utilisez la balise avec modération et évitez de l'insérer sans nécessité sémantique. Si une balise plus spécifique existe (<em>, <strong>, etc.), préférez l'utiliser.",
+            
+            "2.3. Accessibilité",
+            "Assurez-vous que les styles ajoutés ne perturbent pas la lisibilité, surtout pour les lecteurs d'écran ou en mode contraste élevé.",
+            
+            "3. Exemple d'utilisation",
+            "3.1. Mise en forme avec CSS",
+            "Exemple : <span style=\"color: red; font-weight: bold;\">Texte rouge et gras</span>",
+            
+            "3.2. Application dynamique avec JavaScript",
+            "Exemple : <span id=\"dynamicText\">Ce texte peut être modifié via JavaScript</span>",
+            
+            "4. Conclusion",
+            "La balise <span> est un outil puissant pour la stylisation précise et la manipulation du texte en ligne. En l'utilisant correctement et avec parcimonie, vous pouvez améliorer la présentation de votre contenu tout en préservant sa structure et son accessibilité."
+        ],
+        "sign": "Ludmilla Marti"
+    }                 
 ]

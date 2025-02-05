@@ -1,44 +1,42 @@
-
-    {
-        "id": 84,
-        "title": "La Balise <span> : Styliser du Texte en Ligne",
-        "date": "2025-02-06",
-        "intro": "La balise <span> est idéale pour appliquer un style ou une action à une partie spécifique d'une ligne de texte.",
-        "content": [
-            "1. Rôle de la balise <span>",
-            "1.1. Stylisation ciblée",
-            "Utilisez <span> pour appliquer des styles spécifiques à une partie du texte via CSS.",
-            
-            "1.2. Composant en ligne",
-            "Contrairement à <div>, <span> est un conteneur en ligne, parfait pour le texte.",
-            
-            "2. Exemple d'utilisation",
-            "2.1. Mise en forme",
-            "Ajoutez une couleur ou une taille de police à un mot spécifique avec CSS.",
-            
-            "3. Conclusion",
-            "La balise <span> est un outil puissant pour la stylisation précise sans perturber la mise en page."
-        ],
-        "sign": "Ludmilla Marti"
-    },
     {
         "id": 85,
         "title": "La Balise <strong> : Souligner l'Importance d'un Texte",
         "date": "2025-02-07",
-        "intro": "La balise <strong> met en évidence des mots ou phrases importantes pour l'utilisateur et les moteurs de recherche.",
+        "intro": "La balise <strong> est utilisée pour indiquer qu'une partie d'un texte a une grande importance. Elle combine un impact visuel fort (texte en gras) et une signification sémantique pour les moteurs de recherche et les lecteurs d'écran.",
         "content": [
             "1. Rôle de la balise <strong>",
             "1.1. Mettre l'accent sur un contenu",
-            "La balise <strong> est utilisée pour souligner l'importance d'un texte, généralement affiché en gras.",
+            "La balise <strong> permet de souligner l'importance d'une portion de texte. Le contenu apparaît généralement en gras par défaut dans les navigateurs, attirant ainsi l'attention de l'utilisateur.",
             
-            "1.2. Impact SEO",
-            "Elle indique aux moteurs de recherche que le texte balisé a une signification particulière.",
+            "1.2. Impact SEO et accessibilité",
+            "Cette balise signale aux moteurs de recherche que le texte balisé est significatif, ce qui peut contribuer à un meilleur référencement. De plus, elle est interprétée par les lecteurs d'écran comme un élément important, améliorant l'accessibilité.",
             
             "2. Différence avec <b>",
-            "Contrairement à <b>, <strong> a une importance sémantique.",
+            "2.1. Sémantique vs présentation",
+            "Contrairement à <b>, qui est purement visuelle, <strong> a une valeur sémantique, indiquant que le texte est essentiel dans le contexte de la page.",
             
-            "3. Conclusion",
-            "Utilisez <strong> pour attirer l'attention sur des éléments clés, en conservant un impact visuel et sémantique."
+            "2.2. Exemple comparatif",
+            "Exemple : <b>Texte en gras (esthétique uniquement)</b> vs <strong>Texte important (significatif et en gras)</strong>",
+            
+            "3. Bonnes pratiques",
+            "3.1. Ne pas abuser de <strong>",
+            "Réservez son utilisation aux éléments réellement importants pour ne pas diluer sa valeur sémantique.",
+            
+            "3.2. Complément avec d'autres balises",
+            "Associez <strong> à d'autres balises comme <em> pour créer une hiérarchie claire. Exemple : <p>C'est <strong>très</strong> <em>important</em> de lire ce texte.</p>",
+            
+            "3.3. Styles personnalisés avec CSS",
+            "Vous pouvez personnaliser l'apparence par défaut avec des styles CSS, par exemple : <strong style=\"color: blue;\">Texte en gras et bleu</strong>.",
+            
+            "4. Exemples d'utilisation",
+            "4.1. Dans une phrase",
+            "Exemple : <p>Il est <strong>essentiel</strong> de respecter les délais.</p>",
+            
+            "4.2. Pour des mots-clés importants",
+            "Exemple : <p>Les <strong>moteurs de recherche</strong> analysent la sémantique du texte.</p>",
+            
+            "5. Conclusion",
+            "La balise <strong> est un outil clé pour souligner les éléments importants dans un contenu, tant pour les utilisateurs que pour les moteurs de recherche. Utilisez-la stratégiquement pour maximiser l'impact visuel et sémantique de vos textes."
         ],
         "sign": "Ludmilla Marti"
     },

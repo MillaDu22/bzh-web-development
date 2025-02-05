@@ -1,30 +1,5 @@
 
     {
-        "id": 83,
-        "title": "La Balise <p> : Structurer le Texte avec des Paragraphes",
-        "date": "2025-02-05",
-        "intro": "La balise <p> est l'élément de base pour organiser du texte en paragraphes clairs et lisibles.",
-        "content": [
-            "1. Rôle de la balise <p>",
-            "1.1. Structurer le contenu",
-            "La balise <p> permet de créer des paragraphes distincts pour organiser le texte de manière claire.",
-            
-            "1.2. Accessibilité",
-            "Les paragraphes balisés aident les lecteurs d'écran à interpréter correctement le contenu.",
-            
-            "2. Bonnes pratiques",
-            "2.1. Utiliser des paragraphes courts",
-            "Pour améliorer la lisibilité, divisez le texte en blocs de 2 à 4 lignes maximum.",
-            
-            "2.2. Éviter d'utiliser <br> pour les retours à la ligne",
-            "Préférez <p> pour des paragraphes, car <br> ne crée pas de structure logique.",
-            
-            "3. Conclusion",
-            "La balise <p> est simple mais indispensable pour un texte bien structuré et accessible."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 84,
         "title": "La Balise <span> : Styliser du Texte en Ligne",
         "date": "2025-02-06",

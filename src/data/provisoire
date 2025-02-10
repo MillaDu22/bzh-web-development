@@ -1,26 +1,5 @@
 
     {
-        "id": 86,
-        "title": "La Balise <em> : Ajouter de l'Emphase à vos Textes",
-        "date": "2025-02-10",
-        "intro": "La balise <em> est utilisée pour insister sur certains mots ou phrases, généralement affichés en italique.",
-        "content": [
-            "1. Rôle de la balise <em>",
-            "1.1. Ajout d'emphase",
-            "Elle permet de mettre en évidence des mots-clés, des citations ou des phrases importantes.",
-            
-            "1.2. Utilité sémantique",
-            "Les moteurs de recherche interprètent le texte balisé comme ayant un poids particulier.",
-            
-            "2. Exemple",
-            "Inclure <em> pour insister sur un point crucial dans un article ou un e-mail.",
-            
-            "3. Conclusion",
-            "La balise <em> est un outil simple pour ajouter du sens et de la clarté au contenu textuel."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 87,
         "title": "La Balise <br> : Créer des Retours à la Ligne Simples",
         "date": "2025-02-11",

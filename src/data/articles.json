@@ -2972,5 +2972,51 @@
             "La balise <em> est un outil simple mais puissant qui ajoute de la profondeur et de la clarté aux contenus web. En plus de son utilité esthétique, elle contribue à une meilleure compréhension par les moteurs de recherche, ce qui peut renforcer le référencement naturel. Intégrez-la judicieusement dans vos textes pour maximiser son impact, tant pour vos lecteurs que pour votre visibilité en ligne."
         ],
         "sign": "Ludmilla Marti"
-    }                 
+    },
+    {
+        "id": 87,
+        "title": "La Balise <br> : Utilisation, Bonnes Pratiques et Erreurs à Éviter",
+        "date": "2025-02-11",
+        "intro": "La balise <br> est un élément HTML utilisé pour insérer un retour à la ligne sans créer de nouveaux paragraphes. Bien que pratique, son utilisation doit être réfléchie pour éviter des problèmes de lisibilité ou d'accessibilité.",
+        "content": [
+            "1. Introduction à la balise <br>",
+            "1.1. Qu'est-ce que la balise <br> ?",
+            "La balise <br> est un élément HTML autonome (autoclosing) qui permet d'insérer un saut de ligne dans un bloc de texte, sans créer de nouvelle structure comme un paragraphe (<p>). Elle est couramment utilisée dans des contextes où un alignement précis ou des retours à la ligne rapides sont nécessaires.",
+            
+            "1.2. Pourquoi utiliser <br> ?",
+            "Elle est idéale pour des mises en page spécifiques comme les adresses, les poèmes, ou pour séparer des lignes dans des formulaires ou des cartes de visite numériques.",
+    
+            "2. Utilisation principale",
+            "2.1. Scénarios d'utilisation",
+            "Voici quelques cas concrets où l'utilisation de <br> est justifiée :",
+            "- Dans une adresse :\n123 rue de l'Exemple<br>75001 Paris 1er<br>France",
+            "- Dans un poème ou une citation nécessitant un formatage particulier :\n\"Roses are red,<br>Violets are blue,<br>HTML is great,<br>And so are you.\"",
+            "- Dans des signatures électroniques :\n\"Cordialement,<br>Jean Dupont\"",
+    
+            "2.2. Exemples de code",
+            "Un exemple basique d'utilisation :\n```html\n<p>Voici une adresse :</p>\n<p>123 rue de l'Exemple<br>75001 Paris 1er<br>France</p>\n```",
+            "Cependant, attention à ne pas utiliser cette balise à outrance pour des éléments nécessitant une structure plus logique.",
+    
+            "3. Bonnes pratiques",
+            "3.1. Limiter son usage",
+            "La balise <br> ne doit pas remplacer des balises plus adaptées, comme <p> pour des paragraphes, <ul>/<ol> pour des listes, ou <div> pour organiser un contenu plus complexe. Elle est utile pour des retours à la ligne ponctuels uniquement.",
+            
+            "3.2. Accessibilité et SEO",
+            "L'utilisation excessive de <br> peut nuire à l'accessibilité. Les lecteurs d'écran peuvent avoir des difficultés à interpréter un texte où les sauts de ligne sont mal utilisés. De plus, cela peut affecter le référencement (SEO) si le contenu manque de structure logique.",
+            
+            "3.3. Alternatives",
+            "Pour des contenus nécessitant une organisation, utilisez des balises sémantiques comme :\n- <p> pour des paragraphes,\n- <li> pour des éléments de liste,\n- <blockquote> pour des citations longues,\n- <pre> pour conserver les espaces et sauts de ligne tels qu’ils sont saisis.",
+    
+            "4. Erreurs courantes",
+            "4.1. Remplacement des paragraphes par <br>",
+            "Une erreur fréquente consiste à utiliser des séries de <br> pour créer des espaces entre des blocs de texte, comme ceci :\n```html\n<p>Voici un texte.<br><br>Un autre texte après deux retours à la ligne.</p>\n```\nCela diminue la lisibilité et complique la maintenance du code.",
+            
+            "4.2. Problèmes dans les emails",
+            "Dans des emails HTML, l'usage excessif de <br> peut causer des problèmes d'affichage dans certains clients email, car ces derniers interprètent parfois différemment les sauts de ligne. Préférez une mise en page CSS lorsque c'est possible.",
+    
+            "5. Conclusion",
+            "La balise <br> est un outil précieux pour des besoins spécifiques, comme les adresses ou les signatures. Cependant, son utilisation doit être mesurée et justifiée pour garantir une bonne lisibilité, une accessibilité optimale, et une structure logique du contenu. Préférez toujours des balises structurelles lorsque cela est pertinent."
+        ],
+        "sign": "Ludmilla Marti"
+    }                   
 ]

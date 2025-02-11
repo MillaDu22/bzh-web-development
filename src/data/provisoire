@@ -1,27 +1,5 @@
 
     {
-        "id": 87,
-        "title": "La Balise <br> : Créer des Retours à la Ligne Simples",
-        "date": "2025-02-11",
-        "intro": "La balise <br> permet d'insérer un retour à la ligne dans du texte sans créer de nouveaux paragraphes.",
-        "content": [
-            "1. Utilisation principale",
-            "1.1. Retour à la ligne",
-            "Utilisez <br> pour des mises en page où un saut de ligne rapide est nécessaire.",
-            
-            "1.2. Exemples",
-            "Elle est souvent utilisée dans les adresses, les poèmes ou les signatures.",
-            
-            "2. Bonnes pratiques",
-            "2.1. Ne pas abuser",
-            "Préférez des balises structurelles comme <p> pour un contenu textuel organisé.",
-            
-            "3. Conclusion",
-            "La balise <br> est pratique mais doit être utilisée avec parcimonie pour éviter des problèmes de lisibilité."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id":88,
         "title": "La Balise <blockquote> : Mettre en Avant des Citations Longues",
         "date": "2025-02-12",

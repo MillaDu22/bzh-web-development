@@ -1,29 +1,5 @@
 
     {
-        "id":88,
-        "title": "La Balise <blockquote> : Mettre en Avant des Citations Longues",
-        "date": "2025-02-12",
-        "intro": "La balise <blockquote> permet de présenter des citations longues en les séparant visuellement du reste du contenu.",
-        "content": [
-            "1. Rôle de la balise <blockquote>",
-            "1.1. Structurer les citations",
-            "Elle est utilisée pour afficher une citation, souvent avec un retrait ou un style spécifique.",
-            
-            "1.2. Attribution de la source",
-            "Associez la source de la citation via l’attribut 'cite' pour plus de clarté.",
-            
-            "2. Exemple d'utilisation",
-            "Utilisez <blockquote> pour des citations de plusieurs lignes, comme des extraits d’articles ou de livres.",
-            
-            "3. Différence avec <q>",
-            "Contrairement à <q>, qui est utilisé pour des citations courtes et en ligne, <blockquote> est destiné aux citations longues.",
-            
-            "4. Conclusion",
-            "La balise <blockquote> donne une structure professionnelle et lisible aux citations importantes."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 89,
         "title": "La Balise <pre> : Afficher du Texte Préformaté",
         "date": "2025-02-13",

@@ -1,30 +1,5 @@
 
     {
-        "id": 89,
-        "title": "La Balise <pre> : Afficher du Texte Préformaté",
-        "date": "2025-02-13",
-        "intro": "La balise <pre> conserve la mise en forme d'origine du texte, y compris les espaces et les retours à la ligne.",
-        "content": [
-            "1. Rôle de la balise <pre>",
-            "1.1. Préserver la mise en forme",
-            "Contrairement aux paragraphes classiques, <pre> affiche les espaces et retours à la ligne tels qu’ils sont écrits dans le code.",
-            
-            "1.2. Idéal pour le code",
-            "Elle est utilisée pour afficher du texte technique comme du code ou des tableaux ASCII.",
-            
-            "2. Bonnes pratiques",
-            "2.1. Évitez pour de longs textes",
-            "Réservez <pre> pour des éléments spécifiques, car elle ne s'adapte pas bien sur mobile.",
-            
-            "2.2. Combinez avec <code>",
-            "Pour afficher du code source, utilisez <pre> en combinaison avec la balise <code> pour une meilleure sémantique.",
-            
-            "3. Conclusion",
-            "La balise <pre> est parfaite pour afficher du contenu technique ou du texte avec une mise en forme spécifique."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 90,
         "title": "La Balise <code> : Présenter du Code Source",
         "date": "2025-02-14",

@@ -3085,7 +3085,7 @@
             "",
             "<pre>",
             "function sayHello() {",
-            "    console.log('Bonjour, monde!');",
+            "    console.log('Hello, World!');",
             "}",
             "</pre>",
             "",
@@ -3161,5 +3161,62 @@
             "La balise <pre> est parfaite pour afficher du contenu technique ou du texte avec une mise en forme spécifique. Bien qu’elle ne soit pas adaptée à des blocs de texte standard, son usage combiné avec <code> et un bon style CSS permet de garantir une présentation claire et lisible, même pour des contenus complexes."
         ],
         "sign": "Ludmilla Marti"
-    }                          
+    },
+    {
+        "id": 90,
+        "title": "La Balise <code> : Présenter du Code Source",
+        "date": "2025-02-14",
+        "intro": "La balise <code> est un outil clé du HTML pour afficher du code source ou des commandes de manière lisible et compréhensible, en facilitant la lecture et l'identification des éléments techniques.",
+        "content": [
+            "1. Rôle de la balise <code>",
+            "1.1. Présentation et usage",
+            "La balise <code> est utilisée pour marquer les blocs ou segments de code source ou de commandes. Elle applique un style monospace par défaut, caractéristique des langages de programmation, ce qui permet d’identifier facilement les éléments codés dans un document.",
+            
+            "1.2. Contextes d'utilisation",
+            "Cette balise est particulièrement utile dans des documents techniques, des tutoriels, des blogs de développeurs ou toute autre plateforme où il est nécessaire d’afficher des exemples de code. Elle garantit que le contenu soit présenté de façon cohérente, même sans styles CSS additionnels.",
+            
+            "2. Bonnes pratiques",
+            "2.1. Utilisation avec des balises complémentaires",
+            "Pour afficher des blocs de code plus longs ou structurés, la balise <pre> peut être utilisée en complément de <code>. Par exemple :",
+            "<pre><code>function sayHello() { console.log('Hello, world!'); }</code></pre>",
+            "Cela permet de préserver les sauts de ligne et l’indentation du code.",
+            
+            "2.2. Ajout de la syntaxe colorée",
+            "Bien que la balise <code> soit fonctionnelle seule, il est conseillé d’utiliser des bibliothèques de mise en évidence de la syntaxe comme Prism.js, Highlight.js ou encore des frameworks CSS pour améliorer la lisibilité et rendre le contenu plus attrayant. Exemple :",
+            "```javascript",
+            "function add(a, b) { return a + b; }",
+            "```",
+            
+            "2.3. Accessibilité",
+            "Assurez-vous que le contenu encapsulé dans la balise <code> soit compréhensible par les lecteurs d’écran. Cela peut inclure l’ajout d’un contexte via des légendes ou un texte descriptif.",
+            
+            "2.4. Utilisation adaptée",
+            "N’utilisez pas la balise <code> pour styliser du texte qui ne représente pas réellement du code ou des commandes, afin d’éviter toute confusion pour les lecteurs.",
+            
+            "3. Avantages de la balise <code>",
+            "3.1. Clarité visuelle",
+            "La mise en page monospace rend les caractères alignés, ce qui est essentiel pour la lisibilité du code, en particulier pour les langages sensibles à l’indentation comme Python.",
+            
+            "3.2. Standardisation",
+            "Étant une balise HTML standard, <code> est supportée par tous les navigateurs modernes, garantissant une compatibilité universelle.",
+            
+            "3.3. Simplicité et personnalisation",
+            "Avec un peu de CSS, il est facile de styliser cette balise pour qu’elle s’intègre au design général du site tout en mettant en avant les sections de code.",
+            
+            "4. Cas pratiques",
+            "4.1. Tutoriels et documentation",
+            "Dans des guides d’utilisation, la balise <code> permet de différencier les commandes ou les exemples à saisir dans un terminal, comme : <code>npm install react</code>.",
+            
+            "4.2. Forums et blogs",
+            "Sur les forums de développeurs ou les blogs techniques, les extraits de code sont souvent encadrés par cette balise pour offrir un contexte clair.",
+            
+            "4.3. Application dans des formulaires",
+            "Elle peut également être utilisée dans des interfaces utilisateur pour afficher des messages techniques ou des erreurs en rapport avec un code, comme :",
+            "<code>Error: Unexpected token in JSON at position 12</code>",
+            
+            "5. Conclusion",
+            "La balise <code> est un élément incontournable du HTML pour afficher du code source ou des commandes de manière claire, lisible et accessible. En l’associant à des styles CSS ou des bibliothèques spécialisées, elle devient un outil puissant pour enrichir les contenus techniques et éducatifs, tout en garantissant une expérience utilisateur optimale."
+        ],
+        "sign": "Ludmilla Marti"
+    }                             
 ]

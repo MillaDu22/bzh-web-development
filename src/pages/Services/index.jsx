@@ -22,7 +22,7 @@ function Services() {
                 }
             });
         }, {
-            threshold: 0.2 // Animation déclenchée quand 20% de la section est visible //
+            threshold: 0.1 // Animation déclenchée quand 10% de la section est visible //
         });
 
         observer.observe(section);

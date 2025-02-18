@@ -3325,5 +3325,29 @@
             "Adopter une approche sémantique en HTML permet d’améliorer la structure, l’accessibilité et le référencement de vos sites web. En utilisant les bonnes pratiques, vous garantissez une meilleure expérience utilisateur et une meilleure visibilité sur les moteurs de recherche."
         ],
         "sign": "Ludmilla Marti"
-    }                                     
+    },
+    {
+        "id": 93,
+        "title": "JavaScript Moderne : ES6 et les Évolutions Récentes",
+        "date": "2025-02-19",
+        "intro": "Une analyse des principales améliorations du JavaScript moderne, de ES6 à aujourd’hui, et leur impact sur le développement web.",
+        "content": [
+            "1. Introduction à JavaScript Moderne",
+            "Depuis ES6, JavaScript a connu des évolutions majeures rendant le langage plus performant et lisible. Les nouvelles fonctionnalités permettent une meilleure gestion du code et améliorent l'expérience des développeurs.",
+            "2. Les Fonctionnalités Clés de ES6+",
+            "2.1. let et const",
+            "Améliorent la gestion des variables avec une portée de bloc et une meilleure sécurité, évitant les problèmes liés au hoisting des var.",
+            "2.2. Fonctions fléchées",
+            "Permettent une syntaxe plus concise et une meilleure gestion de this, utile pour les callbacks et les méthodes de classe.",
+            "2.3. Destructuration et Opérateurs Spread/Rest",
+            "Facilitent la manipulation des objets et tableaux, rendant le code plus clair et concis.",
+            "2.4. Classes et Modules",
+            "Introduisent une programmation orientée objet plus intuitive et une meilleure organisation du code grâce à l’import/export de modules.",
+            "2.5. Promises et async/await",
+            "Simplifient la gestion des appels asynchrones et améliorent la lisibilité du code.",
+            "3. Conclusion",
+            "L’adoption de ces nouvelles fonctionnalités améliore la maintenabilité et la robustesse du code, rendant JavaScript plus moderne et performant."
+        ],
+        "sign": "Ludmilla Marti"
+    }                                    
 ]

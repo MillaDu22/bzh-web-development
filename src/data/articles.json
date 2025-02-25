@@ -3459,5 +3459,32 @@
             "Vue.js est un excellent choix pour les développeurs recherchant un framework puissant, simple à utiliser et offrant une grande flexibilité."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 98,
+        "title": "jQuery : Simplifier le Développement JavaScript",
+        "date": "2025-02-26",
+        "intro": "jQuery est une bibliothèque JavaScript rapide et concise qui facilite la manipulation du DOM et la gestion des événements.",
+        "content": [
+            "1. Introduction à jQuery",
+            "jQuery est une bibliothèque JavaScript open-source conçue pour simplifier le développement web en rendant la manipulation du DOM et la gestion des événements plus accessibles.",
+            "2. Principales Caractéristiques",
+            "2.1. Sélecteurs Simplifiés",
+            "jQuery permet de sélectionner et manipuler les éléments du DOM avec une syntaxe simple et efficace.",
+            "2.2. Gestion des Événements",
+            "Avec jQuery, il est facile d’attacher des événements aux éléments HTML et de les gérer dynamiquement.",
+            "2.3. Animations et Effets",
+            "jQuery propose des animations et effets intégrés pour améliorer l’expérience utilisateur.",
+            "3. Exemple d’Utilisation",
+            "Voici un exemple de code jQuery permettant d'afficher un message lorsqu’un bouton est cliqué :",
+            "```javascript\n$(document).ready(function() {\n  $('#btn').click(function() {\n    alert('Bouton cliqué !');\n  });\n});\n```",
+            "4. Cas d’Utilisation",
+            "jQuery est utilisé pour simplifier le développement d’interfaces interactives et compatibles avec différents navigateurs.",
+            "5. Avantages de jQuery",
+            "jQuery réduit le code JavaScript nécessaire, améliore la compatibilité entre navigateurs et facilite l’ajout d’interactivité aux sites web.",
+            "6. Conclusion",
+            "Bien que moins utilisé aujourd’hui, jQuery reste une bibliothèque précieuse pour le développement web rapide et efficace."
+        ],
+        "sign": "Ludmilla Marti"
     }                                  
 ]

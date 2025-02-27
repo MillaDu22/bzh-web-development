@@ -3513,5 +3513,32 @@
             "Lodash est un outil incontournable pour les développeurs JavaScript qui cherchent à travailler efficacement avec des structures de données complexes."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 100,
+        "title": "D3.js : Visualisation de Données Interactives",
+        "date": "2025-02-28",
+        "intro": "D3.js est une bibliothèque JavaScript puissante pour créer des visualisations de données dynamiques et interactives basées sur les standards du web.",
+        "content": [
+            "1. Introduction à D3.js",
+            "D3.js (Data-Driven Documents) est une bibliothèque JavaScript qui permet de manipuler les documents basés sur des données et de créer des graphiques dynamiques et interactifs en utilisant les technologies web.",
+            "2. Principales Caractéristiques",
+            "2.1. Manipulation des Documents",
+            "D3.js permet de lier des données à des éléments DOM et de modifier leur structure, leur style ou leur comportement en fonction des données.",
+            "2.2. Création de Graphiques",
+            "D3.js offre une grande flexibilité pour créer une variété de visualisations, comme des diagrammes en barres, en lignes, des cartes, et des graphiques interactifs.",
+            "2.3. Animation et Interaction",
+            "D3.js prend en charge les animations basées sur les transitions et permet d'ajouter des interactions utilisateur comme le survol et le clic.",
+            "3. Exemple d’Utilisation",
+            "Voici un exemple de code D3.js pour créer un graphique en barres simple :",
+            "```javascript\nlet data = [10, 20, 30, 40];\nd3.select('body').selectAll('div')\n  .data(data)\n  .enter()\n  .append('div')\n  .style('width', function(d) { return d * 10 + 'px'; })\n  .style('height', '20px')\n  .style('background', 'blue');\n```",
+            "4. Cas d’Utilisation",
+            "D3.js est utilisé pour les applications de visualisation de données dans des domaines comme la finance, les sciences sociales, et la journalisme de données.",
+            "5. Avantages de D3.js",
+            "D3.js offre une liberté totale pour créer des visualisations personnalisées et interactives avec des données complexes.",
+            "6. Conclusion",
+            "D3.js est l'outil idéal pour les développeurs qui cherchent à créer des visualisations de données dynamiques et réactives."
+        ],
+        "sign": "Ludmilla Marti"
     }                                  
 ]

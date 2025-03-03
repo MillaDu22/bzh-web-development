@@ -3540,5 +3540,32 @@
             "D3.js est l'outil idéal pour les développeurs qui cherchent à créer des visualisations de données dynamiques et réactives."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 101,
+        "title": "Moment.js : Manipulation des Dates et Heures en JavaScript",
+        "date": "2025-03-03",
+        "intro": "Moment.js est une bibliothèque JavaScript qui facilite la manipulation, le formatage et l'affichage des dates et heures.",
+        "content": [
+            "1. Introduction à Moment.js",
+            "Moment.js est une bibliothèque largement utilisée pour travailler avec des dates et des heures en JavaScript, permettant de simplifier les calculs, la comparaison, et l'affichage de dates.",
+            "2. Principales Caractéristiques",
+            "2.1. Parsing de Dates",
+            "Moment.js permet de parser facilement des chaînes de caractères pour les convertir en objets Date.",
+            "2.2. Formatage de Dates",
+            "Moment.js offre une syntaxe simple pour formater les dates selon différents modèles comme `YYYY-MM-DD` ou `MMM D, YYYY`.",
+            "2.3. Manipulation de Dates",
+            "Moment.js facilite l'ajout, la soustraction et la comparaison de dates, ainsi que l'extraction de parties spécifiques d'une date (jour, mois, année).",
+            "3. Exemple d’Utilisation",
+            "Voici un exemple de code Moment.js pour afficher la date actuelle dans un format spécifique :",
+            "```javascript\nlet date = moment();\nconsole.log(date.format('YYYY-MM-DD')); // Affiche la date actuelle\n```",
+            "4. Cas d’Utilisation",
+            "Moment.js est utilisé dans les applications nécessitant la gestion des dates et des fuseaux horaires, comme dans les calendriers, les planificateurs ou les applications de gestion de tâches.",
+            "5. Avantages de Moment.js",
+            "Moment.js rend la gestion des dates et heures simple et efficace, tout en étant bien documenté et facile à utiliser.",
+            "6. Conclusion",
+            "Moment.js est idéal pour les projets nécessitant une manipulation précise des dates et heures, bien que sa maintenance ait été arrêtée en faveur de bibliothèques comme Day.js."
+        ],
+        "sign": "Ludmilla Marti"
     }                                  
 ]

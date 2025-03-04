@@ -3567,5 +3567,32 @@
             "Moment.js est idéal pour les projets nécessitant une manipulation précise des dates et heures, bien que sa maintenance ait été arrêtée en faveur de bibliothèques comme Day.js."
         ],
         "sign": "Ludmilla Marti"
-    }                                  
+    },
+    {
+        "id": 102,
+        "title": "Axios : Effectuer des Requêtes HTTP en JavaScript",
+        "date": "2025-03-04",
+        "intro": "Axios est une bibliothèque JavaScript qui permet d'effectuer des requêtes HTTP de manière simple et efficace, avec une gestion des promesses et des erreurs améliorée.",
+        "content": [
+            "1. Introduction à Axios",
+            "Axios est une bibliothèque JavaScript basée sur les promesses, conçue pour simplifier les requêtes HTTP. Elle est souvent utilisée pour les appels API et pour interagir avec des services backend.",
+            "2. Principales Caractéristiques",
+            "2.1. Requêtes HTTP Simplifiées",
+            "Axios permet de réaliser des requêtes HTTP GET, POST, PUT, DELETE avec une syntaxe claire et concise.",
+            "2.2. Gestion des Promesses",
+            "Axios retourne des promesses, permettant un contrôle facile sur les opérations asynchrones et une gestion des erreurs plus propre.",
+            "2.3. Intercepteurs",
+            "Axios permet d’ajouter des intercepteurs pour manipuler les requêtes ou les réponses avant qu'elles ne soient traitées.",
+            "3. Exemple d’Utilisation",
+            "Voici un exemple de code Axios pour effectuer une requête GET :",
+            "```javascript\naxios.get('https://api.example.com/data')\n  .then(response => {\n    console.log(response.data);\n  })\n  .catch(error => {\n    console.error(error);\n  });\n```",
+            "4. Cas d’Utilisation",
+            "Axios est couramment utilisé dans les applications front-end pour communiquer avec des API REST et pour effectuer des appels HTTP.",
+            "5. Avantages d'Axios",
+            "Axios est léger, facile à utiliser, et offre une gestion avancée des erreurs et des réponses.",
+            "6. Conclusion",
+            "Axios est l'un des outils les plus populaires pour effectuer des requêtes HTTP dans les applications JavaScript modernes."
+        ],
+        "sign": "Ludmilla Marti"
+    }                                
 ]

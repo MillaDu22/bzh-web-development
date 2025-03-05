@@ -3594,5 +3594,32 @@
             "Axios est l'un des outils les plus populaires pour effectuer des requêtes HTTP dans les applications JavaScript modernes."
         ],
         "sign": "Ludmilla Marti"
-    }                                
+    },
+    {
+        "id": 103,
+        "title": "Three.js : Créer des Graphiques 3D dans le Navigateur",
+        "date": "2025-03-05",
+        "intro": "Three.js est une bibliothèque JavaScript permettant de créer des visualisations 3D dans le navigateur en utilisant WebGL.",
+        "content": [
+            "1. Introduction à Three.js",
+            "Three.js est une bibliothèque qui simplifie la création de scènes 3D interactives dans le navigateur en utilisant WebGL. Elle permet de créer des visualisations complexes, des jeux et des simulations.",
+            "2. Principales Caractéristiques",
+            "2.1. Gestion des Objets 3D",
+            "Three.js permet de créer et manipuler des objets 3D tels que des cubes, des sphères et des meshes avec une syntaxe simple.",
+            "2.2. Éclairage et Ombres",
+            "La bibliothèque propose des contrôles avancés pour l'éclairage, les ombres, et les textures, permettant de créer des scènes réalistes.",
+            "2.3. Effets Visuels",
+            "Three.js propose des effets visuels tels que des animations, des particules et des simulations physiques.",
+            "3. Exemple d’Utilisation",
+            "Voici un exemple de code Three.js pour créer un cube rotatif :",
+            "```javascript\nconst scene = new THREE.Scene();\nconst camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);\nconst renderer = new THREE.WebGLRenderer();\nrenderer.setSize(window.innerWidth, window.innerHeight);\ndocument.body.appendChild(renderer.domElement);\nconst geometry = new THREE.BoxGeometry();\nconst material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });\nconst cube = new THREE.Mesh(geometry, material);\nscene.add(cube);\ncamera.position.z = 5;\nfunction animate() {\n  requestAnimationFrame(animate);\n  cube.rotation.x += 0.01;\n  cube.rotation.y += 0.01;\n  renderer.render(scene, camera);\n}\nanimate();\n```",
+            "4. Cas d’Utilisation",
+            "Three.js est utilisé dans des domaines comme les jeux vidéo, la visualisation de données 3D, et la création d'environnements virtuels.",
+            "5. Avantages de Three.js",
+            "Three.js rend la création de graphiques 3D plus accessible et permet d'exploiter les capacités de WebGL de manière plus intuitive.",
+            "6. Conclusion",
+            "Three.js est l'outil idéal pour créer des applications interactives en 3D dans le navigateur."
+        ],
+        "sign": "Ludmilla Marti"
+    }                               
 ]

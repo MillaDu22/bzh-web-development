@@ -1,32 +1,5 @@
 [
     {
-        "id": 104,
-        "title": "Chart.js : Créer des Graphiques Animés en JavaScript",
-        "date": "2025-03-06",
-        "intro": "Chart.js est une bibliothèque JavaScript permettant de créer des graphiques animés et interactifs avec une simple syntaxe.",
-        "content": [
-            "1. Introduction à Chart.js",
-            "Chart.js est une bibliothèque de visualisation de données en JavaScript qui permet de créer des graphiques interactifs et animés, tels que des graphiques en ligne, en barres et en secteurs.",
-            "2. Principales Caractéristiques",
-            "2.1. Types de Graphiques",
-            "Chart.js permet de créer une variété de graphiques, y compris des graphiques en lignes, en barres, en radar et en camembert.",
-            "2.2. Animations et Interactivité",
-            "Chart.js inclut des animations et des interactions intégrées pour rendre les graphiques plus engageants et dynamiques.",
-            "2.3. Personnalisation",
-            "Chart.js offre une personnalisation complète des graphiques, y compris la couleur, les styles et les étiquettes.",
-            "3. Exemple d’Utilisation",
-            "Voici un exemple de code Chart.js pour créer un graphique en barres simple :",
-            "```javascript\nconst ctx = document.getElementById('myChart').getContext('2d');\nconst myChart = new Chart(ctx, {\n  type: 'bar',\n  data: {\n    labels: ['Red', 'Blue', 'Yellow'],\n    datasets: [{\n      label: 'My First Dataset',\n      data: [12, 19, 3],\n      borderColor: ['rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)'],\n      borderWidth: 1\n    }]\n  },\n  options: {\n    scales: {\n      y: {beginAtZero: true}\n    }\n  }\n});\n```",
-            "4. Cas d’Utilisation",
-            "Chart.js est utilisé pour visualiser des données dans des applications telles que des tableaux de bord, des rapports financiers, et des outils d'analyse.",
-            "5. Avantages de Chart.js",
-            "Chart.js est léger, facile à utiliser et offre des graphiques visuellement attrayants et dynamiques.",
-            "6. Conclusion",
-            "Chart.js est une bibliothèque idéale pour les développeurs qui cherchent à intégrer des graphiques interactifs et animés dans leurs applications web."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 105,
         "title": "Svelte : Un Framework JavaScript Réactif et Performant",
         "date": "2025-03-07",

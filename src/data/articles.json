@@ -3648,5 +3648,34 @@
             "Chart.js est une bibliothèque idéale pour les développeurs qui cherchent à intégrer des graphiques interactifs et animés dans leurs applications web."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 105,
+        "title": "Svelte : Un Framework JavaScript Réactif et Performant",
+        "date": "2025-03-07",
+        "intro": "Svelte est un framework JavaScript innovant qui permet de construire des applications réactives de manière simple, avec un temps d'exécution minimal grâce à son approche unique.",
+        "content": [
+            "1. Introduction à Svelte",
+            "Svelte est un framework JavaScript relativement récent qui se distingue par son approche différente par rapport à des frameworks comme React ou Vue. Contrairement à ces derniers, Svelte ne fonctionne pas via un DOM virtuel. Au lieu de cela, il compile les composants en code JavaScript hautement optimisé au moment de la construction, réduisant ainsi la taille du bundle et améliorant les performances.",
+            "2. Principales Caractéristiques",
+            "2.1. Compilation au Lieu de l'Interprétation",
+            "L'une des principales caractéristiques de Svelte est sa capacité à compiler les composants en code JavaScript pur au moment de la construction. Cela signifie qu'il n'y a pas besoin d'une bibliothèque ou d'un runtime lourd sur le côté client, ce qui rend les applications plus rapides et plus légères.",
+            "2.2. Réactivité Intégrée",
+            "La réactivité dans Svelte est simple et naturelle. Au lieu d'utiliser un état ou des hooks comme dans React, Svelte permet de déclarer les variables réactives directement dans le code en les précédant du mot-clé `$:`. Cette approche réduit la complexité et rend le code plus lisible.",
+            "2.3. Écriture Simplifiée",
+            "Svelte se distingue par sa syntaxe minimaliste et intuitive. Il n'y a pas besoin de gérer des cycles de vie complexes ou des contextes. De plus, l'écriture du code se fait directement en HTML, CSS et JavaScript dans un seul fichier `.svelte`, ce qui simplifie le développement.",
+            "2.4. Performance Exceptionnelle",
+            "L'optimisation des performances est au cœur de Svelte. En compilant les composants, il élimine le besoin de la gestion du DOM virtuel, ce qui améliore la vitesse d'exécution et réduit la consommation des ressources côté client.",
+            "3. Exemple d’Utilisation",
+            "Voici un exemple simple d'un composant Svelte qui affiche un compteur et le met à jour lorsque l'utilisateur clique sur un bouton :",
+            "```svelte\n<script>\n  let count = 0;\n</script>\n\n<button on:click={() => count += 1}>Compter : {count}</button>\n```",
+            "4. Cas d’Utilisation",
+            "Svelte est particulièrement adapté pour les applications légères et performantes, où la taille du bundle et la vitesse d'exécution sont des priorités. Il est idéal pour des projets de petite à moyenne taille, mais peut également être utilisé pour des applications plus complexes. De plus, il est de plus en plus intégré dans des applications avec des exigences de performance strictes.",
+            "5. Avantages de Svelte",
+            "Les avantages de Svelte incluent une courbe d'apprentissage plus douce grâce à sa syntaxe simple, des performances exceptionnelles grâce à la compilation des composants, et une réduction de la taille du code généré, ce qui permet de créer des applications plus rapides et plus légères.",
+            "6. Conclusion",
+            "Svelte est un choix solide pour les développeurs qui recherchent un framework moderne offrant de hautes performances et une expérience de développement simple et fluide. Bien qu'il soit moins connu que React ou Vue, il gagne en popularité grâce à sa capacité à offrir des applications plus rapides et plus petites, tout en étant plus facile à apprendre et à utiliser."
+        ],
+        "sign": "Ludmilla Marti"
     }                              
 ]

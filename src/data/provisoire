@@ -1,34 +1,5 @@
 [
     {
-    "id": 106,
-    "title": "Bootstrap : Le Framework CSS le Plus Populaire",
-    "date": "2025-03-10",
-    "intro": "Bootstrap est l'un des frameworks CSS les plus populaires. Créé par Twitter, il simplifie la conception d'interfaces web responsives et modernes grâce à sa grille flexible et ses composants prêts à l'emploi.",
-    "content": [
-        "1. Introduction à Bootstrap",
-        "Bootstrap est un framework CSS open-source qui permet de créer des sites web réactifs rapidement et efficacement. Il inclut une grille fluide, des composants d'interface utilisateur, des outils JavaScript et des typographies préconfigurées.",
-        "2. Principales Caractéristiques",
-        "2.1. Grille Réactive",
-        "Bootstrap utilise un système de grille flexible basé sur des colonnes et des rangées pour créer des mises en page réactives. Cela permet aux développeurs de créer facilement des sites qui s'adaptent à tous les types d'appareils, des ordinateurs de bureau aux smartphones.",
-        "2.2. Composants Pré-définis",
-        "Bootstrap propose une vaste gamme de composants d'interface utilisateur comme des boutons, des formulaires, des barres de navigation, des alertes, des cartes et bien plus encore. Ces éléments sont déjà stylisés et prêts à l'emploi.",
-        "2.3. Plugins JavaScript",
-        "Bootstrap inclut également des plugins JavaScript pour ajouter des fonctionnalités interactives, telles que des modals, des carrousels, des popovers, et bien d'autres, le tout sans avoir besoin de bibliothèques tierces.",
-        "2.4. Personnalisation",
-        "Bien que Bootstrap offre des styles par défaut, il est entièrement personnalisable via des variables SASS, ce qui permet aux développeurs de modifier les couleurs, les espacements et d'autres éléments visuels pour mieux correspondre aux besoins de leur projet.",
-        "3. Exemple d’Utilisation",
-        "Voici un exemple simple de la structure de base d'une page HTML avec Bootstrap qui inclut une barre de navigation et un bouton :",
-        "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css\" rel=\"stylesheet\">\n  <title>Page avec Bootstrap</title>\n</head>\n<body>\n  <nav class=\"navbar navbar-expand-lg navbar-light bg-light\">\n    <a class=\"navbar-brand\" href=\"#\">Mon Site</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNav\">\n      <ul class=\"navbar-nav\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"#\">Accueil</a>\n        </li>\n        <li class=\"nav-item\">\n          <a class=\"nav-link\" href=\"#\">Contact</a>\n        </li>\n      </ul>\n    </div>\n  </nav>\n  <div class=\"container mt-5\">\n    <button class=\"btn btn-primary\">Cliquez ici</button>\n  </div>\n  <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"></script>\n  <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js\"></script>\n  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js\"></script>\n</body>\n</html>\n```",
-        "4. Cas d’Utilisation",
-        "Bootstrap est idéal pour des projets qui nécessitent un développement rapide d'interfaces réactives et cohérentes. Il est utilisé par de nombreuses entreprises et développeurs pour créer des sites web et des applications qui doivent être accessibles sur une large gamme d'appareils.",
-        "5. Avantages de Bootstrap",
-        "Bootstrap permet de gagner du temps grâce à ses composants préconfigurés et sa grille fluide. Il facilite également la maintenance du code, car il suit des normes bien établies. Sa large communauté et sa documentation exhaustive en font un excellent choix pour les développeurs débutants et expérimentés.",
-        "6. Conclusion",
-        "Bootstrap reste l'un des frameworks CSS les plus utilisés et les plus puissants pour construire des sites web réactifs. Bien que des alternatives comme Tailwind CSS gagnent en popularité, Bootstrap reste un excellent choix pour les développeurs cherchant à créer des interfaces avec un minimum d'effort tout en garantissant des performances élevées."
-    ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 107,
         "title": "Tailwind CSS : Le Framework Utilitaire Flexible",
         "date": "2025-03-11",

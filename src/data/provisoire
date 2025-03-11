@@ -1,34 +1,5 @@
 [
     {
-        "id": 107,
-        "title": "Tailwind CSS : Le Framework Utilitaire Flexible",
-        "date": "2025-03-11",
-        "intro": "Tailwind CSS est un framework CSS utilitaire qui permet de construire des designs personnalisés sans avoir à sortir du contexte HTML. Sa philosophie repose sur la composition de petites classes utilitaires pour créer des composants flexibles et adaptés aux besoins spécifiques de chaque projet.",
-        "content": [
-            "1. Introduction à Tailwind CSS",
-            "Tailwind CSS est un framework CSS open-source basé sur des classes utilitaires. Contrairement à des frameworks comme Bootstrap, il ne fournit pas de composants pré-stylisés, mais se concentre sur des classes de base comme `flex`, `grid`, `bg-color`, `text-align` et bien d'autres. Cela permet aux développeurs de créer des designs uniques tout en évitant la duplication de code.",
-            "2. Principales Caractéristiques",
-            "2.1. Classes Utilitaires",
-            "Tailwind propose un grand nombre de classes utilitaires pour contrôler des propriétés CSS courantes, comme la couleur de fond, la taille du texte, les marges, les espacements, les bordures, etc. Chaque classe correspond à une seule règle CSS, ce qui permet de composer rapidement des designs sans écrire de CSS supplémentaire.",
-            "2.2. Personnalisation Avancée",
-            "L'un des grands avantages de Tailwind CSS est sa personnalisation. Il offre un fichier de configuration (`tailwind.config.js`) où vous pouvez définir vos propres couleurs, espacements, tailles de police, etc. Cela permet de créer un design cohérent et sur mesure pour chaque projet.",
-            "2.3. Design Réactif",
-            "Tailwind CSS facilite la création de sites web réactifs. Il utilise des classes comme `sm:`, `md:`, `lg:` pour appliquer des styles spécifiques selon les tailles d'écran. Vous pouvez ainsi définir des règles pour différents appareils sans avoir besoin de media queries personnalisées.",
-            "2.4. Plugins et Extensions",
-            "Tailwind dispose également d'une écosystème de plugins et d'extensions pour ajouter de nouvelles fonctionnalités. Par exemple, vous pouvez ajouter des animations, des composants supplémentaires, ou encore des outils pour optimiser votre code.",
-            "3. Exemple d’Utilisation",
-            "Voici un exemple simple de structure HTML avec Tailwind CSS pour créer une carte responsive :",
-            "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link href=\"https://cdn.jsdelivr.net/npm/tailwindcss@2.0.3/dist/tailwind.min.css\" rel=\"stylesheet\">\n  <title>Carte Responsive</title>\n</head>\n<body>\n  <div class=\"max-w-sm rounded overflow-hidden shadow-lg\">\n    <img class=\"w-full\" src=\"https://via.placeholder.com/400x200\" alt=\"Image\">\n    <div class=\"px-6 py-4\">\n      <div class=\"font-bold text-xl mb-2\">Titre de la Carte</div>\n      <p class=\"text-gray-700 text-base\">\n        Ceci est un exemple de carte responsive utilisant Tailwind CSS.\n      </p>\n    </div>\n    <div class=\"px-6 py-4\">\n      <span class=\"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2\">Tag 1</span>\n      <span class=\"inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700\">Tag 2</span>\n    </div>\n  </div>\n</body>\n</html>\n```",
-            "4. Cas d’Utilisation",
-            "Tailwind CSS est idéal pour les développeurs qui souhaitent un contrôle total sur leur design sans être limités par des composants pré-stylisés. Il est particulièrement utile dans les projets qui nécessitent des interfaces personnalisées ou des conceptions spécifiques, tout en permettant une réactivité rapide et une optimisation des performances.",
-            "5. Avantages de Tailwind CSS",
-            "L'un des principaux avantages de Tailwind CSS est sa flexibilité. Vous pouvez créer des designs entièrement personnalisés avec une approche modulaire. De plus, sa configuration avancée permet d'adapter le framework à vos besoins spécifiques, tout en maintenant un code propre et facile à maintenir.",
-            "6. Conclusion",
-            "Tailwind CSS offre une approche novatrice et flexible de la conception d'interfaces. Sa méthode basée sur des classes utilitaires permet de personnaliser chaque aspect du design sans contraintes. Bien qu'il puisse être déroutant au début, il offre une grande puissance pour les développeurs cherchant à maîtriser entièrement leur design."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 108,
         "title": "Bulma : Un Framework CSS Moderne et Minimaliste",
         "date": "2025-03-12",

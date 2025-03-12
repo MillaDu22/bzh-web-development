@@ -1,34 +1,5 @@
 [
     {
-        "id": 108,
-        "title": "Bulma : Un Framework CSS Moderne et Minimaliste",
-        "date": "2025-03-12",
-        "intro": "Bulma est un framework CSS open-source qui se distingue par sa simplicité et sa flexibilité. Utilisant le modèle Flexbox, il permet de créer des designs modernes et réactifs sans complexité.",
-        "content": [
-            "1. Introduction à Bulma",
-            "Bulma est un framework CSS qui a été conçu pour rendre le processus de création d'interfaces utilisateur plus facile et rapide. Avec une approche mobile-first et l'utilisation de Flexbox pour la mise en page, il permet de créer des designs responsives et modernes tout en offrant une courbe d'apprentissage relativement douce.",
-            "2. Principales Caractéristiques",
-            "2.1. Utilisation de Flexbox",
-            "L'une des forces de Bulma est son utilisation de Flexbox. Cela permet de créer facilement des mises en page complexes sans avoir à gérer des hacks CSS ou des classes supplémentaires.",
-            "2.2. Design Minimaliste",
-            "Bulma propose un design minimaliste avec des composants légers et modulaires. Chaque composant, qu'il s'agisse de boutons, de cartes ou de modales, peut être personnalisé pour s'adapter à l'identité du projet.",
-            "2.3. Mobile-First",
-            "Bulma suit une approche mobile-first, ce qui signifie que tous les composants sont réactifs par défaut. Vous pouvez facilement gérer la réactivité avec des classes dédiées pour différents points de rupture.",
-            "2.4. Facilité de Personnalisation",
-            "Bien que Bulma propose un design par défaut, il est facile de le personnaliser à l'aide de variables SASS ou de la configuration des classes. Vous pouvez changer les couleurs, les espacements, et d'autres paramètres pour mieux correspondre à vos besoins.",
-            "3. Exemple d’Utilisation",
-            "Voici un exemple simple d'interface avec Bulma :",
-            "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link href=\"https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css\" rel=\"stylesheet\">\n  <title>Exemple Bulma</title>\n</head>\n<body>\n  <section class=\"section\">\n    <div class=\"container\">\n      <div class=\"columns\">\n        <div class=\"column is-half\">\n          <div class=\"box\">\n            <h1 class=\"title\">Bienvenue sur Bulma</h1>\n            <p class=\"subtitle\">Ceci est un exemple d'utilisation de Bulma pour créer une mise en page réactive.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n</body>\n</html>\n```",
-            "4. Cas d’Utilisation",
-            "Bulma est idéal pour des projets nécessitant des designs modernes, simples et réactifs, tout en étant facile à personnaliser. Il est particulièrement adapté pour les projets où la réactivité mobile est essentielle et où une approche minimaliste est recherchée.",
-            "5. Avantages de Bulma",
-            "Bulma permet de gagner du temps en développement grâce à ses classes simples et son modèle Flexbox. Il est léger, facile à apprendre et permet de créer des interfaces professionnelles avec peu de code. De plus, sa structure modulaire permet d'intégrer uniquement ce dont on a besoin dans le projet.",
-            "6. Conclusion",
-            "Avec sa simplicité, son approche mobile-first, et son utilisation de Flexbox, Bulma est un excellent choix pour les développeurs à la recherche d'un framework CSS moderne et minimaliste. Son efficacité et sa flexibilité en font un outil précieux pour tout projet de développement web."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 109,
         "title": "Foundation : Un Framework CSS Puissant et Flexible",
         "date": "2025-03-13",

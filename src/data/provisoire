@@ -1,34 +1,5 @@
 [
     {
-        "id": 109,
-        "title": "Foundation : Un Framework CSS Puissant et Flexible",
-        "date": "2025-03-13",
-        "intro": "Foundation est un framework CSS robuste développé par ZURB, conçu pour permettre de créer des sites web réactifs et accessibles avec une grande flexibilité. Il offre un ensemble de composants préconstruits tout en permettant une personnalisation poussée.",
-        "content": [
-            "1. Introduction à Foundation",
-            "Foundation est un framework CSS open-source qui est l'un des plus anciens et des plus respectés dans la communauté du développement web. Il permet de créer des interfaces utilisateur modernes et réactives avec une attention particulière à l'accessibilité et à la personnalisation.",
-            "2. Principales Caractéristiques",
-            "2.1. Grille Flexible",
-            "Foundation utilise un système de grille flexible et puissant qui s'adapte facilement aux besoins du projet. Vous pouvez configurer des colonnes de différentes tailles et facilement créer des mises en page complexes en utilisant des classes CSS simples.",
-            "2.2. Accessibilité Améliorée",
-            "Foundation a été conçu pour garantir l'accessibilité des sites web. Il inclut des pratiques recommandées pour améliorer l'accessibilité et prend en charge les normes ARIA (Accessible Rich Internet Applications), ce qui est essentiel pour garantir une expérience utilisateur inclusive.",
-            "2.3. Responsive Design",
-            "Foundation est entièrement mobile-first, ce qui signifie que ses composants sont optimisés pour tous les types d'appareils. Il offre des points de rupture prêts à l'emploi pour une adaptation fluide à des écrans de toutes tailles.",
-            "2.4. Personnalisation",
-            "L'un des avantages de Foundation est sa capacité à être personnalisé. Vous pouvez ajuster les paramètres du framework via des variables SASS pour adapter les couleurs, espacements et autres éléments selon les besoins de votre projet.",
-            "3. Exemple d’Utilisation",
-            "Voici un exemple d'interface simple utilisant Foundation :",
-            "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link href=\"https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css\" rel=\"stylesheet\">\n  <title>Exemple Foundation</title>\n</head>\n<body>\n  <div class=\"grid-container\">\n    <div class=\"grid-x grid-padding-x\">\n      <div class=\"cell small-12 medium-6 large-4\">\n        <div class=\"callout\">\n          <h5>Exemple Foundation</h5>\n          <p>Ceci est un exemple d'interface simple utilisant Foundation pour créer une mise en page réactive.</p>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n</html>\n```",
-            "4. Cas d’Utilisation",
-            "Foundation est particulièrement adapté aux projets où l'accessibilité et la flexibilité sont primordiales. Il est idéal pour les entreprises et les applications nécessitant des interfaces utilisateur évolutives et conformes aux normes d'accessibilité.",
-            "5. Avantages de Foundation",
-            "Foundation offre une puissance de personnalisation élevée et est très flexible grâce à ses systèmes de grille et ses outils de personnalisation. Il est particulièrement apprécié pour son support d'accessibilité, ce qui en fait un excellent choix pour les projets où l'inclusivité est une priorité.",
-            "6. Conclusion",
-            "Foundation est un framework CSS robuste et flexible qui répond aux besoins des développeurs cherchant à créer des interfaces web réactives, accessibles et facilement personnalisables. Avec son approche mobile-first et ses nombreux composants prêts à l'emploi, il est un excellent choix pour tout projet web moderne."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 110,
         "title": "Tailwind CSS : Un Framework Utility-First pour un Design Sur-Mesure",
         "date": "2025-03-14",

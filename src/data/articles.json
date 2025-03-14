@@ -2705,7 +2705,7 @@
     },
     {
         "id": 81,
-        "title": "Les Titres en HTML : Structurez Vos Pages pour une Meilleure Misibilité et Référencement",
+        "title": "Les Titres en HTML : Vos Pages avec une Meilleure Lisibilité et Référencement",
         "date": "2025-02-03",
         "intro": "Les titres en HTML jouent un rôle fondamental dans l'organisation de vos contenus, leur compréhension par les moteurs de recherche et l'expérience utilisateur.",
         "content": [
@@ -3791,6 +3791,35 @@
             "Foundation offre une puissance de personnalisation élevée et est très flexible grâce à ses systèmes de grille et ses outils de personnalisation. Il est particulièrement apprécié pour son support d'accessibilité, ce qui en fait un excellent choix pour les projets où l'inclusivité est une priorité.",
             "6. Conclusion",
             "Foundation est un framework CSS robuste et flexible qui répond aux besoins des développeurs cherchant à créer des interfaces web réactives, accessibles et facilement personnalisables. Avec son approche mobile-first et ses nombreux composants prêts à l'emploi, il est un excellent choix pour tout projet web moderne."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 110,
+        "title": "UIkit : Un Framework CSS Léger et Flexible pour des Interfaces Dynamiques",
+        "date": "2025-03-14",
+        "intro": "UIkit est un framework CSS léger et flexible qui permet de créer des interfaces utilisateur modernes, dynamiques et responsives. Avec sa collection de composants modulaires et son approche minimaliste, UIkit est parfait pour les projets nécessitant un design élégant et fonctionnel.",
+        "content": [
+            "1. Introduction à UIkit",
+            "UIkit est un framework CSS open-source qui se concentre sur la simplicité et la flexibilité. Il permet de créer des interfaces utilisateur modernes et responsives avec une approche modulaire. Les composants UIkit sont conçus pour être facilement intégrables et personnalisables, ce qui le rend idéal pour des projets variés.",
+            "2. Principales Caractéristiques",
+            "2.1. Design Moderne et Responsive",
+            "UIkit permet de créer des interfaces responsives qui s'adaptent parfaitement à tous les appareils grâce à une grille flexible et des composants dynamiques. Son design épuré et moderne donne un aspect professionnel à vos projets sans nécessiter de beaucoup de personnalisation.",
+            "2.2. Composants Modifiables",
+            "Le framework offre une large gamme de composants, allant des boutons, formulaires, modales, aux carrousels et cartes. Tous ces éléments sont facilement personnalisables grâce à un système de classes CSS et des options de JavaScript, vous permettant de créer des interfaces interactives rapidement.",
+            "2.3. Facilité d'Intégration et de Personnalisation",
+            "UIkit permet une intégration facile avec d'autres technologies et peut être personnalisé pour correspondre à l'identité visuelle de votre projet. Il offre un système de thèmes et une documentation détaillée pour vous guider tout au long du processus de personnalisation.",
+            "2.4. Documentation et Communauté Actives",
+            "UIkit bénéficie d'une documentation complète et bien structurée, ainsi qu'une communauté active prête à vous aider. La communauté UIkit est un atout précieux pour les développeurs cherchant des solutions rapides ou des exemples d'utilisation.",
+            "3. Exemple d’Utilisation",
+            "Voici un exemple simple d'interface utilisant UIkit :",
+            "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <link href=\"https://cdn.jsdelivr.net/npm/uikit@3.6.23/dist/css/uikit.min.css\" rel=\"stylesheet\">\n  <title>Exemple UIkit</title>\n</head>\n<body>\n  <div class=\"uk-container\">\n    <h1 class=\"uk-heading-line\"><span>Bienvenue dans UIkit</span></h1>\n    <p>UIkit est un framework CSS léger et flexible pour créer des interfaces modernes et dynamiques.</p>\n  </div>\n</body>\n</html>\n```",
+            "4. Cas d’Utilisation",
+            "UIkit est idéal pour des projets qui nécessitent une interface dynamique et légère. Il est souvent utilisé pour des applications web, des sites vitrines, et des projets où l'accent est mis sur un design moderne et une expérience utilisateur fluide.",
+            "5. Avantages de UIkit",
+            "Le principal avantage de UIkit est sa légèreté et sa flexibilité. Il permet de créer des interfaces responsives de manière simple et rapide, tout en offrant une grande personnalisation. De plus, sa documentation et son écosystème actif rendent son utilisation très agréable.",
+            "6. Conclusion",
+            "UIkit est un excellent choix pour les développeurs à la recherche d'un framework CSS léger et flexible. Avec ses composants modulaires, son design moderne et sa facilité d'intégration, UIkit est parfait pour créer des interfaces utilisateur élégantes et responsives."
         ],
         "sign": "Ludmilla Marti"
     }                           

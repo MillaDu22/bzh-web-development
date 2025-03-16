@@ -1,10 +1,91 @@
 [
     {
-        Materialize – Basé sur les principes de Material Design de Google, idéal pour des interfaces modernes et élégantes,
-        Semantic UI – Un framework CSS qui se concentre sur la lisibilité et l'utilisation sémantique des classes,
-        Skeleton – Un framework CSS minimaliste et léger pour des designs simples mais efficaces,
-        Spectre.css – Un framework CSS léger qui inclut des composants de base pour une mise en page rapide,
-        Pure.css – Un framework minimaliste développé par Yahoo!, destiné aux projets qui privilégient la simplicité et la performance
+        "id": 112,
+        "title": "JsBench : Un Outil Pratique pour Tester et Comparer les Performances JavaScript",
+        "date": "2025-03-18",
+        "intro": "JsBench est un outil en ligne performant qui permet d'analyser et de comparer l'exécution de différents morceaux de code JavaScript. Idéal pour optimiser vos algorithmes et fonctions.",
+        "content": [
+            "1. Introduction à JsBench",
+            "JsBench est une plateforme en ligne permettant de mesurer et comparer les performances de différents snippets JavaScript en temps réel.",
+            "2. Fonctionnalités Principales",
+            "2.1. Comparaison de Codes",
+            "JsBench permet de tester plusieurs versions d'une même fonction pour évaluer laquelle est la plus performante.",
+            "2.2. Interface Intuitive",
+            "L'interface simple permet d'ajouter rapidement plusieurs blocs de code et de voir les résultats de performance instantanément.",
+            "2.3. Support des Modules Modernes",
+            "JsBench prend en charge les modules modernes JavaScript et les syntaxes les plus récentes.",
+            "3. Exemple d'Utilisation",
+            "```javascript\nfunction sumLoop(n) {\n    let sum = 0;\n    for (let i = 0; i < n; i++) sum += i;\n    return sum;\n}\nfunction sumReduce(n) {\n    return Array.from({length: n}, (_, i) => i).reduce((a, b) => a + b, 0);\n}\n```",
+            "4. Conclusion",
+            "JsBench est un outil indispensable pour les développeurs cherchant à optimiser leurs algorithmes et améliorer les performances de leurs applications."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 113,
+        "title": "JSPerf.app : Plateforme en Ligne pour Comparer les Performances JavaScript",
+        "date": "2025-03-19",
+        "intro": "JSPerf.app est une plateforme en ligne qui permet aux développeurs de créer et de partager des tests de performance pour différents fragments de code JavaScript, facilitant ainsi l'optimisation du code.",
+        "content": [
+            "1. Introduction à JSPerf.app",
+            "JSPerf.app est une ressource précieuse pour les développeurs souhaitant comparer l'efficacité de différentes implémentations de code JavaScript. En permettant la création et le partage de tests de performance, il favorise une meilleure compréhension des optimisations possibles.",
+            "2. Fonctionnalités Principales",
+            "2.1. Création de Tests Personnalisés",
+            "Les utilisateurs peuvent concevoir des tests adaptés à leurs besoins spécifiques, en comparant diverses approches pour accomplir une tâche donnée.",
+            "2.2. Partage et Collaboration",
+            "JSPerf.app offre la possibilité de partager des tests avec la communauté, permettant ainsi aux développeurs de collaborer et de discuter des meilleures pratiques.",
+            "2.3. Analyses Détaillées",
+            "Les résultats des tests fournissent des statistiques détaillées sur les performances, aidant à identifier les goulots d'étranglement et les opportunités d'optimisation.",
+            "3. Exemple d'Utilisation",
+            "```javascript\nfunction addition(a, b) {\n    return a + b;\n}\nfunction additionArray(arr) {\n    return arr.reduce((a, b) => a + b, 0);\n}\n```",
+            "4. Conclusion",
+            "JSPerf.app est un outil essentiel pour les développeurs cherchant à améliorer l'efficacité de leur code JavaScript, en offrant une plateforme pour tester, comparer et partager des solutions optimisées."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 114,
+        "title": "Perf.link : Outil en Ligne pour le Benchmarking JavaScript",
+        "date": "2025-03-20",
+        "intro": "Perf.link est un outil en ligne simple et efficace qui permet aux développeurs de tester et de comparer les performances de différents fragments de code JavaScript en temps réel.",
+        "content": [
+            "1. Introduction à Perf.link",
+            "Perf.link offre une interface conviviale pour évaluer rapidement l'efficacité de diverses implémentations de code JavaScript, aidant ainsi les développeurs à identifier les solutions les plus performantes.",
+            "2. Fonctionnalités Principales",
+            "2.1. Tests Instantanés",
+            "Les utilisateurs peuvent exécuter des tests de performance en temps réel, obtenant ainsi des résultats immédiats sur l'efficacité de leur code.",
+            "2.2. Comparaison de Fragments de Code",
+            "Perf.link permet de comparer directement plusieurs versions d'un même code, facilitant l'identification de la solution la plus optimale.",
+            "2.3. Partage Facile",
+            "Les tests peuvent être facilement partagés via des liens, permettant aux développeurs de collaborer et de discuter des résultats.",
+            "3. Exemple d'Utilisation",
+            "```javascript\nfunction multiply(a, b) {\n    return a * b;\n}\nfunction power(base, exponent) {\n    return Math.pow(base, exponent);\n}\n```",
+            "4. Conclusion",
+            "Perf.link est un outil pratique pour les développeurs souhaitant évaluer rapidement les performances de leur code JavaScript, offrant une plateforme simple pour le benchmarking et la comparaison."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 115,
+        "title": "Gatling : Outil de Test de Charge pour Applications Web",
+        "date": "2025-03-21",
+        "intro": "Gatling est un outil de test de charge open-source conçu pour analyser et mesurer les performances des applications web, offrant des simulations réalistes et des rapports détaillés.",
+        "content": [
+            "1. Introduction à Gatling",
+            "Gatling est une solution puissante pour effectuer des tests de performance sur des applications web, permettant aux développeurs et aux équipes DevOps d'identifier les problèmes de scalabilité et d'optimiser les performances.",
+            "2. Fonctionnalités Principales",
+            "2.1. Simulations Réalistes",
+            "Gatling permet de simuler un grand nombre d'utilisateurs simultanés, reproduisant des scénarios d'utilisation réels pour évaluer la robustesse des applications.",
+            "2.2. Rapports Détaillés",
+            "Après chaque test, Gatling génère des rapports HTML complets, incluant des métriques telles que le temps de réponse, le nombre de requêtes par seconde et les taux d'erreur.",
+            "2.3. DSL Intuitif",
+            "Gatling propose un langage spécifique au domaine (DSL) en Scala, facilitant la création de scénarios de test complexes de manière expressive et concise.",
+            "3. Exemple d'Utilisation",
+            "```scala\nval scn = scenario(\"Test de Charge Basique\")\n  .exec(http(\"Requête_1\")\n  .get(\"/\"))\n  .pause(5)\n```",
+            "4. Conclusion",
+            "Gatling est un outil essentiel pour les équipes cherchant à assurer la performance et la fiabilité de leurs applications web sous des charges élevées, grâce à ses capacités de simulation avancées et ses rapports détaillés."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]
 

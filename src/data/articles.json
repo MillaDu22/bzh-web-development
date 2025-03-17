@@ -3851,5 +3851,27 @@
             "Materialize est une excellente option pour les développeurs cherchant à adopter les principes du Material Design avec un framework CSS intuitif et puissant. Ses composants riches et sa grille flexible en font un choix idéal pour créer des interfaces modernes et engageantes."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 112,
+        "title": "JsBench : Un Outil Pratique pour Tester et Comparer les Performances JavaScript",
+        "date": "2025-03-18",
+        "intro": "JsBench est un outil en ligne performant qui permet d'analyser et de comparer l'exécution de différents morceaux de code JavaScript. Idéal pour optimiser vos algorithmes et fonctions.",
+        "content": [
+            "1. Introduction à JsBench",
+            "JsBench est une plateforme en ligne permettant de mesurer et comparer les performances de différents snippets JavaScript en temps réel.",
+            "2. Fonctionnalités Principales",
+            "2.1. Comparaison de Codes",
+            "JsBench permet de tester plusieurs versions d'une même fonction pour évaluer laquelle est la plus performante.",
+            "2.2. Interface Intuitive",
+            "L'interface simple permet d'ajouter rapidement plusieurs blocs de code et de voir les résultats de performance instantanément.",
+            "2.3. Support des Modules Modernes",
+            "JsBench prend en charge les modules modernes JavaScript et les syntaxes les plus récentes.",
+            "3. Exemple d'Utilisation",
+            "```javascript\nfunction sumLoop(n) {\n    let sum = 0;\n    for (let i = 0; i < n; i++) sum += i;\n    return sum;\n}\nfunction sumReduce(n) {\n    return Array.from({length: n}, (_, i) => i).reduce((a, b) => a + b, 0);\n}\n```",
+            "4. Conclusion",
+            "JsBench est un outil indispensable pour les développeurs cherchant à optimiser leurs algorithmes et améliorer les performances de leurs applications."
+        ],
+        "sign": "Ludmilla Marti"
     }                              
 ]

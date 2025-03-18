@@ -3873,5 +3873,27 @@
             "JsBench est un outil indispensable pour les développeurs cherchant à optimiser leurs algorithmes et améliorer les performances de leurs applications."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 113,
+        "title": "JSPerf.app : Plateforme en Ligne pour Comparer les Performances JavaScript",
+        "date": "2025-03-19",
+        "intro": "JSPerf.app est une plateforme en ligne qui permet aux développeurs de créer et de partager des tests de performance pour différents fragments de code JavaScript, facilitant ainsi l'optimisation du code.",
+        "content": [
+            "1. Introduction à JSPerf.app",
+            "JSPerf.app est une ressource précieuse pour les développeurs souhaitant comparer l'efficacité de différentes implémentations de code JavaScript. En permettant la création et le partage de tests de performance, il favorise une meilleure compréhension des optimisations possibles.",
+            "2. Fonctionnalités Principales",
+            "2.1. Création de Tests Personnalisés",
+            "Les utilisateurs peuvent concevoir des tests adaptés à leurs besoins spécifiques, en comparant diverses approches pour accomplir une tâche donnée.",
+            "2.2. Partage et Collaboration",
+            "JSPerf.app offre la possibilité de partager des tests avec la communauté, permettant ainsi aux développeurs de collaborer et de discuter des meilleures pratiques.",
+            "2.3. Analyses Détaillées",
+            "Les résultats des tests fournissent des statistiques détaillées sur les performances, aidant à identifier les goulots d'étranglement et les opportunités d'optimisation.",
+            "3. Exemple d'Utilisation",
+            "```javascript\nfunction addition(a, b) {\n    return a + b;\n}\nfunction additionArray(arr) {\n    return arr.reduce((a, b) => a + b, 0);\n}\n```",
+            "4. Conclusion",
+            "JSPerf.app est un outil essentiel pour les développeurs cherchant à améliorer l'efficacité de leur code JavaScript, en offrant une plateforme pour tester, comparer et partager des solutions optimisées."
+        ],
+        "sign": "Ludmilla Marti"
     }                              
 ]

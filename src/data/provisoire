@@ -1,27 +1,5 @@
 [
     {
-        "id": 114,
-        "title": "Perf.link : Outil en Ligne pour le Benchmarking JavaScript",
-        "date": "2025-03-20",
-        "intro": "Perf.link est un outil en ligne simple et efficace qui permet aux développeurs de tester et de comparer les performances de différents fragments de code JavaScript en temps réel.",
-        "content": [
-            "1. Introduction à Perf.link",
-            "Perf.link offre une interface conviviale pour évaluer rapidement l'efficacité de diverses implémentations de code JavaScript, aidant ainsi les développeurs à identifier les solutions les plus performantes.",
-            "2. Fonctionnalités Principales",
-            "2.1. Tests Instantanés",
-            "Les utilisateurs peuvent exécuter des tests de performance en temps réel, obtenant ainsi des résultats immédiats sur l'efficacité de leur code.",
-            "2.2. Comparaison de Fragments de Code",
-            "Perf.link permet de comparer directement plusieurs versions d'un même code, facilitant l'identification de la solution la plus optimale.",
-            "2.3. Partage Facile",
-            "Les tests peuvent être facilement partagés via des liens, permettant aux développeurs de collaborer et de discuter des résultats.",
-            "3. Exemple d'Utilisation",
-            "```javascript\nfunction multiply(a, b) {\n    return a * b;\n}\nfunction power(base, exponent) {\n    return Math.pow(base, exponent);\n}\n```",
-            "4. Conclusion",
-            "Perf.link est un outil pratique pour les développeurs souhaitant évaluer rapidement les performances de leur code JavaScript, offrant une plateforme simple pour le benchmarking et la comparaison."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 115,
         "title": "Gatling : Outil de Test de Charge pour Applications Web",
         "date": "2025-03-21",

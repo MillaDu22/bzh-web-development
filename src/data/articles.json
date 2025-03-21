@@ -3917,5 +3917,27 @@
             "Perf.link est un outil pratique pour les développeurs souhaitant évaluer rapidement les performances de leur code JavaScript, offrant une plateforme simple pour le benchmarking et la comparaison."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 115,
+        "title": "Gatling : Outil de Test de Charge pour Applications Web",
+        "date": "2025-03-21",
+        "intro": "Gatling est un outil de test de charge open-source conçu pour analyser et mesurer les performances des applications web, offrant des simulations réalistes et des rapports détaillés.",
+        "content": [
+            "1. Introduction à Gatling",
+            "Gatling est une solution puissante pour effectuer des tests de performance sur des applications web, permettant aux développeurs et aux équipes DevOps d'identifier les problèmes de scalabilité et d'optimiser les performances.",
+            "2. Fonctionnalités Principales",
+            "2.1. Simulations Réalistes",
+            "Gatling permet de simuler un grand nombre d'utilisateurs simultanés, reproduisant des scénarios d'utilisation réels pour évaluer la robustesse des applications.",
+            "2.2. Rapports Détaillés",
+            "Après chaque test, Gatling génère des rapports HTML complets, incluant des métriques telles que le temps de réponse, le nombre de requêtes par seconde et les taux d'erreur.",
+            "2.3. DSL Intuitif",
+            "Gatling propose un langage spécifique au domaine (DSL) en Scala, facilitant la création de scénarios de test complexes de manière expressive et concise.",
+            "3. Exemple d'Utilisation",
+            "```scala\nval scn = scenario(\"Test de Charge Basique\")\n  .exec(http(\"Requête_1\")\n  .get(\"/\"))\n  .pause(5)\n```",
+            "4. Conclusion",
+            "Gatling est un outil essentiel pour les équipes cherchant à assurer la performance et la fiabilité de leurs applications web sous des charges élevées, grâce à ses capacités de simulation avancées et ses rapports détaillés."
+        ],
+        "sign": "Ludmilla Marti"
     }                              
 ]

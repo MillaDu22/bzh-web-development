@@ -3939,5 +3939,27 @@
             "Gatling est un outil essentiel pour les équipes cherchant à assurer la performance et la fiabilité de leurs applications web sous des charges élevées, grâce à ses capacités de simulation avancées et ses rapports détaillés."
         ],
         "sign": "Ludmilla Marti"
-    }                              
+    },
+    {
+        "id": 116,
+        "title": "Visual Studio Code : IDE Léger et Performant",
+        "date": "2025-03-24",
+        "intro": "Visual Studio Code est un environnement de développement intégré (IDE) open-source proposé par Microsoft, reconnu pour sa légèreté, sa flexibilité et son vaste écosystème d'extensions.",
+        "content": [
+            "1. Introduction à Visual Studio Code",
+            "VS Code est un éditeur de code puissant avec des fonctionnalités avancées adaptées aux développeurs modernes.",
+            "2. Fonctionnalités Principales",
+            "2.1. Extensions Riches",
+            "Grâce à son marketplace, VS Code offre des milliers d'extensions permettant d'ajouter des fonctionnalités spécifiques selon les besoins.",
+            "2.2. Debugging Avancé",
+            "VS Code intègre un puissant débogueur, facilitant l'analyse et la correction du code directement dans l'éditeur.",
+            "2.3. Intégration Git",
+            "Avec des outils de gestion de version intégrés, VS Code simplifie les workflows Git pour les projets collaboratifs.",
+            "3. Exemple d'Utilisation",
+            "Installation rapide via `code .` dans le terminal.",
+            "4. Conclusion",
+            "Visual Studio Code est un choix idéal pour les développeurs souhaitant allier légèreté et puissance dans leur environnement de travail."
+        ],
+        "sign": "Ludmilla Marti"
+    }                           
 ]

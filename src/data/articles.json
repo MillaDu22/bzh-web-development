@@ -4027,5 +4027,27 @@
             "Eclipse reste un choix pertinent pour les développeurs recherchant flexibilité et modularité."
         ],
         "sign": "Ludmilla Marti"
-    }                           
+    },
+    {
+        "id": 120,
+        "title": "WebStorm : IDE Spécialisé pour JavaScript et TypeScript",
+        "date": "2025-03-28",
+        "intro": "WebStorm est un IDE moderne et puissant conçu pour les développeurs spécialisés en JavaScript et TypeScript, offrant des outils avancés pour le développement web.",
+        "content": [
+            "1. Introduction à WebStorm",
+            "WebStorm est apprécié pour ses outils spécialisés dans les technologies web modernes.",
+            "2. Fonctionnalités Principales",
+            "2.1. Complétion de Code Intelligente",
+            "WebStorm offre une autocomplétion avancée adaptée aux frameworks comme React, Angular et Vue.js.",
+            "2.2. Outils de Debugging Avancés",
+            "Le débogueur intégré de WebStorm facilite l'identification rapide des erreurs dans le code front-end.",
+            "2.3. Gestion des Tests",
+            "WebStorm intègre des outils pour exécuter et visualiser les résultats des tests unitaires en temps réel.",
+            "3. Exemple d'Utilisation",
+            "Lancement de tests via `Ctrl + Maj + T`.",
+            "4. Conclusion",
+            "WebStorm est la solution idéale pour les développeurs JavaScript recherchant un IDE complet et performant."
+        ],
+        "sign": "Ludmilla Marti"
+    }                             
 ]

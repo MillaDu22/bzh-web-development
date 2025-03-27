@@ -4005,5 +4005,27 @@
             "PyCharm est un excellent choix pour les développeurs Python cherchant productivité et efficacité."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 119,
+        "title": "Eclipse IDE : Un Classique pour les Projets Java et Web",
+        "date": "2025-03-27",
+        "intro": "Eclipse IDE est une plateforme open-source robuste, particulièrement adaptée aux projets Java, mais également à d'autres langages comme C++, PHP ou Python.",
+        "content": [
+            "1. Introduction à Eclipse",
+            "Eclipse est largement utilisé par les développeurs Java et web grâce à son environnement modulaire.",
+            "2. Fonctionnalités Principales",
+            "2.1. Perspectives et Vues Personnalisables",
+            "Eclipse propose une interface flexible avec des vues adaptées à chaque langage et projet.",
+            "2.2. Large Écosystème de Plugins",
+            "Son écosystème étendu permet d'ajouter des outils spécifiques selon les besoins.",
+            "2.3. Support Multilingue",
+            "Eclipse prend en charge de nombreux langages, dont Java, C++, PHP et bien d'autres.",
+            "3. Exemple d'Utilisation",
+            "Compilation rapide avec `Ctrl + B`.",
+            "4. Conclusion",
+            "Eclipse reste un choix pertinent pour les développeurs recherchant flexibilité et modularité."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

@@ -1,27 +1,224 @@
 [
     {
-        "id": 120,
-        "title": "WebStorm : IDE Spécialisé pour JavaScript et TypeScript",
-        "date": "2025-03-28",
-        "intro": "WebStorm est un IDE moderne et puissant conçu pour les développeurs spécialisés en JavaScript et TypeScript, offrant des outils avancés pour le développement web.",
+        "id": 121,
+        "title": "ESLint : Extension Indispensable pour un Code Propre",
+        "date": "2025-03-31",
+        "intro": "ESLint est une extension essentielle pour maintenir un code JavaScript propre et cohérent, en appliquant des règles strictes de linting.",
         "content": [
-            "1. Introduction à WebStorm",
-            "WebStorm est apprécié pour ses outils spécialisés dans les technologies web modernes.",
+            "1. Introduction à ESLint",
+            "ESLint aide les développeurs à éviter les erreurs courantes et à respecter les bonnes pratiques de codage.",
             "2. Fonctionnalités Principales",
-            "2.1. Complétion de Code Intelligente",
-            "WebStorm offre une autocomplétion avancée adaptée aux frameworks comme React, Angular et Vue.js.",
-            "2.2. Outils de Debugging Avancés",
-            "Le débogueur intégré de WebStorm facilite l'identification rapide des erreurs dans le code front-end.",
-            "2.3. Gestion des Tests",
-            "WebStorm intègre des outils pour exécuter et visualiser les résultats des tests unitaires en temps réel.",
+            "2.1. Vérification de Code en Temps Réel",
+            "ESLint signale instantanément les erreurs et avertissements dans le code JavaScript.",
+            "2.2. Configuration Personnalisable",
+            "Les règles ESLint peuvent être adaptées aux besoins spécifiques de chaque projet.",
+            "2.3. Intégration avec Prettier",
+            "ESLint peut être combiné avec Prettier pour un formatage automatique du code.",
             "3. Exemple d'Utilisation",
-            "Lancement de tests via `Ctrl + Maj + T`.",
+            "Correction automatique des erreurs avec `Ctrl + Shift + P`, puis `Fix all auto-fixable problems`.",
             "4. Conclusion",
-            "WebStorm est la solution idéale pour les développeurs JavaScript recherchant un IDE complet et performant."
+            "ESLint est incontournable pour tout développeur souhaitant garantir un code propre et optimisé."
         ],
         "sign": "Ludmilla Marti"
-    }  
+    },
+    {
+        "id": 122,
+        "title": "Prettier : Extension de Formatage Automatique du Code",
+        "date": "2025-04-01",
+        "intro": "Prettier est une extension populaire qui applique un formatage automatique et homogène au code JavaScript.",
+        "content": [
+            "1. Introduction à Prettier",
+            "Prettier permet d'automatiser la mise en forme du code et de respecter des standards de lisibilité.",
+            "2. Fonctionnalités Principales",
+            "2.1. Formatage Automatique",
+            "Prettier reformate le code selon des règles strictes pour assurer sa cohérence.",
+            "2.2. Support Multi-langage",
+            "Compatible avec JavaScript, TypeScript, HTML, CSS, JSON, et plus encore.",
+            "2.3. Intégration avec ESLint",
+            "Peut être combiné avec ESLint pour éviter les conflits de règles de style.",
+            "3. Exemple d'Utilisation",
+            "Formater un fichier avec `Shift + Alt + F`.",
+            "4. Conclusion",
+            "Prettier est indispensable pour garantir un code propre et lisible sans effort."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 123,
+        "title": "Live Server : Aperçu Instantané des Modifications de Code",
+        "date": "2025-04-02",
+        "intro": "Live Server permet d'exécuter un serveur local pour voir les modifications de code en temps réel.",
+        "content": [
+            "1. Introduction à Live Server",
+            "Live Server est une extension qui rafraîchit automatiquement la page après chaque modification de code.",
+            "2. Fonctionnalités Principales",
+            "2.1. Rechargement Automatique",
+            "Actualisation instantanée du navigateur après une sauvegarde du fichier.",
+            "2.2. Support des Fichiers Statique",
+            "Compatible avec HTML, CSS, JavaScript et autres fichiers statiques.",
+            "2.3. Facilité d'Utilisation",
+            "Lancement simple en un clic sur l'icône de la barre d'état.",
+            "3. Exemple d'Utilisation",
+            "Ouvrir un projet avec `Alt + L, Alt + O`.",
+            "4. Conclusion",
+            "Live Server est parfait pour le développement web rapide et interactif."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 124,
+        "title": "REST Client : Tester des API directement dans VS Code",
+        "date": "2025-04-03",
+        "intro": "REST Client est une extension permettant de tester des API REST directement depuis VS Code, sans besoin d'outils externes comme Postman.",
+        "content": [
+            "1. Introduction à REST Client",
+            "REST Client simplifie le test des API grâce à des requêtes HTTP exécutables dans VS Code.",
+            "2. Fonctionnalités Principales",
+            "2.1. Exécution de Requêtes HTTP",
+            "Permet d'envoyer des requêtes GET, POST, PUT, DELETE, etc.",
+            "2.2. Historique des Requêtes",
+            "Sauvegarde et recharge facilement les requêtes précédentes.",
+            "2.3. Support des Variables et Authentification",
+            "Permet de gérer des tokens d'authentification et des paramètres dynamiques.",
+            "3. Exemple d'Utilisation",
+            "Envoyer une requête avec `Ctrl + Alt + R`.",
+            "4. Conclusion",
+            "REST Client est un excellent outil pour les développeurs travaillant avec des API."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 125,
+        "title": "Debugger for Chrome : Debugging Facilité pour les Applications Web",
+        "date": "2025-04-04",
+        "intro": "Debugger for Chrome permet de déboguer directement du code JavaScript dans VS Code sans quitter l'éditeur.",
+        "content": [
+            "1. Introduction à Debugger for Chrome",
+            "Cette extension facilite le debugging des applications JavaScript dans un navigateur Chrome.",
+            "2. Fonctionnalités Principales",
+            "2.1. Debugging Intégré",
+            "Permet d'ajouter des points d'arrêt et d'inspecter les variables.",
+            "2.2. Exécution Pas à Pas",
+            "Possibilité de suivre l'exécution du code ligne par ligne.",
+            "2.3. Intégration avec Webpack et React",
+            "Compatible avec les applications React et Angular utilisant Webpack.",
+            "3. Exemple d'Utilisation",
+            "Lancer le débogueur avec `F5`.",
+            "4. Conclusion",
+            "Debugger for Chrome est une alternative efficace aux outils DevTools du navigateur."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 126,
+        "title": "Path Intellisense : Complétion Automatique des Chemins de Fichiers",
+        "date": "2025-04-07",
+        "intro": "Path Intellisense facilite la navigation et la saisie des chemins de fichiers en proposant une complétion automatique.",
+        "content": [
+            "1. Introduction à Path Intellisense",
+            "Cette extension suggère automatiquement les chemins des fichiers au sein du projet.",
+            "2. Fonctionnalités Principales",
+            "2.1. Complétion Automatique",
+            "Réduit les erreurs de frappe et accélère l'écriture des chemins de fichiers.",
+            "2.2. Support Multi-langage",
+            "Fonctionne avec JavaScript, TypeScript, HTML, et CSS.",
+            "3. Exemple d'Utilisation",
+            "Commencez à taper un chemin et laissez l'autocomplétion faire le reste.",
+            "4. Conclusion",
+            "Path Intellisense est un gain de temps précieux pour la gestion des fichiers dans VS Code."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 127,
+        "title": "GitLens : Optimiser la Gestion de Version dans VS Code",
+        "date": "2025-04-08",
+        "intro": "GitLens améliore les fonctionnalités Git intégrées à VS Code en offrant un suivi détaillé des modifications et des contributions.",
+        "content": [
+            "1. Introduction à GitLens",
+            "GitLens permet aux développeurs de mieux comprendre l'historique des fichiers et de suivre les modifications avec précision.",
+            "2. Fonctionnalités Principales",
+            "2.1. Annotations de Blame en Temps Réel",
+            "Affiche directement dans l'éditeur qui a modifié chaque ligne et quand.",
+            "2.2. Visualisation de l'Historique des Fichiers",
+            "Permet d'explorer et comparer les différentes versions d'un fichier.",
+            "2.3. Exploration des Branches Git",
+            "Facilite la navigation entre branches et commits.",
+            "2.4. Intégration avec la Ligne de Commande Git",
+            "Ajoute des commandes pratiques directement accessibles depuis VS Code.",
+            "3. Exemple d'Utilisation",
+            "Survoler une ligne de code pour voir qui l'a modifiée et la date de modification.",
+            "4. Conclusion",
+            "GitLens est un outil puissant pour toute équipe travaillant avec Git et souhaitant optimiser leur gestion de version."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 128,
+        "title": "Bracket Pair Colorizer : Coloration des Paires de Parenthèses",
+        "date": "2025-04-09",
+        "intro": "Bracket Pair Colorizer améliore la lisibilité du code en colorant les paires de parenthèses, accolades et crochets.",
+        "content": [
+            "1. Introduction à Bracket Pair Colorizer",
+            "Cette extension assigne une couleur unique à chaque paire de parenthèses pour faciliter la lecture du code.",
+            "2. Fonctionnalités Principales",
+            "2.1. Coloration Dynamique",
+            "Les paires de parenthèses sont automatiquement colorées pour une meilleure distinction visuelle.",
+            "2.2. Personnalisation des Couleurs",
+            "Possibilité de modifier les couleurs selon les préférences du développeur.",
+            "3. Exemple d'Utilisation",
+            "Activez l'extension et observez la coloration des paires dans votre code.",
+            "4. Conclusion",
+            "Bracket Pair Colorizer simplifie la compréhension des blocs de code imbriqués."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 129,
+        "title": "Thunder Client : Testez vos API Rapidement",
+        "date": "2025-04-10",
+        "intro": "Thunder Client est une alternative légère à Postman permettant de tester facilement les API REST directement dans VS Code.",
+        "content": [
+            "1. Introduction à Thunder Client",
+            "Thunder Client simplifie les tests d'API en proposant une interface intuitive intégrée à l'éditeur.",
+            "2. Fonctionnalités Principales",
+            "2.1. Interface Intégrée",
+            "Permet de créer, envoyer et gérer des requêtes API sans quitter VS Code.",
+            "2.2. Support des Méthodes HTTP",
+            "Compatible avec GET, POST, PUT, DELETE et bien d'autres.",
+            "2.3. Gestion des Headers et Body",
+            "Ajoutez facilement des en-têtes, paramètres et corps de requête.",
+            "3. Exemple d'Utilisation",
+            "Effectuez une requête GET et visualisez immédiatement la réponse JSON.",
+            "4. Conclusion",
+            "Thunder Client est l'outil idéal pour tester ses API sans logiciel externe."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 130,
+        "title": "JavaScript (ES6) Code Snippets : Raccourcis pour un Développement Rapide",
+        "date": "2025-04-11",
+        "intro": "JavaScript (ES6) Code Snippets est une extension indispensable qui ajoute des raccourcis pratiques pour écrire du code JavaScript moderne plus rapidement.",
+        "content": [
+            "1. Introduction à JavaScript (ES6) Code Snippets",
+            "Cette extension permet d'insérer des blocs de code prédéfinis en quelques touches, accélérant ainsi le développement.",
+            "2. Fonctionnalités Principales",
+            "2.1. Raccourcis pour les Structures Courantes",
+            "Ajoute des snippets pour les fonctions fléchées, les modules ES6, les boucles, etc.",
+            "2.2. Écriture Rapide et Intuitive",
+            "Simplifie la saisie de code en suggérant des extraits prêts à l'emploi.",
+            "2.3. Compatibilité avec TypeScript",
+            "Prend en charge TypeScript et les dernières fonctionnalités ES6/ESNext.",
+            "3. Exemple d'Utilisation",
+            "Tapez `clg` pour générer `console.log()` instantanément.",
+            "4. Conclusion",
+            "JavaScript (ES6) Code Snippets est un atout majeur pour améliorer la productivité des développeurs JavaScript."
+        ],
+        "sign": "Ludmilla Marti"
+    }
 ]
+
 
 
 

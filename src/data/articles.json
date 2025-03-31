@@ -4071,5 +4071,27 @@
             "ESLint est incontournable pour tout développeur souhaitant garantir un code propre et optimisé."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 122,
+        "title": "Prettier : Extension de Formatage Automatique du Code",
+        "date": "2025-04-01",
+        "intro": "Prettier est une extension populaire qui applique un formatage automatique et homogène au code JavaScript.",
+        "content": [
+            "1. Introduction à Prettier",
+            "Prettier permet d'automatiser la mise en forme du code et de respecter des standards de lisibilité.",
+            "2. Fonctionnalités Principales",
+            "2.1. Formatage Automatique",
+            "Prettier reformate le code selon des règles strictes pour assurer sa cohérence.",
+            "2.2. Support Multi-langage",
+            "Compatible avec JavaScript, TypeScript, HTML, CSS, JSON, et plus encore.",
+            "2.3. Intégration avec ESLint",
+            "Peut être combiné avec ESLint pour éviter les conflits de règles de style.",
+            "3. Exemple d'Utilisation",
+            "Formater un fichier avec `Shift + Alt + F`.",
+            "4. Conclusion",
+            "Prettier est indispensable pour garantir un code propre et lisible sans effort."
+        ],
+        "sign": "Ludmilla Marti"
     }                             
 ]

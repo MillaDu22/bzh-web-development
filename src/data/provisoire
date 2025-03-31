@@ -1,49 +1,5 @@
 [
     {
-        "id": 121,
-        "title": "ESLint : Extension Indispensable pour un Code Propre",
-        "date": "2025-03-31",
-        "intro": "ESLint est une extension essentielle pour maintenir un code JavaScript propre et cohérent, en appliquant des règles strictes de linting.",
-        "content": [
-            "1. Introduction à ESLint",
-            "ESLint aide les développeurs à éviter les erreurs courantes et à respecter les bonnes pratiques de codage.",
-            "2. Fonctionnalités Principales",
-            "2.1. Vérification de Code en Temps Réel",
-            "ESLint signale instantanément les erreurs et avertissements dans le code JavaScript.",
-            "2.2. Configuration Personnalisable",
-            "Les règles ESLint peuvent être adaptées aux besoins spécifiques de chaque projet.",
-            "2.3. Intégration avec Prettier",
-            "ESLint peut être combiné avec Prettier pour un formatage automatique du code.",
-            "3. Exemple d'Utilisation",
-            "Correction automatique des erreurs avec `Ctrl + Shift + P`, puis `Fix all auto-fixable problems`.",
-            "4. Conclusion",
-            "ESLint est incontournable pour tout développeur souhaitant garantir un code propre et optimisé."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
-        "id": 122,
-        "title": "Prettier : Extension de Formatage Automatique du Code",
-        "date": "2025-04-01",
-        "intro": "Prettier est une extension populaire qui applique un formatage automatique et homogène au code JavaScript.",
-        "content": [
-            "1. Introduction à Prettier",
-            "Prettier permet d'automatiser la mise en forme du code et de respecter des standards de lisibilité.",
-            "2. Fonctionnalités Principales",
-            "2.1. Formatage Automatique",
-            "Prettier reformate le code selon des règles strictes pour assurer sa cohérence.",
-            "2.2. Support Multi-langage",
-            "Compatible avec JavaScript, TypeScript, HTML, CSS, JSON, et plus encore.",
-            "2.3. Intégration avec ESLint",
-            "Peut être combiné avec ESLint pour éviter les conflits de règles de style.",
-            "3. Exemple d'Utilisation",
-            "Formater un fichier avec `Shift + Alt + F`.",
-            "4. Conclusion",
-            "Prettier est indispensable pour garantir un code propre et lisible sans effort."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 123,
         "title": "Live Server : Aperçu Instantané des Modifications de Code",
         "date": "2025-04-02",

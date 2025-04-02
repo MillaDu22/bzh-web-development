@@ -4115,5 +4115,27 @@
             "Live Server est parfait pour le développement web rapide et interactif."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 124,
+        "title": "REST Client : Tester des API directement dans VS Code",
+        "date": "2025-04-03",
+        "intro": "REST Client est une extension permettant de tester des API REST directement depuis VS Code, sans besoin d'outils externes comme Postman.",
+        "content": [
+            "1. Introduction à REST Client",
+            "REST Client simplifie le test des API grâce à des requêtes HTTP exécutables dans VS Code.",
+            "2. Fonctionnalités Principales",
+            "2.1. Exécution de Requêtes HTTP",
+            "Permet d'envoyer des requêtes GET, POST, PUT, DELETE, etc.",
+            "2.2. Historique des Requêtes",
+            "Sauvegarde et recharge facilement les requêtes précédentes.",
+            "2.3. Support des Variables et Authentification",
+            "Permet de gérer des tokens d'authentification et des paramètres dynamiques.",
+            "3. Exemple d'Utilisation",
+            "Envoyer une requête avec `Ctrl + Alt + R`.",
+            "4. Conclusion",
+            "REST Client est un excellent outil pour les développeurs travaillant avec des API."
+        ],
+        "sign": "Ludmilla Marti"
     }                             
 ]

@@ -1,27 +1,5 @@
 [
     {
-        "id": 123,
-        "title": "Live Server : Aperçu Instantané des Modifications de Code",
-        "date": "2025-04-02",
-        "intro": "Live Server permet d'exécuter un serveur local pour voir les modifications de code en temps réel.",
-        "content": [
-            "1. Introduction à Live Server",
-            "Live Server est une extension qui rafraîchit automatiquement la page après chaque modification de code.",
-            "2. Fonctionnalités Principales",
-            "2.1. Rechargement Automatique",
-            "Actualisation instantanée du navigateur après une sauvegarde du fichier.",
-            "2.2. Support des Fichiers Statique",
-            "Compatible avec HTML, CSS, JavaScript et autres fichiers statiques.",
-            "2.3. Facilité d'Utilisation",
-            "Lancement simple en un clic sur l'icône de la barre d'état.",
-            "3. Exemple d'Utilisation",
-            "Ouvrir un projet avec `Alt + L, Alt + O`.",
-            "4. Conclusion",
-            "Live Server est parfait pour le développement web rapide et interactif."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 124,
         "title": "REST Client : Tester des API directement dans VS Code",
         "date": "2025-04-03",

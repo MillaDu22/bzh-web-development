@@ -1,25 +1,5 @@
 [
     {
-        "id": 126,
-        "title": "Path Intellisense : Complétion Automatique des Chemins de Fichiers",
-        "date": "2025-04-07",
-        "intro": "Path Intellisense facilite la navigation et la saisie des chemins de fichiers en proposant une complétion automatique.",
-        "content": [
-            "1. Introduction à Path Intellisense",
-            "Cette extension suggère automatiquement les chemins des fichiers au sein du projet.",
-            "2. Fonctionnalités Principales",
-            "2.1. Complétion Automatique",
-            "Réduit les erreurs de frappe et accélère l'écriture des chemins de fichiers.",
-            "2.2. Support Multi-langage",
-            "Fonctionne avec JavaScript, TypeScript, HTML, et CSS.",
-            "3. Exemple d'Utilisation",
-            "Commencez à taper un chemin et laissez l'autocomplétion faire le reste.",
-            "4. Conclusion",
-            "Path Intellisense est un gain de temps précieux pour la gestion des fichiers dans VS Code."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 127,
         "title": "GitLens : Optimiser la Gestion de Version dans VS Code",
         "date": "2025-04-08",

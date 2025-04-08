@@ -4179,5 +4179,29 @@
             "Path Intellisense est un gain de temps précieux pour la gestion des fichiers dans VS Code."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 127,
+        "title": "GitLens : Optimiser la Gestion de Version dans VS Code",
+        "date": "2025-04-08",
+        "intro": "GitLens améliore les fonctionnalités Git intégrées à VS Code en offrant un suivi détaillé des modifications et des contributions.",
+        "content": [
+            "1. Introduction à GitLens",
+            "GitLens permet aux développeurs de mieux comprendre l'historique des fichiers et de suivre les modifications avec précision.",
+            "2. Fonctionnalités Principales",
+            "2.1. Annotations de Blame en Temps Réel",
+            "Affiche directement dans l'éditeur qui a modifié chaque ligne et quand.",
+            "2.2. Visualisation de l'Historique des Fichiers",
+            "Permet d'explorer et comparer les différentes versions d'un fichier.",
+            "2.3. Exploration des Branches Git",
+            "Facilite la navigation entre branches et commits.",
+            "2.4. Intégration avec la Ligne de Commande Git",
+            "Ajoute des commandes pratiques directement accessibles depuis VS Code.",
+            "3. Exemple d'Utilisation",
+            "Survoler une ligne de code pour voir qui l'a modifiée et la date de modification.",
+            "4. Conclusion",
+            "GitLens est un outil puissant pour toute équipe travaillant avec Git et souhaitant optimiser leur gestion de version."
+        ],
+        "sign": "Ludmilla Marti"
     }                            
 ]

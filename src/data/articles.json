@@ -4203,5 +4203,47 @@
             "GitLens est un outil puissant pour toute équipe travaillant avec Git et souhaitant optimiser leur gestion de version."
         ],
         "sign": "Ludmilla Marti"
-    }                            
+    },
+    {
+        "id": 128,
+        "title": "Bracket Pair Colorizer : Coloration des Paires de Parenthèses",
+        "date": "2025-04-09",
+        "intro": "Bracket Pair Colorizer améliore la lisibilité du code en colorant les paires de parenthèses, accolades et crochets.",
+        "content": [
+            "1. Introduction à Bracket Pair Colorizer",
+            "Cette extension assigne une couleur unique à chaque paire de parenthèses pour faciliter la lecture du code.",
+            "2. Fonctionnalités Principales",
+            "2.1. Coloration Dynamique",
+            "Les paires de parenthèses sont automatiquement colorées pour une meilleure distinction visuelle.",
+            "2.2. Personnalisation des Couleurs",
+            "Possibilité de modifier les couleurs selon les préférences du développeur.",
+            "3. Exemple d'Utilisation",
+            "Activez l'extension et observez la coloration des paires dans votre code.",
+            "4. Conclusion",
+            "Bracket Pair Colorizer simplifie la compréhension des blocs de code imbriqués."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 129,
+        "title": "Thunder Client : Testez vos API Rapidement",
+        "date": "2025-04-10",
+        "intro": "Thunder Client est une alternative légère à Postman permettant de tester facilement les API REST directement dans VS Code.",
+        "content": [
+            "1. Introduction à Thunder Client",
+            "Thunder Client simplifie les tests d'API en proposant une interface intuitive intégrée à l'éditeur.",
+            "2. Fonctionnalités Principales",
+            "2.1. Interface Intégrée",
+            "Permet de créer, envoyer et gérer des requêtes API sans quitter VS Code.",
+            "2.2. Support des Méthodes HTTP",
+            "Compatible avec GET, POST, PUT, DELETE et bien d'autres.",
+            "2.3. Gestion des Headers et Body",
+            "Ajoutez facilement des en-têtes, paramètres et corps de requête.",
+            "3. Exemple d'Utilisation",
+            "Effectuez une requête GET et visualisez immédiatement la réponse JSON.",
+            "4. Conclusion",
+            "Thunder Client est l'outil idéal pour tester ses API sans logiciel externe."
+        ],
+        "sign": "Ludmilla Marti"
+    }                           
 ]

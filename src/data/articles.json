@@ -4245,5 +4245,27 @@
             "Thunder Client est l'outil idéal pour tester ses API sans logiciel externe."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 130,
+        "title": "JavaScript (ES6) Code Snippets : Raccourcis pour un Développement Rapide",
+        "date": "2025-04-11",
+        "intro": "JavaScript (ES6) Code Snippets est une extension indispensable qui ajoute des raccourcis pratiques pour écrire du code JavaScript moderne plus rapidement.",
+        "content": [
+            "1. Introduction à JavaScript (ES6) Code Snippets",
+            "Cette extension permet d'insérer des blocs de code prédéfinis en quelques touches, accélérant ainsi le développement.",
+            "2. Fonctionnalités Principales",
+            "2.1. Raccourcis pour les Structures Courantes",
+            "Ajoute des snippets pour les fonctions fléchées, les modules ES6, les boucles, etc.",
+            "2.2. Écriture Rapide et Intuitive",
+            "Simplifie la saisie de code en suggérant des extraits prêts à l'emploi.",
+            "2.3. Compatibilité avec TypeScript",
+            "Prend en charge TypeScript et les dernières fonctionnalités ES6/ESNext.",
+            "3. Exemple d'Utilisation",
+            "Tapez `clg` pour générer `console.log()` instantanément.",
+            "4. Conclusion",
+            "JavaScript (ES6) Code Snippets est un atout majeur pour améliorer la productivité des développeurs JavaScript."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

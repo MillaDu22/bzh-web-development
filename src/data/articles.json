@@ -4267,5 +4267,27 @@
             "JavaScript (ES6) Code Snippets est un atout majeur pour améliorer la productivité des développeurs JavaScript."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 131,
+        "title": "o2switch : L’hébergement web français tout-en-un à prix unique",
+        "date": "2025-04-14",
+        "intro": "o2switch est un hébergeur 100% français reconnu pour sa formule unique, illimitée et performante, idéale pour les sites WordPress ou vitrines.",
+        "content": [
+            "1. Présentation de o2switch",
+            "Basé à Clermont-Ferrand, o2switch propose une offre d’hébergement mutualisé unique à 7€/mois tout compris.",
+            "2. Avantages de l'offre",
+            "2.1. Ressources Illimitées",
+            "Stockage SSD, trafic, bases de données, tout est illimité sans surcoût.",
+            "2.2. Infrastructure Performante",
+            "Serveurs localisés en France avec technologie NVMe et cPanel inclus.",
+            "2.3. Support Réactif",
+            "Une assistance client très appréciée, joignable 7j/7.",
+            "3. Pour quel usage ?",
+            "Idéal pour les freelances, TPE, PME, sites vitrines ou WordPress avec trafic moyen.",
+            "4. Conclusion",
+            "o2switch offre un excellent rapport qualité/prix sans surprise, avec un service français fiable et complet."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

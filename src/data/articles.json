@@ -4289,5 +4289,27 @@
             "o2switch offre un excellent rapport qualité/prix sans surprise, avec un service français fiable et complet."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 132,
+        "title": "Infomaniak : L'hébergement éco-responsable haut de gamme",
+        "date": "2025-04-15",
+        "intro": "Infomaniak, hébergeur suisse très présent en France, allie performances techniques, éthique écologique et interface intuitive.",
+        "content": [
+            "1. Présentation d’Infomaniak",
+            "Hébergeur premium certifié ISO, alimenté à 100% par des énergies renouvelables.",
+            "2. Points forts de l'offre",
+            "2.1. Hébergement Web + Mail",
+            "À partir de 5,10€/mois, actuellement, avec 100 Go SSD, emails, bases de données, sauvegardes automatiques.",
+            "2.2. Interface moderne",
+            "Tableau de bord ergonomique, déploiement rapide de CMS (WordPress, Joomla...).",
+            "2.3. Respect de la vie privée",
+            "Données hébergées en Suisse avec une politique de confidentialité stricte.",
+            "3. Pour quel type de projet ?",
+            "Parfait pour les professionnels sensibles à l’environnement et à la sécurité des données.",
+            "4. Conclusion",
+            "Infomaniak est une valeur sûre pour un hébergement éthique, fiable et performant."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

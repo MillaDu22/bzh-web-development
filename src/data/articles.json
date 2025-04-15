@@ -4311,5 +4311,27 @@
             "Infomaniak est une valeur sûre pour un hébergement éthique, fiable et performant."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 133,
+        "title": "LWS : L'hébergeur français abordable et complet pour tous les budgets",
+        "date": "2025-04-16",
+        "intro": "LWS propose une large gamme de services d’hébergement web à prix compétitifs, avec des options adaptées aux débutants comme aux pros.",
+        "content": [
+            "1. Introduction à LWS",
+            "Entreprise française fondée en 1999, spécialisée dans l’hébergement mutualisé, VPS et noms de domaine.",
+            "2. Caractéristiques clés",
+            "2.1. Tarifs très attractifs",
+            "Offres dès 1,49€/mois pour un site simple avec mail, jusqu'à des packs pro avec certificats SSL inclus.",
+            "2.2. Options variées",
+            "Choix d’hébergement Linux/Windows, constructeurs de site, CMS préinstallés, etc.",
+            "2.3. Interface claire",
+            "CPanel ou LWS Panel selon les offres, accessibles même aux débutants.",
+            "3. Idéal pour...",
+            "Petits sites, blogueurs, associations ou auto-entrepreneurs avec budget réduit.",
+            "4. Conclusion",
+            "LWS reste une référence accessible avec un excellent suivi client pour le prix proposé."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

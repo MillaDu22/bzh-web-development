@@ -4333,5 +4333,27 @@
             "LWS reste une référence accessible avec un excellent suivi client pour le prix proposé."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 134,
+        "title": "PlanetHoster : Une solution hybride entre performance et liberté",
+        "date": "2025-04-17",
+        "intro": "PlanetHoster propose une infrastructure hybride unique pour les développeurs et les utilisateurs en quête de flexibilité.",
+        "content": [
+            "1. À propos de PlanetHoster",
+            "Hébergeur franco-canadien réputé pour son offre The World et son système HybridCloud.",
+            "2. Fonctionnalités puissantes",
+            "2.1. The World : Offre tout inclus",
+            "Hébergement multisite, ressources personnalisables, SSL, anti-DDoS, dès 6€/mois.",
+            "2.2. Interface N0C",
+            "Panneau de contrôle avancé, adapté aux développeurs exigeants.",
+            "2.3. Sauvegardes et sécurité",
+            "Backups quotidiens, sécurité réseau avancée incluse.",
+            "3. Pour qui ?",
+            "Recommandé aux freelances tech, agences et développeurs avec plusieurs projets.",
+            "4. Conclusion",
+            "PlanetHoster offre un rapport puissance/prix très compétitif, idéal pour monter en gamme."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

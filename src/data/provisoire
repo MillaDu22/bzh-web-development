@@ -1,48 +1,5 @@
 [
-    {
-        "id": 136,
-        "title": "Ikoula : Un hébergement web français tourné vers la performance et l’entreprise",
-        "date": "2025-04-21",
-        "intro": "Ikoula est un hébergeur français qui mise sur la performance, la sécurité et le cloud, tout en gardant des offres accessibles aux PME et freelances.",
-        "content": [
-            "1. Présentation d’Ikoula",
-            "Acteur français de l’hébergement depuis 1998, avec des datacenters en France (Reims, Eppes).",
-            "2. Points forts",
-            "2.1. Offre web mutualisée dès 1,49€/mois",
-            "Pour des sites simples avec cPanel, certificat SSL, emails inclus.",
-            "2.2. VPS et cloud personnalisables",
-            "Accès root, SSD, choix de l’OS, adapté aux pros techniques.",
-            "2.3. Support technique basé en France",
-            "Assistance proactive avec possibilité de support premium.",
-            "3. Pour quel usage ?",
-            "Entreprises, indépendants ou devs ayant besoin d'une solution évolutive.",
-            "4. Conclusion",
-            "Ikoula propose des services pro, stables et transparents avec un bon ancrage français."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
-        "id": 137,
-        "title": "Nuxit : Un hébergeur web français complet pour les projets flexibles",
-        "date": "2025-04-22",
-        "intro": "Nuxit propose une large gamme d’hébergements web avec une vraie flexibilité, des offres cloud et VPS aux solutions mutualisées abordables.",
-        "content": [
-            "1. À propos de Nuxit",
-            "Nuxit est un hébergeur français basé à Sophia-Antipolis, racheté par Magic Online, avec une grande expertise en hébergement sur mesure.",
-            "2. Les points clés",
-            "2.1. Mutualisé flexible dès 2,99€/mois",
-            "Jusqu’à 100 Go d’espace, emails illimités, bases MySQL, SSL inclus.",
-            "2.2. Hébergements pro et VPS disponibles",
-            "Des offres adaptées aux besoins évolutifs des sites web complexes.",
-            "2.3. Interface et services avancés",
-            "cPanel, sauvegardes, outils pro, anti-DDoS, FTP/SFTP, Webmail.",
-            "3. Public ciblé",
-            "Entreprises, développeurs indépendants ou agences digitales.",
-            "4. Conclusion",
-            "Nuxit est un bon compromis pour ceux qui recherchent polyvalence, stabilité et accompagnement."
-        ],
-        "sign": "Ludmilla Marti"
-    },
+
     {
         "id": 138,
         "title": "EasyHoster : L’hébergement avec accompagnement pour les utilisateurs WordPress",

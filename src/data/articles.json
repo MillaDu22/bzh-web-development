@@ -4421,5 +4421,27 @@
             "Nuxit est un bon compromis pour ceux qui recherchent polyvalence, stabilité et accompagnement."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 138,
+        "title": "EasyHoster : L’hébergement avec accompagnement pour les utilisateurs WordPress",
+        "date": "2025-04-24",
+        "intro": "EasyHoster est un hébergeur français spécialisé WordPress, connu pour son accompagnement client et ses performances optimisées.",
+        "content": [
+            "1. Présentation d’EasyHoster",
+            "Hébergeur francophone indépendant qui propose un vrai service « mains dans le cambouis » pour ses clients WordPress.",
+            "2. Ce qui le rend unique",
+            "2.1. Accompagnement sur mesure",
+            "Assistance personnalisée : migration gratuite, dépannage WordPress, conseils SEO.",
+            "2.2. Performances optimisées",
+            "Serveurs français optimisés pour WordPress, CDN, cache et sécurité intégrés.",
+            "2.3. Simplicité d'utilisation",
+            "Interface claire, accès cPanel et support client humain et disponible.",
+            "3. Pour quel type de projet ?",
+            "Blogueurs, PME, indépendants ayant besoin de support technique régulier.",
+            "4. Conclusion",
+            "EasyHoster est bien plus qu’un hébergeur : c’est un partenaire WordPress attentif et bienveillant."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

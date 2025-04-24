@@ -1,27 +1,5 @@
 [
     {
-        "id": 139,
-        "title": "OVHcloud : Le géant français de l’hébergement pour tous les profils",
-        "date": "2025-04-25",
-        "intro": "OVHcloud est l’un des plus grands hébergeurs européens, avec une gamme complète de services adaptés aussi bien aux particuliers qu’aux grandes entreprises.",
-        "content": [
-            "1. Qui est OVHcloud ?",
-            "Basé à Roubaix, OVHcloud est un acteur majeur avec des millions de clients à travers le monde.",
-            "2. Large choix de services",
-            "2.1. Hébergement web dès 3,59€/mois",
-            "Hébergement mutualisé, WordPress, SSL, emails inclus, trafic illimité.",
-            "2.2. VPS, serveurs dédiés, cloud public",
-            "Solutions adaptées aux besoins pro, devops ou hébergements critiques.",
-            "2.3. Panel OVH + API",
-            "Gestion centralisée puissante, automatisation possible.",
-            "3. Pour qui ?",
-            "Particuliers, PME, agences, entreprises tech ou startups à forte croissance.",
-            "4. Conclusion",
-            "OVHcloud reste une valeur sûre avec un bon rapport ressources/prix pour tout type de projet."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 140,
         "title": "Scaleway Web Hosting : L’alternative française dans le cloud simple et rapide",
         "date": "2025-04-25",

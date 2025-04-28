@@ -4465,5 +4465,27 @@
             "OVHcloud reste une valeur sûre avec un bon rapport ressources/prix pour tout type de projet."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 140,
+        "title": "Scaleway Web Hosting : L’alternative française dans le cloud simple et rapide",
+        "date": "2025-04-28",
+        "intro": "Scaleway, filiale d’Iliad (Free), propose des solutions cloud et des hébergements simples adaptés aux développeurs et startups françaises.",
+        "content": [
+            "1. Présentation de Scaleway",
+            "Spécialiste du cloud computing et de l’infrastructure, Scaleway propose aussi de l’hébergement web classique via Web Hosting.",
+            "2. Caractéristiques principales",
+            "2.1. Offre Simple Hosting",
+            "Hébergement WordPress/PHP/Node.js dès 2,99€/mois, scalable selon la charge.",
+            "2.2. Cloud PaaS & DevOps",
+            "Instances à la demande, conteneurs, stockage objet, API RESTful.",
+            "2.3. Engagement écologique",
+            "Datacenters verts (DC5), certifiés, avec neutralité carbone visée.",
+            "3. Ciblé pour...",
+            "Startups tech, développeurs modernes, porteurs de projet cloud-ready.",
+            "4. Conclusion",
+            "Scaleway est l’alternative cloud française moderne pour ceux qui veulent allier performance, éthique et évolutivité."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

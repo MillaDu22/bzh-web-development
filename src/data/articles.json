@@ -4487,5 +4487,27 @@
             "Scaleway est l’alternative cloud française moderne pour ceux qui veulent allier performance, éthique et évolutivité."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 141,
+        "title": "OVHcloud Canada : Performance et sécurité pour vos projets",
+        "date": "2025-04-29",
+        "intro": "OVHcloud propose une gamme d’hébergements au Canada pour startups, PME et projets cloud ambitieux.",
+        "content": [
+            "1. Présentation d'OVHcloud Canada",
+            "Infrastructure solide, data centers à Beauharnois (Québec), services cloud et hébergements variés.",
+            "2. Caractéristiques principales",
+            "2.1. Hébergement Web Perso/Pro",
+            "À partir de 3,99 CAD/mois, adapté aux sites WordPress, Drupal et Joomla.",
+            "2.2. Cloud et VPS canadiens",
+            "Instances scalables, stockage haute disponibilité, support API OpenStack.",
+            "2.3. Engagement local",
+            "Soutien à l’économie numérique québécoise, initiatives environnementales.",
+            "3. Ciblé pour...",
+            "Entreprises locales, freelances, développeurs cloud natifs.",
+            "4. Conclusion",
+            "OVHcloud Canada est une valeur sûre pour l’hébergement cloud sécurisé et abordable au Québec."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

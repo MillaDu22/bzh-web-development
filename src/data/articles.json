@@ -4553,5 +4553,27 @@
             "WHC propose un service de proximité hautement fiable pour héberger vos projets canadiens."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 144,
+        "title": "GreenGeeks Canada : L’hébergement écologique sans compromis",
+        "date": "2025-05-05",
+        "intro": "GreenGeeks combine écologie et technologie pour un hébergement web hautement performant au Canada.",
+        "content": [
+            "1. Présentation de GreenGeeks Canada",
+            "Présent à Toronto, GreenGeeks mise sur l’énergie verte et les performances solides.",
+            "2. Caractéristiques principales",
+            "2.1. Hébergement mutualisé",
+            "Dès 2,95 USD/mois avec domaine gratuit la première année.",
+            "2.2. Plateforme scalable",
+            "Support PHP 8, LiteSpeed Caching, accès SSH inclus.",
+            "2.3. Engagement environnemental",
+            "Compense 300% de la consommation énergétique en crédits d'énergie renouvelable.",
+            "3. Ciblé pour...",
+            "Startups durables, développeurs conscients de l'impact environnemental.",
+            "4. Conclusion",
+            "GreenGeeks est parfait pour héberger ses projets sans sacrifier l’écoresponsabilité."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

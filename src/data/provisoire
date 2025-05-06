@@ -1,27 +1,5 @@
 [
     {
-        "id": 146,
-        "title": "Bluehost Canada : La solution WordPress recommandée",
-        "date": "2025-05-06",
-        "intro": "Bluehost, recommandé par WordPress.org, propose une version optimisée pour le marché canadien.",
-        "content": [
-            "1. Présentation de Bluehost Canada",
-            "Filiale de Endurance International Group, présente aussi au Canada.",
-            "2. Caractéristiques principales",
-            "2.1. WordPress Hosting",
-            "Installation automatique, CDN gratuit, stockage SSD.",
-            "2.2. WooCommerce Hosting",
-            "Boutique clé en main avec sécurité renforcée.",
-            "2.3. Service Client",
-            "Support dédié WordPress certifié disponible 24/7.",
-            "3. Ciblé pour...",
-            "Blogueurs, créateurs de sites WordPress, e-commerçants.",
-            "4. Conclusion",
-            "Bluehost Canada est incontournable pour lancer facilement un site WordPress performant."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 147,
         "title": "SiteGround Canada : Technologie ultra rapide pour votre site",
         "date": "2025-05-07",

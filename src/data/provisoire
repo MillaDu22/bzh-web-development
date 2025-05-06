@@ -1,49 +1,5 @@
 [
     {
-        "id": 144,
-        "title": "GreenGeeks Canada : L’hébergement écologique sans compromis",
-        "date": "2025-05-02",
-        "intro": "GreenGeeks combine écologie et technologie pour un hébergement web hautement performant au Canada.",
-        "content": [
-            "1. Présentation de GreenGeeks Canada",
-            "Présent à Toronto, GreenGeeks mise sur l’énergie verte et les performances solides.",
-            "2. Caractéristiques principales",
-            "2.1. Hébergement mutualisé",
-            "Dès 2,95 USD/mois avec domaine gratuit la première année.",
-            "2.2. Plateforme scalable",
-            "Support PHP 8, LiteSpeed Caching, accès SSH inclus.",
-            "2.3. Engagement environnemental",
-            "Compense 300% de la consommation énergétique en crédits d'énergie renouvelable.",
-            "3. Ciblé pour...",
-            "Startups durables, développeurs conscients de l'impact environnemental.",
-            "4. Conclusion",
-            "GreenGeeks est parfait pour héberger ses projets sans sacrifier l’écoresponsabilité."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
-        "id": 145,
-        "title": "Hostinger Canada : Le meilleur rapport qualité-prix pour les créateurs",
-        "date": "2025-05-05",
-        "intro": "Hostinger, avec ses prix ultra-compétitifs, s’est aussi implanté au Canada pour séduire les créateurs et petites entreprises.",
-        "content": [
-            "1. Présentation de Hostinger Canada",
-            "Hostinger propose des plans puissants pour débutants et développeurs aguerris.",
-            "2. Caractéristiques principales",
-            "2.1. Hébergement Web Premium",
-            "À partir de 2,79 CAD/mois, SSL et sauvegardes inclus.",
-            "2.2. Hébergement VPS",
-            "Instances NVMe, administration complète via hPanel.",
-            "2.3. Support client 24/7",
-            "Assistance multilingue réactive par chat.",
-            "3. Ciblé pour...",
-            "Blogueurs, e-commerçants débutants, freelances tech.",
-            "4. Conclusion",
-            "Hostinger Canada est une option économique sans compromis pour lancer son projet web."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 146,
         "title": "Bluehost Canada : La solution WordPress recommandée",
         "date": "2025-05-06",

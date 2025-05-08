@@ -1,27 +1,5 @@
 [
     {
-        "id": 147,
-        "title": "SiteGround Canada : Technologie ultra rapide pour votre site",
-        "date": "2025-05-07",
-        "intro": "SiteGround est reconnu pour ses performances techniques et son service client exceptionnel, disponible aussi au Canada.",
-        "content": [
-            "1. Présentation de SiteGround Canada",
-            "Leader en innovation technologique, certifié par Google Cloud.",
-            "2. Caractéristiques principales",
-            "2.1. Hébergement WordPress et WooCommerce",
-            "Vitesse de chargement optimisée avec CDN gratuit.",
-            "2.2. Plateforme cloud scalable",
-            "Auto-scaling en cas de pic de trafic.",
-            "2.3. Support technique premium",
-            "Experts WordPress disponibles en 15 minutes en moyenne.",
-            "3. Ciblé pour...",
-            "Professionnels exigeants, startups tech, sites e-commerce.",
-            "4. Conclusion",
-            "SiteGround Canada est la solution haut de gamme pour des sites web rapides et fiables."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 148,
         "title": "CanSpace Solutions : L’hébergement canadien pur jus",
         "date": "2025-05-08",

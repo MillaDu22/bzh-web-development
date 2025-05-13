@@ -4685,5 +4685,24 @@
             "PlanetHoster est l’alternative haut de gamme canadienne pour une liberté et une performance totales."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 150,
+        "title": "Performance optimisée : quand le code sur mesure fait la différence",
+        "date": "2025-05-14",
+        "intro": "Un site codé à la main charge plus vite, répond mieux et fait plaisir à Google. Contrairement aux CMS souvent trop lourds.",
+        "content": [
+            "1. Pourquoi la performance compte",
+            "Un site rapide améliore l'expérience utilisateur et le référencement.",
+            "2. CMS : la lenteur intégrée",
+            "Thèmes surchargés, plugins multiples, scripts inutiles.",
+            "3. Code sur mesure : le contrôle total",
+            "Optimisation ciblée, seulement ce qui est nécessaire, pas plus.",
+            "4. Résultat sur le terrain",
+            "Tests GTmetrix / Lighthouse bien au-dessus de la moyenne.",
+            "5. Conclusion",
+            "Pour des performances au top, rien ne vaut un code propre fait main."
+        ],
+        "sign": "Ludmilla Marti"
     }                           
 ]

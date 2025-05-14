@@ -1,24 +1,5 @@
 [
     {
-        "id": 151,
-        "title": "Sécurité : coder, c’est protéger",
-        "date": "2025-05-15",
-        "intro": "Un site personnalisé limite les failles. Les CMS ? Des cibles faciles pour les pirates.",
-        "content": [
-            "1. Risques fréquents avec les CMS",
-            "Plugins obsolètes, thèmes piratés, mises à jour manquées.",
-            "2. Le site codé, plus résistant",
-            "Pas de porte ouverte par des tiers, code audité dès le départ.",
-            "3. Personnalisation de la sécurité",
-            "Politiques CSP, contrôle des requêtes, logs précis.",
-            "4. Cas concrets",
-            "Des milliers de sites WordPress piratés chaque jour.",
-            "5. Conclusion",
-            "Le développement sur mesure permet une sécurité proactive."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 152,
         "title": "Accessibilité : penser à tous les visiteurs",
         "date": "2025-05-16",

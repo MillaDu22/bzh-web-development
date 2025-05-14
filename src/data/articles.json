@@ -4704,5 +4704,48 @@
             "Pour des performances au top, rien ne vaut un code propre fait main."
         ],
         "sign": "Ludmilla Marti"
-    }                           
+    },
+    {
+        "id": 151,
+        "title": "Sécurité : coder, c’est protéger",
+        "date": "2025-05-15",
+        "intro": "Un site personnalisé limite les failles. Les CMS ? Des cibles faciles pour les pirates.",
+        "content": [
+            "1. Risques fréquents avec les CMS",
+            "Les CMS (Content Management Systems) comme WordPress, Joomla ou Drupal sont populaires, faciles à utiliser, mais malheureusement très exposés. Pourquoi ? Parce qu’ils reposent sur des briques standardisées (plugins, thèmes, extensions) que des millions de sites utilisent. Résultat : dès qu’une faille est découverte dans un plugin, elle peut potentiellement compromettre des milliers de sites.",
+            "Parmi les risques courants :",
+            "- Plugins obsolètes : de nombreux plugins ne sont plus maintenus. Certains deviennent incompatibles avec les versions récentes du CMS, d’autres contiennent des failles non corrigées.",
+            "- Thèmes piratés ou mal codés : des versions « gratuites » circulent, souvent modifiées avec du code malveillant.",
+            "- Mises à jour ignorées : beaucoup d’utilisateurs n’osent pas faire les mises à jour de peur de casser leur site. Une aubaine pour les hackers.",
+            "- Accès backend standardisé : les URL d’administration par défaut comme wp-admin sont connues et facilement ciblées.",
+            "2. Le site codé, plus résistant",
+            "Créer un site sur mesure, sans CMS, c’est partir d’une base propre. Le code est écrit en fonction du besoin, et aucune dépendance inutile ne vient alourdir ou fragiliser l’ensemble.",
+            "Les bénéfices :",
+            "- Pas de code inutile = surface d’attaque réduite.",
+            "- Pas de porte dérobée involontaire via un plugin tiers.",
+            "- Le développeur connaît chaque ligne du code : l’audit de sécurité est plus simple et plus fiable.",
+            "- Meilleur contrôle des dépendances : pas de mise à jour forcée d’un module que l’on ne maîtrise pas.",
+            "3. Personnalisation de la sécurité",
+            "Un site codé à la main permet d’ajuster la sécurité au plus près des besoins du projet :",
+            "- Politique de sécurité du contenu (CSP) : restreindre les scripts ou ressources extérieures pour limiter les attaques XSS.",
+            "- Filtrage des requêtes : rejet des formulaires suspects, limitation des tentatives d'accès non autorisées.",
+            "- Journalisation précise : on peut logguer uniquement ce qui est pertinent (tentatives de connexion, modifications critiques, erreurs serveur).",
+            "- Mécanismes de rate-limiting : pour limiter les attaques par force brute.",
+            "Chaque couche du site peut être pensée avec une logique défensive : validation côté client ET côté serveur, cryptage des données sensibles, séparation stricte des droits pour les utilisateurs administrateurs ou rédacteurs.",
+            "4. Cas concrets",
+            "WordPress alimente près de 40 % du web. C’est impressionnant… mais aussi dangereux. Rien qu’en 2024, des milliers de sites WordPress ont été piratés chaque jour, souvent à cause :",
+            "- de plugins gratuits non maintenus ;",
+            "- de configurations par défaut laissées en l’état (comme les identifiants admin/admin) ;",
+            "- de thèmes téléchargés sur des sites douteux ;",
+            "- ou même via des attaques automatisées qui testent des failles connues sur des milliers de sites en quelques minutes.",
+            "Un site sur mesure, avec un pare-feu applicatif et des contrôles stricts, résiste bien mieux à ces attaques de masse.",
+            "5. Conclusion",
+            "Choisir le développement sur mesure, c’est investir dans une sécurité active. Là où un CMS agit souvent en réaction (patch après une faille), un site codé peut anticiper :",
+            "- en évitant les dépendances superflues,",
+            "- en cloisonnant les accès,",
+            "- et en mettant en place des mécanismes de défense adaptés dès la conception.",
+            "La sécurité n’est pas une option. Sur le web d’aujourd’hui, un site sécurisé, c’est un site qui vit plus longtemps, inspire confiance, et protège ses utilisateurs."
+        ],
+        "sign": "Ludmilla Marti"
+    }                      
 ]

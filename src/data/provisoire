@@ -1,23 +1,5 @@
 [
     {
-        "id": 152,
-        "title": "Accessibilité : penser à tous les visiteurs",
-        "date": "2025-05-16",
-        "intro": "Un site bien codé respecte les normes d’accessibilité. Ce n’est pas automatique sur les CMS.",
-        "content": [
-            "1. L’accessibilité, c’est quoi ?",
-            "Permettre à tous (handicaps visuels, moteurs…) d'accéder au contenu.",
-            "2. CMS : accessibilité négligée",
-            "Thèmes non conformes, plugins non testés.",
-            "3. Code sur mesure : maîtrise des balises ARIA, contrastes, navigation clavier.",
-            "4. Bénéfices globaux",
-            "Meilleure UX, conformité RGAA/ADA, image de marque.",
-            "5. Conclusion",
-            "Un site codé respecte tout le monde, pas seulement les robots."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 153,
         "title": "Référencement technique : quand le code booste Google",
         "date": "2025-05-19",

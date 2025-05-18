@@ -1,24 +1,5 @@
 [
     {
-        "id": 153,
-        "title": "Référencement technique : quand le code booste Google",
-        "date": "2025-05-19",
-        "intro": "Avec un site codé, on maîtrise les performances SEO dès la structure HTML. Avec un CMS, on subit.",
-        "content": [
-            "1. Ce que Google veut",
-            "Structure propre, balises sémantiques, vitesse, accessibilité.",
-            "2. CMS : des limites",
-            "Balises mal placées, surcharge inutile, crawl inefficace.",
-            "3. Code personnalisé : chaque balise a un sens",
-            "Balises `main`, `article`, `section` bien posées.",
-            "4. Résultat sur le ranking",
-            "Meilleure indexation, moins de pages exclues, meilleure position.",
-            "5. Conclusion",
-            "Un code bien pensé, c’est un référencement qui grimpe naturellement."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 154,
         "title": "Évolutivité : un site prêt pour demain",
         "date": "2025-05-20",

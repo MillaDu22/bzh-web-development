@@ -1,24 +1,5 @@
 [
     {
-        "id": 155,
-        "title": "Expérience utilisateur : coder pour convaincre",
-        "date": "2025-05-21",
-        "intro": "L’UX d’un site codé est pensée sur-mesure. Les CMS, eux, s’adaptent mal aux vrais besoins.",
-        "content": [
-            "1. Qu’est-ce qu’une bonne UX ?",
-            "Navigation intuitive, parcours clair, esthétique soignée.",
-            "2. CMS : un moule générique",
-            "Templates figés, ergonomie forcée.",
-            "3. Développement sur mesure : liberté totale",
-            "UI cohérente, design centré utilisateur, interactions sur-mesure.",
-            "4. Impact sur les conversions",
-            "Plus d'engagement, moins de rebond, meilleurs résultats.",
-            "5. Conclusion",
-            "L’UX n’est pas un bonus : c’est la clé du succès en ligne."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 156,
         "title": "Maintenance : simplicité et contrôle",
         "date": "2025-05-22",

@@ -4822,5 +4822,24 @@
             "L’UX n’est pas un bonus : c’est la clé du succès en ligne."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 156,
+        "title": "Maintenance : simplicité et contrôle",
+        "date": "2025-05-22",
+        "intro": "Un site codé est plus facile à maintenir : vous savez ce qu’il fait, et pourquoi. Les CMS ? Un vrai labyrinthe.",
+        "content": [
+            "1. L’enfer des plugins",
+            "Mises à jour critiques, compatibilités floues, bugs inattendus.",
+            "2. Code propre : lisible, documenté",
+            "Pas de surprise, pas de plugin fantôme.",
+            "3. Dépannage rapide",
+            "Un développeur peut intervenir sans reverse-engineering.",
+            "4. Tranquillité à long terme",
+            "Pas besoin de tout refaire au moindre souci.",
+            "5. Conclusion",
+            "Un site bien codé, c’est la garantie de dormir tranquille."
+        ],
+        "sign": "Ludmilla Marti"
     }                      
 ]

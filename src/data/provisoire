@@ -1,24 +1,5 @@
 [
     {
-        "id": 157,
-        "title": "Légèreté : un site rapide, fluide, efficace",
-        "date": "2025-05-23",
-        "intro": "Avec un code maîtrisé, votre site reste léger. Un CMS s’alourdit à chaque clic.",
-        "content": [
-            "1. Poids d’une page",
-            "Le nombre de requêtes et le poids total influent sur le temps de chargement.",
-            "2. CMS : scripts inutiles",
-            "Des dizaines de fichiers chargés même quand ils ne servent pas.",
-            "3. Développement léger",
-            "CSS et JS minimalistes, lazy-loading, SVG au lieu de PNG.",
-            "4. Impact utilisateur",
-            "Moins de data, chargement instantané, meilleur ressenti.",
-            "5. Conclusion",
-            "Un site léger, c’est un site moderne, respectueux et performant."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 158,
         "title": "Mobile first : une évidence avec un site codé",
         "date": "2025-05-26",

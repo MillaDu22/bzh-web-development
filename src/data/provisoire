@@ -1,24 +1,5 @@
 [
     {
-        "id": 158,
-        "title": "Mobile first : une évidence avec un site codé",
-        "date": "2025-05-26",
-        "intro": "Aujourd’hui, un site doit d’abord penser mobile. Ce n’est pas le cas de tous les CMS.",
-        "content": [
-            "1. L’usage mobile explose",
-            "Plus de la moitié des visites viennent du smartphone.",
-            "2. CMS : responsive… parfois",
-            "Certains thèmes ne sont pas vraiment optimisés mobile.",
-            "3. Développement Mobile First",
-            "Design pensé pour petit écran d’abord, adaptation fluide.",
-            "4. Testé et approuvé",
-            "Audit Lighthouse : pas de texte trop petit, boutons accessibles.",
-            "5. Conclusion",
-            "Un site codé, c’est un site pensé pour les vrais usages."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 159,
         "title": "Identité unique : ne ressemblez à personne",
         "date": "2025-05-27",

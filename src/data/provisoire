@@ -1,24 +1,5 @@
 [
     {
-        "id": 159,
-        "title": "Identité unique : ne ressemblez à personne",
-        "date": "2025-05-27",
-        "intro": "Avec un site sur mesure, votre image est claire, originale. Les CMS, eux, rendent tous les sites pareils.",
-        "content": [
-            "1. L’importance de la différenciation",
-            "Pour marquer les esprits et créer la confiance.",
-            "2. CMS : des clones à la chaîne",
-            "Des designs vus et revus, peu de personnalité.",
-            "3. Code personnalisé : image soignée, branding fort",
-            "Choix des polices, des animations, des transitions uniques.",
-            "4. Communication renforcée",
-            "Le site devient un véritable outil marketing.",
-            "5. Conclusion",
-            "Le site est le reflet de votre projet. Ne le laissez pas dans un moule."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 160,
         "title": "Scalabilité : un site codé qui grandit avec votre projet",
         "date": "2025-05-28",

@@ -4898,5 +4898,25 @@
             "Le site est le reflet de votre projet. Ne le laissez pas dans un moule."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 160,
+        "title": "Scalabilité : un site codé qui grandit avec votre projet",
+        "date": "2025-05-28",
+        "intro": "Un site sur mesure permet d'ajouter des fonctionnalités ou de changer d'architecture au fil de votre croissance, contrairement à un CMS vite limité.",
+        "content": [
+            "1. Qu’est-ce que la scalabilité ?",
+            "C’est la capacité d’un site à s’adapter à une montée en charge ou à une évolution fonctionnelle.",
+            "2. Freins d’un CMS",
+            "Extensions limitées, conflits entre plugins, ou performances qui chutent quand le trafic augmente.",
+            "3. Avantages du sur-mesure",
+            "3.1. Architecture évolutive",
+            "Ajout d’API, passage à un back-end, gestion optimisée des bases de données.",
+            "3.2. Code modulaire",
+            "Chaque composant peut évoluer sans tout casser.",
+            "4. Conclusion",
+            "Un site codé vous suit dans la durée, alors qu’un CMS vous impose souvent une refonte complète."
+        ],
+        "sign": "Ludmilla Marti"
     }                      
 ]

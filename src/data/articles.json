@@ -4918,5 +4918,25 @@
             "Un site codé vous suit dans la durée, alors qu’un CMS vous impose souvent une refonte complète."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 161,
+        "title": "Un développeur, un allié : l’humain derrière le code",
+        "date": "2025-05-29",
+        "intro": "Contrairement à un CMS installé seul ou par une agence impersonnelle, travailler avec un développeur freelance offre un vrai suivi technique et relationnel.",
+        "content": [
+            "1. Les limites du prêt-à-installer",
+            "Peu de support, pas de personnalisation en profondeur, difficulté à résoudre les bugs complexes.",
+            "2. Un interlocuteur dédié",
+            "2.1. Connaissance du projet",
+            "Le développeur connaît chaque ligne de code et répond rapidement aux besoins.",
+            "2.2. Proximité et conseils",
+            "Accompagnement dans le temps, évolutions réfléchies selon vos objectifs.",
+            "3. Relation de confiance",
+            "Un partenariat qui valorise l’humain et votre projet sur le long terme.",
+            "4. Conclusion",
+            "Un site sur mesure, c’est aussi un professionnel à vos côtés, et pas seulement un outil impersonnel."
+        ],
+        "sign": "Ludmilla Marti"
     }                      
 ]

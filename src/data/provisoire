@@ -1,5 +1,232 @@
 [
-
+    {
+        "id": 165,
+        "title": "Pourquoi un site rapide change tout pour vos visiteurs (et Google)",
+        "date": "2025-06-04",
+        "intro": "La vitesse de chargement est un critère essentiel pour l’expérience utilisateur… et le référencement. Voici pourquoi chaque seconde compte.",
+        "content": [
+        "1. L’impatience des internautes",
+        "Un visiteur attend rarement plus de 3 secondes. Un site lent est souvent un site quitté.",
+        "2. Un meilleur référencement",
+        "Google privilégie les sites performants. La vitesse influe directement sur votre position dans les résultats.",
+        "3. Une optimisation sur mesure",
+        "Images adaptées, code propre, scripts maîtrisés : un site codé offre les meilleures garanties de rapidité.",
+        "4. Votre image professionnelle",
+        "Un site rapide donne confiance. Il reflète votre sérieux et votre sens du détail.",
+        "5. En bref",
+        "Un site lent coûte des clients. Un site rapide les engage. Le développement sur mesure, c’est aussi la performance."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 166,
+        "title": "Accessibilité web : pourquoi c’est indispensable aujourd’hui",
+        "date": "2025-06-05",
+        "intro": "Un site accessible n’est pas un luxe, c’est une obligation morale (et parfois légale). Voici comment le codé sur mesure peut faire la différence.",
+        "content": [
+        "1. L’accessibilité, c’est quoi ?",
+        "Un site accessible est utilisable par tous, y compris les personnes en situation de handicap.",
+        "2. Les bénéfices concrets",
+        "Une navigation simplifiée, des contenus mieux structurés, une expérience plus inclusive.",
+        "3. L’avantage du sur mesure",
+        "Un développeur web peut intégrer les bonnes pratiques d’accessibilité dès la conception.",
+        "4. Une question d’image et de SEO",
+        "L’accessibilité améliore aussi le référencement et montre votre engagement envers tous les publics.",
+        "5. En résumé",
+        "Un site accessible est un site plus performant, plus éthique, et mieux référencé."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 167,
+        "title": "Faut-il un site mobile-first ? Spoiler : oui.",
+        "date": "2025-06-06",
+        "intro": "La majorité des visiteurs viennent désormais sur mobile. Un site qui ne s’adapte pas perd des opportunités. Voici pourquoi le mobile-first n’est plus une option.",
+        "content": [
+        "1. Une réalité statistique",
+        "Le trafic mobile dépasse largement celui du desktop sur la plupart des sites.",
+        "2. Une meilleure expérience utilisateur",
+        "Pensé d’abord pour le mobile, votre site est clair, rapide et efficace sur tous les écrans.",
+        "3. Une exigence de Google",
+        "Google indexe d’abord la version mobile. Un site non adapté est pénalisé.",
+        "4. Le développement sur mesure facilite le mobile-first",
+        "Pas de surcharge, pas de dépendance à des thèmes rigides. On développe pour vos utilisateurs, pas pour un outil.",
+        "5. Conclusion",
+        "Un site mobile-first, c’est un site moderne, performant et visible. C’est l’évidence."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 168,
+        "title": "Pourquoi éviter les constructeurs de site en ligne pour un projet pro",
+        "date": "2025-06-07",
+        "intro": "Wix, Squarespace, etc. : ils promettent simplicité et rapidité. Mais derrière l’apparente facilité se cachent des limitations qui freinent votre visibilité et votre image.",
+        "content": [
+        "1. Des performances limitées",
+        "Sites lourds, lenteurs au chargement, code peu optimisé : l’expérience utilisateur en pâtit.",
+        "2. Une personnalisation restreinte",
+        "Vous êtes contraint par l’outil, pas par vos idées. Difficulté à sortir des sentiers battus.",
+        "3. Propriété et pérennité",
+        "Votre site dépend d’une plateforme externe. Vous n’en êtes pas vraiment propriétaire.",
+        "4. Mauvais pour le SEO",
+        "Code généré peu lisible, balises approximatives : votre site a peu de chances d’être bien positionné.",
+        "5. Conclusion",
+        "Un constructeur, c’est bien pour tester une idée. Un projet sérieux mérite du sur-mesure."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 169,
+        "title": "Faut-il encore un site vitrine quand on a déjà les réseaux sociaux ?",
+        "date": "2025-06-08",
+        "intro": "Certains pensent qu’un compte Instagram ou LinkedIn suffit à représenter leur activité. Voici pourquoi un site web reste indispensable.",
+        "content": [
+        "1. Une vitrine que vous maîtrisez",
+        "Pas d’algorithmes, pas de restrictions. Votre site vous appartient à 100 %.",
+        "2. Une image professionnelle",
+        "Un site renforce la crédibilité, surtout face à des prospects B2B ou des recruteurs.",
+        "3. Le référencement naturel",
+        "Un site bien conçu vous rend visible sur Google, ce que les réseaux seuls ne permettent pas.",
+        "4. Complémentarité",
+        "Les réseaux sociaux attirent. Le site convertit. Ensemble, ils renforcent votre stratégie.",
+        "5. Conclusion",
+        "Ne laissez pas votre visibilité dépendre d’un algorithme. Un site est votre base solide."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 170,
+        "title": "Un bon design web, ce n’est pas juste joli",
+        "date": "2025-06-09",
+        "intro": "Le design d’un site web ne doit pas seulement plaire à l’œil. Il doit servir une stratégie, guider l’utilisateur et refléter votre message.",
+        "content": [
+        "1. L’UX avant tout",
+        "L’expérience utilisateur est la priorité : simplicité, lisibilité, hiérarchie claire.",
+        "2. Cohérence visuelle",
+        "Charte graphique, typographie, couleurs : tout doit servir l’identité de votre marque.",
+        "3. Responsive design",
+        "Un design efficace doit fonctionner partout, sur toutes les tailles d’écran.",
+        "4. Le rôle du code",
+        "Le développeur traduit le design en interface vivante et fonctionnelle.",
+        "5. En résumé",
+        "Un beau site ne suffit pas. Il doit aussi être clair, cohérent et performant."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 171,
+        "title": "Pourquoi je ne fais pas de sites e-commerce (et vers qui vous tourner)",
+        "date": "2025-06-10",
+        "intro": "Le e-commerce est un domaine complexe, qui demande des outils spécialisés. Voici pourquoi je me concentre sur les sites vitrines… et ce que je recommande à mes clients.",
+        "content": [
+        "1. Une spécialité à part entière",
+        "Gestion de stock, tunnel d’achat, sécurité des paiements… Cela demande des solutions spécifiques.",
+        "2. Des outils dédiés existent",
+        "Prestashop, Shopify, WooCommerce : il existe des solutions robustes et des experts pour cela.",
+        "3. Je me concentre sur le sur-mesure vitrine",
+        "Je crée des sites sur mesure pour valoriser l’image, les services et les contenus d’une activité.",
+        "4. Mon réseau de partenaires",
+        "Je travaille avec des spécialistes e-commerce à qui je peux confier vos besoins si nécessaire.",
+        "5. En résumé",
+        "Un bon professionnel sait aussi dire non. Mon domaine, c’est le site vitrine sur mesure."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 172,
+        "title": "Refonte de site : quand et pourquoi sauter le pas ?",
+        "date": "2025-06-11",
+        "intro": "Votre site commence à dater ? Il ne vous ressemble plus ? Voici les signes qu’il est temps d’envisager une refonte… et ce que vous pouvez y gagner.",
+        "content": [
+        "1. Une image vieillissante",
+        "Un site daté peut nuire à votre crédibilité. Un design moderne renforce la confiance.",
+        "2. Des performances à la traîne",
+        "Un vieux site est souvent lent, peu sécurisé et mal adapté aux mobiles.",
+        "3. Vos besoins ont évolué",
+        "Votre activité a changé ? Votre site doit le refléter, avec les bons contenus et fonctionnalités.",
+        "4. L’occasion d’un bon référencement",
+        "Une refonte est idéale pour revoir votre SEO et votre structure de contenu.",
+        "5. En résumé",
+        "Un site qui évolue avec vous reste un atout. Une refonte bien menée, c’est un nouvel élan."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 173,
+        "title": "Site one-page : bonne idée ou fausse bonne solution ?",
+        "date": "2025-06-12",
+        "intro": "Un site sur une seule page peut sembler simple et efficace. Mais ce format convient-il vraiment à tous les projets ?",
+        "content": [
+        "1. Les avantages du one-page",
+        "Navigation fluide, messages condensés, bon pour les projets simples.",
+        "2. Les limites SEO",
+        "Un seul URL, peu de contenus : difficile de se positionner sur plusieurs mots-clés.",
+        "3. L’expérience utilisateur",
+        "Le scroll infini peut lasser. La structure doit être claire et bien hiérarchisée.",
+        "4. Le bon usage",
+        "Un site événementiel, un portfolio ou une landing page : oui. Pour un site institutionnel : attention.",
+        "5. Conclusion",
+        "Le one-page peut être efficace, mais doit être un choix stratégique, pas une facilité technique."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 174,
+        "title": "Le référencement naturel, ce n’est pas magique (mais c’est puissant)",
+        "date": "2025-06-13",
+        "intro": "Être premier sur Google sans payer ? C’est possible, mais pas sans effort. Voici ce qu’il faut comprendre sur le SEO.",
+        "content": [
+        "1. Du contenu utile",
+        "Google valorise les pages claires, bien structurées et pertinentes pour l’utilisateur.",
+        "2. Une technique propre",
+        "Un bon code, des balises bien pensées, une vitesse optimale : le socle d’un bon SEO.",
+        "3. Des mots-clés stratégiques",
+        "Identifier les bons termes, ceux que vos clients potentiels utilisent réellement.",
+        "4. Un travail de long terme",
+        "Le SEO se construit sur la durée. Ce n’est pas un coup de baguette magique.",
+        "5. En résumé",
+        "Un bon référencement repose sur du contenu de qualité, une technique solide et de la régularité."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 175,
+        "title": "Pourquoi le contenu est (vraiment) roi sur votre site",
+        "date": "2025-06-14",
+        "intro": "On parle souvent de design, de technique… mais sans un contenu solide, votre site ne sert à rien. Voici pourquoi vous devez soigner vos textes.",
+        "content": [
+        "1. Le message avant tout",
+        "Votre site doit parler à vos visiteurs, répondre à leurs questions, leur donner envie d’agir.",
+        "2. Le contenu structure le site",
+        "Il guide la navigation, définit les pages, influence la hiérarchie du design.",
+        "3. Il sert le référencement",
+        "Des textes clairs, bien rédigés, avec les bons mots-clés, améliorent votre visibilité.",
+        "4. Il reflète votre image",
+        "Ton, style, clarté : votre contenu, c’est votre voix en ligne.",
+        "5. En résumé",
+        "Un beau site sans bon contenu, c’est une vitrine vide. Investissez dans vos mots."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 176,
+        "title": "Faut-il un blog sur un site vitrine ?",
+        "date": "2025-06-15",
+        "intro": "Le blog est souvent perçu comme accessoire. Pourtant, c’est un levier puissant de visibilité, de crédibilité et de conversion.",
+        "content": [
+        "1. Pour le référencement",
+        "Chaque article est une opportunité d’attirer du trafic avec des mots-clés ciblés.",
+        "2. Pour valoriser votre expertise",
+        "Partager vos conseils, votre expérience, vos réponses aux questions fréquentes.",
+        "3. Pour faire vivre le site",
+        "Un blog actif montre que votre entreprise est dynamique, à jour, investie.",
+        "4. Pour la conversion",
+        "Un bon article peut convaincre un lecteur de vous contacter ou de vous faire confiance.",
+        "5. Conclusion",
+        "Un blog bien intégré dans une stratégie de contenu peut faire toute la différence."
+        ],
+        "sign": "Ludmilla Marti"
+    }
 ]
 
 

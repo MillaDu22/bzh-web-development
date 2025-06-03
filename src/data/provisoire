@@ -1,24 +1,5 @@
 [
     {
-        "id": 165,
-        "title": "Pourquoi un site rapide change tout pour vos visiteurs (et Google)",
-        "date": "2025-06-04",
-        "intro": "La vitesse de chargement est un critère essentiel pour l’expérience utilisateur… et le référencement. Voici pourquoi chaque seconde compte.",
-        "content": [
-        "1. L’impatience des internautes",
-        "Un visiteur attend rarement plus de 3 secondes. Un site lent est souvent un site quitté.",
-        "2. Un meilleur référencement",
-        "Google privilégie les sites performants. La vitesse influe directement sur votre position dans les résultats.",
-        "3. Une optimisation sur mesure",
-        "Images adaptées, code propre, scripts maîtrisés : un site codé offre les meilleures garanties de rapidité.",
-        "4. Votre image professionnelle",
-        "Un site rapide donne confiance. Il reflète votre sérieux et votre sens du détail.",
-        "5. En bref",
-        "Un site lent coûte des clients. Un site rapide les engage. Le développement sur mesure, c’est aussi la performance."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 166,
         "title": "Accessibilité web : pourquoi c’est indispensable aujourd’hui",
         "date": "2025-06-05",

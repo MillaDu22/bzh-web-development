@@ -5018,5 +5018,24 @@
         "Un site lent coûte des clients. Un site rapide les engage. Le développement sur mesure, c’est aussi la performance."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 166,
+        "title": "Accessibilité web : pourquoi c’est indispensable aujourd’hui",
+        "date": "2025-06-05",
+        "intro": "Un site accessible n’est pas un luxe, c’est une obligation morale (et parfois légale). Voici comment le codé sur mesure peut faire la différence.",
+        "content": [
+        "1. L’accessibilité, c’est quoi ?",
+        "Un site accessible est utilisable par tous, y compris les personnes en situation de handicap.",
+        "2. Les bénéfices concrets",
+        "Une navigation simplifiée, des contenus mieux structurés, une expérience plus inclusive.",
+        "3. L’avantage du sur mesure",
+        "Un développeur web peut intégrer les bonnes pratiques d’accessibilité dès la conception.",
+        "4. Une question d’image et de SEO",
+        "L’accessibilité améliore aussi le référencement et montre votre engagement envers tous les publics.",
+        "5. En résumé",
+        "Un site accessible est un site plus performant, plus éthique, et mieux référencé."
+        ],
+        "sign": "Ludmilla Marti"
     }                     
 ]

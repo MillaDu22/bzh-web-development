@@ -1,23 +1,4 @@
 [
-    {
-        "id": 167,
-        "title": "Faut-il un site mobile-first ? Spoiler : oui.",
-        "date": "2025-06-06",
-        "intro": "La majorité des visiteurs viennent désormais sur mobile. Un site qui ne s’adapte pas perd des opportunités. Voici pourquoi le mobile-first n’est plus une option.",
-        "content": [
-        "1. Une réalité statistique",
-        "Le trafic mobile dépasse largement celui du desktop sur la plupart des sites.",
-        "2. Une meilleure expérience utilisateur",
-        "Pensé d’abord pour le mobile, votre site est clair, rapide et efficace sur tous les écrans.",
-        "3. Une exigence de Google",
-        "Google indexe d’abord la version mobile. Un site non adapté est pénalisé.",
-        "4. Le développement sur mesure facilite le mobile-first",
-        "Pas de surcharge, pas de dépendance à des thèmes rigides. On développe pour vos utilisateurs, pas pour un outil.",
-        "5. Conclusion",
-        "Un site mobile-first, c’est un site moderne, performant et visible. C’est l’évidence."
-        ],
-        "sign": "Ludmilla Marti"
-    },
         {
         "id": 168,
         "title": "Pourquoi éviter les constructeurs de site en ligne pour un projet pro",

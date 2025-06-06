@@ -165,9 +165,43 @@
 }
 
 
+@media (max-width: 1000px) {
+    .blog-article {
+        max-width: 650px;
+        max-height:120px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 850px) {
+    .blog-article {
+        max-width: 600px;
+        max-height:120px;
+    }
+}
+
+@media (max-width: 750px) {
+    .blog-article {
+        max-width: 500px;
+        max-height:120px;
+    }
+}
+
+@media (max-width: 650px) {
+    .blog-article {
+        max-width: 450px;
+        max-height:125px;
+    }
+}
 
 
 @media (max-width: 600px) {
+    .blog-article {
+        max-width: 265px;
+        max-height:120px;
+        padding-bottom: 60px;
+    }
+
     .blog-title {
         font-size: 2em;
     }

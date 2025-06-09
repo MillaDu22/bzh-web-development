@@ -5056,5 +5056,24 @@
         "Un site mobile-first, c’est un site moderne, performant et visible. C’est l’évidence."
         ],
         "sign": "Ludmilla Marti"
+    },
+            {
+        "id": 168,
+        "title": "Pourquoi éviter les constructeurs de site en ligne pour un projet pro",
+        "date": "2025-06-10",
+        "intro": "Wix, Squarespace, etc. : ils promettent simplicité et rapidité. Mais derrière l’apparente facilité se cachent des limitations qui freinent votre visibilité et votre image.",
+        "content": [
+        "1. Des performances limitées",
+        "Sites lourds, lenteurs au chargement, code peu optimisé : l’expérience utilisateur en pâtit.",
+        "2. Une personnalisation restreinte",
+        "Vous êtes contraint par l’outil, pas par vos idées. Difficulté à sortir des sentiers battus.",
+        "3. Propriété et pérennité",
+        "Votre site dépend d’une plateforme externe. Vous n’en êtes pas vraiment propriétaire.",
+        "4. Mauvais pour le SEO",
+        "Code généré peu lisible, balises approximatives : votre site a peu de chances d’être bien positionné.",
+        "5. Conclusion",
+        "Un constructeur, c’est bien pour tester une idée. Un projet sérieux mérite du sur-mesure."
+        ],
+        "sign": "Ludmilla Marti"
     }                     
 ]

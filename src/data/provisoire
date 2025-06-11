@@ -1,24 +1,5 @@
 [
     {
-        "id": 170,
-        "title": "Un bon design web, ce n’est pas juste joli",
-        "date": "2025-06-09",
-        "intro": "Le design d’un site web ne doit pas seulement plaire à l’œil. Il doit servir une stratégie, guider l’utilisateur et refléter votre message.",
-        "content": [
-        "1. L’UX avant tout",
-        "L’expérience utilisateur est la priorité : simplicité, lisibilité, hiérarchie claire.",
-        "2. Cohérence visuelle",
-        "Charte graphique, typographie, couleurs : tout doit servir l’identité de votre marque.",
-        "3. Responsive design",
-        "Un design efficace doit fonctionner partout, sur toutes les tailles d’écran.",
-        "4. Le rôle du code",
-        "Le développeur traduit le design en interface vivante et fonctionnelle.",
-        "5. En résumé",
-        "Un beau site ne suffit pas. Il doit aussi être clair, cohérent et performant."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 171,
         "title": "Pourquoi je ne fais pas de sites e-commerce (et vers qui vous tourner)",
         "date": "2025-06-10",

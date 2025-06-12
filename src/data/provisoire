@@ -1,44 +1,6 @@
 [
     {
-        "id": 171,
-        "title": "Pourquoi je ne fais pas de sites e-commerce (et vers qui vous tourner)",
-        "date": "2025-06-10",
-        "intro": "Le e-commerce est un domaine complexe, qui demande des outils spécialisés. Voici pourquoi je me concentre sur les sites vitrines… et ce que je recommande à mes clients.",
-        "content": [
-        "1. Une spécialité à part entière",
-        "Gestion de stock, tunnel d’achat, sécurité des paiements… Cela demande des solutions spécifiques.",
-        "2. Des outils dédiés existent",
-        "Prestashop, Shopify, WooCommerce : il existe des solutions robustes et des experts pour cela.",
-        "3. Je me concentre sur le sur-mesure vitrine",
-        "Je crée des sites sur mesure pour valoriser l’image, les services et les contenus d’une activité.",
-        "4. Mon réseau de partenaires",
-        "Je travaille avec des spécialistes e-commerce à qui je peux confier vos besoins si nécessaire.",
-        "5. En résumé",
-        "Un bon professionnel sait aussi dire non. Mon domaine, c’est le site vitrine sur mesure."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 172,
-        "title": "Refonte de site : quand et pourquoi sauter le pas ?",
-        "date": "2025-06-11",
-        "intro": "Votre site commence à dater ? Il ne vous ressemble plus ? Voici les signes qu’il est temps d’envisager une refonte… et ce que vous pouvez y gagner.",
-        "content": [
-        "1. Une image vieillissante",
-        "Un site daté peut nuire à votre crédibilité. Un design moderne renforce la confiance.",
-        "2. Des performances à la traîne",
-        "Un vieux site est souvent lent, peu sécurisé et mal adapté aux mobiles.",
-        "3. Vos besoins ont évolué",
-        "Votre activité a changé ? Votre site doit le refléter, avec les bons contenus et fonctionnalités.",
-        "4. L’occasion d’un bon référencement",
-        "Une refonte est idéale pour revoir votre SEO et votre structure de contenu.",
-        "5. En résumé",
-        "Un site qui évolue avec vous reste un atout. Une refonte bien menée, c’est un nouvel élan."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
-        "id": 173,
         "title": "Site one-page : bonne idée ou fausse bonne solution ?",
         "date": "2025-06-12",
         "intro": "Un site sur une seule page peut sembler simple et efficace. Mais ce format convient-il vraiment à tous les projets ?",
@@ -57,7 +19,7 @@
         "sign": "Ludmilla Marti"
     },
     {
-        "id": 174,
+        "id": 173,
         "title": "Le référencement naturel, ce n’est pas magique (mais c’est puissant)",
         "date": "2025-06-13",
         "intro": "Être premier sur Google sans payer ? C’est possible, mais pas sans effort. Voici ce qu’il faut comprendre sur le SEO.",
@@ -76,7 +38,7 @@
         "sign": "Ludmilla Marti"
     },
     {
-        "id": 175,
+        "id": 174,
         "title": "Pourquoi le contenu est (vraiment) roi sur votre site",
         "date": "2025-06-14",
         "intro": "On parle souvent de design, de technique… mais sans un contenu solide, votre site ne sert à rien. Voici pourquoi vous devez soigner vos textes.",
@@ -95,7 +57,7 @@
         "sign": "Ludmilla Marti"
     },
     {
-        "id": 176,
+        "id": 175,
         "title": "Faut-il un blog sur un site vitrine ?",
         "date": "2025-06-15",
         "intro": "Le blog est souvent perçu comme accessoire. Pourtant, c’est un levier puissant de visibilité, de crédibilité et de conversion.",

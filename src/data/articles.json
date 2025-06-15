@@ -5132,5 +5132,24 @@
         "Un site qui évolue avec vous reste un atout. Une refonte bien menée, c’est un nouvel élan."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 172,
+        "title": "Site one-page : bonne idée ou fausse bonne solution ?",
+        "date": "2025-06-16",
+        "intro": "Un site sur une seule page peut sembler simple et efficace. Mais ce format convient-il vraiment à tous les projets ?",
+        "content": [
+        "1. Les avantages du one-page",
+        "Navigation fluide, messages condensés, bon pour les projets simples.",
+        "2. Les limites SEO",
+        "Un seul URL, peu de contenus : difficile de se positionner sur plusieurs mots-clés.",
+        "3. L’expérience utilisateur",
+        "Le scroll infini peut lasser. La structure doit être claire et bien hiérarchisée.",
+        "4. Le bon usage",
+        "Un site événementiel, un portfolio ou une landing page : oui. Pour un site institutionnel : attention.",
+        "5. Conclusion",
+        "Le one-page peut être efficace, mais doit être un choix stratégique, pas une facilité technique."
+        ],
+        "sign": "Ludmilla Marti"
     }              
 ]

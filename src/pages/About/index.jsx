@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import MeAWC from '../../assets/images/ludmilla.webp';
 import './about.css';
 
 function About() {
@@ -50,6 +51,9 @@ function About() {
                     <i className="fa-regular fa-address-card" aria-hidden="true"></i>
                     <h2 className="subtitle-about">À propos de AWC</h2>
                     <h1 className="title-about">Armor Web Créations</h1>
+                    <div className="container-portrait">
+                        <img className="me" src={MeAWC} alt="portrait de Ludmilla MARTI fondatrice de Amor Web Creations" />
+                    </div>
                     <div className="box-about">
                         <p className="txt-about">
                             En tant que développeur web freelance basé près de Guingamp dans les Côtes-d'Armor, 

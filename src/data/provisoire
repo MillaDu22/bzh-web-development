@@ -1,43 +1,5 @@
 [
     {
-        "id": 173,
-        "title": "Le référencement naturel, ce n’est pas magique (mais c’est puissant)",
-        "date": "2025-06-13",
-        "intro": "Être premier sur Google sans payer ? C’est possible, mais pas sans effort. Voici ce qu’il faut comprendre sur le SEO.",
-        "content": [
-        "1. Du contenu utile",
-        "Google valorise les pages claires, bien structurées et pertinentes pour l’utilisateur.",
-        "2. Une technique propre",
-        "Un bon code, des balises bien pensées, une vitesse optimale : le socle d’un bon SEO.",
-        "3. Des mots-clés stratégiques",
-        "Identifier les bons termes, ceux que vos clients potentiels utilisent réellement.",
-        "4. Un travail de long terme",
-        "Le SEO se construit sur la durée. Ce n’est pas un coup de baguette magique.",
-        "5. En résumé",
-        "Un bon référencement repose sur du contenu de qualité, une technique solide et de la régularité."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
-        "id": 174,
-        "title": "Pourquoi le contenu est (vraiment) roi sur votre site",
-        "date": "2025-06-14",
-        "intro": "On parle souvent de design, de technique… mais sans un contenu solide, votre site ne sert à rien. Voici pourquoi vous devez soigner vos textes.",
-        "content": [
-        "1. Le message avant tout",
-        "Votre site doit parler à vos visiteurs, répondre à leurs questions, leur donner envie d’agir.",
-        "2. Le contenu structure le site",
-        "Il guide la navigation, définit les pages, influence la hiérarchie du design.",
-        "3. Il sert le référencement",
-        "Des textes clairs, bien rédigés, avec les bons mots-clés, améliorent votre visibilité.",
-        "4. Il reflète votre image",
-        "Ton, style, clarté : votre contenu, c’est votre voix en ligne.",
-        "5. En résumé",
-        "Un beau site sans bon contenu, c’est une vitrine vide. Investissez dans vos mots."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 175,
         "title": "Faut-il un blog sur un site vitrine ?",
         "date": "2025-06-15",

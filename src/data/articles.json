@@ -5170,5 +5170,24 @@
         "Un bon référencement repose sur du contenu de qualité, une technique solide et de la régularité."
         ],
         "sign": "Ludmilla Marti"
-    }              
+    },
+        {
+        "id": 174,
+        "title": "Pourquoi le contenu est (vraiment) roi sur votre site",
+        "date": "2025-06-18",
+        "intro": "On parle souvent de design, de technique… mais sans un contenu solide, votre site ne sert à rien. Voici pourquoi vous devez soigner vos textes.",
+        "content": [
+        "1. Le message avant tout",
+        "Votre site doit parler à vos visiteurs, répondre à leurs questions, leur donner envie d’agir.",
+        "2. Le contenu structure le site",
+        "Il guide la navigation, définit les pages, influence la hiérarchie du design.",
+        "3. Il sert le référencement",
+        "Des textes clairs, bien rédigés, avec les bons mots-clés, améliorent votre visibilité.",
+        "4. Il reflète votre image",
+        "Ton, style, clarté : votre contenu, c’est votre voix en ligne.",
+        "5. En résumé",
+        "Un beau site sans bon contenu, c’est une vitrine vide. Investissez dans vos mots."
+        ],
+        "sign": "Ludmilla Marti"
+    }
 ]

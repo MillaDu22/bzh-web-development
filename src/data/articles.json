@@ -5190,7 +5190,7 @@
         ],
         "sign": "Ludmilla Marti"
     },
-        {
+    {
         "id": 175,
         "title": "Faut-il un blog sur un site vitrine ?",
         "date": "2025-06-19",
@@ -5206,6 +5206,52 @@
         "Un bon article peut convaincre un lecteur de vous contacter ou de vous faire confiance.",
         "5. Conclusion",
         "Un blog bien intégré dans une stratégie de contenu peut faire toute la différence."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 176,
+        "title": "De quoi est composé un site vitrine pour une entreprise ?",
+        "date": "2025-06-20",
+        "intro": "Le site vitrine est la carte de visite numérique d’une entreprise. Il doit être clair, professionnel et adapté à ses objectifs.",
+        "content": [
+            "1. Une page d’accueil engageante",
+            "C’est la première impression. Elle doit capter l’attention, présenter l’activité et inciter à découvrir le reste du site.",
+            "2. Une présentation de l’entreprise",
+            "Qui êtes-vous ? Que faites-vous ? Cette section renforce la crédibilité et le lien avec les visiteurs.",
+            "3. Une page services ou prestations",
+            "Décrivez clairement ce que vous proposez, avec des arguments simples et des visuels pertinents.",
+            "4. Une page contact",
+            "Indispensable : formulaire, email, téléphone, adresse, voire carte interactive.",
+            "5. Des éléments de réassurance",
+            "Témoignages clients, logos de partenaires, certifications, mentions légales, RGPD.",
+            "6. Un design responsive",
+            "Le site doit s’afficher correctement sur mobile, tablette et ordinateur.",
+            "7. (Optionnel) Un blog ou une actualité",
+            "Pour améliorer le SEO et montrer que votre entreprise évolue.",
+            "8. Conclusion",
+            "Un site vitrine réussi reflète votre professionnalisme et facilite le premier contact avec vos clients."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 177,
+        "title": "Dans quel cas fait-on un site portfolio et à quoi sert-il ?",
+        "date": "2025-06-23",
+        "intro": "Le site portfolio est conçu pour mettre en avant des réalisations concrètes. Il est essentiel pour les métiers créatifs, techniques ou indépendants.",
+        "content": [
+            "1. Montrer ce que vous savez faire",
+            "Un portfolio présente vos projets passés, vos compétences et votre style. Il remplace souvent un CV traditionnel.",
+            "2. Convaincre vos futurs clients",
+            "Rien de mieux que des exemples concrets pour rassurer et séduire de nouveaux prospects.",
+            "3. Valoriser votre image",
+            "Un portfolio soigné donne tout de suite une impression de professionnalisme et de crédibilité.",
+            "4. Être trouvé en ligne",
+            "Avec une bonne structure et un SEO adapté, votre portfolio peut attirer des recruteurs ou des clients via Google.",
+            "5. Gagner du temps",
+            "En envoyant un simple lien, vous permettez à vos contacts de découvrir votre travail à tout moment.",
+            "6. Conclusion",
+            "Le site portfolio est un outil puissant pour toute personne qui veut prouver sa valeur par l’exemple."
         ],
         "sign": "Ludmilla Marti"
     }

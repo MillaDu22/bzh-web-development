@@ -1,5 +1,109 @@
 [
-
+    {
+        "id": 178,
+        "title": "Combien coûte un site web ?",
+        "date": "2025-06-24",
+        "intro": "Le prix d’un site dépend de plusieurs facteurs : complexité, contenu, design, maintenance… Il peut aller de quelques centaines à plusieurs milliers d’euros.",
+        "content": [
+            "1. Selon le type de site",
+            "Un site vitrine simple coûtera moins cher qu’un site e-commerce ou sur mesure.",
+            "2. Selon le prestataire",
+            "Freelance, agence, plateforme en ligne… les tarifs varient énormément.",
+            "3. Selon les fonctionnalités",
+            "Blog, formulaire, paiement en ligne, multi-langues… chaque ajout compte.",
+            "4. Selon le contenu fourni",
+            "Des photos et textes prêts à l’emploi réduisent les frais de production.",
+            "5. Selon les services inclus",
+            "Maintenance, hébergement, mise à jour… à intégrer dans le budget global.",
+            "6. Conclusion",
+            "Demandez un devis clair et adapté à vos besoins avant de vous lancer."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 179,
+        "title": "Pourquoi faire appel à un freelance plutôt qu’à une agence ?",
+        "date": "2025-06-25",
+        "intro": "Travailler avec un freelance peut offrir plus de souplesse, de réactivité et de proximité qu’une agence classique.",
+        "content": [
+            "1. Un interlocuteur unique",
+            "Pas de perte d’information, communication directe et rapide.",
+            "2. Plus de flexibilité",
+            "Un freelance peut souvent s’adapter plus facilement à votre planning.",
+            "3. Des coûts réduits",
+            "Moins de frais fixes, donc des tarifs souvent plus avantageux.",
+            "4. Une relation de confiance",
+            "Le freelance s’implique personnellement dans chaque projet.",
+            "5. Une approche sur-mesure",
+            "Pas de solutions standardisées, tout est adapté à vos besoins.",
+            "6. Conclusion",
+            "Le freelance est un partenaire idéal pour des projets personnalisés et humains."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 180,
+        "title": "Pourquoi tenir à jour son site web ?",
+        "date": "2025-06-26",
+        "intro": "Un site non mis à jour vieillit vite, tant pour le contenu que pour la sécurité. Voici pourquoi il faut rester vigilant.",
+        "content": [
+            "1. Rester crédible",
+            "Un contenu daté ou faux nuit à votre image.",
+            "2. Maintenir la sécurité",
+            "Des plugins obsolètes peuvent devenir des failles.",
+            "3. Améliorer le référencement",
+            "Google aime les sites vivants et bien entretenus.",
+            "4. Ajouter de nouvelles fonctionnalités",
+            "Vos besoins évoluent, votre site doit suivre.",
+            "5. Analyser et ajuster",
+            "Les statistiques vous permettent d’optimiser l’expérience utilisateur.",
+            "6. Conclusion",
+            "Un site entretenu est un site utile, visible et performant."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 178,
+        "title": "Pourquoi créer un site vitrine pour votre activité locale ?",
+        "date": "2025-06-23",
+        "intro": "Un site vitrine permet à toute entreprise, artisan ou association de présenter son activité sur internet, même sans vendre en ligne.",
+        "content": [
+            "1. Être visible 24h/24",
+            "Contrairement à une boutique ou un bureau, un site internet est consultable à tout moment par vos futurs clients.",
+            "2. Rassurer vos visiteurs",
+            "Des informations claires, des photos et des témoignages renforcent la confiance dès la première visite.",
+            "3. Mettre en avant votre savoir-faire",
+            "Un site bien structuré permet de valoriser vos prestations, vos produits et votre expérience.",
+            "4. Attirer de nouveaux clients",
+            "Grâce au référencement local, vous pouvez apparaître dans les résultats Google des personnes proches de chez vous.",
+            "5. Gagner en crédibilité",
+            "Aujourd’hui, une entreprise sans site peut sembler moins sérieuse ou moins professionnelle.",
+            "6. Conclusion",
+            "Un site vitrine est une base essentielle pour développer votre présence en ligne, surtout à l’échelle locale."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 178,
+        "title": "Pourquoi créer un site vitrine pour votre activité locale ?",
+        "date": "2025-06-23",
+        "intro": "Un site vitrine permet à toute entreprise, artisan ou association de présenter son activité sur internet, même sans vendre en ligne.",
+        "content": [
+            "1. Être visible 24h/24",
+            "Contrairement à une boutique ou un bureau, un site internet est consultable à tout moment par vos futurs clients.",
+            "2. Rassurer vos visiteurs",
+            "Des informations claires, des photos et des témoignages renforcent la confiance dès la première visite.",
+            "3. Mettre en avant votre savoir-faire",
+            "Un site bien structuré permet de valoriser vos prestations, vos produits et votre expérience.",
+            "4. Attirer de nouveaux clients",
+            "Grâce au référencement local, vous pouvez apparaître dans les résultats Google des personnes proches de chez vous.",
+            "5. Gagner en crédibilité",
+            "Aujourd’hui, une entreprise sans site peut sembler moins sérieuse ou moins professionnelle.",
+            "6. Conclusion",
+            "Un site vitrine est une base essentielle pour développer votre présence en ligne, surtout à l’échelle locale."
+        ],
+        "sign": "Ludmilla Marti"
+    }
 ]
 
 

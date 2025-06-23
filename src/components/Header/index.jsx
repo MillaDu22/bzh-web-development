@@ -1,7 +1,7 @@
 import Screens from '../../assets/images/screens.webp';
 /*import Logo3Video from '../Logo3/index.jsx';*/
 import Me from '../../assets/images/ludmilla-AWC.webp';
-import RightIcon from '../../assets/images/—Pngtree—blue arrow abstract icon design_5951628.png';
+import RightIcon from '../../assets/images/blue-arrow.webp';
 import './header.css';
 
 function Header() {

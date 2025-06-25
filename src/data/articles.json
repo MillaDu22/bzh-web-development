@@ -5296,5 +5296,26 @@
             "Le freelance est un partenaire idéal pour des projets personnalisés et humains."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 180,
+        "title": "Pourquoi tenir à jour son site web ?",
+        "date": "2025-06-26",
+        "intro": "Un site non mis à jour vieillit vite, tant pour le contenu que pour la sécurité. Voici pourquoi il faut rester vigilant.",
+        "content": [
+            "1. Rester crédible",
+            "Un contenu daté ou faux nuit à votre image.",
+            "2. Maintenir la sécurité",
+            "Des plugins obsolètes peuvent devenir des failles.",
+            "3. Améliorer le référencement",
+            "Google aime les sites vivants et bien entretenus.",
+            "4. Ajouter de nouvelles fonctionnalités",
+            "Vos besoins évoluent, votre site doit suivre.",
+            "5. Analyser et ajuster",
+            "Les statistiques vous permettent d’optimiser l’expérience utilisateur.",
+            "6. Conclusion",
+            "Un site entretenu est un site utile, visible et performant."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

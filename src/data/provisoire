@@ -1,26 +1,88 @@
 [
     {
-        "id": 181,
-        "title": "Pourquoi créer un site vitrine pour votre activité locale ?",
-        "date": "2025-06-27",
-        "intro": "Un site vitrine permet à toute entreprise, artisan ou association de présenter son activité sur internet, même sans vendre en ligne.",
+        "id": 183,
+        "title": "Site personnel : un outil pour raconter votre histoire",
+        "date": "2025-07-01",
+        "intro": "Que vous soyez passionné de voyages, d’art ou d’artisanat, un site internet est le meilleur moyen de créer votre propre espace d’expression.",
         "content": [
-            "1. Être visible 24h/24",
-            "Contrairement à une boutique ou un bureau, un site internet est consultable à tout moment par vos futurs clients.",
-            "2. Rassurer vos visiteurs",
-            "Des informations claires, des photos et des témoignages renforcent la confiance dès la première visite.",
-            "3. Mettre en avant votre savoir-faire",
-            "Un site bien structuré permet de valoriser vos prestations, vos produits et votre expérience.",
-            "4. Attirer de nouveaux clients",
-            "Grâce au référencement local, vous pouvez apparaître dans les résultats Google des personnes proches de chez vous.",
-            "5. Gagner en crédibilité",
-            "Aujourd’hui, une entreprise sans site peut sembler moins sérieuse ou moins professionnelle.",
+            "1. Valoriser votre parcours",
+            "Présentez qui vous êtes, ce qui vous motive, ce que vous avez accompli ou souhaitez faire découvrir.",
+            "2. Rassembler vos créations",
+            "Photos, textes, vidéos, projets DIY… tout peut être regroupé dans un site clair et esthétique.",
+            "3. Garder une trace durable",
+            "Votre site devient un journal de bord numérique que vous pouvez enrichir au fil du temps.",
+            "4. Inspirer d'autres personnes",
+            "Votre expérience peut motiver d'autres passionnés à se lancer, à créer, à oser.",
+            "5. Faire appel à un pro pour un rendu unique",
+            "Un site bien pensé et personnalisé vous distinguera des blogs standard ou des pages sur les réseaux.",
             "6. Conclusion",
-            "Un site vitrine est une base essentielle pour développer votre présence en ligne, surtout à l’échelle locale."
+            "Partager son histoire sur un site personnel, c’est laisser une empreinte sincère, durable et valorisante."
         ],
         "sign": "Ludmilla Marti"
     },
-
+    {
+        "id": 184,
+        "title": "Pourquoi faire appel à un développeur pour votre site personnel ?",
+        "date": "2025-07-02",
+        "intro": "Créer un site personnel peut sembler simple avec les outils en ligne, mais rien ne remplace le savoir-faire d’un professionnel.",
+        "content": [
+            "1. Un design sur mesure",
+            "Fini les modèles standard ! Un pro conçoit un site à votre image, selon votre style et votre passion.",
+            "2. Une structure optimisée",
+            "Navigation fluide, contenu bien organisé, accessibilité… ces détails font toute la différence.",
+            "3. Un site rapide et sécurisé",
+            "Un développeur s’assure que votre site se charge vite et reste protégé contre les menaces.",
+            "4. Un bon référencement",
+            "Grâce aux bonnes pratiques SEO, votre site pourra apparaître plus facilement sur Google.",
+            "5. Un accompagnement personnalisé",
+            "Vous n’êtes pas seul : un professionnel vous guide, vous conseille, vous forme si besoin.",
+            "6. Conclusion",
+            "Faire appel à un développeur web, c’est investir dans un site fiable, évolutif, et à votre image."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 185,
+        "title": "Créer un site pour un projet personnel : une idée qui change tout",
+        "date": "2025-07-03",
+        "intro": "Vous avez une idée, un projet ou une initiative personnelle ? Un site peut vous aider à la concrétiser et à la faire rayonner.",
+        "content": [
+            "1. Donner de la visibilité à votre projet",
+            "Un site permet d’expliquer votre démarche, de montrer vos étapes et de fédérer des soutiens.",
+            "2. Créer un point de contact",
+            "Formulaire, newsletter, liens vers vos réseaux… tout est réuni pour rester en lien avec votre audience.",
+            "3. Lancer une cagnotte ou une campagne",
+            "Votre site peut servir de tremplin pour collecter des fonds ou mobiliser autour d’une cause.",
+            "4. Archiver votre aventure",
+            "Un blog ou une galerie peut documenter chaque étape de votre progression personnelle ou collective.",
+            "5. Un projet pro dans un cadre perso",
+            "Même sans but commercial, un projet bien présenté peut vous ouvrir des opportunités pro ou associatives.",
+            "6. Conclusion",
+            "Un site donne corps à votre projet : il devient réel, visible et accessible à tous."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 186,
+        "title": "Site personnel ou réseaux sociaux : pourquoi ne pas se limiter à Instagram ?",
+        "date": "2025-07-04",
+        "intro": "Les réseaux sont utiles, mais un site personnel vous offre bien plus de liberté et de crédibilité.",
+        "content": [
+            "1. Être indépendant",
+            "Votre site n’est pas soumis aux algorithmes, aux règles de modération ou aux changements de plateforme.",
+            "2. Créer une vraie identité",
+            "Avec un nom de domaine et un design sur mesure, vous construisez une image professionnelle.",
+            "3. Organiser votre contenu",
+            "Votre site peut regrouper toutes vos créations, infos, archives… bien mieux qu’un simple feed chronologique.",
+            "4. Attirer autrement",
+            "Grâce au référencement naturel, votre site peut toucher un public qui ne vous connaît pas encore.",
+            "5. Créer une passerelle vers d’autres projets",
+            "Un site peut évoluer : galerie, blog, boutique, CV… tout reste possible par la suite.",
+            "6. Conclusion",
+            "Réseaux et site peuvent coexister, mais seul le site vous donne un espace durable, libre et complet."
+        ],
+        "sign": "Ludmilla Marti"
+    }
 ]
 
 

@@ -5402,7 +5402,7 @@
         ],
         "sign": "Ludmilla Marti"
     },
-        {
+    {
         "id": 185,
         "title": "Créer un site pour un projet personnel : une idée qui change tout",
         "date": "2025-07-03",
@@ -5420,6 +5420,27 @@
             "Même sans but commercial, un projet bien présenté peut vous ouvrir des opportunités pro ou associatives.",
             "6. Conclusion",
             "Un site donne corps à votre projet : il devient réel, visible et accessible à tous."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 186,
+        "title": "Site personnel ou réseaux sociaux : pourquoi ne pas se limiter à Instagram ?",
+        "date": "2025-07-04",
+        "intro": "Les réseaux sont utiles, mais un site personnel vous offre bien plus de liberté et de crédibilité.",
+        "content": [
+            "1. Être indépendant",
+            "Votre site n’est pas soumis aux algorithmes, aux règles de modération ou aux changements de plateforme.",
+            "2. Créer une vraie identité",
+            "Avec un nom de domaine et un design sur mesure, vous construisez une image professionnelle.",
+            "3. Organiser votre contenu",
+            "Votre site peut regrouper toutes vos créations, infos, archives… bien mieux qu’un simple feed chronologique.",
+            "4. Attirer autrement",
+            "Grâce au référencement naturel, votre site peut toucher un public qui ne vous connaît pas encore.",
+            "5. Créer une passerelle vers d’autres projets",
+            "Un site peut évoluer : galerie, blog, boutique, CV… tout reste possible par la suite.",
+            "6. Conclusion",
+            "Réseaux et site peuvent coexister, mais seul le site vous donne un espace durable, libre et complet."
         ],
         "sign": "Ludmilla Marti"
     }

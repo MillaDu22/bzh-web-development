@@ -5443,5 +5443,24 @@
             "Réseaux et site peuvent coexister, mais seul le site vous donne un espace durable, libre et complet."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 187,
+        "title": "LocalStorage : gérer ses données côté front de façon simple et rapide",
+        "date": "2025-07-07",
+        "intro": "Besoin de stocker des infos sans serveur ? LocalStorage est une solution légère et immédiate.",
+        "content": [
+            "1. Stocker localement",
+            "LocalStorage permet d’enregistrer des données dans le navigateur de l’utilisateur, sans appel serveur.",
+            "2. Utilisation typique",
+            "Parfait pour mémoriser des préférences, des thèmes, ou des éléments de panier par exemple.",
+            "3. Persistance",
+            "Les données restent accessibles même après fermeture du navigateur, sauf suppression manuelle.",
+            "4. Limites à connaître",
+            "Taille limitée (~5 Mo), non sécurisé, accessible depuis la console : à ne pas utiliser pour les données sensibles.",
+            "5. Conclusion",
+            "Simple à implémenter, LocalStorage reste un outil pratique pour certaines données côté front."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

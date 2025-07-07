@@ -1,4 +1,80 @@
 [
+    {
+        "id": 188,
+        "title": "Context API : partager des données globales dans votre app React",
+        "date": "2025-07-07",
+        "intro": "Envie d’éviter le prop drilling ? La Context API est idéale pour partager des données à travers votre application.",
+        "content": [
+            "1. Un contexte global",
+            "Le Context permet de définir une source unique de vérité accessible partout dans l’arborescence.",
+            "2. Cas d’usage",
+            "Thèmes, utilisateurs connectés, préférences linguistiques : autant de données parfaites pour un contexte.",
+            "3. Facile à mettre en place",
+            "Avec React, vous créez un provider, un consumer, et tout est prêt en quelques lignes de code.",
+            "4. À surveiller",
+            "Trop de contextes imbriqués ou mal optimisés peuvent ralentir votre app. Utilisez-les avec discernement.",
+            "5. Conclusion",
+            "La Context API est une manière efficace et moderne de gérer l’état global dans une app React."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 189,
+        "title": "API REST : la méthode universelle pour gérer les données côté serveur",
+        "date": "2025-07-07",
+        "intro": "Créer ou consommer une API REST est aujourd’hui un standard incontournable pour les échanges de données.",
+        "content": [
+            "1. Architecture claire",
+            "REST repose sur des routes HTTP simples (GET, POST, PUT, DELETE) pour manipuler les ressources.",
+            "2. Indépendance front/back",
+            "Le front consomme une API, le back la gère : chacun peut évoluer séparément.",
+            "3. Compatible avec tout",
+            "Les API REST fonctionnent avec presque tous les langages et frameworks.",
+            "4. Structuration des données",
+            "Les données sont souvent échangées en JSON, ce qui les rend faciles à parser côté front.",
+            "5. Conclusion",
+            "REST reste un pilier dans la gestion des données web : fiable, lisible, adaptable."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 190,
+        "title": "Firebase Firestore : des données en temps réel sans serveur à gérer",
+        "date": "2025-07-07",
+        "intro": "Envie de synchro instantanée entre utilisateurs ? Firestore offre une base de données en temps réel clé en main.",
+        "content": [
+            "1. Base NoSQL",
+            "Firestore stocke vos données sous forme de documents et de collections, parfait pour des structures dynamiques.",
+            "2. Temps réel natif",
+            "Les changements sont automatiquement synchronisés côté front sans rechargement.",
+            "3. Pas besoin d’un backend",
+            "Firebase gère l’authentification, la base et même l’hébergement si nécessaire.",
+            "4. Attention au coût",
+            "Gratuit au départ, Firestore peut vite coûter cher avec beaucoup de lectures/écritures.",
+            "5. Conclusion",
+            "Pour une app moderne et réactive sans backend complexe, Firestore est un allié puissant."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 191,
+        "title": "Redux Toolkit : maîtriser la gestion de données complexe dans votre app front",
+        "date": "2025-07-07",
+        "intro": "Quand l’état devient difficile à suivre, Redux Toolkit offre structure, lisibilité et scalabilité.",
+        "content": [
+            "1. Centralisation de l’état",
+            "Redux vous permet de gérer l’état global dans un store unique, avec des actions bien définies.",
+            "2. Redux Toolkit simplifie tout",
+            "Plus besoin de tout écrire à la main : Redux Toolkit propose une API moderne et concise.",
+            "3. Parfait pour les apps complexes",
+            "Si vous gérez beaucoup de composants, d’interactions ou d’APIs, Redux devient un outil précieux.",
+            "4. Middleware et asynchrone",
+            "Thunk ou RTK Query permettent de gérer des appels API facilement dans votre logique Redux.",
+            "5. Conclusion",
+            "Redux Toolkit rend la gestion de données front claire, robuste et prête pour les grandes apps."
+        ],
+        "sign": "Ludmilla Marti"
+    }
 
 ]
 

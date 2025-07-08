@@ -1,24 +1,5 @@
 [
     {
-        "id": 189,
-        "title": "API REST : la méthode universelle pour gérer les données côté serveur",
-        "date": "2025-07-09",
-        "intro": "Créer ou consommer une API REST est aujourd’hui un standard incontournable pour les échanges de données.",
-        "content": [
-            "1. Architecture claire",
-            "REST repose sur des routes HTTP simples (GET, POST, PUT, DELETE) pour manipuler les ressources.",
-            "2. Indépendance front/back",
-            "Le front consomme une API, le back la gère : chacun peut évoluer séparément.",
-            "3. Compatible avec tout",
-            "Les API REST fonctionnent avec presque tous les langages et frameworks.",
-            "4. Structuration des données",
-            "Les données sont souvent échangées en JSON, ce qui les rend faciles à parser côté front.",
-            "5. Conclusion",
-            "REST reste un pilier dans la gestion des données web : fiable, lisible, adaptable."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 190,
         "title": "Firebase Firestore : des données en temps réel sans serveur à gérer",
         "date": "2025-07-10",

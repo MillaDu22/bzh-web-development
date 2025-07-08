@@ -5462,5 +5462,24 @@
             "Simple à implémenter, LocalStorage reste un outil pratique pour certaines données côté front."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 188,
+        "title": "Context API : partager des données globales dans votre app React",
+        "date": "2025-07-08",
+        "intro": "Envie d’éviter le prop drilling ? La Context API est idéale pour partager des données à travers votre application.",
+        "content": [
+            "1. Un contexte global",
+            "Le Context permet de définir une source unique de vérité accessible partout dans l’arborescence.",
+            "2. Cas d’usage",
+            "Thèmes, utilisateurs connectés, préférences linguistiques : autant de données parfaites pour un contexte.",
+            "3. Facile à mettre en place",
+            "Avec React, vous créez un provider, un consumer, et tout est prêt en quelques lignes de code.",
+            "4. À surveiller",
+            "Trop de contextes imbriqués ou mal optimisés peuvent ralentir votre app. A Utiliser avec discernement.",
+            "5. Conclusion",
+            "La Context API est une manière efficace et moderne de gérer l’état global dans une app React."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

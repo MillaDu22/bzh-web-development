@@ -1,24 +1,5 @@
 [
     {
-        "id": 190,
-        "title": "Firebase Firestore : des données en temps réel sans serveur à gérer",
-        "date": "2025-07-10",
-        "intro": "Envie de synchro instantanée entre utilisateurs ? Firestore offre une base de données en temps réel clé en main.",
-        "content": [
-            "1. Base NoSQL",
-            "Firestore stocke vos données sous forme de documents et de collections, parfait pour des structures dynamiques.",
-            "2. Temps réel natif",
-            "Les changements sont automatiquement synchronisés côté front sans rechargement.",
-            "3. Pas besoin d’un backend",
-            "Firebase gère l’authentification, la base et même l’hébergement si nécessaire.",
-            "4. Attention au coût",
-            "Gratuit au départ, Firestore peut vite coûter cher avec beaucoup de lectures/écritures.",
-            "5. Conclusion",
-            "Pour une app moderne et réactive sans backend complexe, Firestore est un allié puissant."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 191,
         "title": "Redux Toolkit : maîtriser la gestion de données complexe dans votre app front",
         "date": "2025-07-11",

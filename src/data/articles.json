@@ -5519,5 +5519,24 @@
             "Pour une app moderne et réactive sans backend complexe, Firestore est un allié puissant."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 191,
+        "title": "Redux Toolkit : maîtriser la gestion de données complexe dans votre app front",
+        "date": "2025-07-11",
+        "intro": "Quand l’état devient difficile à suivre, Redux Toolkit offre structure, lisibilité et scalabilité.",
+        "content": [
+            "1. Centralisation de l’état",
+            "Redux vous permet de gérer l’état global dans un store unique, avec des actions bien définies.",
+            "2. Redux Toolkit simplifie tout",
+            "Plus besoin de tout écrire à la main : Redux Toolkit propose une API moderne et concise.",
+            "3. Parfait pour les apps complexes",
+            "Si vous gérez beaucoup de composants, d’interactions ou d’APIs, Redux devient un outil précieux.",
+            "4. Middleware et asynchrone",
+            "Thunk ou RTK Query permettent de gérer des appels API facilement dans votre logique Redux.",
+            "5. Conclusion",
+            "Redux Toolkit rend la gestion de données front claire, robuste et prête pour les grandes apps."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

@@ -1,24 +1,156 @@
 [
     {
-        "id": 191,
-        "title": "Redux Toolkit : maîtriser la gestion de données complexe dans votre app front",
-        "date": "2025-07-11",
-        "intro": "Quand l’état devient difficile à suivre, Redux Toolkit offre structure, lisibilité et scalabilité.",
+        "id": 193,
+        "title": "CSS et identité visuelle pour un site de cabinet médical : rassurer dès le premier regard",
+        "date": "2025-07-16",
+        "intro": "Un site médical doit inspirer confiance et sérieux. Le choix des couleurs et des polices CSS joue un rôle central dans la perception du patient.",
         "content": [
-            "1. Centralisation de l’état",
-            "Redux vous permet de gérer l’état global dans un store unique, avec des actions bien définies.",
-            "2. Redux Toolkit simplifie tout",
-            "Plus besoin de tout écrire à la main : Redux Toolkit propose une API moderne et concise.",
-            "3. Parfait pour les apps complexes",
-            "Si vous gérez beaucoup de composants, d’interactions ou d’APIs, Redux devient un outil précieux.",
-            "4. Middleware et asynchrone",
-            "Thunk ou RTK Query permettent de gérer des appels API facilement dans votre logique Redux.",
+            "1. Des couleurs apaisantes",
+            "Utilisez des tons bleus, verts clairs ou gris doux. Ces couleurs évoquent la sérénité, la santé et la propreté.",
+            "2. Des polices sobres",
+            "Choisissez des typographies sans-serif comme 'Roboto' ou 'Open Sans', idéales pour transmettre clarté et professionnalisme.",
+            "3. Un design minimaliste",
+            "Laissez de l’espace entre les éléments, évitez les animations agressives, et utilisez une grille simple pour la navigation.",
+            "4. Contraste et accessibilité",
+            "Assurez-vous que les textes soient lisibles avec un contraste suffisant. Le confort visuel est primordial.",
             "5. Conclusion",
-            "Redux Toolkit rend la gestion de données front claire, robuste et prête pour les grandes apps."
+            "Le CSS doit accompagner le message du cabinet : sérieux, clarté et accueil bienveillant dès la page d’accueil."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 194,
+        "title": "Style CSS pour site de photographe : l’art de sublimer les images",
+        "date": "2025-07-17",
+        "intro": "Un site de photographe doit laisser respirer les visuels. Le style CSS est là pour les mettre en valeur sans les voler la vedette.",
+        "content": [
+            "1. Couleurs neutres en priorité",
+            "Utilisez du blanc, du noir ou du gris pour ne pas interférer avec les teintes des photos. Le fond doit être discret.",
+            "2. Typographie fine et élégante",
+            "Choisissez une police fine et artistique comme 'Lora' ou 'Raleway'. Pas de surcharges, tout doit rester épuré.",
+            "3. Marges généreuses et grilles fluides",
+            "Laissez respirer les photos grâce à des marges amples. Utilisez des galeries flexibles qui s’adaptent aux formats.",
+            "4. Animation douce au survol",
+            "Des effets légers comme un zoom ou un flou au hover renforcent l’aspect premium du portfolio.",
+            "5. Conclusion",
+            "Le style CSS d’un site photo doit être minimal et raffiné, au service de l’image, jamais en compétition avec elle."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 195,
+        "title": "Un style CSS accessible et chaleureux pour un site associatif",
+        "date": "2025-07-18",
+        "intro": "Les sites d’associations doivent être accueillants, accessibles et dynamiques. Le CSS permet de transmettre ces valeurs dès les premiers clics.",
+        "content": [
+            "1. Couleurs porteuses de sens",
+            "Utilisez des couleurs en lien avec l’activité : vert pour l’environnement, orange pour la jeunesse, violet pour la culture. Restez cohérent avec votre message.",
+            "2. Polices simples et inclusives",
+            "Des polices comme 'Arial', 'Inter' ou 'Verdana' assurent une bonne lisibilité, même pour les publics moins à l’aise avec le numérique.",
+            "3. Un design vivant mais sobre",
+            "Ajoutez des touches de dynamisme (icônes, illustrations) sans trop charger : priorité à l’info claire et rapide.",
+            "4. Responsive par nature",
+            "Les utilisateurs peuvent être âgés ou peu technophiles : le site doit être lisible sur tout écran, sans friction.",
+            "5. Conclusion",
+            "Un bon style CSS rend le site d’une association inclusif, engageant et adapté à son public. L’accessibilité est une priorité absolue."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 196,
+        "title": "Charte CSS pour un salon de coiffure : modernité et élégance en ligne",
+        "date": "2025-07-19",
+        "intro": "Un site de salon de coiffure doit refléter l’esthétique, la tendance et l’attention portée au détail. Le style CSS doit en être le miroir.",
+        "content": [
+            "1. Couleurs tendances",
+            "Utilisez des tons pastel (rosé, sable, bleu doux) ou des couleurs profondes (noir mat, bordeaux, or) selon le positionnement du salon.",
+            "2. Typographies raffinées",
+            "Combinez une police élégante pour les titres (comme 'Playfair Display') avec une sans-serif moderne et légère pour les textes.",
+            "3. Effets visuels stylés",
+            "Ajoutez de légères transitions, des hover sur les prestations ou une animation au défilement pour un look contemporain.",
+            "4. Grille aérée et chic",
+            "Structurez l’espace avec des sections claires, bien espacées, et une mise en page qui respire la sophistication.",
+            "5. Conclusion",
+            "Le style CSS d’un salon de coiffure doit faire ressentir l’univers du soin et de la beauté dès la première seconde."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 197,
+        "title": "CSS pour un e-commerce artisanal : valoriser le fait-main avec style",
+        "date": "2025-07-20",
+        "intro": "Un site de vente artisanale doit raconter une histoire, celle de la matière, du geste, de l’objet unique. Le CSS doit sublimer cette authenticité.",
+        "content": [
+            "1. Teintes naturelles",
+            "Utilisez des tons terreux (brun, beige, vert olive), du blanc cassé, et des textures en fond comme du lin ou du bois.",
+            "2. Polices chaleureuses",
+            "Préférez des polices serif à l’ancienne ou des handwritten légères pour les titres. Pour les descriptions, restez lisible avec une sans-serif simple.",
+            "3. Mises en valeur des produits",
+            "Ajoutez des ombres douces, un léger zoom au survol, et encadrez les images avec des bordures fines et sobres.",
+            "4. Navigation intuitive",
+            "Organisez les catégories avec des badges colorés et un menu épuré qui va droit au but.",
+            "5. Conclusion",
+            "Un bon CSS sur un site artisanal met en valeur l’humain et le produit : un mélange de simplicité, de chaleur et d’élégance."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 198,
+        "title": "Styles CSS pour un site de coaching sportif : énergie et motivation",
+        "date": "2025-07-21",
+        "intro": "Un site de coach sportif doit transmettre de l'énergie, de la discipline et de la motivation. Le CSS en est le moteur visuel.",
+        "content": [
+            "1. Couleurs dynamiques",
+            "Rouge, orange, bleu électrique ou vert fluo : utilisez-les pour marquer les CTA, les blocs horaires ou les formules.",
+            "2. Polices solides et impactantes",
+            "Des polices bold comme 'Bebas Neue' ou 'Montserrat' renforcent le sentiment de puissance et de dynamisme.",
+            "3. Layout carré et efficace",
+            "Une grille en colonnes, avec des blocs bien rangés, et des boutons visibles pour chaque action (réservation, contact, inscription).",
+            "4. Animation sur les chiffres",
+            "Animez les statistiques (transformations, clients, séances) pour donner un effet vivant et progressif.",
+            "5. Conclusion",
+            "Avec un bon CSS, un site de coach sportif pousse déjà le visiteur à l’action. La performance commence par l’identité visuelle."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 199,
+        "title": "CSS pour site de formation : sérieux, clarté et accessibilité",
+        "date": "2025-07-22",
+        "intro": "Un site éducatif doit inspirer confiance et guider l’utilisateur avec clarté. Le CSS pose les fondations de cette expérience pédagogique.",
+        "content": [
+            "1. Couleurs institutionnelles",
+            "Bleu foncé, vert académique, beige neutre : ces couleurs rassurent et créent un cadre professionnel.",
+            "2. Polices lisibles et sérieuses",
+            "Utilisez des polices comme 'Merriweather' ou 'Inter', parfaites pour la lecture de paragraphes longs et structurés.",
+            "3. Structuration rigoureuse",
+            "Le contenu doit être hiérarchisé : titres de modules, programmes, boutons d’inscription doivent suivre une logique visuelle stricte.",
+            "4. Icônes et pictos pédagogiques",
+            "Ajoutez des pictogrammes pour illustrer les types de formations, les modalités, ou les niveaux de compétence.",
+            "5. Conclusion",
+            "Un bon style CSS transforme un site de formation en une plateforme intuitive, sérieuse et efficace."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 200,
+        "title": "CSS et site immobilier : élégance et clarté pour vendre ou louer",
+        "date": "2025-07-23",
+        "intro": "Un site immobilier a un objectif précis : inspirer confiance et permettre la recherche rapide. Le style CSS doit être au service de cette mission.",
+        "content": [
+            "1. Palette sobre et élégante",
+            "Bleu foncé, beige, blanc, parfois or ou bronze pour les biens haut de gamme. Restez neutre et rassurant.",
+            "2. Polices haut de gamme",
+            "Une serif élégante pour les titres (ex : 'Cormorant Garamond'), et une sans-serif propre pour les descriptions.",
+            "3. Grille rigoureuse pour les biens",
+            "Affichez les propriétés en colonnes ou en grille avec des cartes bien alignées. Ajoutez des badges 'Vendu', 'Exclusivité', etc.",
+            "4. Interactions douces",
+            "Ajoutez des hover élégants, un filtre animé pour la recherche, et des transitions nettes pour le carrousel d’images.",
+            "5. Conclusion",
+            "Un CSS soigné donne tout de suite un gage de professionnalisme, indispensable pour un site immobilier réussi."
         ],
         "sign": "Ludmilla Marti"
     }
-
 ]
 
 

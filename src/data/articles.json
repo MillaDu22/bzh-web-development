@@ -5538,5 +5538,24 @@
             "Redux Toolkit rend la gestion de données front claire, robuste et prête pour les grandes apps."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 192,
+        "title": "Styles CSS pour un site de restaurant : couleurs et ambiance au menu",
+        "date": "2025-07-15",
+        "intro": "Un bon site de restaurant commence par une identité visuelle appétissante. Couleurs chaudes, typographies accueillantes… tout se joue dans les styles CSS.",
+        "content": [
+            "1. Des couleurs savoureuses",
+            "Privilégiez des teintes chaudes comme le rouge brique, le terracotta ou l’ocre. Elles stimulent l’appétit et évoquent la convivialité.",
+            "2. Une typographie gourmande",
+            "Optez pour une police serif élégante pour les titres (comme 'Playfair Display') et une sans-serif lisible pour les menus.",
+            "3. Hiérarchie claire pour la carte",
+            "Utilisez des tailles et des marges différenciées pour mettre en valeur les plats phares, les catégories, et les prix.",
+            "4. Responsive et lisible",
+            "Un client sur deux consultera le site sur mobile : adaptez les tailles de police et l’espacement des éléments.",
+            "5. Conclusion",
+            "Le style CSS d’un site de restaurant doit refléter son ambiance. Avec les bons choix visuels, vous ouvrez déjà l’appétit."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

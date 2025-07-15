@@ -1,24 +1,5 @@
 [
     {
-        "id": 193,
-        "title": "CSS et identité visuelle pour un site de cabinet médical : rassurer dès le premier regard",
-        "date": "2025-07-16",
-        "intro": "Un site médical doit inspirer confiance et sérieux. Le choix des couleurs et des polices CSS joue un rôle central dans la perception du patient.",
-        "content": [
-            "1. Des couleurs apaisantes",
-            "Utilisez des tons bleus, verts clairs ou gris doux. Ces couleurs évoquent la sérénité, la santé et la propreté.",
-            "2. Des polices sobres",
-            "Choisissez des typographies sans-serif comme 'Roboto' ou 'Open Sans', idéales pour transmettre clarté et professionnalisme.",
-            "3. Un design minimaliste",
-            "Laissez de l’espace entre les éléments, évitez les animations agressives, et utilisez une grille simple pour la navigation.",
-            "4. Contraste et accessibilité",
-            "Assurez-vous que les textes soient lisibles avec un contraste suffisant. Le confort visuel est primordial.",
-            "5. Conclusion",
-            "Le CSS doit accompagner le message du cabinet : sérieux, clarté et accueil bienveillant dès la page d’accueil."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 194,
         "title": "Style CSS pour site de photographe : l’art de sublimer les images",
         "date": "2025-07-17",

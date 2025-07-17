@@ -5595,5 +5595,24 @@
             "Le style CSS d’un site photo doit être minimal et raffiné, au service de l’image, jamais en compétition avec elle."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 195,
+        "title": "Un style CSS accessible et chaleureux pour un site associatif",
+        "date": "2025-07-18",
+        "intro": "Les sites d’associations doivent être accueillants, accessibles et dynamiques. Le CSS permet de transmettre ces valeurs dès les premiers clics.",
+        "content": [
+            "1. Couleurs porteuses de sens",
+            "Utilisez des couleurs en lien avec l’activité : vert pour l’environnement, orange pour la jeunesse, violet pour la culture. Restez cohérent avec votre message.",
+            "2. Polices simples et inclusives",
+            "Des polices comme 'Arial', 'Inter' ou 'Verdana' assurent une bonne lisibilité, même pour les publics moins à l’aise avec le numérique.",
+            "3. Un design vivant mais sobre",
+            "Ajoutez des touches de dynamisme (icônes, illustrations) sans trop charger : priorité à l’info claire et rapide.",
+            "4. Responsive par nature",
+            "Les utilisateurs peuvent être âgés ou peu technophiles : le site doit être lisible sur tout écran, sans friction.",
+            "5. Conclusion",
+            "Un bon style CSS rend le site d’une association inclusif, engageant et adapté à son public. L’accessibilité est une priorité absolue."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

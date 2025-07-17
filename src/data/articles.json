@@ -5558,7 +5558,7 @@
         ],
         "sign": "Ludmilla Marti"
     },
-        {
+    {
         "id": 193,
         "title": "CSS et identité visuelle pour un site de cabinet médical : rassurer dès le premier regard",
         "date": "2025-07-16",
@@ -5574,6 +5574,25 @@
             "Assurez-vous que les textes soient lisibles avec un contraste suffisant. Le confort visuel est primordial.",
             "5. Conclusion",
             "Le CSS doit accompagner le message du cabinet : sérieux, clarté et accueil bienveillant dès la page d’accueil."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 194,
+        "title": "Style CSS pour site de photographe : l’art de sublimer les images",
+        "date": "2025-07-17",
+        "intro": "Un site de photographe doit laisser respirer les visuels. Le style CSS est là pour les mettre en valeur sans les voler la vedette.",
+        "content": [
+            "1. Couleurs neutres en priorité",
+            "Utilisez du blanc, du noir ou du gris pour ne pas interférer avec les teintes des photos. Le fond doit être discret.",
+            "2. Typographie fine et élégante",
+            "Choisissez une police fine et artistique comme 'Lora' ou 'Raleway'. Pas de surcharges, tout doit rester épuré.",
+            "3. Marges généreuses et grilles fluides",
+            "Laissez respirer les photos grâce à des marges amples. Utilisez des galeries flexibles qui s’adaptent aux formats.",
+            "4. Animation douce au survol",
+            "Des effets légers comme un zoom ou un flou au hover renforcent l’aspect premium du portfolio.",
+            "5. Conclusion",
+            "Le style CSS d’un site photo doit être minimal et raffiné, au service de l’image, jamais en compétition avec elle."
         ],
         "sign": "Ludmilla Marti"
     }

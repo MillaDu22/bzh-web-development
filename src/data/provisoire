@@ -1,24 +1,5 @@
 [
     {
-        "id": 197,
-        "title": "CSS pour un e-commerce artisanal : valoriser le fait-main avec style",
-        "date": "2025-07-22",
-        "intro": "Un site de vente artisanale doit raconter une histoire, celle de la matière, du geste, de l’objet unique. Le CSS doit sublimer cette authenticité.",
-        "content": [
-            "1. Teintes naturelles",
-            "Utilisez des tons terreux (brun, beige, vert olive), du blanc cassé, et des textures en fond comme du lin ou du bois.",
-            "2. Polices chaleureuses",
-            "Préférez des polices serif à l’ancienne ou des handwritten légères pour les titres. Pour les descriptions, restez lisible avec une sans-serif simple.",
-            "3. Mises en valeur des produits",
-            "Ajoutez des ombres douces, un léger zoom au survol, et encadrez les images avec des bordures fines et sobres.",
-            "4. Navigation intuitive",
-            "Organisez les catégories avec des badges colorés et un menu épuré qui va droit au but.",
-            "5. Conclusion",
-            "Un bon CSS sur un site artisanal met en valeur l’humain et le produit : un mélange de simplicité, de chaleur et d’élégance."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 198,
         "title": "Styles CSS pour un site de coaching sportif : énergie et motivation",
         "date": "2025-07-23",

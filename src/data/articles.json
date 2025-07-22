@@ -5652,5 +5652,24 @@
             "Un bon CSS sur un site artisanal met en valeur l’humain et le produit : un mélange de simplicité, de chaleur et d’élégance."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 198,
+        "title": "Styles CSS pour un site de coaching sportif : énergie et motivation",
+        "date": "2025-07-23",
+        "intro": "Un site de coach sportif doit transmettre de l'énergie, de la discipline et de la motivation. Le CSS en est le moteur visuel.",
+        "content": [
+            "1. Couleurs dynamiques",
+            "Rouge, orange, bleu électrique ou vert fluo : utilisez-les pour marquer les CTA, les blocs horaires ou les formules.",
+            "2. Polices solides et impactantes",
+            "Des polices bold comme 'Bebas Neue' ou 'Montserrat' renforcent le sentiment de puissance et de dynamisme.",
+            "3. Layout carré et efficace",
+            "Une grille en colonnes, avec des blocs bien rangés, et des boutons visibles pour chaque action (réservation, contact, inscription).",
+            "4. Animation sur les chiffres",
+            "Animez les statistiques (transformations, clients, séances) pour donner un effet vivant et progressif.",
+            "5. Conclusion",
+            "Avec un bon CSS, un site de coach sportif pousse déjà le visiteur à l’action. La performance commence par l’identité visuelle."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

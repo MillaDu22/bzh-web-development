@@ -5671,5 +5671,24 @@
             "Avec un bon CSS, un site de coach sportif pousse déjà le visiteur à l’action. La performance commence par l’identité visuelle."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 199,
+        "title": "CSS pour site de formation : sérieux, clarté et accessibilité",
+        "date": "2025-07-24",
+        "intro": "Un site éducatif doit inspirer confiance et guider l’utilisateur avec clarté. Le CSS pose les fondations de cette expérience pédagogique.",
+        "content": [
+            "1. Couleurs institutionnelles",
+            "Bleu foncé, vert académique, beige neutre : ces couleurs rassurent et créent un cadre professionnel.",
+            "2. Polices lisibles et sérieuses",
+            "Utilisez des polices comme 'Merriweather' ou 'Inter', parfaites pour la lecture de paragraphes longs et structurés.",
+            "3. Structuration rigoureuse",
+            "Le contenu doit être hiérarchisé : titres de modules, programmes, boutons d’inscription doivent suivre une logique visuelle stricte.",
+            "4. Icônes et pictos pédagogiques",
+            "Ajoutez des pictogrammes pour illustrer les types de formations, les modalités, ou les niveaux de compétence.",
+            "5. Conclusion",
+            "Un bon style CSS transforme un site de formation en une plateforme intuitive, sérieuse et efficace."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

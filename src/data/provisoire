@@ -1,43 +1,5 @@
 [
     {
-        "id": 198,
-        "title": "Styles CSS pour un site de coaching sportif : énergie et motivation",
-        "date": "2025-07-23",
-        "intro": "Un site de coach sportif doit transmettre de l'énergie, de la discipline et de la motivation. Le CSS en est le moteur visuel.",
-        "content": [
-            "1. Couleurs dynamiques",
-            "Rouge, orange, bleu électrique ou vert fluo : utilisez-les pour marquer les CTA, les blocs horaires ou les formules.",
-            "2. Polices solides et impactantes",
-            "Des polices bold comme 'Bebas Neue' ou 'Montserrat' renforcent le sentiment de puissance et de dynamisme.",
-            "3. Layout carré et efficace",
-            "Une grille en colonnes, avec des blocs bien rangés, et des boutons visibles pour chaque action (réservation, contact, inscription).",
-            "4. Animation sur les chiffres",
-            "Animez les statistiques (transformations, clients, séances) pour donner un effet vivant et progressif.",
-            "5. Conclusion",
-            "Avec un bon CSS, un site de coach sportif pousse déjà le visiteur à l’action. La performance commence par l’identité visuelle."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
-        "id": 199,
-        "title": "CSS pour site de formation : sérieux, clarté et accessibilité",
-        "date": "2025-07-24",
-        "intro": "Un site éducatif doit inspirer confiance et guider l’utilisateur avec clarté. Le CSS pose les fondations de cette expérience pédagogique.",
-        "content": [
-            "1. Couleurs institutionnelles",
-            "Bleu foncé, vert académique, beige neutre : ces couleurs rassurent et créent un cadre professionnel.",
-            "2. Polices lisibles et sérieuses",
-            "Utilisez des polices comme 'Merriweather' ou 'Inter', parfaites pour la lecture de paragraphes longs et structurés.",
-            "3. Structuration rigoureuse",
-            "Le contenu doit être hiérarchisé : titres de modules, programmes, boutons d’inscription doivent suivre une logique visuelle stricte.",
-            "4. Icônes et pictos pédagogiques",
-            "Ajoutez des pictogrammes pour illustrer les types de formations, les modalités, ou les niveaux de compétence.",
-            "5. Conclusion",
-            "Un bon style CSS transforme un site de formation en une plateforme intuitive, sérieuse et efficace."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 200,
         "title": "CSS et site immobilier : élégance et clarté pour vendre ou louer",
         "date": "2025-07-25",

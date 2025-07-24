@@ -1,23 +1,5 @@
 [
-    {
-        "id": 200,
-        "title": "CSS et site immobilier : élégance et clarté pour vendre ou louer",
-        "date": "2025-07-25",
-        "intro": "Un site immobilier a un objectif précis : inspirer confiance et permettre la recherche rapide. Le style CSS doit être au service de cette mission.",
-        "content": [
-            "1. Palette sobre et élégante",
-            "Bleu foncé, beige, blanc, parfois or ou bronze pour les biens haut de gamme. Restez neutre et rassurant.",
-            "2. Polices haut de gamme",
-            "Une serif élégante pour les titres (ex : 'Cormorant Garamond'), et une sans-serif propre pour les descriptions.",
-            "3. Grille rigoureuse pour les biens",
-            "Affichez les propriétés en colonnes ou en grille avec des cartes bien alignées. Ajoutez des badges 'Vendu', 'Exclusivité', etc.",
-            "4. Interactions douces",
-            "Ajoutez des hover élégants, un filtre animé pour la recherche, et des transitions nettes pour le carrousel d’images.",
-            "5. Conclusion",
-            "Un CSS soigné donne tout de suite un gage de professionnalisme, indispensable pour un site immobilier réussi."
-        ],
-        "sign": "Ludmilla Marti"
-    }
+
 ]
 
 

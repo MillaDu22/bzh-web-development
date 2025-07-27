@@ -5709,5 +5709,24 @@
             "Un CSS soigné donne tout de suite un gage de professionnalisme, indispensable pour un site immobilier réussi."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 201,
+        "title": "CSS et site d’artiste : l’élégance au service de la créativité",
+        "date": "2025-07-28",
+        "intro": "Le site d’un artiste peintre doit exposer les œuvres sans les étouffer. Le CSS y joue un rôle subtil.",
+        "content": [
+            "1. Palette inspirée",
+            "Fonds neutres (ivoire, gris clair), touches vives inspirées des œuvres elles-mêmes.",
+            "2. Typographie artistique",
+            "Une serif expressive ou calligraphique pour l’identité, associée à une sans-serif pour les infos pratiques.",
+            "3. Grilles asymétriques",
+            "Disposition libre, parfois en diagonale ou décalée pour évoquer la créativité.",
+            "4. Scroll fluide",
+            "Animations légères au scroll, galerie en plein écran pour certaines œuvres.",
+            "5. Conclusion",
+            "Un CSS créatif mais mesuré valorise l’univers de l’artiste sans le contraindre."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

@@ -1,5 +1,175 @@
 [
-
+    {
+        "id": 202,
+        "title": "CSS et site de voyage : invitation à l’évasion",
+        "date": "2025-07-29",
+        "intro": "Un site de voyage doit faire rêver et guider efficacement vers la réservation. Le CSS invite à l’évasion.",
+        "content": [
+            "1. Couleurs lumineuses",
+            "Turquoise, beige sable, bleu azur : une palette qui évoque les destinations de rêve.",
+            "2. Polices aérées",
+            "Typo ronde et accueillante pour les titres, simple et fluide pour les descriptions.",
+            "3. Grilles avec images immersives",
+            "Grandes photos plein écran, galeries animées, sections claires avec infos pratiques.",
+            "4. Effets doux",
+            "Parallaxe léger, transitions fondues entre les destinations, filtres de recherche animés.",
+            "5. Conclusion",
+            "Un CSS ensoleillé et inspirant déclenche l’envie de partir sur-le-champ."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 203,
+        "title": "CSS et site de salon : style, beauté et raffinement",
+        "date": "2025-07-30",
+        "intro": "Un salon de coiffure ou institut de beauté mérite un site aussi soigné que ses prestations.",
+        "content": [
+            "1. Teintes élégantes",
+            "Rose poudré, doré, blanc cassé, noir satiné : des couleurs douces et haut de gamme.",
+            "2. Typo glamour",
+            "Serif féminine ou cursive pour les titres, et sans-serif minimaliste pour le corps.",
+            "3. Présentation fluide",
+            "Offres en slider, témoignages clients en carrousel, carte des tarifs bien espacée.",
+            "4. Interactions douces",
+            "Transitions lentes, hover avec effets de brillance ou d’ombrage subtil.",
+            "5. Conclusion",
+            "Un CSS raffiné est un reflet fidèle d’un salon stylé."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 204,
+        "title": "CSS et site d’artisan : solide, clair, authentique",
+        "date": "2025-07-31",
+        "intro": "Les artisans ont besoin d’un site fonctionnel, rassurant et ancré dans le concret. Le CSS doit suivre cette logique.",
+        "content": [
+            "1. Couleurs naturelles",
+            "Bois clair, gris béton, bleu marine, vert forêt : des tons sobres et solides.",
+            "2. Typo robuste",
+            "Font bold avec empattements légers pour les titres, sans-serif propre pour le reste.",
+            "3. Grille en blocs",
+            "Sections bien rangées avec images avant/après, zone de devis, contacts visibles.",
+            "4. Interactions discrètes",
+            "Hover clair, transitions légères pour ne pas surcharger.",
+            "5. Conclusion",
+            "Un CSS robuste renforce la crédibilité d’un artisan local ou indépendant."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 205,
+        "title": "CSS et boutique en ligne : mode, clarté et fluidité",
+        "date": "2025-08-01",
+        "intro": "Un site e-commerce dans la mode doit allier esthétique, hiérarchie claire et parcours fluide.",
+        "content": [
+            "1. Couleurs tendances",
+            "Selon la cible : minimalisme en noir/blanc, ou audace avec lilas, rouille, vert céladon.",
+            "2. Police stylée",
+            "Typo chic pour les titres, et très lisible pour les tailles, prix, options de produit.",
+            "3. Cartes produits nettes",
+            "Grille ajustable, hover avec changement de photo, animations panier fluides.",
+            "4. Filtres dynamiques",
+            "Filtres par taille, style, couleur avec transitions soignées.",
+            "5. Conclusion",
+            "Un CSS e-commerce efficace guide et transforme, sans effort."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 206,
+        "title": "CSS et immobilier de luxe : prestige et clarté premium",
+        "date": "2025-08-02",
+        "intro": "Le haut de gamme dans l’immobilier demande un site raffiné, fluide et valorisant. Le CSS doit évoquer le prestige.",
+        "content": [
+            "1. Couleurs nobles",
+            "Blanc pur, noir profond, doré discret ou champagne : les codes du luxe.",
+            "2. Typo premium",
+            "Font serif fine pour les titres, avec capitales élégantes. Sans-serif moderne pour les détails.",
+            "3. Grille sur mesure",
+            "Grandes images, animations lentes, badges personnalisés ('Vendu', 'Rare', 'Vue mer').",
+            "4. Transitions soyeuses",
+            "Pages qui glissent, hover à faible opacité, carrousels lents et immersifs.",
+            "5. Conclusion",
+            "Un bon CSS évoque l’exception et le raffinement, sans ostentation."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 207,
+        "title": "CSS et site d’événement : rythme, énergie et efficacité",
+        "date": "2025-08-03",
+        "intro": "Qu’il s’agisse d’un festival ou d’un salon, le site doit capter l’attention et inciter à participer. Le CSS rend l’expérience fluide et attractive.",
+        "content": [
+            "1. Palette dynamique",
+            "Couleurs vives ou tranchées selon le thème (électro, nature, pro), avec cohérence visuelle.",
+            "2. Typo impactante",
+            "Titres expressifs en capitales, texte clair et rapide à lire pour les infos clés.",
+            "3. Mise en scène",
+            "Agenda animé, galerie d’intervenants ou d’artistes avec effets CSS dynamiques.",
+            "4. Réactivité mobile",
+            "Un CSS bien pensé pour le mobile : menu sticky, scroll fluide, CTA visibles.",
+            "5. Conclusion",
+            "Un CSS bien rythmé donne l’impression que l’événement a déjà commencé."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 208,
+        "title": "CSS et site de musicien : identité visuelle et ambiance sonore",
+        "date": "2025-08-04",
+        "intro": "Le site d’un musicien ou groupe doit refléter son univers visuel et guider vers l’écoute. Le CSS crée l’ambiance.",
+        "content": [
+            "1. Couleurs immersives",
+            "Sombres pour le rock, flashy pour l’électro, pastels pour l’acoustique : chaque style musical a sa palette.",
+            "2. Typo marquée",
+            "Font stylisée pour le nom ou logo, et sans-serif discrète pour les infos pratiques (concerts, bio, albums).",
+            "3. Layout immersif",
+            "Header plein écran avec vidéo ou photo, sections fluides pour les dates et albums.",
+            "4. Interactions visuelles",
+            "Hover lumineux sur les boutons d’écoute, fond animés ou parallax pour créer un rythme.",
+            "5. Conclusion",
+            "Un CSS bien accordé à l’univers musical amplifie l’expérience des visiteurs."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 209,
+        "title": "CSS et site juridique : sobriété, clarté et autorité",
+        "date": "2025-08-05",
+        "intro": "Les professions juridiques ont besoin d’un site clair, sérieux et rassurant. Le CSS doit inspirer confiance dès l’accueil.",
+        "content": [
+            "1. Palette sérieuse",
+            "Bleu marine, blanc, gris anthracite, beige : sobriété et stabilité visuelle.",
+            "2. Typographie professionnelle",
+            "Font serif traditionnelle pour les titres, sans-serif propre pour le contenu (ex : 'Roboto', 'Merriweather').",
+            "3. Structure rigoureuse",
+            "Sections bien définies : domaines, équipe, contact. Pas d’effet inutile.",
+            "4. Interaction discrète",
+            "Hover subtil, transitions douces, rien d’intrusif pour respecter la rigueur du secteur.",
+            "5. Conclusion",
+            "Un CSS sobre renforce l’image sérieuse d’un cabinet et clarifie l’offre juridique."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 210,
+        "title": "CSS et blog culinaire : gourmandise et lisibilité",
+        "date": "2025-08-06",
+        "intro": "Un blog de recettes doit donner faim, mais surtout être clair et agréable à lire. Le CSS fait le lien entre plaisir et structure.",
+        "content": [
+            "1. Couleurs appétissantes",
+            "Crème, vert pistache, rouge cerise : un univers doux mais plein de goût.",
+            "2. Typo lisible et chaleureuse",
+            "Serif ou manuscrite pour les titres, sans-serif claire pour les étapes et ingrédients.",
+            "3. Grille aérée",
+            "Images des plats bien mises en valeur, étapes bien espacées, zones commentables.",
+            "4. Micro-animations",
+            "Hover sur les images, transitions douces sur les boutons 'Imprimer' ou 'Ajouter à mes recettes'.",
+            "5. Conclusion",
+            "Un CSS savoureux donne envie de cuisiner… et de revenir !"
+        ],
+        "sign": "Ludmilla Marti"
+    }
 ]
 
 

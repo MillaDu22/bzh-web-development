@@ -5728,5 +5728,24 @@
             "Un CSS créatif mais mesuré valorise l’univers de l’artiste sans le contraindre."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 202,
+        "title": "CSS et site de voyage : invitation à l’évasion",
+        "date": "2025-07-29",
+        "intro": "Un site de voyage doit faire rêver et guider efficacement vers la réservation. Le CSS invite à l’évasion.",
+        "content": [
+            "1. Couleurs lumineuses",
+            "Turquoise, beige sable, bleu azur : une palette qui évoque les destinations de rêve.",
+            "2. Polices aérées",
+            "Typo ronde et accueillante pour les titres, simple et fluide pour les descriptions.",
+            "3. Grilles avec images immersives",
+            "Grandes photos plein écran, galeries animées, sections claires avec infos pratiques.",
+            "4. Effets doux",
+            "Parallaxe léger, transitions fondues entre les destinations, filtres de recherche animés.",
+            "5. Conclusion",
+            "Un CSS ensoleillé et inspirant déclenche l’envie de partir sur-le-champ."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

@@ -5747,5 +5747,24 @@
             "Un CSS ensoleillé et inspirant déclenche l’envie de partir sur-le-champ."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 203,
+        "title": "CSS et site de salon : style, beauté et raffinement",
+        "date": "2025-07-30",
+        "intro": "Un salon de coiffure ou institut de beauté mérite un site aussi soigné que ses prestations.",
+        "content": [
+            "1. Teintes élégantes",
+            "Rose poudré, doré, blanc cassé, noir satiné : des couleurs douces et haut de gamme.",
+            "2. Typo glamour",
+            "Serif féminine ou cursive pour les titres, et sans-serif minimaliste pour le corps.",
+            "3. Présentation fluide",
+            "Offres en slider, témoignages clients en carrousel, carte des tarifs bien espacée.",
+            "4. Interactions douces",
+            "Transitions lentes, hover avec effets de brillance ou d’ombrage subtil.",
+            "5. Conclusion",
+            "Un CSS raffiné est un reflet fidèle d’un salon stylé."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

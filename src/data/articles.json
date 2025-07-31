@@ -5766,5 +5766,43 @@
             "Un CSS raffiné est un reflet fidèle d’un salon stylé."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 204,
+        "title": "CSS et site d’artisan : solide, clair, authentique",
+        "date": "2025-07-31",
+        "intro": "Les artisans ont besoin d’un site fonctionnel, rassurant et ancré dans le concret. Le CSS doit suivre cette logique.",
+        "content": [
+            "1. Couleurs naturelles",
+            "Bois clair, gris béton, bleu marine, vert forêt : des tons sobres et solides.",
+            "2. Typo robuste",
+            "Font bold avec empattements légers pour les titres, sans-serif propre pour le reste.",
+            "3. Grille en blocs",
+            "Sections bien rangées avec images avant/après, zone de devis, contacts visibles.",
+            "4. Interactions discrètes",
+            "Hover clair, transitions légères pour ne pas surcharger.",
+            "5. Conclusion",
+            "Un CSS robuste renforce la crédibilité d’un artisan local ou indépendant."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 205,
+        "title": "CSS et boutique en ligne : mode, clarté et fluidité",
+        "date": "2025-08-01",
+        "intro": "Un site e-commerce dans la mode doit allier esthétique, hiérarchie claire et parcours fluide.",
+        "content": [
+            "1. Couleurs tendances",
+            "Selon la cible : minimalisme en noir/blanc, ou audace avec lilas, rouille, vert céladon.",
+            "2. Police stylée",
+            "Typo chic pour les titres, et très lisible pour les tailles, prix, options de produit.",
+            "3. Cartes produits nettes",
+            "Grille ajustable, hover avec changement de photo, animations panier fluides.",
+            "4. Filtres dynamiques",
+            "Filtres par taille, style, couleur avec transitions soignées.",
+            "5. Conclusion",
+            "Un CSS e-commerce efficace guide et transforme, sans effort."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

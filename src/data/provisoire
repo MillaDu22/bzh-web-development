@@ -1,27 +1,8 @@
 [
     {
-        "id": 206,
-        "title": "CSS et immobilier de luxe : prestige et clarté premium",
-        "date": "2025-08-02",
-        "intro": "Le haut de gamme dans l’immobilier demande un site raffiné, fluide et valorisant. Le CSS doit évoquer le prestige.",
-        "content": [
-            "1. Couleurs nobles",
-            "Blanc pur, noir profond, doré discret ou champagne : les codes du luxe.",
-            "2. Typo premium",
-            "Font serif fine pour les titres, avec capitales élégantes. Sans-serif moderne pour les détails.",
-            "3. Grille sur mesure",
-            "Grandes images, animations lentes, badges personnalisés ('Vendu', 'Rare', 'Vue mer').",
-            "4. Transitions soyeuses",
-            "Pages qui glissent, hover à faible opacité, carrousels lents et immersifs.",
-            "5. Conclusion",
-            "Un bon CSS évoque l’exception et le raffinement, sans ostentation."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 207,
         "title": "CSS et site d’événement : rythme, énergie et efficacité",
-        "date": "2025-08-03",
+        "date": "2025-08-05",
         "intro": "Qu’il s’agisse d’un festival ou d’un salon, le site doit capter l’attention et inciter à participer. Le CSS rend l’expérience fluide et attractive.",
         "content": [
             "1. Palette dynamique",
@@ -40,7 +21,7 @@
     {
         "id": 208,
         "title": "CSS et site de musicien : identité visuelle et ambiance sonore",
-        "date": "2025-08-04",
+        "date": "2025-08-06",
         "intro": "Le site d’un musicien ou groupe doit refléter son univers visuel et guider vers l’écoute. Le CSS crée l’ambiance.",
         "content": [
             "1. Couleurs immersives",
@@ -59,7 +40,7 @@
     {
         "id": 209,
         "title": "CSS et site juridique : sobriété, clarté et autorité",
-        "date": "2025-08-05",
+        "date": "2025-08-07",
         "intro": "Les professions juridiques ont besoin d’un site clair, sérieux et rassurant. Le CSS doit inspirer confiance dès l’accueil.",
         "content": [
             "1. Palette sérieuse",
@@ -78,7 +59,7 @@
     {
         "id": 210,
         "title": "CSS et blog culinaire : gourmandise et lisibilité",
-        "date": "2025-08-06",
+        "date": "2025-08-08",
         "intro": "Un blog de recettes doit donner faim, mais surtout être clair et agréable à lire. Le CSS fait le lien entre plaisir et structure.",
         "content": [
             "1. Couleurs appétissantes",

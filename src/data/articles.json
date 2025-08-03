@@ -5804,5 +5804,24 @@
             "Un CSS e-commerce efficace guide et transforme, sans effort."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 206,
+        "title": "CSS et immobilier de luxe : prestige et clarté premium",
+        "date": "2025-08-04",
+        "intro": "Le haut de gamme dans l’immobilier demande un site raffiné, fluide et valorisant. Le CSS doit évoquer le prestige.",
+        "content": [
+            "1. Couleurs nobles",
+            "Blanc pur, noir profond, doré discret ou champagne : les codes du luxe.",
+            "2. Typo premium",
+            "Font serif fine pour les titres, avec capitales élégantes. Sans-serif moderne pour les détails.",
+            "3. Grille sur mesure",
+            "Grandes images, animations lentes, badges personnalisés ('Vendu', 'Rare', 'Vue mer').",
+            "4. Transitions soyeuses",
+            "Pages qui glissent, hover à faible opacité, carrousels lents et immersifs.",
+            "5. Conclusion",
+            "Un bon CSS évoque l’exception et le raffinement, sans ostentation."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

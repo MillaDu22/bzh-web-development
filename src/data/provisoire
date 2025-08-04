@@ -1,24 +1,5 @@
 [
     {
-        "id": 207,
-        "title": "CSS et site d’événement : rythme, énergie et efficacité",
-        "date": "2025-08-05",
-        "intro": "Qu’il s’agisse d’un festival ou d’un salon, le site doit capter l’attention et inciter à participer. Le CSS rend l’expérience fluide et attractive.",
-        "content": [
-            "1. Palette dynamique",
-            "Couleurs vives ou tranchées selon le thème (électro, nature, pro), avec cohérence visuelle.",
-            "2. Typo impactante",
-            "Titres expressifs en capitales, texte clair et rapide à lire pour les infos clés.",
-            "3. Mise en scène",
-            "Agenda animé, galerie d’intervenants ou d’artistes avec effets CSS dynamiques.",
-            "4. Réactivité mobile",
-            "Un CSS bien pensé pour le mobile : menu sticky, scroll fluide, CTA visibles.",
-            "5. Conclusion",
-            "Un CSS bien rythmé donne l’impression que l’événement a déjà commencé."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 208,
         "title": "CSS et site de musicien : identité visuelle et ambiance sonore",
         "date": "2025-08-06",

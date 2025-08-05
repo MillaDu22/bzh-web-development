@@ -5842,5 +5842,24 @@
             "Un CSS bien rythmé donne l’impression que l’événement a déjà commencé."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 208,
+        "title": "CSS et site de musicien : identité visuelle et ambiance sonore",
+        "date": "2025-08-06",
+        "intro": "Le site d’un musicien ou groupe doit refléter son univers visuel et guider vers l’écoute. Le CSS crée l’ambiance.",
+        "content": [
+            "1. Couleurs immersives",
+            "Sombres pour le rock, flashy pour l’électro, pastels pour l’acoustique : chaque style musical a sa palette.",
+            "2. Typo marquée",
+            "Font stylisée pour le nom ou logo, et sans-serif discrète pour les infos pratiques (concerts, bio, albums).",
+            "3. Layout immersif",
+            "Header plein écran avec vidéo ou photo, sections fluides pour les dates et albums.",
+            "4. Interactions visuelles",
+            "Hover lumineux sur les boutons d’écoute, fond animés ou parallax pour créer un rythme.",
+            "5. Conclusion",
+            "Un CSS bien accordé à l’univers musical amplifie l’expérience des visiteurs."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

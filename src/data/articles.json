@@ -5861,5 +5861,24 @@
             "Un CSS bien accordé à l’univers musical amplifie l’expérience des visiteurs."
         ],
         "sign": "Ludmilla Marti"
+    },
+        {
+        "id": 209,
+        "title": "CSS et site juridique : sobriété, clarté et autorité",
+        "date": "2025-08-07",
+        "intro": "Les professions juridiques ont besoin d’un site clair, sérieux et rassurant. Le CSS doit inspirer confiance dès l’accueil.",
+        "content": [
+            "1. Palette sérieuse",
+            "Bleu marine, blanc, gris anthracite, beige : sobriété et stabilité visuelle.",
+            "2. Typographie professionnelle",
+            "Font serif traditionnelle pour les titres, sans-serif propre pour le contenu (ex : 'Roboto', 'Merriweather').",
+            "3. Structure rigoureuse",
+            "Sections bien définies : domaines, équipe, contact. Pas d’effet inutile.",
+            "4. Interaction discrète",
+            "Hover subtil, transitions douces, rien d’intrusif pour respecter la rigueur du secteur.",
+            "5. Conclusion",
+            "Un CSS sobre renforce l’image sérieuse d’un cabinet et clarifie l’offre juridique."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

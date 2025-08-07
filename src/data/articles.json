@@ -5862,7 +5862,7 @@
         ],
         "sign": "Ludmilla Marti"
     },
-        {
+    {
         "id": 209,
         "title": "CSS et site juridique : sobriété, clarté et autorité",
         "date": "2025-08-07",
@@ -5878,6 +5878,25 @@
             "Hover subtil, transitions douces, rien d’intrusif pour respecter la rigueur du secteur.",
             "5. Conclusion",
             "Un CSS sobre renforce l’image sérieuse d’un cabinet et clarifie l’offre juridique."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 210,
+        "title": "CSS et blog culinaire : gourmandise et lisibilité",
+        "date": "2025-08-08",
+        "intro": "Un blog de recettes doit donner faim, mais surtout être clair et agréable à lire. Le CSS fait le lien entre plaisir et structure.",
+        "content": [
+            "1. Couleurs appétissantes",
+            "Crème, vert pistache, rouge cerise : un univers doux mais plein de goût.",
+            "2. Typo lisible et chaleureuse",
+            "Serif ou manuscrite pour les titres, sans-serif claire pour les étapes et ingrédients.",
+            "3. Grille aérée",
+            "Images des plats bien mises en valeur, étapes bien espacées, zones commentables.",
+            "4. Micro-animations",
+            "Hover sur les images, transitions douces sur les boutons 'Imprimer' ou 'Ajouter à mes recettes'.",
+            "5. Conclusion",
+            "Un CSS savoureux donne envie de cuisiner… et de revenir !"
         ],
         "sign": "Ludmilla Marti"
     }

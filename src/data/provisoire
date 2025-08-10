@@ -1,5 +1,80 @@
 [
-
+    {
+        "id": 212,
+        "title": "Maintenance corrective : réparer vite et bien",
+        "date": "2025-08-12",
+        "intro": "Même avec une bonne prévention, un bug peut apparaître. La maintenance corrective est là pour résoudre rapidement tout dysfonctionnement.",
+        "content": [
+            "1. Diagnostic rapide",
+            "Identifier la cause exacte du problème pour agir efficacement.",
+            "2. Correction des bugs",
+            "Réparer le code ou ajuster la configuration pour rétablir le service.",
+            "3. Tests approfondis",
+            "Vérifier que la correction ne crée pas d’autres problèmes.",
+            "4. Communication avec le client",
+            "Informer sur la cause, la solution et la prévention pour l’avenir.",
+            "5. Conclusion",
+            "Une intervention rapide minimise l’impact sur les visiteurs et l’image du site."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 213,
+        "title": "Maintenance évolutive : faire grandir votre site",
+        "date": "2025-08-13",
+        "intro": "Un site web sur mesure doit évoluer avec vos besoins. La maintenance évolutive permet d’ajouter de nouvelles fonctionnalités sans repartir de zéro.",
+        "content": [
+            "1. Analyse des besoins",
+            "Identifier les améliorations ou ajouts souhaités par le client.",
+            "2. Développement des nouvelles fonctionnalités",
+            "Coder et intégrer en respectant la structure existante.",
+            "3. Adaptation au design",
+            "Harmoniser les nouvelles parties avec le style graphique du site.",
+            "4. Tests et validation",
+            "S’assurer que tout fonctionne sur différents appareils et navigateurs.",
+            "5. Conclusion",
+            "Avec la maintenance évolutive, votre site reste compétitif et pertinent."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 214,
+        "title": "Sécurité et maintenance : un duo essentiel",
+        "date": "2025-08-14",
+        "intro": "Les attaques informatiques évoluent sans cesse. Une maintenance proactive est essentielle pour protéger les données et la réputation de votre site.",
+        "content": [
+            "1. Mises à jour de sécurité",
+            "Appliquer rapidement les patchs pour combler les failles.",
+            "2. Surveillance des tentatives d’intrusion",
+            "Installer et configurer des systèmes d’alerte et de protection.",
+            "3. Sauvegardes chiffrées",
+            "Garantir que les sauvegardes ne soient pas exploitables par un tiers.",
+            "4. Tests de vulnérabilité",
+            "Effectuer des audits réguliers pour anticiper les risques.",
+            "5. Conclusion",
+            "La sécurité est un travail constant, au cœur de la maintenance professionnelle."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 215,
+        "title": "Suivi et rapports : la transparence en maintenance",
+        "date": "2025-08-15",
+        "intro": "Un bon contrat de maintenance inclut un suivi clair. Les rapports réguliers permettent de garder une vision globale de l’état du site.",
+        "content": [
+            "1. Rapports mensuels",
+            "Synthèse des actions effectuées : mises à jour, corrections, évolutions.",
+            "2. Analyse des statistiques",
+            "Suivi du trafic, des performances et du comportement des visiteurs.",
+            "3. Communication proactive",
+            "Informer le client avant même que le problème ne se pose.",
+            "4. Planification des prochaines interventions",
+            "Préparer les futures optimisations en fonction des objectifs.",
+            "5. Conclusion",
+            "La transparence dans la maintenance renforce la confiance et la satisfaction du client."
+        ],
+        "sign": "Ludmilla Marti"
+    }
 ]
 
 

@@ -5918,5 +5918,24 @@
             "La maintenance préventive, c’est l’assurance d’un site toujours performant et sécurisé."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 212,
+        "title": "Maintenance corrective : réparer vite et bien",
+        "date": "2025-08-12",
+        "intro": "Même avec une bonne prévention, un bug peut apparaître. La maintenance corrective est là pour résoudre rapidement tout dysfonctionnement.",
+        "content": [
+            "1. Diagnostic rapide",
+            "Identifier la cause exacte du problème pour agir efficacement.",
+            "2. Correction des bugs",
+            "Réparer le code ou ajuster la configuration pour rétablir le service.",
+            "3. Tests approfondis",
+            "Vérifier que la correction ne crée pas d’autres problèmes.",
+            "4. Communication avec le client",
+            "Informer sur la cause, la solution et la prévention pour l’avenir.",
+            "5. Conclusion",
+            "Une intervention rapide minimise l’impact sur les visiteurs et l’image du site."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

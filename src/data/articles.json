@@ -5937,5 +5937,24 @@
             "Une intervention rapide minimise l’impact sur les visiteurs et l’image du site."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 213,
+        "title": "Maintenance évolutive : faire grandir votre site",
+        "date": "2025-08-13",
+        "intro": "Un site web sur mesure doit évoluer avec vos besoins. La maintenance évolutive permet d’ajouter de nouvelles fonctionnalités sans repartir de zéro.",
+        "content": [
+            "1. Analyse des besoins",
+            "Identifier les améliorations ou ajouts souhaités par le client.",
+            "2. Développement des nouvelles fonctionnalités",
+            "Coder et intégrer en respectant la structure existante.",
+            "3. Adaptation au design",
+            "Harmoniser les nouvelles parties avec le style graphique du site.",
+            "4. Tests et validation",
+            "S’assurer que tout fonctionne sur différents appareils et navigateurs.",
+            "5. Conclusion",
+            "Avec la maintenance évolutive, votre site reste compétitif et pertinent."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

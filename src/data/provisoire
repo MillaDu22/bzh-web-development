@@ -1,24 +1,5 @@
 [
     {
-        "id": 214,
-        "title": "Sécurité et maintenance : un duo essentiel",
-        "date": "2025-08-14",
-        "intro": "Les attaques informatiques évoluent sans cesse. Une maintenance proactive est essentielle pour protéger les données et la réputation de votre site.",
-        "content": [
-            "1. Mises à jour de sécurité",
-            "Appliquer rapidement les patchs pour combler les failles.",
-            "2. Surveillance des tentatives d’intrusion",
-            "Installer et configurer des systèmes d’alerte et de protection.",
-            "3. Sauvegardes chiffrées",
-            "Garantir que les sauvegardes ne soient pas exploitables par un tiers.",
-            "4. Tests de vulnérabilité",
-            "Effectuer des audits réguliers pour anticiper les risques.",
-            "5. Conclusion",
-            "La sécurité est un travail constant, au cœur de la maintenance professionnelle."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 215,
         "title": "Suivi et rapports : la transparence en maintenance",
         "date": "2025-08-15",

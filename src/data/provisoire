@@ -1,20 +1,590 @@
 [
     {
-        "id": 215,
-        "title": "Suivi et rapports : la transparence en maintenance",
-        "date": "2025-08-15",
-        "intro": "Un bon contrat de maintenance inclut un suivi clair. Les rapports réguliers permettent de garder une vision globale de l’état du site.",
+        "id": 216,
+        "title": "Livraison clé en main : un site prêt à l’emploi",
+        "date": "2025-08-19",
+        "intro": "La livraison clé en main est idéale pour les clients qui veulent un site immédiatement opérationnel sans se soucier de la technique.",
         "content": [
-            "1. Rapports mensuels",
-            "Synthèse des actions effectuées : mises à jour, corrections, évolutions.",
-            "2. Analyse des statistiques",
-            "Suivi du trafic, des performances et du comportement des visiteurs.",
-            "3. Communication proactive",
-            "Informer le client avant même que le problème ne se pose.",
-            "4. Planification des prochaines interventions",
-            "Préparer les futures optimisations en fonction des objectifs.",
+            "1. Installation complète",
+            "Le site est installé directement sur l’hébergement choisi par le client.",
+            "2. Paramétrages optimisés",
+            "Configuration des DNS, certificats SSL et performances de base.",
+            "3. Design et contenu intégrés",
+            "Pages, images et textes mis en place selon la charte prévue.",
+            "4. Formation du client",
+            "Présentation des bases pour gérer le contenu du site au quotidien.",
             "5. Conclusion",
-            "La transparence dans la maintenance renforce la confiance et la satisfaction du client."
+            "La formule clé en main, c’est un site livré et prêt à être utilisé dès le premier jour."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 217,
+        "title": "Livraison progressive : un site qui évolue pas à pas",
+        "date": "2025-08-20",
+        "intro": "Certains projets nécessitent une mise en ligne par étapes. La livraison progressive permet de lancer rapidement et d’ajouter des fonctionnalités au fil du temps.",
+        "content": [
+            "1. Première version en ligne",
+            "Un site fonctionnel, même minimal, est accessible rapidement.",
+            "2. Ajouts planifiés",
+            "Nouvelles sections, outils ou intégrations sont ajoutés progressivement.",
+            "3. Tests réels",
+            "Chaque étape est testée avec de vrais utilisateurs.",
+            "4. Feedback client",
+            "Le client peut ajuster les priorités selon ses besoins.",
+            "5. Conclusion",
+            "La livraison progressive combine rapidité et flexibilité pour un projet sur mesure."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 218,
+        "title": "Livraison accompagnée : main dans la main avec le client",
+        "date": "2025-08-21",
+        "intro": "La livraison accompagnée place le client au cœur du processus, avec un suivi personnalisé lors de la mise en ligne.",
+        "content": [
+            "1. Mise en ligne guidée",
+            "Le développeur et le client installent et testent le site ensemble.",
+            "2. Explications en direct",
+            "Présentation de la structure et des outils du site pas à pas.",
+            "3. Ajustements immédiats",
+            "Corrections rapides selon les remarques du client.",
+            "4. Documentation claire",
+            "Un guide personnalisé est remis pour la gestion future.",
+            "5. Conclusion",
+            "La livraison accompagnée donne au client autonomie et confiance dès le lancement."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 219,
+        "title": "Livraison sur serveur de test : valider avant la mise en ligne",
+        "date": "2025-08-22",
+        "intro": "Avant une mise en ligne officielle, il est possible de livrer le site sur un serveur de préproduction pour effectuer les derniers contrôles.",
+        "content": [
+            "1. Environnement sécurisé",
+            "Le site est hébergé sur un serveur réservé aux tests.",
+            "2. Vérifications globales",
+            "Contrôle des performances, compatibilités et sécurité.",
+            "3. Validation client",
+            "Le client explore le site avant le déploiement public.",
+            "4. Corrections finales",
+            "Derniers ajustements avant la mise en ligne définitive.",
+            "5. Conclusion",
+            "Cette étape assure un site parfaitement prêt au moment de sa publication."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 220,
+        "title": "Premier contact : comprendre le besoin du client",
+        "date": "2025-08-25",
+        "intro": "La réussite d’un projet web commence toujours par une écoute attentive. Comprendre les attentes du client est la première étape essentielle.",
+        "content": [
+            "1. Écoute active",
+            "Poser les bonnes questions pour cerner les objectifs du projet.",
+            "2. Identification des priorités",
+            "Mettre en avant les besoins immédiats et les attentes futures.",
+            "3. Définition claire du périmètre",
+            "Établir ce qui sera inclus ou non dans le projet.",
+            "4. Transparence dès le départ",
+            "Informer sur les délais, contraintes et possibilités techniques.",
+            "5. Conclusion",
+            "Un bon premier contact installe une relation de confiance durable."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 221,
+        "title": "La communication régulière : garder le client informé",
+        "date": "2025-08-26",
+        "intro": "Un projet web avance par étapes. Tenir le client informé régulièrement permet d’éviter les incompréhensions et de renforcer la confiance.",
+        "content": [
+            "1. Points hebdomadaires",
+            "Informer des avancées, des difficultés et des prochaines étapes.",
+            "2. Outils de suivi",
+            "Utiliser des tableaux partagés ou des plateformes de gestion de projet.",
+            "3. Feedback continu",
+            "Recueillir les retours du client à chaque phase clé.",
+            "4. Réactivité",
+            "Répondre rapidement aux questions et inquiétudes.",
+            "5. Conclusion",
+            "Une communication régulière fait du client un véritable partenaire du projet."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 222,
+        "title": "Clarté et pédagogie : expliquer sans jargon",
+        "date": "2025-08-27",
+        "intro": "Tous les clients ne sont pas experts en technique. Expliquer clairement sans jargon favorise une meilleure compréhension et de meilleures décisions.",
+        "content": [
+            "1. Langage simple",
+            "Utiliser des exemples concrets au lieu de termes techniques.",
+            "2. Comparaisons visuelles",
+            "Illustrer avec des schémas ou captures d’écran.",
+            "3. Mise en contexte",
+            "Relier chaque décision technique à l’impact pour le client.",
+            "4. Documentation accessible",
+            "Fournir un guide ou tutoriel adapté au niveau du client.",
+            "5. Conclusion",
+            "La pédagogie valorise le travail et rend le client autonome."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 223,
+        "title": "Gestion des imprévus : dialoguer pour trouver des solutions",
+        "date": "2025-08-28",
+        "intro": "Un projet web n’échappe jamais aux imprévus. La clé est de communiquer pour transformer chaque problème en opportunité d’amélioration.",
+        "content": [
+            "1. Transparence immédiate",
+            "Prévenir le client dès qu’un obstacle apparaît.",
+            "2. Proposer des alternatives",
+            "Présenter plusieurs solutions possibles avec avantages et limites.",
+            "3. Négocier les priorités",
+            "Revoir l’ordre des tâches si nécessaire pour respecter les délais.",
+            "4. Garder le cap",
+            "Ne pas perdre de vue l’objectif global du projet.",
+            "5. Conclusion",
+            "Une communication ouverte face aux imprévus rassure et renforce la collaboration."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 224,
+        "title": "Clôture de projet : un suivi qui rassure",
+        "date": "2025-08-29",
+        "intro": "La fin d’un projet web n’est pas la fin de la relation. Une bonne communication à la clôture ouvre la porte à la fidélisation.",
+        "content": [
+            "1. Présentation finale",
+            "Démonstration du site livré avec explication des choix réalisés.",
+            "2. Remise des accès et documents",
+            "Transmission des identifiants, manuels et guides d’utilisation.",
+            "3. Recueil des impressions",
+            "Demander un retour pour mesurer la satisfaction.",
+            "4. Proposer un suivi",
+            "Expliquer les contrats de maintenance et évolutions possibles.",
+            "5. Conclusion",
+            "Une clôture bien menée transforme un projet en relation durable."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 225,
+        "title": "Choisir le bon hébergement pour son site web",
+        "date": "2025-09-01",
+        "intro": "Un site rapide et fiable commence par un hébergement adapté. Bien choisir son serveur, c’est déjà optimiser les performances.",
+        "content": [
+            "1. Hébergement mutualisé",
+            "Peu coûteux mais limité en ressources, adapté aux petits sites.",
+            "2. VPS (serveur virtuel privé)",
+            "Plus de liberté et de puissance pour des sites en croissance.",
+            "3. Serveur dédié",
+            "Puissance maximale et contrôle complet, idéal pour les projets ambitieux.",
+            "4. Cloud hosting",
+            "Flexible, évolutif et souvent le choix idéal pour les sites modernes.",
+            "5. Conclusion",
+            "Un hébergement bien choisi garantit stabilité et rapidité dès le départ."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 226,
+        "title": "Optimiser les performances côté serveur",
+        "date": "2025-09-02",
+        "intro": "La configuration du serveur joue un rôle clé dans la vitesse d’un site. Quelques ajustements techniques changent tout.",
+        "content": [
+            "1. Cache serveur",
+            "Mettre en place un cache pour réduire le temps de réponse.",
+            "2. Compression des fichiers",
+            "Activer Gzip ou Brotli pour alléger le transfert des données.",
+            "3. Optimisation de la base de données",
+            "Nettoyage régulier et indexation pour accélérer les requêtes.",
+            "4. Sécurisation SSL/TLS",
+            "Un protocole HTTPS bien configuré améliore la confiance et parfois le SEO.",
+            "5. Conclusion",
+            "Un serveur optimisé est la base d’un site rapide et fiable."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 227,
+        "title": "Optimiser le front-end pour un site plus rapide",
+        "date": "2025-09-03",
+        "intro": "Le poids des images, des scripts et du CSS influence directement la vitesse. L’optimisation front-end est donc essentielle.",
+        "content": [
+            "1. Images compressées",
+            "Réduire le poids sans sacrifier la qualité visuelle.",
+            "2. Lazy loading",
+            "Charger les images et vidéos uniquement quand elles sont visibles.",
+            "3. Minification du code",
+            "Réduire les fichiers CSS et JavaScript pour accélérer le rendu.",
+            "4. CDN (Content Delivery Network)",
+            "Distribuer le contenu via des serveurs proches de l’utilisateur.",
+            "5. Conclusion",
+            "Un front-end léger et optimisé améliore l’expérience utilisateur et le référencement."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 228,
+        "title": "La surveillance des performances : un suivi indispensable",
+        "date": "2025-09-04",
+        "intro": "Mesurer la vitesse et détecter les problèmes en temps réel permet d’anticiper avant que les visiteurs ne partent.",
+        "content": [
+            "1. Outils de monitoring",
+            "Google Lighthouse, GTmetrix ou Pingdom pour analyser la vitesse.",
+            "2. Alertes en cas de panne",
+            "Être prévenu immédiatement si le site devient inaccessible.",
+            "3. Suivi des temps de chargement",
+            "Contrôler régulièrement les performances sur mobile et desktop.",
+            "4. Rapports automatisés",
+            "Recevoir des bilans réguliers pour ajuster la stratégie.",
+            "5. Conclusion",
+            "La surveillance continue garantit un site toujours performant et fiable."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 229,
+        "title": "Performance et SEO : un duo gagnant",
+        "date": "2025-09-05",
+        "intro": "Un site rapide ne fait pas que satisfaire les visiteurs : il séduit aussi Google. La performance et le SEO sont indissociables.",
+        "content": [
+            "1. Temps de chargement",
+            "Un critère majeur pour le classement dans les résultats de recherche.",
+            "2. Expérience utilisateur",
+            "Un site fluide réduit le taux de rebond et améliore la navigation.",
+            "3. Mobile-first",
+            "La vitesse sur mobile influence directement le référencement.",
+            "4. Optimisation continue",
+            "Chaque amélioration technique renforce aussi la visibilité SEO.",
+            "5. Conclusion",
+            "Un site rapide attire et retient à la fois les visiteurs et les moteurs de recherche."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 230,
+        "title": "Un design clair : la première impression compte",
+        "date": "2025-09-08",
+        "intro": "Les visiteurs jugent un site en quelques secondes. Un design clair et soigné est donc essentiel pour capter leur attention.",
+        "content": [
+            "1. Hiérarchie visuelle",
+            "Mettre en avant les titres, boutons et éléments importants.",
+            "2. Contraste efficace",
+            "Assurer une bonne lisibilité avec des couleurs adaptées.",
+            "3. Mise en page équilibrée",
+            "Éviter la surcharge pour un rendu aéré et agréable.",
+            "4. Identité cohérente",
+            "Respecter la charte graphique de l’entreprise sur toutes les pages.",
+            "5. Conclusion",
+            "Un design clair inspire confiance et donne envie d’explorer le site."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 231,
+        "title": "Navigation intuitive : guider l’utilisateur",
+        "date": "2025-09-09",
+        "intro": "Un bon site n’est pas seulement joli : il doit être simple à parcourir. La navigation intuitive facilite l’expérience utilisateur.",
+        "content": [
+            "1. Menu bien structuré",
+            "Des catégories claires et logiques pour se repérer facilement.",
+            "2. Parcours utilisateur",
+            "Prévoir des chemins simples pour atteindre les objectifs clés.",
+            "3. Liens et boutons visibles",
+            "Éviter de cacher les actions principales sous trop de clics.",
+            "4. Accessibilité",
+            "Adapter la navigation aux mobiles, tablettes et lecteurs d’écran.",
+            "5. Conclusion",
+            "Une navigation intuitive réduit la frustration et fidélise les visiteurs."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 232,
+        "title": "Couleurs et émotions : l’impact du design visuel",
+        "date": "2025-09-10",
+        "intro": "Chaque couleur influence la perception du visiteur. Bien les choisir permet de transmettre le bon message.",
+        "content": [
+            "1. Palette harmonieuse",
+            "Associer des couleurs complémentaires pour l’esthétique.",
+            "2. Psychologie des couleurs",
+            "Le bleu rassure, le rouge attire l’attention, le vert évoque la confiance.",
+            "3. Couleurs d’appel à l’action",
+            "Utiliser des contrastes pour mettre en avant les boutons clés.",
+            "4. Cohérence avec la marque",
+            "Choisir des teintes en accord avec l’identité visuelle de l’entreprise.",
+            "5. Conclusion",
+            "Un bon choix de couleurs améliore l’impact visuel et l’engagement."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 233,
+        "title": "Typographie et lisibilité : l’art de bien écrire en ligne",
+        "date": "2025-09-11",
+        "intro": "La typographie influence directement la lisibilité d’un site. Choisir les bonnes polices, c’est améliorer l’expérience utilisateur.",
+        "content": [
+            "1. Police principale",
+            "Privilégier une sans-serif moderne pour les textes longs.",
+            "2. Titres expressifs",
+            "Utiliser des polices distinctives pour hiérarchiser l’information.",
+            "3. Taille et espacement",
+            "Assurer une lecture confortable sur tous les écrans.",
+            "4. Contraste texte/fond",
+            "Un texte lisible passe par un bon contraste de couleurs.",
+            "5. Conclusion",
+            "Une typographie adaptée rend la lecture agréable et professionnelle."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 234,
+        "title": "Micro-interactions : dynamiser l’expérience utilisateur",
+        "date": "2025-09-12",
+        "intro": "Un simple effet au survol ou une animation subtile rend un site plus vivant et agréable. Les micro-interactions font la différence.",
+        "content": [
+            "1. Feedback utilisateur",
+            "Un bouton qui change au clic rassure l’utilisateur.",
+            "2. Animations discrètes",
+            "Des transitions fluides entre les pages améliorent la fluidité.",
+            "3. Indications visuelles",
+            "Mettre en avant les champs remplis ou validés.",
+            "4. Engagement renforcé",
+            "Les micro-effets encouragent l’exploration du site.",
+            "5. Conclusion",
+            "Les micro-interactions humanisent le site et captivent les visiteurs."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 235,
+        "title": "SEO technique : les fondations d’un site bien référencé",
+        "date": "2025-09-15",
+        "intro": "Un bon référencement commence par la technique. Un site rapide, structuré et accessible a toutes les chances de plaire à Google.",
+        "content": [
+            "1. Vitesse de chargement",
+            "Optimiser le temps d’affichage des pages pour améliorer l’expérience et le SEO.",
+            "2. Structure des balises",
+            "Bien utiliser les titres H1, H2, H3 pour hiérarchiser le contenu.",
+            "3. Sitemap XML",
+            "Fournir aux moteurs de recherche une carte claire du site.",
+            "4. Robots.txt",
+            "Gérer ce que Google peut explorer ou non.",
+            "5. Conclusion",
+            "Un SEO technique solide est la base de toute stratégie de visibilité."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 236,
+        "title": "SEO on-page : optimiser chaque page pour Google",
+        "date": "2025-09-16",
+        "intro": "Chaque page d’un site est une opportunité de visibilité. Le SEO on-page vise à optimiser le contenu et sa structure.",
+        "content": [
+            "1. Titres pertinents",
+            "Des balises titres contenant les mots-clés principaux.",
+            "2. Meta descriptions",
+            "Un résumé accrocheur qui incite au clic dans les résultats de recherche.",
+            "3. Contenu de qualité",
+            "Un texte clair, utile et adapté à la cible.",
+            "4. Liens internes",
+            "Faciliter la navigation et renforcer le maillage du site.",
+            "5. Conclusion",
+            "Le SEO on-page rend chaque page plus visible et attractive."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 237,
+        "title": "SEO off-page : renforcer l’autorité de son site",
+        "date": "2025-09-17",
+        "intro": "Le référencement ne se joue pas uniquement sur le site. Le SEO off-page repose sur la popularité et les liens entrants.",
+        "content": [
+            "1. Backlinks de qualité",
+            "Obtenir des liens depuis des sites pertinents et fiables.",
+            "2. Réseaux sociaux",
+            "Partager le contenu pour générer trafic et notoriété.",
+            "3. Référencement local",
+            "Inscrire le site sur Google Business Profile et annuaires locaux.",
+            "4. Partenariats",
+            "Collaborer avec d’autres sites ou blogs pour échanger de la visibilité.",
+            "5. Conclusion",
+            "Le SEO off-page augmente la crédibilité et la confiance auprès de Google."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 238,
+        "title": "Contenu et SEO : écrire pour les humains et Google",
+        "date": "2025-09-18",
+        "intro": "Un bon contenu satisfait à la fois le lecteur et les moteurs de recherche. C’est l’équilibre parfait à trouver.",
+        "content": [
+            "1. Mots-clés stratégiques",
+            "Les intégrer naturellement dans le texte et les titres.",
+            "2. Richesse du contenu",
+            "Offrir une vraie valeur ajoutée avec des explications détaillées.",
+            "3. Formats variés",
+            "Texte, images, vidéos et infographies pour capter l’attention.",
+            "4. Mise à jour régulière",
+            "Actualiser le contenu pour rester pertinent.",
+            "5. Conclusion",
+            "Un contenu optimisé attire, informe et fidélise les visiteurs."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 239,
+        "title": "SEO mobile : penser aux utilisateurs en mouvement",
+        "date": "2025-09-19",
+        "intro": "La majorité du trafic vient aujourd’hui des smartphones. Google privilégie les sites rapides et adaptés au mobile.",
+        "content": [
+            "1. Design responsive",
+            "Adapter l’affichage à tous les écrans automatiquement.",
+            "2. Vitesse sur mobile",
+            "Réduire les scripts lourds et utiliser le lazy loading.",
+            "3. Navigation simplifiée",
+            "Menus clairs, boutons accessibles et formulaires courts.",
+            "4. Core Web Vitals",
+            "Optimiser les indicateurs clés mesurés par Google.",
+            "5. Conclusion",
+            "Un site pensé pour le mobile, c’est un meilleur SEO et plus de visiteurs satisfaits."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 240,
+        "title": "HTTPS et certificats SSL : la base de la sécurité",
+        "date": "2025-09-22",
+        "intro": "Un site sécurisé commence par un certificat SSL. Le HTTPS protège les données échangées et inspire confiance aux visiteurs.",
+        "content": [
+            "1. Protection des données",
+            "Les informations transmises sont chiffrées et sécurisées.",
+            "2. Confiance des utilisateurs",
+            "Le cadenas dans la barre d’adresse rassure les visiteurs.",
+            "3. Amélioration du SEO",
+            "Google favorise les sites sécurisés en HTTPS.",
+            "4. Certificats adaptés",
+            "Choisir entre SSL gratuit, DV, OV ou EV selon les besoins.",
+            "5. Conclusion",
+            "Le HTTPS est un standard incontournable pour tout site web moderne."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 241,
+        "title": "Mises à jour régulières : un réflexe vital",
+        "date": "2025-09-23",
+        "intro": "Un site obsolète est une cible facile. Les mises à jour régulières renforcent la sécurité et la stabilité.",
+        "content": [
+            "1. CMS et plugins",
+            "Toujours installer les dernières versions pour corriger les failles.",
+            "2. Librairies et frameworks",
+            "Mettre à jour React, Laravel ou WordPress pour rester protégé.",
+            "3. Automatisation",
+            "Mettre en place des mises à jour planifiées quand c’est possible.",
+            "4. Tests après mise à jour",
+            "Vérifier que tout fonctionne correctement après chaque update.",
+            "5. Conclusion",
+            "Un site à jour est un site sécurisé et performant."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 242,
+        "title": "Mots de passe et accès : protéger les clés du site",
+        "date": "2025-09-24",
+        "intro": "La sécurité d’un site passe aussi par la gestion des accès. Des mots de passe solides et des restrictions d’utilisateurs sont essentiels.",
+        "content": [
+            "1. Mots de passe complexes",
+            "Combiner majuscules, chiffres et caractères spéciaux.",
+            "2. Gestion des utilisateurs",
+            "Limiter les accès aux personnes réellement nécessaires.",
+            "3. Authentification à deux facteurs",
+            "Ajouter une protection supplémentaire pour les comptes sensibles.",
+            "4. Rotation des accès",
+            "Changer régulièrement les identifiants et supprimer ceux inutiles.",
+            "5. Conclusion",
+            "Bien gérer les accès évite de nombreuses failles de sécurité."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 243,
+        "title": "Sauvegardes et plans de reprise : anticiper l’imprévu",
+        "date": "2025-09-25",
+        "intro": "Un site peut tomber en panne ou subir une attaque. Les sauvegardes et plans de reprise assurent une continuité d’activité.",
+        "content": [
+            "1. Sauvegardes automatiques",
+            "Programmer des copies régulières de la base de données et des fichiers.",
+            "2. Stockage externe",
+            "Conserver les sauvegardes hors du serveur principal.",
+            "3. Tests de restauration",
+            "Vérifier que les sauvegardes sont bien exploitables.",
+            "4. Plan de reprise d’activité",
+            "Prévoir les étapes à suivre en cas d’incident majeur.",
+            "5. Conclusion",
+            "Anticiper l’imprévu garantit la résilience et la sérénité."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 244,
+        "title": "Pare-feu et surveillance : protéger en continu",
+        "date": "2025-09-26",
+        "intro": "La sécurité ne s’arrête pas aux mises à jour. Des outils de surveillance et de filtrage sont indispensables.",
+        "content": [
+            "1. Pare-feu applicatif",
+            "Bloquer les attaques courantes comme les injections SQL.",
+            "2. Détection des intrusions",
+            "Surveiller les activités suspectes en temps réel.",
+            "3. Alertes automatiques",
+            "Être prévenu immédiatement en cas de menace.",
+            "4. Journaux de sécurité",
+            "Analyser les logs pour détecter des anomalies répétitives.",
+            "5. Conclusion",
+            "Une surveillance constante renforce la protection sur la durée."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 245,
+        "title": "Dark mode et accessibilité : un duo gagnant",
+        "date": "2025-09-29",
+        "intro": "Le mode sombre n’est pas qu’une tendance esthétique. Il participe au confort visuel et à l’accessibilité des sites web modernes.",
+        "content": [
+            "1. Confort pour les yeux",
+            "Le dark mode réduit la fatigue visuelle, surtout le soir.",
+            "2. Accessibilité renforcée",
+            "Il aide certains utilisateurs sensibles à la luminosité.",
+            "3. Expérience personnalisée",
+            "Offrir un bouton pour basculer entre clair et sombre.",
+            "4. Esthétique moderne",
+            "Le mode sombre donne une impression premium et actuelle.",
+            "5. Conclusion",
+            "Le dark mode est devenu un standard à envisager pour tout site."
+        ],
+        "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 246,
+        "title": "Animations micro-interactions : plus d’émotion dans le web",
+        "date": "2025-09-30",
+        "intro": "Un simple hover, un bouton qui réagit, une transition fluide : les micro-interactions dynamisent l’expérience utilisateur.",
+        "content": [
+            "1. Engagement accru",
+            "Les animations créent une interaction vivante avec l’utilisateur.",
+            "2. Navigation guidée",
+            "Elles attirent l’attention sur les éléments importants.",
+            "3. Humanisation du site",
+            "Un site qui réagit aux actions paraît plus chaleureux.",
+            "4. Équilibre à trouver",
+            "Trop d’animations ralentissent l’expérience et l’alourdissent.",
+            "5. Conclusion",
+            "Les micro-interactions sont la touche émotionnelle du web moderne."
         ],
         "sign": "Ludmilla Marti"
     }

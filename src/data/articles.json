@@ -5975,5 +5975,24 @@
             "La sécurité est un travail constant, au cœur de la maintenance professionnelle."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 215,
+        "title": "Suivi et rapports : la transparence en maintenance",
+        "date": "2025-08-18",
+        "intro": "Un bon contrat de maintenance inclut un suivi clair. Les rapports réguliers permettent de garder une vision globale de l’état du site.",
+        "content": [
+            "1. Rapports mensuels",
+            "Synthèse des actions effectuées : mises à jour, corrections, évolutions.",
+            "2. Analyse des statistiques",
+            "Suivi du trafic, des performances et du comportement des visiteurs.",
+            "3. Communication proactive",
+            "Informer le client avant même que le problème ne se pose.",
+            "4. Planification des prochaines interventions",
+            "Préparer les futures optimisations en fonction des objectifs.",
+            "5. Conclusion",
+            "La transparence dans la maintenance renforce la confiance et la satisfaction du client."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

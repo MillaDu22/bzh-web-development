@@ -1,24 +1,5 @@
 [
     {
-        "id": 216,
-        "title": "Livraison clé en main : un site prêt à l’emploi",
-        "date": "2025-08-19",
-        "intro": "La livraison clé en main est idéale pour les clients qui veulent un site immédiatement opérationnel sans se soucier de la technique.",
-        "content": [
-            "1. Installation complète",
-            "Le site est installé directement sur l’hébergement choisi par le client.",
-            "2. Paramétrages optimisés",
-            "Configuration des DNS, certificats SSL et performances de base.",
-            "3. Design et contenu intégrés",
-            "Pages, images et textes mis en place selon la charte prévue.",
-            "4. Formation du client",
-            "Présentation des bases pour gérer le contenu du site au quotidien.",
-            "5. Conclusion",
-            "La formule clé en main, c’est un site livré et prêt à être utilisé dès le premier jour."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 217,
         "title": "Livraison progressive : un site qui évolue pas à pas",
         "date": "2025-08-20",

@@ -1,24 +1,5 @@
 [
     {
-        "id": 217,
-        "title": "Livraison progressive : un site qui évolue pas à pas",
-        "date": "2025-08-20",
-        "intro": "Certains projets nécessitent une mise en ligne par étapes. La livraison progressive permet de lancer rapidement et d’ajouter des fonctionnalités au fil du temps.",
-        "content": [
-            "1. Première version en ligne",
-            "Un site fonctionnel, même minimal, est accessible rapidement.",
-            "2. Ajouts planifiés",
-            "Nouvelles sections, outils ou intégrations sont ajoutés progressivement.",
-            "3. Tests réels",
-            "Chaque étape est testée avec de vrais utilisateurs.",
-            "4. Feedback client",
-            "Le client peut ajuster les priorités selon ses besoins.",
-            "5. Conclusion",
-            "La livraison progressive combine rapidité et flexibilité pour un projet sur mesure."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 218,
         "title": "Livraison accompagnée : main dans la main avec le client",
         "date": "2025-08-21",

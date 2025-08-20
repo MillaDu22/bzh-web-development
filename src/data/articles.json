@@ -6032,5 +6032,24 @@
             "La livraison progressive combine rapidité et flexibilité pour un projet sur mesure."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 218,
+        "title": "Livraison accompagnée : main dans la main avec le client",
+        "date": "2025-08-21",
+        "intro": "La livraison accompagnée place le client au cœur du processus, avec un suivi personnalisé lors de la mise en ligne.",
+        "content": [
+            "1. Mise en ligne guidée",
+            "Le développeur et le client installent et testent le site ensemble.",
+            "2. Explications en direct",
+            "Présentation de la structure et des outils du site pas à pas.",
+            "3. Ajustements immédiats",
+            "Corrections rapides selon les remarques du client.",
+            "4. Documentation claire",
+            "Un guide personnalisé est remis pour la gestion future.",
+            "5. Conclusion",
+            "La livraison accompagnée donne au client autonomie et confiance dès le lancement."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

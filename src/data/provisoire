@@ -1,24 +1,5 @@
 [
     {
-        "id": 219,
-        "title": "Livraison sur serveur de test : valider avant la mise en ligne",
-        "date": "2025-08-22",
-        "intro": "Avant une mise en ligne officielle, il est possible de livrer le site sur un serveur de préproduction pour effectuer les derniers contrôles.",
-        "content": [
-            "1. Environnement sécurisé",
-            "Le site est hébergé sur un serveur réservé aux tests.",
-            "2. Vérifications globales",
-            "Contrôle des performances, compatibilités et sécurité.",
-            "3. Validation client",
-            "Le client explore le site avant le déploiement public.",
-            "4. Corrections finales",
-            "Derniers ajustements avant la mise en ligne définitive.",
-            "5. Conclusion",
-            "Cette étape assure un site parfaitement prêt au moment de sa publication."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 220,
         "title": "Premier contact : comprendre le besoin du client",
         "date": "2025-08-25",

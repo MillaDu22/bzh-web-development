@@ -1,24 +1,5 @@
 [
     {
-        "id": 220,
-        "title": "Premier contact : comprendre le besoin du client",
-        "date": "2025-08-25",
-        "intro": "La réussite d’un projet web commence toujours par une écoute attentive. Comprendre les attentes du client est la première étape essentielle.",
-        "content": [
-            "1. Écoute active",
-            "Poser les bonnes questions pour cerner les objectifs du projet.",
-            "2. Identification des priorités",
-            "Mettre en avant les besoins immédiats et les attentes futures.",
-            "3. Définition claire du périmètre",
-            "Établir ce qui sera inclus ou non dans le projet.",
-            "4. Transparence dès le départ",
-            "Informer sur les délais, contraintes et possibilités techniques.",
-            "5. Conclusion",
-            "Un bon premier contact installe une relation de confiance durable."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 221,
         "title": "La communication régulière : garder le client informé",
         "date": "2025-08-26",

@@ -1,24 +1,5 @@
 [
     {
-        "id": 221,
-        "title": "La communication régulière : garder le client informé",
-        "date": "2025-08-26",
-        "intro": "Un projet web avance par étapes. Tenir le client informé régulièrement permet d’éviter les incompréhensions et de renforcer la confiance.",
-        "content": [
-            "1. Points hebdomadaires",
-            "Informer des avancées, des difficultés et des prochaines étapes.",
-            "2. Outils de suivi",
-            "Utiliser des tableaux partagés ou des plateformes de gestion de projet.",
-            "3. Feedback continu",
-            "Recueillir les retours du client à chaque phase clé.",
-            "4. Réactivité",
-            "Répondre rapidement aux questions et inquiétudes.",
-            "5. Conclusion",
-            "Une communication régulière fait du client un véritable partenaire du projet."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 222,
         "title": "Clarté et pédagogie : expliquer sans jargon",
         "date": "2025-08-27",

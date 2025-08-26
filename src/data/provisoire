@@ -1,24 +1,5 @@
 [
     {
-        "id": 222,
-        "title": "Clarté et pédagogie : expliquer sans jargon",
-        "date": "2025-08-27",
-        "intro": "Tous les clients ne sont pas experts en technique. Expliquer clairement sans jargon favorise une meilleure compréhension et de meilleures décisions.",
-        "content": [
-            "1. Langage simple",
-            "Utiliser des exemples concrets au lieu de termes techniques.",
-            "2. Comparaisons visuelles",
-            "Illustrer avec des schémas ou captures d’écran.",
-            "3. Mise en contexte",
-            "Relier chaque décision technique à l’impact pour le client.",
-            "4. Documentation accessible",
-            "Fournir un guide ou tutoriel adapté au niveau du client.",
-            "5. Conclusion",
-            "La pédagogie valorise le travail et rend le client autonome."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 223,
         "title": "Gestion des imprévus : dialoguer pour trouver des solutions",
         "date": "2025-08-28",

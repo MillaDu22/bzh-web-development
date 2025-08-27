@@ -6127,5 +6127,24 @@
             "La pédagogie valorise le travail et rend le client autonome."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 223,
+        "title": "Gestion des imprévus : dialoguer pour trouver des solutions",
+        "date": "2025-08-28",
+        "intro": "Un projet web n’échappe jamais aux imprévus. La clé est de communiquer pour transformer chaque problème en opportunité d’amélioration.",
+        "content": [
+            "1. Transparence immédiate",
+            "Prévenir le client dès qu’un obstacle apparaît.",
+            "2. Proposer des alternatives",
+            "Présenter plusieurs solutions possibles avec avantages et limites.",
+            "3. Négocier les priorités",
+            "Revoir l’ordre des tâches si nécessaire pour respecter les délais.",
+            "4. Garder le cap",
+            "Ne pas perdre de vue l’objectif global du projet.",
+            "5. Conclusion",
+            "Une communication ouverte face aux imprévus rassure et renforce la collaboration."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

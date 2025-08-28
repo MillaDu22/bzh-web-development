@@ -1,24 +1,5 @@
 [
     {
-        "id": 224,
-        "title": "Clôture de projet : un suivi qui rassure",
-        "date": "2025-08-29",
-        "intro": "La fin d’un projet web n’est pas la fin de la relation. Une bonne communication à la clôture ouvre la porte à la fidélisation.",
-        "content": [
-            "1. Présentation finale",
-            "Démonstration du site livré avec explication des choix réalisés.",
-            "2. Remise des accès et documents",
-            "Transmission des identifiants, manuels et guides d’utilisation.",
-            "3. Recueil des impressions",
-            "Demander un retour pour mesurer la satisfaction.",
-            "4. Proposer un suivi",
-            "Expliquer les contrats de maintenance et évolutions possibles.",
-            "5. Conclusion",
-            "Une clôture bien menée transforme un projet en relation durable."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 225,
         "title": "Choisir le bon hébergement pour son site web",
         "date": "2025-09-01",

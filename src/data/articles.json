@@ -6184,5 +6184,24 @@
             "Un hébergement bien choisi garantit stabilité et rapidité dès le départ."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 226,
+        "title": "Optimiser les performances côté serveur",
+        "date": "2025-09-02",
+        "intro": "La configuration du serveur joue un rôle clé dans la vitesse d’un site. Quelques ajustements techniques changent tout.",
+        "content": [
+            "1. Cache serveur",
+            "Mettre en place un cache pour réduire le temps de réponse.",
+            "2. Compression des fichiers",
+            "Activer Gzip ou Brotli pour alléger le transfert des données.",
+            "3. Optimisation de la base de données",
+            "Nettoyage régulier et indexation pour accélérer les requêtes.",
+            "4. Sécurisation SSL/TLS",
+            "Un protocole HTTPS bien configuré améliore la confiance et parfois le SEO.",
+            "5. Conclusion",
+            "Un serveur optimisé est la base d’un site rapide et fiable."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

@@ -6203,5 +6203,24 @@
             "Un serveur optimisé est la base d’un site rapide et fiable."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 227,
+        "title": "Optimiser le front-end pour un site plus rapide",
+        "date": "2025-09-03",
+        "intro": "Le poids des images, des scripts et du CSS influence directement la vitesse. L’optimisation front-end est donc essentielle.",
+        "content": [
+            "1. Images compressées",
+            "Réduire le poids sans sacrifier la qualité visuelle.",
+            "2. Lazy loading",
+            "Charger les images et vidéos uniquement quand elles sont visibles.",
+            "3. Minification du code",
+            "Réduire les fichiers CSS et JavaScript pour accélérer le rendu.",
+            "4. CDN (Content Delivery Network)",
+            "Distribuer le contenu via des serveurs proches de l’utilisateur.",
+            "5. Conclusion",
+            "Un front-end léger et optimisé améliore l’expérience utilisateur et le référencement."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

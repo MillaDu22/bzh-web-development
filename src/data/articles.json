@@ -6222,5 +6222,24 @@
             "Un front-end léger et optimisé améliore l’expérience utilisateur et le référencement."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 228,
+        "title": "La surveillance des performances : un suivi indispensable",
+        "date": "2025-09-04",
+        "intro": "Mesurer la vitesse et détecter les problèmes en temps réel permet d’anticiper avant que les visiteurs ne partent.",
+        "content": [
+            "1. Outils de monitoring",
+            "Google Lighthouse, GTmetrix ou Pingdom pour analyser la vitesse.",
+            "2. Alertes en cas de panne",
+            "Être prévenu immédiatement si le site devient inaccessible.",
+            "3. Suivi des temps de chargement",
+            "Contrôler régulièrement les performances sur mobile et desktop.",
+            "4. Rapports automatisés",
+            "Recevoir des bilans réguliers pour ajuster la stratégie.",
+            "5. Conclusion",
+            "La surveillance continue garantit un site toujours performant et fiable."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

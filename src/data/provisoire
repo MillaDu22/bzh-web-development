@@ -1,24 +1,5 @@
 [
     {
-        "id": 229,
-        "title": "Performance et SEO : un duo gagnant",
-        "date": "2025-09-05",
-        "intro": "Un site rapide ne fait pas que satisfaire les visiteurs : il séduit aussi Google. La performance et le SEO sont indissociables.",
-        "content": [
-            "1. Temps de chargement",
-            "Un critère majeur pour le classement dans les résultats de recherche.",
-            "2. Expérience utilisateur",
-            "Un site fluide réduit le taux de rebond et améliore la navigation.",
-            "3. Mobile-first",
-            "La vitesse sur mobile influence directement le référencement.",
-            "4. Optimisation continue",
-            "Chaque amélioration technique renforce aussi la visibilité SEO.",
-            "5. Conclusion",
-            "Un site rapide attire et retient à la fois les visiteurs et les moteurs de recherche."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 230,
         "title": "Un design clair : la première impression compte",
         "date": "2025-09-08",

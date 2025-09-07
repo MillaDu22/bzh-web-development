@@ -1,23 +1,5 @@
 [
-    {
-        "id": 230,
-        "title": "Un design clair : la première impression compte",
-        "date": "2025-09-08",
-        "intro": "Les visiteurs jugent un site en quelques secondes. Un design clair et soigné est donc essentiel pour capter leur attention.",
-        "content": [
-            "1. Hiérarchie visuelle",
-            "Mettre en avant les titres, boutons et éléments importants.",
-            "2. Contraste efficace",
-            "Assurer une bonne lisibilité avec des couleurs adaptées.",
-            "3. Mise en page équilibrée",
-            "Éviter la surcharge pour un rendu aéré et agréable.",
-            "4. Identité cohérente",
-            "Respecter la charte graphique de l’entreprise sur toutes les pages.",
-            "5. Conclusion",
-            "Un design clair inspire confiance et donne envie d’explorer le site."
-        ],
-        "sign": "Ludmilla Marti"
-    },
+
     {
         "id": 231,
         "title": "Navigation intuitive : guider l’utilisateur",

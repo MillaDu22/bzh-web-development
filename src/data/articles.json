@@ -6279,5 +6279,24 @@
             "Un design clair inspire confiance et donne envie d’explorer le site."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 231,
+        "title": "Navigation intuitive : guider l’utilisateur",
+        "date": "2025-09-09",
+        "intro": "Un bon site n’est pas seulement joli : il doit être simple à parcourir. La navigation intuitive facilite l’expérience utilisateur.",
+        "content": [
+            "1. Menu bien structuré",
+            "Des catégories claires et logiques pour se repérer facilement.",
+            "2. Parcours utilisateur",
+            "Prévoir des chemins simples pour atteindre les objectifs clés.",
+            "3. Liens et boutons visibles",
+            "Éviter de cacher les actions principales sous trop de clics.",
+            "4. Accessibilité",
+            "Adapter la navigation aux mobiles, tablettes et lecteurs d’écran.",
+            "5. Conclusion",
+            "Une navigation intuitive réduit la frustration et fidélise les visiteurs."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

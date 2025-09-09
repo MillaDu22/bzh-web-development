@@ -1,24 +1,5 @@
 [
     {
-        "id": 232,
-        "title": "Couleurs et émotions : l’impact du design visuel",
-        "date": "2025-09-10",
-        "intro": "Chaque couleur influence la perception du visiteur. Bien les choisir permet de transmettre le bon message.",
-        "content": [
-            "1. Palette harmonieuse",
-            "Associer des couleurs complémentaires pour l’esthétique.",
-            "2. Psychologie des couleurs",
-            "Le bleu rassure, le rouge attire l’attention, le vert évoque la confiance.",
-            "3. Couleurs d’appel à l’action",
-            "Utiliser des contrastes pour mettre en avant les boutons clés.",
-            "4. Cohérence avec la marque",
-            "Choisir des teintes en accord avec l’identité visuelle de l’entreprise.",
-            "5. Conclusion",
-            "Un bon choix de couleurs améliore l’impact visuel et l’engagement."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 233,
         "title": "Typographie et lisibilité : l’art de bien écrire en ligne",
         "date": "2025-09-11",

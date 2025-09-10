@@ -1,24 +1,5 @@
 [
     {
-        "id": 233,
-        "title": "Typographie et lisibilité : l’art de bien écrire en ligne",
-        "date": "2025-09-11",
-        "intro": "La typographie influence directement la lisibilité d’un site. Choisir les bonnes polices, c’est améliorer l’expérience utilisateur.",
-        "content": [
-            "1. Police principale",
-            "Privilégier une sans-serif moderne pour les textes longs.",
-            "2. Titres expressifs",
-            "Utiliser des polices distinctives pour hiérarchiser l’information.",
-            "3. Taille et espacement",
-            "Assurer une lecture confortable sur tous les écrans.",
-            "4. Contraste texte/fond",
-            "Un texte lisible passe par un bon contraste de couleurs.",
-            "5. Conclusion",
-            "Une typographie adaptée rend la lecture agréable et professionnelle."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 234,
         "title": "Micro-interactions : dynamiser l’expérience utilisateur",
         "date": "2025-09-12",

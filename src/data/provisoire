@@ -1,24 +1,5 @@
 [
     {
-        "id": 234,
-        "title": "Micro-interactions : dynamiser l’expérience utilisateur",
-        "date": "2025-09-12",
-        "intro": "Un simple effet au survol ou une animation subtile rend un site plus vivant et agréable. Les micro-interactions font la différence.",
-        "content": [
-            "1. Feedback utilisateur",
-            "Un bouton qui change au clic rassure l’utilisateur.",
-            "2. Animations discrètes",
-            "Des transitions fluides entre les pages améliorent la fluidité.",
-            "3. Indications visuelles",
-            "Mettre en avant les champs remplis ou validés.",
-            "4. Engagement renforcé",
-            "Les micro-effets encouragent l’exploration du site.",
-            "5. Conclusion",
-            "Les micro-interactions humanisent le site et captivent les visiteurs."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 235,
         "title": "SEO technique : les fondations d’un site bien référencé",
         "date": "2025-09-15",

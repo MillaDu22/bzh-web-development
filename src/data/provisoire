@@ -1,24 +1,5 @@
 [
     {
-        "id": 235,
-        "title": "SEO technique : les fondations d’un site bien référencé",
-        "date": "2025-09-15",
-        "intro": "Un bon référencement commence par la technique. Un site rapide, structuré et accessible a toutes les chances de plaire à Google.",
-        "content": [
-            "1. Vitesse de chargement",
-            "Optimiser le temps d’affichage des pages pour améliorer l’expérience et le SEO.",
-            "2. Structure des balises",
-            "Bien utiliser les titres H1, H2, H3 pour hiérarchiser le contenu.",
-            "3. Sitemap XML",
-            "Fournir aux moteurs de recherche une carte claire du site.",
-            "4. Robots.txt",
-            "Gérer ce que Google peut explorer ou non.",
-            "5. Conclusion",
-            "Un SEO technique solide est la base de toute stratégie de visibilité."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 236,
         "title": "SEO on-page : optimiser chaque page pour Google",
         "date": "2025-09-16",

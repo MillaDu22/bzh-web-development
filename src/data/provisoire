@@ -1,24 +1,5 @@
 [
     {
-        "id": 237,
-        "title": "SEO off-page : renforcer l’autorité de son site",
-        "date": "2025-09-17",
-        "intro": "Le référencement ne se joue pas uniquement sur le site. Le SEO off-page repose sur la popularité et les liens entrants.",
-        "content": [
-            "1. Backlinks de qualité",
-            "Obtenir des liens depuis des sites pertinents et fiables.",
-            "2. Réseaux sociaux",
-            "Partager le contenu pour générer trafic et notoriété.",
-            "3. Référencement local",
-            "Inscrire le site sur Google Business Profile et annuaires locaux.",
-            "4. Partenariats",
-            "Collaborer avec d’autres sites ou blogs pour échanger de la visibilité.",
-            "5. Conclusion",
-            "Le SEO off-page augmente la crédibilité et la confiance auprès de Google."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 238,
         "title": "Contenu et SEO : écrire pour les humains et Google",
         "date": "2025-09-18",

@@ -1,24 +1,5 @@
 [
     {
-        "id": 238,
-        "title": "Contenu et SEO : écrire pour les humains et Google",
-        "date": "2025-09-18",
-        "intro": "Un bon contenu satisfait à la fois le lecteur et les moteurs de recherche. C’est l’équilibre parfait à trouver.",
-        "content": [
-            "1. Mots-clés stratégiques",
-            "Les intégrer naturellement dans le texte et les titres.",
-            "2. Richesse du contenu",
-            "Offrir une vraie valeur ajoutée avec des explications détaillées.",
-            "3. Formats variés",
-            "Texte, images, vidéos et infographies pour capter l’attention.",
-            "4. Mise à jour régulière",
-            "Actualiser le contenu pour rester pertinent.",
-            "5. Conclusion",
-            "Un contenu optimisé attire, informe et fidélise les visiteurs."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 239,
         "title": "SEO mobile : penser aux utilisateurs en mouvement",
         "date": "2025-09-19",

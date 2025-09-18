@@ -1,24 +1,5 @@
 [
     {
-        "id": 239,
-        "title": "SEO mobile : penser aux utilisateurs en mouvement",
-        "date": "2025-09-19",
-        "intro": "La majorité du trafic vient aujourd’hui des smartphones. Google privilégie les sites rapides et adaptés au mobile.",
-        "content": [
-            "1. Design responsive",
-            "Adapter l’affichage à tous les écrans automatiquement.",
-            "2. Vitesse sur mobile",
-            "Réduire les scripts lourds et utiliser le lazy loading.",
-            "3. Navigation simplifiée",
-            "Menus clairs, boutons accessibles et formulaires courts.",
-            "4. Core Web Vitals",
-            "Optimiser les indicateurs clés mesurés par Google.",
-            "5. Conclusion",
-            "Un site pensé pour le mobile, c’est un meilleur SEO et plus de visiteurs satisfaits."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 240,
         "title": "HTTPS et certificats SSL : la base de la sécurité",
         "date": "2025-09-22",

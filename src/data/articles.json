@@ -6450,5 +6450,24 @@
             "Un site pensé pour le mobile, c’est un meilleur SEO et plus de visiteurs satisfaits."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 240,
+        "title": "HTTPS et certificats SSL : la base de la sécurité",
+        "date": "2025-09-22",
+        "intro": "Un site sécurisé commence par un certificat SSL. Le HTTPS protège les données échangées et inspire confiance aux visiteurs.",
+        "content": [
+            "1. Protection des données",
+            "Les informations transmises sont chiffrées et sécurisées.",
+            "2. Confiance des utilisateurs",
+            "Le cadenas dans la barre d’adresse rassure les visiteurs.",
+            "3. Amélioration du SEO",
+            "Google favorise les sites sécurisés en HTTPS.",
+            "4. Certificats adaptés",
+            "Choisir entre SSL gratuit, DV, OV ou EV selon les besoins.",
+            "5. Conclusion",
+            "Le HTTPS est un standard incontournable pour tout site web moderne."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

@@ -1,24 +1,5 @@
 [
     {
-        "id": 241,
-        "title": "Mises à jour régulières : un réflexe vital",
-        "date": "2025-09-23",
-        "intro": "Un site obsolète est une cible facile. Les mises à jour régulières renforcent la sécurité et la stabilité.",
-        "content": [
-            "1. CMS et plugins",
-            "Toujours installer les dernières versions pour corriger les failles.",
-            "2. Librairies et frameworks",
-            "Mettre à jour React, Laravel ou WordPress pour rester protégé.",
-            "3. Automatisation",
-            "Mettre en place des mises à jour planifiées quand c’est possible.",
-            "4. Tests après mise à jour",
-            "Vérifier que tout fonctionne correctement après chaque update.",
-            "5. Conclusion",
-            "Un site à jour est un site sécurisé et performant."
-        ],
-        "sign": "Ludmilla Marti"
-    },
-    {
         "id": 242,
         "title": "Mots de passe et accès : protéger les clés du site",
         "date": "2025-09-24",

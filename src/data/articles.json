@@ -6488,5 +6488,24 @@
             "Un site à jour est un site sécurisé et performant."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 242,
+        "title": "Mots de passe et accès : protéger les clés du site",
+        "date": "2025-09-24",
+        "intro": "La sécurité d’un site passe aussi par la gestion des accès. Des mots de passe solides et des restrictions d’utilisateurs sont essentiels.",
+        "content": [
+            "1. Mots de passe complexes",
+            "Combiner majuscules, chiffres et caractères spéciaux.",
+            "2. Gestion des utilisateurs",
+            "Limiter les accès aux personnes réellement nécessaires.",
+            "3. Authentification à deux facteurs",
+            "Ajouter une protection supplémentaire pour les comptes sensibles.",
+            "4. Rotation des accès",
+            "Changer régulièrement les identifiants et supprimer ceux inutiles.",
+            "5. Conclusion",
+            "Bien gérer les accès évite de nombreuses failles de sécurité."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

@@ -6507,5 +6507,24 @@
             "Bien gérer les accès évite de nombreuses failles de sécurité."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 243,
+        "title": "Sauvegardes et plans de reprise : anticiper l’imprévu",
+        "date": "2025-09-25",
+        "intro": "Un site peut tomber en panne ou subir une attaque. Les sauvegardes et plans de reprise assurent une continuité d’activité.",
+        "content": [
+            "1. Sauvegardes automatiques",
+            "Programmer des copies régulières de la base de données et des fichiers.",
+            "2. Stockage externe",
+            "Conserver les sauvegardes hors du serveur principal.",
+            "3. Tests de restauration",
+            "Vérifier que les sauvegardes sont bien exploitables.",
+            "4. Plan de reprise d’activité",
+            "Prévoir les étapes à suivre en cas d’incident majeur.",
+            "5. Conclusion",
+            "Anticiper l’imprévu garantit la résilience et la sérénité."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

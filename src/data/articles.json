@@ -6526,5 +6526,24 @@
             "Anticiper l’imprévu garantit la résilience et la sérénité."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 244,
+        "title": "Pare-feu et surveillance : protéger en continu",
+        "date": "2025-09-26",
+        "intro": "La sécurité ne s’arrête pas aux mises à jour. Des outils de surveillance et de filtrage sont indispensables.",
+        "content": [
+            "1. Pare-feu applicatif",
+            "Bloquer les attaques courantes comme les injections SQL.",
+            "2. Détection des intrusions",
+            "Surveiller les activités suspectes en temps réel.",
+            "3. Alertes automatiques",
+            "Être prévenu immédiatement en cas de menace.",
+            "4. Journaux de sécurité",
+            "Analyser les logs pour détecter des anomalies répétitives.",
+            "5. Conclusion",
+            "Une surveillance constante renforce la protection sur la durée."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

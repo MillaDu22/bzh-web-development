@@ -6545,5 +6545,24 @@
             "Une surveillance constante renforce la protection sur la durée."
         ],
         "sign": "Ludmilla Marti"
+    },
+    {
+        "id": 245,
+        "title": "Dark mode et accessibilité : un duo gagnant",
+        "date": "2025-09-29",
+        "intro": "Le mode sombre n’est pas qu’une tendance esthétique. Il participe au confort visuel et à l’accessibilité des sites web modernes.",
+        "content": [
+            "1. Confort pour les yeux",
+            "Le dark mode réduit la fatigue visuelle, surtout le soir.",
+            "2. Accessibilité renforcée",
+            "Il aide certains utilisateurs sensibles à la luminosité.",
+            "3. Expérience personnalisée",
+            "Offrir un bouton pour basculer entre clair et sombre.",
+            "4. Esthétique moderne",
+            "Le mode sombre donne une impression premium et actuelle.",
+            "5. Conclusion",
+            "Le dark mode est devenu un standard à envisager pour tout site."
+        ],
+        "sign": "Ludmilla Marti"
     }
 ]

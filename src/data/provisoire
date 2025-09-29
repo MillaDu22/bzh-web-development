@@ -1,23 +1,5 @@
 [
-    {
-        "id": 246,
-        "title": "Animations micro-interactions : plus d’émotion dans le web",
-        "date": "2025-09-30",
-        "intro": "Un simple hover, un bouton qui réagit, une transition fluide : les micro-interactions dynamisent l’expérience utilisateur.",
-        "content": [
-            "1. Engagement accru",
-            "Les animations créent une interaction vivante avec l’utilisateur.",
-            "2. Navigation guidée",
-            "Elles attirent l’attention sur les éléments importants.",
-            "3. Humanisation du site",
-            "Un site qui réagit aux actions paraît plus chaleureux.",
-            "4. Équilibre à trouver",
-            "Trop d’animations ralentissent l’expérience et l’alourdissent.",
-            "5. Conclusion",
-            "Les micro-interactions sont la touche émotionnelle du web moderne."
-        ],
-        "sign": "Ludmilla Marti"
-    }
+
 ]
 
 
